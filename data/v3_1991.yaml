@@ -1,0 +1,62 @@
+---
+id: V3-1991
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Hardness testing dictionary (quadrilingual French-English-German-Russian)
+    / Dictionnaire des essais de dureté (édition quadrilingue français-anglais-allemand-russe)
+  type: main
+- language: fra
+  content: Hardness testing dictionary (quadrilingual French-English-German-Russian)
+    / Dictionnaire des essais de dureté (édition quadrilingue français-anglais-allemand-russe)
+  type: main
+docidentifier:
+- content: OIML V 3:1991
+  type: OIML
+  primary: true
+docnumber: '3'
+date:
+- type: published
+  from: '1991-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '1991-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML V 3:1991 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML V 3:1991 (F)
+      type: OIML
+ext:
+  doctype:
+    content: vocabulary
+  flavor: oiml

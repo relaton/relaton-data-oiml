@@ -1,0 +1,74 @@
+---
+id: G12-1987
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Suppliers of verification equipment (bilingual French-English) / Fournisseurs
+    d'équipement de vérification (bilingue français-anglais) (P 6)
+  type: main
+- language: fra
+  content: Suppliers of verification equipment (bilingual French-English) / Fournisseurs
+    d'équipement de vérification (bilingue français-anglais) (P 6)
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_g/g012-m87.pdf
+docidentifier:
+- content: OIML G 12:1987
+  type: OIML
+  primary: true
+docnumber: '12'
+date:
+- type: published
+  from: '1987-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: BIML
+      identifier:
+      - content: BIML
+      type: technical-committee
+    - name:
+      - content: Subcommittee 2
+      identifier:
+      - content: SC2
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '1987-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1987'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+ext:
+  doctype:
+    content: guide
+  flavor: oiml

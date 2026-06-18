@@ -1,0 +1,54 @@
+---
+id: R60-sup-2000-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Metrological regulation for load cells:Certificate transformation requirements
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_r/r060-supplement-e00.pdf
+docidentifier:
+- content: OIML R 60-sup:2000 (E)
+  type: OIML
+  primary: true
+docnumber: '60'
+date:
+- type: published
+  from: '2000-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '2000-01-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 60-sup:2000
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

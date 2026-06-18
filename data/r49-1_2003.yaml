@@ -1,0 +1,61 @@
+---
+id: R49-1-2003
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Water meters intended for the metering of cold potable water
+  type: main
+- language: fra
+  content: 'Compteurs d''eau destinés au mesurage de l''eau potable froide. Partie
+    1: Exigences métrologiques et techniques'
+  type: main
+docidentifier:
+- content: OIML R 49-1:2003
+  type: OIML
+  primary: true
+docnumber: '49'
+date:
+- type: published
+  from: '2003-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '2003-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 49-1:2003 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 49-1:2003 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

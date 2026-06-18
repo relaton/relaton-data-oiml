@@ -1,0 +1,75 @@
+---
+id: B1-1968
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Convention
+  type: main
+- language: fra
+  content: Convention instituant l'OIML
+  type: main
+docidentifier:
+- content: OIML B 1:1968
+  type: OIML
+  primary: true
+docnumber: '1'
+date:
+- type: published
+  from: '1968-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: BIML
+      identifier:
+      - content: BIML
+      type: technical-committee
+    abbreviation:
+      content: OIML
+version:
+- content: '1968-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1968'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML B 1:1968 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML B 1:1968 (F)
+      type: OIML
+ext:
+  doctype:
+    content: basic-publication
+  flavor: oiml

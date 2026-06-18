@@ -1,0 +1,50 @@
+---
+id: R138-2007-deu
+schema_version: v1.5.6
+type: standard
+title:
+- language: deu
+  content: Vessels for commercial transactions
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/german/r138-de-07.pdf
+docidentifier:
+- content: OIML R 138:2007 (D)
+  type: OIML
+  primary: true
+docnumber: '138'
+date:
+- type: published
+  from: '2007-01-01'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: PTB
+language:
+- deu
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML R 138:2007 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

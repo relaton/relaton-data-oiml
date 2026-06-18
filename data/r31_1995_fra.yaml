@@ -1,0 +1,54 @@
+---
+id: R31-1995-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: Compteurs de gaz à parois déformables
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_r/r031-f95.pdf
+docidentifier:
+- content: OIML R 31:1995 (F)
+  type: OIML
+  primary: true
+docnumber: '31'
+date:
+- type: published
+  from: '1995-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '1995-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 31:1995
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

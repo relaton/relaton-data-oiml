@@ -1,0 +1,75 @@
+---
+id: G17-2015
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Guide for CIML Members
+  type: main
+- language: fra
+  content: Guide pour les Membres du CIML
+  type: main
+docidentifier:
+- content: OIML G 17:2015
+  type: OIML
+  primary: true
+docnumber: '17'
+date:
+- type: published
+  from: '2015-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: BIML
+      identifier:
+      - content: BIML
+      type: technical-committee
+    abbreviation:
+      content: OIML
+version:
+- content: '2015-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2015'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML G 17:2015 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML G 17:2015 (F)
+      type: OIML
+ext:
+  doctype:
+    content: guide
+  flavor: oiml

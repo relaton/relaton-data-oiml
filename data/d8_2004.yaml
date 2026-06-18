@@ -1,0 +1,75 @@
+---
+id: D8-2004
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Measurement standards. Choice, recognition, use,conservation and documentation
+  type: main
+- language: fra
+  content: Étalons de mesure. Choix, reconnaissance, utilisation,conservation et documentation
+  type: main
+docidentifier:
+- content: OIML D 8:2004
+  type: OIML
+  primary: true
+docnumber: '8'
+date:
+- type: published
+  from: '2004-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 4
+      identifier:
+      - content: TC4
+      type: technical-committee
+    abbreviation:
+      content: OIML
+version:
+- content: '2004-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML D 8:2004 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML D 8:2004 (F)
+      type: OIML
+ext:
+  doctype:
+    content: document
+  flavor: oiml

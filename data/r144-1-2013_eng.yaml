@@ -1,0 +1,40 @@
+---
+id: R144-1-2013-eng
+schema_version: v1.5.6
+type: standard
+source:
+- type: website
+  content: pdfs/r144_2013/parts_eng/R144-1-e13.pdf
+docidentifier:
+- content: OIML R 144-1:2013 (E)
+  type: OIML
+  primary: true
+docnumber: '144'
+date:
+- type: published
+  from: '2013-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 144-1:2013
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

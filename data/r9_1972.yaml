@@ -1,0 +1,60 @@
+---
+id: R9-1972
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Verification and calibration of Brinell hardness standardized blocks
+  type: main
+- language: fra
+  content: Vérification et étalonnage des blocs de référence de dureté Brinell
+  type: main
+docidentifier:
+- content: OIML R 9:1972
+  type: OIML
+  primary: true
+docnumber: '9'
+date:
+- type: published
+  from: '1972-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '1972-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1972'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 9:1972 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 9:1972 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

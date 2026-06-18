@@ -1,0 +1,74 @@
+---
+id: D19-1988-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: Essai de modèle et approbation de modèle
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_d/d019-f88.pdf
+docidentifier:
+- content: OIML D 19:1988 (F)
+  type: OIML
+  primary: true
+docnumber: '19'
+date:
+- type: published
+  from: '1988-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 3
+      identifier:
+      - content: TC3
+      type: technical-committee
+    - name:
+      - content: Subcommittee 1
+      identifier:
+      - content: SC1
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '1988-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1988'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML D 19:1988
+      type: OIML
+ext:
+  doctype:
+    content: document
+  flavor: oiml

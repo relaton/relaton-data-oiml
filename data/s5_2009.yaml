@@ -1,0 +1,62 @@
+---
+id: S5-2009
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: '2009 - Mombasa - Seminar: Stakes and priorities of legal metrology for
+    trade'
+  type: main
+- language: fra
+  content: '2009 - Mombasa - Seminar: Stakes and priorities of legal metrology for
+    trade'
+  type: main
+docidentifier:
+- content: OIML S 5:2009
+  type: OIML
+  primary: true
+docnumber: '5'
+date:
+- type: published
+  from: '2009-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '2009-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2009'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML S 5:2009 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML S 5:2009 (F)
+      type: OIML
+ext:
+  doctype:
+    content: seminar-report
+  flavor: oiml

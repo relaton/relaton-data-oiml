@@ -1,0 +1,60 @@
+---
+id: R70-1985
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Determination of intrinsic and hysteresis errors of gas analysers
+  type: main
+- language: fra
+  content: Détermination des erreurs de base et d'hystérésis des analyseurs de gaz
+  type: main
+docidentifier:
+- content: OIML R 70:1985
+  type: OIML
+  primary: true
+docnumber: '70'
+date:
+- type: published
+  from: '1985-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '1985-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 70:1985 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 70:1985 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

@@ -1,0 +1,78 @@
+---
+id: B22-2023
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Policy and rules for the reimbursement of travel expenses incurred by the
+    CIML President in attending legal metrology related events
+  type: main
+- language: fra
+  content: Politique et règles relatives au remboursement des frais de voyage encourus
+    par le Président du CIML pour participer à des événements liés à la métrologie
+    légale
+  type: main
+docidentifier:
+- content: OIML B 22:2023
+  type: OIML
+  primary: true
+docnumber: '22'
+date:
+- type: published
+  from: '2023-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: BIML
+      identifier:
+      - content: BIML
+      type: technical-committee
+    abbreviation:
+      content: OIML
+version:
+- content: '2023-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2023'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML B 22:2023 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML B 22:2023 (F)
+      type: OIML
+ext:
+  doctype:
+    content: basic-publication
+  flavor: oiml

@@ -1,0 +1,75 @@
+---
+id: R85-2008-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: Jaugeurs automatiques pour le mesurage des niveaux de liquide dans les
+    réservoirs de stockage fixes
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_r/r085-p-f08.pdf
+docidentifier:
+- content: OIML R 85:2008 (F)
+  type: OIML
+  primary: true
+docnumber: '85'
+date:
+- type: published
+  from: '2008-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 8
+      identifier:
+      - content: TC8
+      type: technical-committee
+    - name:
+      - content: Subcommittee 1
+      identifier:
+      - content: SC1
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2008-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 85:2008
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

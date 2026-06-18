@@ -1,0 +1,51 @@
+---
+id: R113-1994-fas
+schema_version: v1.5.6
+type: standard
+title:
+- language: fas
+  content: Portable gas chromatographs for field measurments of hazard-ous chemical
+    pollutants
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/persian/r113-1994-portable-gas-chromatographs-for-field.pdf
+docidentifier:
+- content: OIML R 113:1994 (PE)
+  type: OIML
+  primary: true
+docnumber: '113'
+date:
+- type: published
+  from: '1994-01-01'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: ISIRI
+language:
+- fas
+script:
+- Arab
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML R 113:1994 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

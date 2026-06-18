@@ -1,0 +1,60 @@
+---
+id: R29-1979
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Capacity serving measures
+  type: main
+- language: fra
+  content: Mesures de capacité de service
+  type: main
+docidentifier:
+- content: OIML R 29:1979
+  type: OIML
+  primary: true
+docnumber: '29'
+date:
+- type: published
+  from: '1979-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '1979-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '1979'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 29:1979 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 29:1979 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

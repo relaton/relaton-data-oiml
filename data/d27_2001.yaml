@@ -1,0 +1,82 @@
+---
+id: D27-2001
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Initial verification of measuring instruments using the manufacturer's
+    quality management system
+  type: main
+- language: fra
+  content: Vérification primitive des instruments de mesure utilisant les systèmes
+    de management de la qualité des fabricants
+  type: main
+docidentifier:
+- content: OIML D 27:2001
+  type: OIML
+  primary: true
+docnumber: '27'
+date:
+- type: published
+  from: '2001-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 3
+      identifier:
+      - content: TC3
+      type: technical-committee
+    - name:
+      - content: Subcommittee 1
+      identifier:
+      - content: SC1
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2001-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2001'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML D 27:2001 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML D 27:2001 (F)
+      type: OIML
+ext:
+  doctype:
+    content: document
+  flavor: oiml

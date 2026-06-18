@@ -1,0 +1,60 @@
+---
+id: E1-1998
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Legal Metrology at the Dawn of the 21st Century (Knut Birkeland)
+  type: main
+- language: fra
+  content: Legal Metrology at the Dawn of the 21st Century (Knut Birkeland)
+  type: main
+docidentifier:
+- content: OIML E 1:1998
+  type: OIML
+  primary: true
+docnumber: '1'
+date:
+- type: published
+  from: '1998-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '1998-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML E 1:1998 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML E 1:1998 (F)
+      type: OIML
+ext:
+  doctype:
+    content: expert-report
+  flavor: oiml

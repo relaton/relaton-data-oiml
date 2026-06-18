@@ -1,0 +1,75 @@
+---
+id: R134-2-2004-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: 'Instruments à fonctionnement automatique pour le pesage des véhicules
+    routiers en mouvement. Pesage total du véhicule. Partie 2: Format du Rapport d''Essai'
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_r/r134-2-f04.pdf
+docidentifier:
+- content: OIML R 134-2:2004 (F)
+  type: OIML
+  primary: true
+docnumber: '134'
+date:
+- type: published
+  from: '2004-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 9
+      identifier:
+      - content: TC9
+      type: technical-committee
+    - name:
+      - content: Subcommittee 2
+      identifier:
+      - content: SC2
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2004-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 134-2:2004
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

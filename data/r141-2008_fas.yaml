@@ -1,0 +1,51 @@
+---
+id: R141-2008-fas
+schema_version: v1.5.6
+type: standard
+title:
+- language: fas
+  content: Procedure for calibration and verification of the main characteristics
+    of thermographic instruments
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/persian/r141-2008-procedure-for-calibration-and.pdf
+docidentifier:
+- content: OIML R 141:2008 (PE)
+  type: OIML
+  primary: true
+docnumber: '141'
+date:
+- type: published
+  from: '2008-01-01'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: ISIRI
+language:
+- fas
+script:
+- Arab
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML R 141:2008 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

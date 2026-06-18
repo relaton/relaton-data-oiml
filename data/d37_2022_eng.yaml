@@ -1,0 +1,75 @@
+---
+id: D37-2022-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Guide for the application of ISO/IEC 17020 to the assessment of OIML Issuing
+    Authorities under the OIML Certification System
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_d/d037-e22.pdf
+docidentifier:
+- content: OIML D 37:2022 (E)
+  type: OIML
+  primary: true
+docnumber: '37'
+date:
+- type: published
+  from: '2022-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: OIML-CS
+      identifier:
+      - content: OIML-CS
+      type: technical-committee
+    - name:
+      - content: Subcommittee 7
+      identifier:
+      - content: SC7
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2022-01-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML D 37:2022
+      type: OIML
+ext:
+  doctype:
+    content: document
+  flavor: oiml

@@ -1,0 +1,50 @@
+---
+id: R4-1972-ara
+schema_version: v1.5.6
+type: standard
+title:
+- language: ara
+  content: Volumetric flasks (one mark) in glass
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/arabic/r004-72_js860-92.pdf
+docidentifier:
+- content: OIML R 4:1972 (A)
+  type: OIML
+  primary: true
+docnumber: '4'
+date:
+- type: published
+  from: '1972-01-01'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: JS 860-1992
+language:
+- ara
+script:
+- Arab
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1972'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML R 4:1972 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

@@ -1,0 +1,50 @@
+---
+id: R91-1990-spa
+schema_version: v1.5.6
+type: standard
+title:
+- language: spa
+  content: Radar equipment for the measurement of the speed of vehicles
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/spanish/r091-es90.pdf
+docidentifier:
+- content: OIML R 91:1990 (S)
+  type: OIML
+  primary: true
+docnumber: '91'
+date:
+- type: published
+  from: '1990-01-01'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: SIC (Colombia)
+language:
+- spa
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML R 91:1990 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

@@ -1,0 +1,55 @@
+---
+id: R134-1-2003-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Automatic instruments for weighing road vehicles in motion. Total vehicle
+    weighing
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_r/r134-1-e03.pdf
+docidentifier:
+- content: OIML R 134-1:2003 (E)
+  type: OIML
+  primary: true
+docnumber: '134'
+date:
+- type: published
+  from: '2003-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '2003-01-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 134-1:2003
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

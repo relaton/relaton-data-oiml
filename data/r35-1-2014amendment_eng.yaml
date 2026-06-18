@@ -1,0 +1,40 @@
+---
+id: R35-1-2014Amendment-eng
+schema_version: v1.5.6
+type: standard
+source:
+- type: website
+  content: pdfs/r35_2007/parts_eng/R035-1_amend-e14.pdf
+docidentifier:
+- content: OIML R 35-1:2014 Amendment (E)
+  type: OIML
+  primary: true
+docnumber: '35'
+date:
+- type: published
+  from: '2014-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 35-1:2014 Amendment
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

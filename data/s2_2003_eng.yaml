@@ -1,0 +1,55 @@
+---
+id: S2-2003-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: '2002 - Saint-Jean-de-Luz - Seminar: What will Legal Metrology be in the
+    Year 2020'
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_s/s002-e03.pdf
+docidentifier:
+- content: OIML S 2:2003 (E)
+  type: OIML
+  primary: true
+docnumber: '2'
+date:
+- type: published
+  from: '2003-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '2003-01-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML S 2:2003
+      type: OIML
+ext:
+  doctype:
+    content: seminar-report
+  flavor: oiml

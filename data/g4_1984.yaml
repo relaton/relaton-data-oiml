@@ -1,0 +1,80 @@
+---
+id: G4-1984
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Hardness test blocks and indenters (P 12)
+  type: main
+- language: fra
+  content: Hardness test blocks and indenters (P 12)
+  type: main
+docidentifier:
+- content: OIML G 4:1984
+  type: OIML
+  primary: true
+docnumber: '4'
+date:
+- type: published
+  from: '1984-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 10
+      identifier:
+      - content: TC10
+      type: technical-committee
+    - name:
+      - content: Subcommittee 5
+      identifier:
+      - content: SC5
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '1984-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1984'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML G 4:1984 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML G 4:1984 (F)
+      type: OIML
+ext:
+  doctype:
+    content: guide
+  flavor: oiml

@@ -1,0 +1,82 @@
+---
+id: R85-2008
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Automatic level gauges for measuring the level of liquid in stationary
+    storage tanks
+  type: main
+- language: fra
+  content: Jaugeurs automatiques pour le mesurage des niveaux de liquide dans les
+    réservoirs de stockage fixes
+  type: main
+docidentifier:
+- content: OIML R 85:2008
+  type: OIML
+  primary: true
+docnumber: '85'
+date:
+- type: published
+  from: '2008-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 8
+      identifier:
+      - content: TC8
+      type: technical-committee
+    - name:
+      - content: Subcommittee 1
+      identifier:
+      - content: SC1
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2008-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 85:2008 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 85:2008 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

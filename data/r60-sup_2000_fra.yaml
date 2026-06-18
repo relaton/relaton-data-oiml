@@ -1,0 +1,55 @@
+---
+id: R60-sup-2000-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: Réglementation métrologique des cellules de pesée:Exigences pour la transformation
+    des Certificats
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_r/r060-supplement-f00.pdf
+docidentifier:
+- content: OIML R 60-sup:2000 (F)
+  type: OIML
+  primary: true
+docnumber: '60'
+date:
+- type: published
+  from: '2000-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '2000-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 60-sup:2000
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

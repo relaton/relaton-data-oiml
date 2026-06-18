@@ -1,0 +1,80 @@
+---
+id: D31-2019
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: General requirements for software-controlled measuring instruments
+  type: main
+- language: fra
+  content: Exigences générales pour les instruments de mesure contrôlés par logiciel
+  type: main
+docidentifier:
+- content: OIML D 31:2019
+  type: OIML
+  primary: true
+docnumber: '31'
+date:
+- type: published
+  from: '2019-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 5
+      identifier:
+      - content: TC5
+      type: technical-committee
+    - name:
+      - content: Subcommittee 2
+      identifier:
+      - content: SC2
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2019-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML D 31:2019 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML D 31:2019 (F)
+      type: OIML
+ext:
+  doctype:
+    content: document
+  flavor: oiml

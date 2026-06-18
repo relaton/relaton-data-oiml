@@ -1,0 +1,69 @@
+---
+id: D25-2010-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Vortex meters used in measuring systems for fluids
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_d/d025-e10.pdf
+docidentifier:
+- content: OIML D 25:2010 (E)
+  type: OIML
+  primary: true
+docnumber: '25'
+date:
+- type: published
+  from: '2010-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 8
+      identifier:
+      - content: TC8
+      type: technical-committee
+    abbreviation:
+      content: OIML
+version:
+- content: '2010-01-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML D 25:2010
+      type: OIML
+ext:
+  doctype:
+    content: document
+  flavor: oiml

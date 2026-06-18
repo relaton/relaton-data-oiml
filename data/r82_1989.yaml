@@ -1,0 +1,62 @@
+---
+id: R82-1989
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Gas chromatographs for measuring pollution from pesticides and other toxic
+    substances
+  type: main
+- language: fra
+  content: Chromatographes en phase gazeuse pour la mesure des pollutions par pesticides
+    et autres substances toxiques
+  type: main
+docidentifier:
+- content: OIML R 82:1989
+  type: OIML
+  primary: true
+docnumber: '82'
+date:
+- type: published
+  from: '1989-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '1989-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '1989'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 82:1989 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 82:1989 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

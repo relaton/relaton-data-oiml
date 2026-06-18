@@ -1,0 +1,60 @@
+---
+id: R74-1993
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Electronic weighing instruments
+  type: main
+- language: fra
+  content: Instruments de pesage électroniques
+  type: main
+docidentifier:
+- content: OIML R 74:1993
+  type: OIML
+  primary: true
+docnumber: '74'
+date:
+- type: published
+  from: '1993-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '1993-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 74:1993 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 74:1993 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

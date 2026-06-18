@@ -1,0 +1,74 @@
+---
+id: R111-2004-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: Poids des classes E1, E2, F1, F2, M1, M1-2, M2, M2-3 et M3
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_r/r111-p-f04.pdf
+docidentifier:
+- content: OIML R 111:2004 (F)
+  type: OIML
+  primary: true
+docnumber: '111'
+date:
+- type: published
+  from: '2004-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 9
+      identifier:
+      - content: TC9
+      type: technical-committee
+    - name:
+      - content: Subcommittee 3
+      identifier:
+      - content: SC3
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2004-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 111:2004
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

@@ -1,0 +1,69 @@
+---
+id: D1-2004-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Elements for a Law on Metrology
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_d/d001-e04.pdf
+docidentifier:
+- content: OIML D 1:2004 (E)
+  type: OIML
+  primary: true
+docnumber: '1'
+date:
+- type: published
+  from: '2004-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 3
+      identifier:
+      - content: TC3
+      type: technical-committee
+    abbreviation:
+      content: OIML
+version:
+- content: '2004-01-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML D 1:2004
+      type: OIML
+ext:
+  doctype:
+    content: document
+  flavor: oiml

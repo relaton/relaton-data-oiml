@@ -1,0 +1,82 @@
+---
+id: D30-2020
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Guide for the application of ISO/IEC 17025 to the assessment of Testing
+    Laboratories involved in legal metrology
+  type: main
+- language: fra
+  content: Guide pour l'application de la Norme ISO/CEI 17025 à l'évaluation des Laboratoires
+    d'Essais intervenant en métrologie légale
+  type: main
+docidentifier:
+- content: OIML D 30:2020
+  type: OIML
+  primary: true
+docnumber: '30'
+date:
+- type: published
+  from: '2020-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: OIML-CS
+      identifier:
+      - content: OIML-CS
+      type: technical-committee
+    - name:
+      - content: Subcommittee 7
+      identifier:
+      - content: SC7
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2020-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML D 30:2020 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML D 30:2020 (F)
+      type: OIML
+ext:
+  doctype:
+    content: document
+  flavor: oiml

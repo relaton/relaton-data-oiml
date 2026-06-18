@@ -1,0 +1,63 @@
+---
+id: D18-2002
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: The use of certified reference materials in fields covered by metrological
+    control exercised by national services of legal metrology. Basic principles
+  type: main
+- language: fra
+  content: Utilisation des matériaux de référence certifiés dans les domaines couverts
+    par le contrôle métrologique exercé par les services nationaux de métrologie légale.
+    Principes de base
+  type: main
+docidentifier:
+- content: OIML D 18:2002
+  type: OIML
+  primary: true
+docnumber: '18'
+date:
+- type: published
+  from: '2002-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '2002-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML D 18:2002 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML D 18:2002 (F)
+      type: OIML
+ext:
+  doctype:
+    content: document
+  flavor: oiml

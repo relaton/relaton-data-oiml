@@ -1,0 +1,74 @@
+---
+id: R24-1975-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Standard one metre bar for verification officers
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_r/r024-e75.pdf
+docidentifier:
+- content: OIML R 24:1975 (E)
+  type: OIML
+  primary: true
+docnumber: '24'
+date:
+- type: published
+  from: '1975-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 7
+      identifier:
+      - content: TC7
+      type: technical-committee
+    - name:
+      - content: Subcommittee 1
+      identifier:
+      - content: SC1
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '1975-01-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1975'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 24:1975
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

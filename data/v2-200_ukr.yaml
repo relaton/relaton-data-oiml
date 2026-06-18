@@ -1,0 +1,40 @@
+---
+id: V2-200-ukr
+schema_version: v1.5.6
+type: standard
+title:
+- language: ukr
+  content: International Vocabulary of Metrology - Basic and General Concepts and
+    Associated Terms (VIM). 3rd Edition. (Edition 2010 with minor corrections)
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/ukrainian/vim3_full_17112016_ua.pdf
+docidentifier:
+- content: OIML V 2-200 (U)
+  type: OIML
+  primary: true
+docnumber: '2'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: Ministry of Economic Development and Trade (Ukraine)
+language:
+- ukr
+script:
+- Cyrl
+status:
+  stage:
+    content: in-force
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML V 2 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

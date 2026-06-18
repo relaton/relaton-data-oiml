@@ -1,0 +1,76 @@
+---
+id: G16-2007
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Guide on the categories of OIML Publications and their adoption procedures
+  type: main
+- language: fra
+  content: Guide sur les catégories de Publications OIML et les procédures pour leur
+    adoption
+  type: main
+docidentifier:
+- content: OIML G 16:2007
+  type: OIML
+  primary: true
+docnumber: '16'
+date:
+- type: published
+  from: '2007-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: BIML
+      identifier:
+      - content: BIML
+      type: technical-committee
+    abbreviation:
+      content: OIML
+version:
+- content: '2007-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML G 16:2007 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML G 16:2007 (F)
+      type: OIML
+ext:
+  doctype:
+    content: guide
+  flavor: oiml

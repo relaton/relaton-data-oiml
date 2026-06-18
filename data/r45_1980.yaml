@@ -1,0 +1,60 @@
+---
+id: R45-1980
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Casks and barrels
+  type: main
+- language: fra
+  content: Tonneaux et futailles
+  type: main
+docidentifier:
+- content: OIML R 45:1980
+  type: OIML
+  primary: true
+docnumber: '45'
+date:
+- type: published
+  from: '1980-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '1980-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '1980'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 45:1980 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 45:1980 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

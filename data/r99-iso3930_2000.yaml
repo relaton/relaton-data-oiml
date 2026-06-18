@@ -1,0 +1,54 @@
+---
+id: R99-ISO3930-2000
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Instruments for measuring vehicle exhaust emissions (joint publication
+    ISO3930/OIML R 99)
+  type: main
+- language: fra
+  content: Instruments de mesure des gaz d'échappement des véhicules (publication
+    conjointe ISO3930/OIML R 99)
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_r/None
+docidentifier:
+- content: OIML R 99-ISO3930:2000
+  type: OIML
+  primary: true
+docnumber: '99'
+date:
+- type: published
+  from: '2000-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '2000-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: joint
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

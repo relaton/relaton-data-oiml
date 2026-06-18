@@ -1,0 +1,55 @@
+---
+id: R49-1-2003-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: 'Compteurs d''eau destinés au mesurage de l''eau potable froide. Partie
+    1: Exigences métrologiques et techniques'
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_r/r049-1-f03.pdf
+docidentifier:
+- content: OIML R 49-1:2003 (F)
+  type: OIML
+  primary: true
+docnumber: '49'
+date:
+- type: published
+  from: '2003-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '2003-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 49-1:2003
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

@@ -1,0 +1,50 @@
+---
+id: R56-1981-fas
+schema_version: v1.5.6
+type: standard
+title:
+- language: fas
+  content: Standard solutions reproducing the conductivity of electrolytes
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/persian/r056-1981-standard-solutions-reproducing-the.pdf
+docidentifier:
+- content: OIML R 56:1981 (PE)
+  type: OIML
+  primary: true
+docnumber: '56'
+date:
+- type: published
+  from: '1981-01-01'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: ISIRI
+language:
+- fas
+script:
+- Arab
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1981'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML R 56:1981 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

@@ -1,0 +1,50 @@
+---
+id: R87-2004-ara
+schema_version: v1.5.6
+type: standard
+title:
+- language: ara
+  content: Quantity of product in prepackages
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/arabic/r087-04_js1646-05.pdf
+docidentifier:
+- content: OIML R 87:2004 (A)
+  type: OIML
+  primary: true
+docnumber: '87'
+date:
+- type: published
+  from: '2004-01-01'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: JS 1646-2005
+language:
+- ara
+script:
+- Arab
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML R 87:2004 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

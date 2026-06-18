@@ -1,0 +1,42 @@
+---
+id: R139-3-2018
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Part 3
+  type: main
+docidentifier:
+- content: OIML R 139-3:2018
+  type: OIML
+  primary: true
+docnumber: '139'
+date:
+- type: published
+  from: '2018-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 139:2018
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

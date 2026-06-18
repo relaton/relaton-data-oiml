@@ -1,0 +1,55 @@
+---
+id: E6-2011-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Guidance on the selection and implementationof performance requirements
+    for utility meterscontaining additional functionalities
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_e/e006-e11.pdf
+docidentifier:
+- content: OIML E 6:2011 (E)
+  type: OIML
+  primary: true
+docnumber: '6'
+date:
+- type: published
+  from: '2011-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '2011-01-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML E 6:2011
+      type: OIML
+ext:
+  doctype:
+    content: expert-report
+  flavor: oiml

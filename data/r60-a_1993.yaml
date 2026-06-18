@@ -1,0 +1,60 @@
+---
+id: R60-A-1993
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Test report format for the evaluation of load cells (Annex A)
+  type: main
+- language: fra
+  content: Format du rapport d'essai des cellules de pesée (Annexe A)
+  type: main
+docidentifier:
+- content: OIML R 60-A:1993
+  type: OIML
+  primary: true
+docnumber: '60'
+date:
+- type: published
+  from: '1993-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '1993-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 60-A:1993 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 60-A:1993 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

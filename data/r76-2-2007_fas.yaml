@@ -1,0 +1,50 @@
+---
+id: R76-2-2007-fas
+schema_version: v1.5.6
+type: standard
+title:
+- language: fas
+  content: Non-automatic weighing instruments - Part 2 Test report format
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/persian/r076-2-2007-non-automatic-weighing-instruments.pdf
+docidentifier:
+- content: OIML R 76-2:2007 (PE)
+  type: OIML
+  primary: true
+docnumber: '76'
+date:
+- type: published
+  from: '2007-01-01'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: ISIRI
+language:
+- fas
+script:
+- Arab
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2007'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML R 76-2:2007 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

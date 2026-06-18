@@ -1,0 +1,79 @@
+---
+id: B17-2012
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Policies and rules for the reimbursement of travel expenses incurred by
+    CIML Members of Honour and invited guests in attending OIML events (including
+    Amendment 1 dated 2023-11)
+  type: main
+- language: fra
+  content: Politiques et règles relatives au remboursement des frais de voyage encourus
+    par les Membres d'Honneur du CIML et les invités lors de leur présence à des événements
+    OIML (y compris l'Amendement 1 daté 2023-11)
+  type: main
+docidentifier:
+- content: OIML B 17:2012
+  type: OIML
+  primary: true
+docnumber: '17'
+date:
+- type: published
+  from: '2012-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: BIML
+      identifier:
+      - content: BIML
+      type: technical-committee
+    abbreviation:
+      content: OIML
+version:
+- content: '2012-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML B 17:2012 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML B 17:2012 (F)
+      type: OIML
+ext:
+  doctype:
+    content: basic-publication
+  flavor: oiml

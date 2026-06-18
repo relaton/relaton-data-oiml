@@ -1,0 +1,69 @@
+---
+id: R23-1975-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: Manomètres pour pneumatiques de véhicules automobiles
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_r/r023-f73.pdf
+docidentifier:
+- content: OIML R 23:1975 (F)
+  type: OIML
+  primary: true
+docnumber: '23'
+date:
+- type: published
+  from: '1975-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 10
+      identifier:
+      - content: TC10
+      type: technical-committee
+    abbreviation:
+      content: OIML
+version:
+- content: '1975-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1975'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 23:1975
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

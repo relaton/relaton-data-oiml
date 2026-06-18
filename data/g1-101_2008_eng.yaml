@@ -1,0 +1,76 @@
+---
+id: G1-101-2008-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Evaluation of measurement data - Supplement 1 to the "Guide to the expression
+    of uncertainty in measurement" - Propagation of distributions using a Monte Carlo
+    method
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_g/g001-101-e08.pdf
+docidentifier:
+- content: OIML G 1-101:2008 (E)
+  type: OIML
+  primary: true
+docnumber: '1'
+date:
+- type: published
+  from: '2008-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: BIML
+      identifier:
+      - content: BIML
+      type: technical-committee
+    - name:
+      - content: Subcommittee 4
+      identifier:
+      - content: SC4
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2008-01-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML G 1-101:2008
+      type: OIML
+ext:
+  doctype:
+    content: guide
+  flavor: oiml

@@ -1,0 +1,76 @@
+---
+id: B21-2019
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Framework for OIML Training Centers and OIML Training Events
+  type: main
+- language: fra
+  content: Cadre pour les Centres de Formation OIML et les Evènements de Formation
+    OIML
+  type: main
+docidentifier:
+- content: OIML B 21:2019
+  type: OIML
+  primary: true
+docnumber: '21'
+date:
+- type: published
+  from: '2019-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: CEEMS
+      identifier:
+      - content: CEEMS
+      type: technical-committee
+    abbreviation:
+      content: OIML
+version:
+- content: '2019-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2019'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML B 21:2019 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML B 21:2019 (F)
+      type: OIML
+ext:
+  doctype:
+    content: basic-publication
+  flavor: oiml

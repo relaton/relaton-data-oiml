@@ -1,0 +1,40 @@
+---
+id: R117-2-2014-eng
+schema_version: v1.5.6
+type: standard
+source:
+- type: website
+  content: pdfs/r117_2007/parts_eng/R117-2-e14.pdf
+docidentifier:
+- content: OIML R 117-2:2014 (E)
+  type: OIML
+  primary: true
+docnumber: '117'
+date:
+- type: published
+  from: '2014-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 117-2:2014
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

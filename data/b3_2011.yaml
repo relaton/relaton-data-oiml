@@ -1,0 +1,81 @@
+---
+id: B3-2011
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Basic Certificate System for OIML Type Evaluation of Measuring Instruments
+  type: main
+- language: fra
+  content: Système de Certificats OIML dit "de Base" pour l'évaluation de type des
+    Instruments de Mesure
+  type: main
+docidentifier:
+- content: OIML B 3:2011
+  type: OIML
+  primary: true
+docnumber: '3'
+date:
+- type: published
+  from: '2011-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 3
+      identifier:
+      - content: TC3
+      type: technical-committee
+    - name:
+      - content: Subcommittee 5
+      identifier:
+      - content: SC5
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2011-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML B 3:2011 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML B 3:2011 (F)
+      type: OIML
+ext:
+  doctype:
+    content: basic-publication
+  flavor: oiml

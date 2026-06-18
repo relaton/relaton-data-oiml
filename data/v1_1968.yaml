@@ -1,0 +1,52 @@
+---
+id: V1-1968
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Vocabulaire de Métrologie Légale - termes fondamentaux [FRENCH ONLY]
+  type: main
+- language: fra
+  content: Vocabulaire de Métrologie Légale - termes fondamentaux
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_v/v001-f68.pdf
+docidentifier:
+- content: OIML V 1:1968
+  type: OIML
+  primary: true
+docnumber: '1'
+date:
+- type: published
+  from: '1968-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '1968-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: joint
+copyright:
+- from: '1968'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+ext:
+  doctype:
+    content: vocabulary
+  flavor: oiml

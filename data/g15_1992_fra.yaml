@@ -1,0 +1,75 @@
+---
+id: G15-1992-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: Guidelines for the establishment of simplified metrology regulations (P
+    9)
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_g/g015-f92.pdf
+docidentifier:
+- content: OIML G 15:1992 (F)
+  type: OIML
+  primary: true
+docnumber: '15'
+date:
+- type: published
+  from: '1992-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: BIML
+      identifier:
+      - content: BIML
+      type: technical-committee
+    - name:
+      - content: Subcommittee 2
+      identifier:
+      - content: SC2
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '1992-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: joint
+copyright:
+- from: '1992'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML G 15:1992
+      type: OIML
+ext:
+  doctype:
+    content: guide
+  flavor: oiml

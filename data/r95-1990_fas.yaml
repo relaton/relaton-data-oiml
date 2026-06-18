@@ -1,0 +1,50 @@
+---
+id: R95-1990-fas
+schema_version: v1.5.6
+type: standard
+title:
+- language: fas
+  content: Ships' tanks - General requirements
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/persian/r095-1990-ships-tanks-general-requirements.pdf
+docidentifier:
+- content: OIML R 95:1990 (PE)
+  type: OIML
+  primary: true
+docnumber: '95'
+date:
+- type: published
+  from: '1990-01-01'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: ISIRI
+language:
+- fas
+script:
+- Arab
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML R 95:1990 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

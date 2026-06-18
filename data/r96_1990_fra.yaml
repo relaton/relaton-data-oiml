@@ -1,0 +1,54 @@
+---
+id: R96-1990-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: Bouteilles récipients-mesures
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_r/r096-f90.pdf
+docidentifier:
+- content: OIML R 96:1990 (F)
+  type: OIML
+  primary: true
+docnumber: '96'
+date:
+- type: published
+  from: '1990-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '1990-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 96:1990
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

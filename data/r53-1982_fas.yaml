@@ -1,0 +1,51 @@
+---
+id: R53-1982-fas
+schema_version: v1.5.6
+type: standard
+title:
+- language: fas
+  content: Metrological characteristics of elastic sensing elements used for measurement
+    of pressure - Determination methods
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/persian/r053-1982-metrological-characteristics-of-elastic.pdf
+docidentifier:
+- content: OIML R 53:1982 (PE)
+  type: OIML
+  primary: true
+docnumber: '53'
+date:
+- type: published
+  from: '1982-01-01'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: ISIRI
+language:
+- fas
+script:
+- Arab
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1982'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML R 53:1982 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

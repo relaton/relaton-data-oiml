@@ -1,0 +1,50 @@
+---
+id: R66-1985-deu
+schema_version: v1.5.6
+type: standard
+title:
+- language: deu
+  content: Length measuring instruments
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/german/r066-de-85.pdf
+docidentifier:
+- content: OIML R 66:1985 (D)
+  type: OIML
+  primary: true
+docnumber: '66'
+date:
+- type: published
+  from: '1985-01-01'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: PTB
+language:
+- deu
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML R 66:1985 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

@@ -1,0 +1,69 @@
+---
+id: D23-1993-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: Principes du contrôle métrologique des équipements utilisés pour la vérification
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_d/d023-f93.pdf
+docidentifier:
+- content: OIML D 23:1993 (F)
+  type: OIML
+  primary: true
+docnumber: '23'
+date:
+- type: published
+  from: '1993-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 4
+      identifier:
+      - content: TC4
+      type: technical-committee
+    abbreviation:
+      content: OIML
+version:
+- content: '1993-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML D 23:1993
+      type: OIML
+ext:
+  doctype:
+    content: document
+  flavor: oiml

@@ -1,0 +1,40 @@
+---
+id: R51-1-2006-eng
+schema_version: v1.5.6
+type: standard
+source:
+- type: website
+  content: pdfs/r51_2006/parts_eng/R051-1-e06.pdf
+docidentifier:
+- content: OIML R 51-1:2006 (E)
+  type: OIML
+  primary: true
+docnumber: '51'
+date:
+- type: published
+  from: '2006-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 51-1:2006
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

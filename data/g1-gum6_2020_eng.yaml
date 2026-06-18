@@ -1,0 +1,75 @@
+---
+id: G1-GUM6-2020-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: 'Guide to the expression of uncertainty in measurement — Part 6: Developing
+    and using measurement models'
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_g/g001-gum6-e20.pdf
+docidentifier:
+- content: OIML G 1-GUM 6:2020 (E)
+  type: OIML
+  primary: true
+docnumber: '1'
+date:
+- type: published
+  from: '2020-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: BIML
+      identifier:
+      - content: BIML
+      type: technical-committee
+    - name:
+      - content: Subcommittee 4
+      identifier:
+      - content: SC4
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2020-01-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML G 1-GUM 6:2020
+      type: OIML
+ext:
+  doctype:
+    content: guide
+  flavor: oiml

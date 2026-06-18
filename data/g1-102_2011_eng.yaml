@@ -1,0 +1,70 @@
+---
+id: G1-102-2011-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Evaluation of measurement data - Supplement 2to the "Guide to the expression
+    of uncertainty inmeasurement" - Extension to any number ofoutput quantities
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_g/g001-102-e11.pdf
+docidentifier:
+- content: OIML G 1-102:2011 (E)
+  type: OIML
+  primary: true
+docnumber: '1'
+date:
+- type: published
+  from: '2011-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 3
+      identifier:
+      - content: TC3
+      type: technical-committee
+    abbreviation:
+      content: OIML
+version:
+- content: '2011-01-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML G 1-102:2011
+      type: OIML
+ext:
+  doctype:
+    content: guide
+  flavor: oiml

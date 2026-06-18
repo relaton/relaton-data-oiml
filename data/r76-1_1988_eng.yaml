@@ -1,0 +1,75 @@
+---
+id: R76-1-1988-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: 'Nonautomatic weighing instruments. Part 1: Metrological and technical
+    requirements - Tests'
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_r/r076-1-e88.pdf
+docidentifier:
+- content: OIML R 76-1:1988 (E)
+  type: OIML
+  primary: true
+docnumber: '76'
+date:
+- type: published
+  from: '1988-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 9
+      identifier:
+      - content: TC9
+      type: technical-committee
+    - name:
+      - content: Subcommittee 1
+      identifier:
+      - content: SC1
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '1988-01-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '1988'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 76-1:1988
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

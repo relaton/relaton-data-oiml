@@ -1,0 +1,74 @@
+---
+id: R147-2016-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: 'Corps noirs étalons dans la gamme de température -50 °C à 2500 °C '
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_r/r147-f16.pdf
+docidentifier:
+- content: OIML R 147:2016 (F)
+  type: OIML
+  primary: true
+docnumber: '147'
+date:
+- type: published
+  from: '2016-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 11
+      identifier:
+      - content: TC11
+      type: technical-committee
+    - name:
+      - content: Subcommittee 3
+      identifier:
+      - content: SC3
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2016-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 147:2016
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

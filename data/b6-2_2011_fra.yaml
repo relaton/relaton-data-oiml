@@ -1,0 +1,70 @@
+---
+id: B6-2-2011-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: 'Directives pour les travaux techniques de l''OIML. Partie 2: Guide pour
+    la rédaction et la présentation des publications de l''OIML'
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_b/b006-2-f11.pdf
+docidentifier:
+- content: OIML B 6-2:2011 (F)
+  type: OIML
+  primary: true
+docnumber: '6'
+date:
+- type: published
+  from: '2011-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: BIML
+      identifier:
+      - content: BIML
+      type: technical-committee
+    abbreviation:
+      content: OIML
+version:
+- content: '2011-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: joint
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML B 6-2:2011
+      type: OIML
+ext:
+  doctype:
+    content: basic-publication
+  flavor: oiml

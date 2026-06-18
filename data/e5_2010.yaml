@@ -1,0 +1,64 @@
+---
+id: E5-2010
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Overview of the present status of the Standards referred to in OIML D 11
+    - General requirements for electronic measuring instruments (2004). 3rd Edition,
+    2010
+  type: main
+- language: fra
+  content: Revue du statut actuel des Normes référencées dans le Document OIML D 11
+    - Exigences générales pour les instruments de mesure électroniques (2004). 3ème
+    Edition, 2010
+  type: main
+docidentifier:
+- content: OIML E 5:2010
+  type: OIML
+  primary: true
+docnumber: '5'
+date:
+- type: published
+  from: '2010-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '2010-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '2010'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML E 5:2010 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML E 5:2010 (F)
+      type: OIML
+ext:
+  doctype:
+    content: expert-report
+  flavor: oiml

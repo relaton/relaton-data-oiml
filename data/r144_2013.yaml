@@ -1,0 +1,97 @@
+---
+id: R144-2013
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Instruments for the continuous measurement of CO and NOx in stationary
+    source emissions
+  type: main
+- language: fra
+  content: Instruments pour le mesurage continu de CO et NOx dans les émissions de
+    sources fixes
+  type: main
+docidentifier:
+- content: OIML R 144:2013
+  type: OIML
+  primary: true
+docnumber: '144'
+date:
+- type: published
+  from: '2013-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 16
+      identifier:
+      - content: TC16
+      type: technical-committee
+    - name:
+      - content: Subcommittee 1
+      identifier:
+      - content: SC1
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2013-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 144:2013 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 144:2013 (F)
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 144-1:2013
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 144-2:2013
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 144-3:2013
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

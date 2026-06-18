@@ -1,0 +1,80 @@
+---
+id: R91-1990
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Radar equipment for the measurement of the speed of vehicles
+  type: main
+- language: fra
+  content: Cinémomètres radar pour la mesure de la vitesse des véhicules
+  type: main
+docidentifier:
+- content: OIML R 91:1990
+  type: OIML
+  primary: true
+docnumber: '91'
+date:
+- type: published
+  from: '1990-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 7
+      identifier:
+      - content: TC7
+      type: technical-committee
+    - name:
+      - content: Subcommittee 4
+      identifier:
+      - content: SC4
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '1990-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 91:1990 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 91:1990 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

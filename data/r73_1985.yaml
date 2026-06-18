@@ -1,0 +1,62 @@
+---
+id: R73-1985
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Requirements concerning pure gases CO, CO2, CH4, H2, O2, N2 and Ar intended
+    for the preparation of reference gas mixtures
+  type: main
+- language: fra
+  content: Prescriptions pour les gaz purs CO, CO2, CH4, H2, O2, N2 et Ar destinés
+    à la préparation des mélanges de gaz de référence
+  type: main
+docidentifier:
+- content: OIML R 73:1985
+  type: OIML
+  primary: true
+docnumber: '73'
+date:
+- type: published
+  from: '1985-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '1985-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 73:1985 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 73:1985 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

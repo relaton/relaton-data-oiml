@@ -1,0 +1,80 @@
+---
+id: R78-1989
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Westergren tubes for measurement of erythrocyte sedimentation rate
+  type: main
+- language: fra
+  content: Pipettes Westergren pour la mesure de la vitesse de sédimentation des hématies
+  type: main
+docidentifier:
+- content: OIML R 78:1989
+  type: OIML
+  primary: true
+docnumber: '78'
+date:
+- type: published
+  from: '1989-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 18
+      identifier:
+      - content: TC18
+      type: technical-committee
+    - name:
+      - content: Subcommittee 5
+      identifier:
+      - content: SC5
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '1989-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1989'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 78:1989 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 78:1989 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

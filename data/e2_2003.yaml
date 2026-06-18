@@ -1,0 +1,60 @@
+---
+id: E2-2003
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Benefit of Legal Metrology for the Economy and Society (John Birch)
+  type: main
+- language: fra
+  content: Benefit of Legal Metrology for the Economy and Society (John Birch)
+  type: main
+docidentifier:
+- content: OIML E 2:2003
+  type: OIML
+  primary: true
+docnumber: '2'
+date:
+- type: published
+  from: '2003-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '2003-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2003'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML E 2:2003 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML E 2:2003 (F)
+      type: OIML
+ext:
+  doctype:
+    content: expert-report
+  flavor: oiml

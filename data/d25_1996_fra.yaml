@@ -1,0 +1,54 @@
+---
+id: D25-1996-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: Compteurs à vortex utilisés dans les ensembles de mesurage de fluides
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_d/d025-f96.pdf
+docidentifier:
+- content: OIML D 25:1996 (F)
+  type: OIML
+  primary: true
+docnumber: '25'
+date:
+- type: published
+  from: '1996-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '1996-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '1996'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML D 25:1996
+      type: OIML
+ext:
+  doctype:
+    content: document
+  flavor: oiml

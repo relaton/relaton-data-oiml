@@ -1,0 +1,75 @@
+---
+id: D32-2018-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Guide for the application of ISO/IEC 17065 to assessment of certification
+    bodies in legal metrology
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_d/d032-e18.pdf
+docidentifier:
+- content: OIML D 32:2018 (E)
+  type: OIML
+  primary: true
+docnumber: '32'
+date:
+- type: published
+  from: '2018-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: OIML-CS
+      identifier:
+      - content: OIML-CS
+      type: technical-committee
+    - name:
+      - content: Subcommittee 7
+      identifier:
+      - content: SC7
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2018-01-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML D 32:2018
+      type: OIML
+ext:
+  doctype:
+    content: document
+  flavor: oiml

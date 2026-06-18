@@ -1,0 +1,74 @@
+---
+id: R146-2016-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: Instruments de mesure de protéine pour grains de céréales et graines oléagineuses
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_r/r146-f-e16.pdf
+docidentifier:
+- content: OIML R 146:2016 (F)
+  type: OIML
+  primary: true
+docnumber: '146'
+date:
+- type: published
+  from: '2016-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 17
+      identifier:
+      - content: TC17
+      type: technical-committee
+    - name:
+      - content: Subcommittee 8
+      identifier:
+      - content: SC8
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2016-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2016'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 146:2016
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

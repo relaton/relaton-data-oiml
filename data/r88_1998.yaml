@@ -1,0 +1,75 @@
+---
+id: R88-1998
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Integrating-averaging sound level meters
+  type: main
+- language: fra
+  content: Sonomètres intégrateurs-moyenneurs
+  type: main
+docidentifier:
+- content: OIML R 88:1998
+  type: OIML
+  primary: true
+docnumber: '88'
+date:
+- type: published
+  from: '1998-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 13
+      identifier:
+      - content: TC13
+      type: technical-committee
+    abbreviation:
+      content: OIML
+version:
+- content: '1998-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 88:1998 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 88:1998 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

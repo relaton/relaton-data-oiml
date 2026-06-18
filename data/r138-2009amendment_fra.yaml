@@ -1,0 +1,40 @@
+---
+id: R138-2009Amendment-fra
+schema_version: v1.5.6
+type: standard
+source:
+- type: website
+  content: pdfs/r138_2007/parts_fra/R138-Amend-f09.pdf
+docidentifier:
+- content: OIML R 138:2009 Amendment (F)
+  type: OIML
+  primary: true
+docnumber: '138'
+date:
+- type: published
+  from: '2009-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 138:2009 Amendment
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

@@ -1,0 +1,50 @@
+---
+id: R108-1993-fas
+schema_version: v1.5.6
+type: standard
+title:
+- language: fas
+  content: Refractometers for the measurement of the sugar content of fruit juices
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/persian/r108-1993-refractometers-for-the-measurement-of.pdf
+docidentifier:
+- content: OIML R 108:1993 (PE)
+  type: OIML
+  primary: true
+docnumber: '108'
+date:
+- type: published
+  from: '1993-01-01'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: ISIRI
+language:
+- fas
+script:
+- Arab
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML R 108:1993 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

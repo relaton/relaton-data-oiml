@@ -1,0 +1,81 @@
+---
+id: B3-1991
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Certificate System for Measuring Instruments - 1991 Edition - Ex "P1"
+  type: main
+- language: fra
+  content: Système de Certificats OIML pour les Instruments de Mesure - Edition 1991
+    - Ex "P1"
+  type: main
+docidentifier:
+- content: OIML B 3:1991
+  type: OIML
+  primary: true
+docnumber: '3'
+date:
+- type: published
+  from: '1991-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 3
+      identifier:
+      - content: TC3
+      type: technical-committee
+    - name:
+      - content: Subcommittee 5
+      identifier:
+      - content: SC5
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '1991-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1991'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML B 3:1991 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML B 3:1991 (F)
+      type: OIML
+ext:
+  doctype:
+    content: basic-publication
+  flavor: oiml

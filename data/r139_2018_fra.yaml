@@ -1,0 +1,74 @@
+---
+id: R139-2018-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: Ensembles de mesurage de gaz compressé pour véhicules
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_r/r139-p-f18.pdf
+docidentifier:
+- content: OIML R 139:2018 (F)
+  type: OIML
+  primary: true
+docnumber: '139'
+date:
+- type: published
+  from: '2018-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 8
+      identifier:
+      - content: TC8
+      type: technical-committee
+    - name:
+      - content: Subcommittee 7
+      identifier:
+      - content: SC7
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2018-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 139:2018
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

@@ -1,0 +1,75 @@
+---
+id: B7-2013
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: BIML Staff Regulations (including Amendment 1 dated 2021-02)
+  type: main
+- language: fra
+  content: Statuts du Personnel du BIML (Incluant l'Amendement 1 de 2021-02)
+  type: main
+docidentifier:
+- content: OIML B 7:2013
+  type: OIML
+  primary: true
+docnumber: '7'
+date:
+- type: published
+  from: '2013-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: BIML
+      identifier:
+      - content: BIML
+      type: technical-committee
+    abbreviation:
+      content: OIML
+version:
+- content: '2013-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '2013'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML B 7:2013 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML B 7:2013 (F)
+      type: OIML
+ext:
+  doctype:
+    content: basic-publication
+  flavor: oiml

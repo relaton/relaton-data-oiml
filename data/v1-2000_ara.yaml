@@ -1,0 +1,50 @@
+---
+id: V1-2000-ara
+schema_version: v1.5.6
+type: standard
+title:
+- language: ara
+  content: International vocabulary of terms in legal metrology (VIML)
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/arabic/v01-00_jism.pdf
+docidentifier:
+- content: OIML V 1:2000 (A)
+  type: OIML
+  primary: true
+docnumber: '1'
+date:
+- type: published
+  from: '2000-01-01'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: JISM
+language:
+- ara
+script:
+- Arab
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML V 1:2000 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

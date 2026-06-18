@@ -1,0 +1,74 @@
+---
+id: R66-1985-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: Instruments mesureurs de longueurs
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_r/r066-f85.pdf
+docidentifier:
+- content: OIML R 66:1985 (F)
+  type: OIML
+  primary: true
+docnumber: '66'
+date:
+- type: published
+  from: '1985-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 7
+      identifier:
+      - content: TC7
+      type: technical-committee
+    - name:
+      - content: Subcommittee 1
+      identifier:
+      - content: SC1
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '1985-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 66:1985
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

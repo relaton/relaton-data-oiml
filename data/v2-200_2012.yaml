@@ -1,0 +1,62 @@
+---
+id: V2-200-2012
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: International Vocabulary of Metrology - Basic andGeneral Concepts and Associated
+    Terms (VIM). 3rd Edition (Bilingual E/F). (Edition 2010 with minor corrections)
+  type: main
+- language: fra
+  content: Vocabulaire international de métrologie - Concepts fondamentaux et généraux
+    et termes associés (VIM). 3ème Édition. (Edition 2010 avec des corrections mineures)
+  type: main
+docidentifier:
+- content: OIML V 2-200:2012
+  type: OIML
+  primary: true
+docnumber: '2'
+date:
+- type: published
+  from: '2012-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '2012-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2012'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML V 2-200:2012 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML V 2-200:2012 (F)
+      type: OIML
+ext:
+  doctype:
+    content: vocabulary
+  flavor: oiml

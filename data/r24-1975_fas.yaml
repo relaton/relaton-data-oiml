@@ -1,0 +1,50 @@
+---
+id: R24-1975-fas
+schema_version: v1.5.6
+type: standard
+title:
+- language: fas
+  content: Standard one metre bar for verification officers
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/persian/r024-1975-standard-one-metre-bar-for-verification.pdf
+docidentifier:
+- content: OIML R 24:1975 (PE)
+  type: OIML
+  primary: true
+docnumber: '24'
+date:
+- type: published
+  from: '1975-01-01'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: ISIRI
+language:
+- fas
+script:
+- Arab
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1975'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML R 24:1975 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

@@ -1,0 +1,82 @@
+---
+id: R14-1995
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Polarimetric saccharimeters graduated in accordance with the ICUMSA International
+    Sugar Scale
+  type: main
+- language: fra
+  content: Saccharimètres polarimétriques gradués selon l'Echelle internationale de
+    Sucre de l'ICUMSA
+  type: main
+docidentifier:
+- content: OIML R 14:1995
+  type: OIML
+  primary: true
+docnumber: '14'
+date:
+- type: published
+  from: '1995-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 17
+      identifier:
+      - content: TC17
+      type: technical-committee
+    - name:
+      - content: Subcommittee 2
+      identifier:
+      - content: SC2
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '1995-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1995'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 14:1995 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 14:1995 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

@@ -1,0 +1,82 @@
+---
+id: R113-1994
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Portable gas chromatographs for field measurements of hazardous chemical
+    pollutants
+  type: main
+- language: fra
+  content: Chromatographes en phase gazeuse portatifs pour la mesure sur site des
+    polluants chimiques dangereux
+  type: main
+docidentifier:
+- content: OIML R 113:1994
+  type: OIML
+  primary: true
+docnumber: '113'
+date:
+- type: published
+  from: '1994-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 16
+      identifier:
+      - content: TC16
+      type: technical-committee
+    - name:
+      - content: Subcommittee 4
+      identifier:
+      - content: SC4
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '1994-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 113:1994 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 113:1994 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

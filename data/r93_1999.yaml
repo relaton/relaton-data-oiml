@@ -1,0 +1,75 @@
+---
+id: R93-1999
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Focimeters
+  type: main
+- language: fra
+  content: Frontofocomètres
+  type: main
+docidentifier:
+- content: OIML R 93:1999
+  type: OIML
+  primary: true
+docnumber: '93'
+date:
+- type: published
+  from: '1999-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 14
+      identifier:
+      - content: TC14
+      type: technical-committee
+    abbreviation:
+      content: OIML
+version:
+- content: '1999-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 93:1999 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 93:1999 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

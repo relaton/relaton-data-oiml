@@ -1,0 +1,75 @@
+---
+id: B10-2-2004-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: Listes de Contrôle pour les Autorités de Délivrance et les Laboratoires
+    d'Essais effectuant des Essais de Type OIML
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_b/b010-2-f04.pdf
+docidentifier:
+- content: OIML B 10-2:2004 (F)
+  type: OIML
+  primary: true
+docnumber: '10'
+date:
+- type: published
+  from: '2004-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 3
+      identifier:
+      - content: TC3
+      type: technical-committee
+    - name:
+      - content: Subcommittee 5
+      identifier:
+      - content: SC5
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2004-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML B 10-2:2004
+      type: OIML
+ext:
+  doctype:
+    content: basic-publication
+  flavor: oiml

@@ -1,0 +1,40 @@
+---
+id: R122-1999AnnexC-fra
+schema_version: v1.5.6
+type: standard
+source:
+- type: website
+  content: pdfs/r122_1996/parts_fra/R122-Ann-C-f99.pdf
+docidentifier:
+- content: OIML R 122:1999 Annex C (F)
+  type: OIML
+  primary: true
+docnumber: '122'
+date:
+- type: published
+  from: '1999-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 122:1999 Annex C
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

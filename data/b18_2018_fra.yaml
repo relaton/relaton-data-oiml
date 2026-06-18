@@ -1,0 +1,54 @@
+---
+id: B18-2018-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: Cadre pour le Système de Certification OIML (OIML-CS)
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_b/b018-f18.pdf
+docidentifier:
+- content: OIML B 18:2018 (F)
+  type: OIML
+  primary: true
+docnumber: '18'
+date:
+- type: published
+  from: '2018-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '2018-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '2018'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML B 18:2018
+      type: OIML
+ext:
+  doctype:
+    content: basic-publication
+  flavor: oiml

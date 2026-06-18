@@ -1,0 +1,51 @@
+---
+id: D10-2022-spa
+schema_version: v1.5.6
+type: standard
+title:
+- language: spa
+  content: 'ILAC-G24/OIML D 10: Guidelines for the determination of recalibration
+    intervals of measuring equipment'
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/spanish/d010-e22-es.pdf
+docidentifier:
+- content: OIML D 10:2022 (S)
+  type: OIML
+  primary: true
+docnumber: '10'
+date:
+- type: published
+  from: '2022-01-01'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: NC (Cuba)
+language:
+- spa
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2022'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML D 10:2022 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

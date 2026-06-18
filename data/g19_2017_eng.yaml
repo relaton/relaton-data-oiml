@@ -1,0 +1,75 @@
+---
+id: G19-2017-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: The role of measurement uncertainty in conformity assessment decisions
+    in legal metrology
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_g/g019-e17.pdf
+docidentifier:
+- content: OIML G 19:2017 (E)
+  type: OIML
+  primary: true
+docnumber: '19'
+date:
+- type: published
+  from: '2017-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 3
+      identifier:
+      - content: TC3
+      type: technical-committee
+    - name:
+      - content: Subcommittee 5
+      identifier:
+      - content: SC5
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2017-01-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML G 19:2017
+      type: OIML
+ext:
+  doctype:
+    content: guide
+  flavor: oiml

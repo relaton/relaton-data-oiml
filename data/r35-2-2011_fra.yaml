@@ -1,0 +1,40 @@
+---
+id: R35-2-2011-fra
+schema_version: v1.5.6
+type: standard
+source:
+- type: website
+  content: pdfs/r35_2007/parts_fra/R035-2-f11.pdf
+docidentifier:
+- content: OIML R 35-2:2011 (F)
+  type: OIML
+  primary: true
+docnumber: '35'
+date:
+- type: published
+  from: '2011-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 35-2:2011
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

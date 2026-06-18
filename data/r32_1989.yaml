@@ -1,0 +1,61 @@
+---
+id: R32-1989
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Rotary piston gas meters and turbine gas meters
+  type: main
+- language: fra
+  content: Compteurs de volume de gaz à pistons rotatifs et compteurs de volume de
+    gaz à turbine
+  type: main
+docidentifier:
+- content: OIML R 32:1989
+  type: OIML
+  primary: true
+docnumber: '32'
+date:
+- type: published
+  from: '1989-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '1989-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '1989'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 32:1989 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 32:1989 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

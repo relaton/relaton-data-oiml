@@ -1,0 +1,80 @@
+---
+id: R108-1993
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Refractometers for the measurement of the sugar content of fruit juices
+  type: main
+- language: fra
+  content: Réfractomètres pour la mesure de la teneur en sucre des jus de fruits
+  type: main
+docidentifier:
+- content: OIML R 108:1993
+  type: OIML
+  primary: true
+docnumber: '108'
+date:
+- type: published
+  from: '1993-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 17
+      identifier:
+      - content: TC17
+      type: technical-committee
+    - name:
+      - content: Subcommittee 2
+      identifier:
+      - content: SC2
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '1993-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 108:1993 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 108:1993 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

@@ -1,0 +1,54 @@
+---
+id: E3-2004-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: Verification of Commercial Weights (Dr. S.V. Gupta)
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_e/e003-f04.pdf
+docidentifier:
+- content: OIML E 3:2004 (F)
+  type: OIML
+  primary: true
+docnumber: '3'
+date:
+- type: published
+  from: '2004-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '2004-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML E 3:2004
+      type: OIML
+ext:
+  doctype:
+    content: expert-report
+  flavor: oiml

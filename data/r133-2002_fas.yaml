@@ -1,0 +1,50 @@
+---
+id: R133-2002-fas
+schema_version: v1.5.6
+type: standard
+title:
+- language: fas
+  content: Liquid-in-glass thermometers
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/persian/r133-2002-liquid-in-glass-thermometers.pdf
+docidentifier:
+- content: OIML R 133:2002 (PE)
+  type: OIML
+  primary: true
+docnumber: '133'
+date:
+- type: published
+  from: '2002-01-01'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: ISIRI
+language:
+- fas
+script:
+- Arab
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML R 133:2002 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

@@ -1,0 +1,55 @@
+---
+id: R121-1996-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: Echelle d'humidité relative de l'air certifiée par rapport à des solutions
+    saturées de sels
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_r/r121-f96.pdf
+docidentifier:
+- content: OIML R 121:1996 (F)
+  type: OIML
+  primary: true
+docnumber: '121'
+date:
+- type: published
+  from: '1996-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '1996-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1996'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 121:1996
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

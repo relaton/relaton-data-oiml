@@ -1,0 +1,80 @@
+---
+id: R71-2008
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Fixed storage tanks. General requirements
+  type: main
+- language: fra
+  content: Réservoirs de stockage fixes. Prescriptions générales
+  type: main
+docidentifier:
+- content: OIML R 71:2008
+  type: OIML
+  primary: true
+docnumber: '71'
+date:
+- type: published
+  from: '2008-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 8
+      identifier:
+      - content: TC8
+      type: technical-committee
+    - name:
+      - content: Subcommittee 1
+      identifier:
+      - content: SC1
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2008-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2008'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 71:2008 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 71:2008 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

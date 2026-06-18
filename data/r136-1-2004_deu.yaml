@@ -1,0 +1,50 @@
+---
+id: R136-1-2004-deu
+schema_version: v1.5.6
+type: standard
+title:
+- language: deu
+  content: Instruments for measuring the areas of leathers
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/german/r136-1-de-04.pdf
+docidentifier:
+- content: OIML R 136-1:2004 (D)
+  type: OIML
+  primary: true
+docnumber: '136'
+date:
+- type: published
+  from: '2004-01-01'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: PTB
+language:
+- deu
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML R 136-1:2004 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

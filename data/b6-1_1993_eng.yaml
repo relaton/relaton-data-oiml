@@ -1,0 +1,74 @@
+---
+id: B6-1-1993-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Directives for the technical work
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_b/b006-1-e93.pdf
+docidentifier:
+- content: OIML B 6-1:1993 (E)
+  type: OIML
+  primary: true
+docnumber: '6'
+date:
+- type: published
+  from: '1993-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: BIML
+      identifier:
+      - content: BIML
+      type: technical-committee
+    - name:
+      - content: Subcommittee 3
+      identifier:
+      - content: SC3
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '1993-01-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '1993'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML B 6-1:1993
+      type: OIML
+ext:
+  doctype:
+    content: basic-publication
+  flavor: oiml

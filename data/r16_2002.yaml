@@ -1,0 +1,90 @@
+---
+id: R16-2002
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Sphygmomanometers
+  type: main
+- language: fra
+  content: Sphygmomanomètres non invasifs mécaniques
+  type: main
+docidentifier:
+- content: OIML R 16:2002
+  type: OIML
+  primary: true
+docnumber: '16'
+date:
+- type: published
+  from: '2002-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 18
+      identifier:
+      - content: TC18
+      type: technical-committee
+    - name:
+      - content: Subcommittee 1
+      identifier:
+      - content: SC1
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2002-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 16:2002 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 16:2002 (F)
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 16-1:2002
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 16-2:2002
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

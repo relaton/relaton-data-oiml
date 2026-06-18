@@ -1,0 +1,60 @@
+---
+id: D2-Amend-2004
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: 'Legal units of measurement: Amendment'
+  type: main
+- language: fra
+  content: 'Unités de mesure légales: Amendement'
+  type: main
+docidentifier:
+- content: OIML D 2-Amend:2004
+  type: OIML
+  primary: true
+docnumber: '2'
+date:
+- type: published
+  from: '2004-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '2004-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML D 2-Amend:2004 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML D 2-Amend:2004 (F)
+      type: OIML
+ext:
+  doctype:
+    content: document
+  flavor: oiml

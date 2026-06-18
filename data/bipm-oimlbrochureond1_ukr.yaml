@@ -1,0 +1,40 @@
+---
+id: BIPM/OIMLBrochureonD1-ukr
+schema_version: v1.5.6
+type: standard
+title:
+- language: ukr
+  content: National metrology systems – Developing the institutional and legislative
+    framework
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/ukrainian/d001-ua20-brochure.zip
+docidentifier:
+- content: OIML BIPM/OIML Brochure on D 1 (U)
+  type: OIML
+  primary: true
+docnumber: '1'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: NSC "Institute of Metrology" (Ukraine)
+language:
+- ukr
+script:
+- Cyrl
+status:
+  stage:
+    content: in-force
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML BIPM/OIML Brochure on D 1 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

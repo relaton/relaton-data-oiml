@@ -1,0 +1,77 @@
+---
+id: B19-2017
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Terms of Reference for the Advisory Group on matters concerning Countries
+    and Economies with Emerging Metrology Systems (CEEMS)
+  type: main
+- language: fra
+  content: Termes de référence pour le Groupe Consultatif sur les questions concernant
+    les pays et économies dont le système de métrologie est émergeant (CEEMS)
+  type: main
+docidentifier:
+- content: OIML B 19:2017
+  type: OIML
+  primary: true
+docnumber: '19'
+date:
+- type: published
+  from: '2017-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: BIML
+      identifier:
+      - content: BIML
+      type: technical-committee
+    abbreviation:
+      content: OIML
+version:
+- content: '2017-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '2017'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML B 19:2017 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML B 19:2017 (F)
+      type: OIML
+ext:
+  doctype:
+    content: basic-publication
+  flavor: oiml

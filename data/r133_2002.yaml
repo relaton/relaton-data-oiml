@@ -1,0 +1,80 @@
+---
+id: R133-2002
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Liquid-in-glass thermometers
+  type: main
+- language: fra
+  content: Thermomètres à liquide en verre
+  type: main
+docidentifier:
+- content: OIML R 133:2002
+  type: OIML
+  primary: true
+docnumber: '133'
+date:
+- type: published
+  from: '2002-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 11
+      identifier:
+      - content: TC11
+      type: technical-committee
+    - name:
+      - content: Subcommittee 2
+      identifier:
+      - content: SC2
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2002-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2002'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 133:2002 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 133:2002 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

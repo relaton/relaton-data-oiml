@@ -1,0 +1,75 @@
+---
+id: R50-2-1997-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: 'Continuous totalizing automatic weighing instruments (belt weighers).
+    Part 2 : Test report format'
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_r/r050-2-e97.pdf
+docidentifier:
+- content: OIML R 50-2:1997 (E)
+  type: OIML
+  primary: true
+docnumber: '50'
+date:
+- type: published
+  from: '1997-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 9
+      identifier:
+      - content: TC9
+      type: technical-committee
+    - name:
+      - content: Subcommittee 2
+      identifier:
+      - content: SC2
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '1997-01-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '1997'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 50-2:1997
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

@@ -1,0 +1,55 @@
+---
+id: R76-1-1992-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: 'Instruments de pesage à fonctionnement non automatique. Partie 1 : Exigences
+    métrologiques et techniques - Essais (intègre l''Amendement n°1 de 1994)'
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_r/r076-1-f92.pdf
+docidentifier:
+- content: OIML R 76-1:1992 (F)
+  type: OIML
+  primary: true
+docnumber: '76'
+date:
+- type: published
+  from: '1992-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '1992-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '1992'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 76-1:1992
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

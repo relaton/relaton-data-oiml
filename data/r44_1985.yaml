@@ -1,0 +1,80 @@
+---
+id: R44-1985
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Alcoholometers and alcohol hydrometers and thermometers for use in alcoholometry
+  type: main
+- language: fra
+  content: Alcoomètres et aréomètres pour alcool et thermomètres utilisés en alcoométrie
+  type: main
+docidentifier:
+- content: OIML R 44:1985
+  type: OIML
+  primary: true
+docnumber: '44'
+date:
+- type: published
+  from: '1985-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 9
+      identifier:
+      - content: TC9
+      type: technical-committee
+    - name:
+      - content: Subcommittee 4
+      identifier:
+      - content: SC4
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '1985-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1985'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 44:1985 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 44:1985 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

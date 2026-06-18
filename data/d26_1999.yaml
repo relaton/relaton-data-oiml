@@ -1,0 +1,60 @@
+---
+id: D26-1999
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Glass delivery measures - Automatic pipettes
+  type: main
+- language: fra
+  content: Mesures en verre à délivrer - Pipettes automatiques
+  type: main
+docidentifier:
+- content: OIML D 26:1999
+  type: OIML
+  primary: true
+docnumber: '26'
+date:
+- type: published
+  from: '1999-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '1999-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML D 26:1999 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML D 26:1999 (F)
+      type: OIML
+ext:
+  doctype:
+    content: document
+  flavor: oiml

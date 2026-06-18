@@ -1,0 +1,50 @@
+---
+id: R110-1994-ara
+schema_version: v1.5.6
+type: standard
+title:
+- language: ara
+  content: Pressure balances
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/arabic/r110-94_sns2246-00.pdf
+docidentifier:
+- content: OIML R 110:1994 (A)
+  type: OIML
+  primary: true
+docnumber: '110'
+date:
+- type: published
+  from: '1994-01-01'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: SNS 2246-2000
+language:
+- ara
+script:
+- Arab
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1994'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML R 110:1994 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

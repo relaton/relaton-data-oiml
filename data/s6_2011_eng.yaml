@@ -1,0 +1,54 @@
+---
+id: S6-2011-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: '2011 - Prague - Seminar: Conformity to Type II (CTT II)'
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_s/s006-e11.zip
+docidentifier:
+- content: OIML S 6:2011 (E)
+  type: OIML
+  primary: true
+docnumber: '6'
+date:
+- type: published
+  from: '2011-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '2011-01-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2011'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML S 6:2011
+      type: OIML
+ext:
+  doctype:
+    content: seminar-report
+  flavor: oiml

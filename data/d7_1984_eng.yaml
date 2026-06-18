@@ -1,0 +1,55 @@
+---
+id: D7-1984-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: The evaluation of flow standards and facilities used for testing water
+    meters
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_d/d007-e84.pdf
+docidentifier:
+- content: OIML D 7:1984 (E)
+  type: OIML
+  primary: true
+docnumber: '7'
+date:
+- type: published
+  from: '1984-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '1984-01-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1984'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML D 7:1984
+      type: OIML
+ext:
+  doctype:
+    content: document
+  flavor: oiml

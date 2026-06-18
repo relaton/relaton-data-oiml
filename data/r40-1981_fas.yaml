@@ -1,0 +1,50 @@
+---
+id: R40-1981-fas
+schema_version: v1.5.6
+type: standard
+title:
+- language: fas
+  content: Standard graduated pipettes for verification officers
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/persian/r040-1981-standard-graduated-pipettes-for.pdf
+docidentifier:
+- content: OIML R 40:1981 (PE)
+  type: OIML
+  primary: true
+docnumber: '40'
+date:
+- type: published
+  from: '1981-01-01'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: ISIRI
+language:
+- fas
+script:
+- Arab
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1981'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML R 40:1981 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

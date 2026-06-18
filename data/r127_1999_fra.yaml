@@ -1,0 +1,75 @@
+---
+id: R127-1999-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: Systèmes de dosimétrie par film radiochromique pour le traitement par rayonnement
+    ionisant de matériaux et de produits
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_r/r127-f99.pdf
+docidentifier:
+- content: OIML R 127:1999 (F)
+  type: OIML
+  primary: true
+docnumber: '127'
+date:
+- type: published
+  from: '1999-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 15
+      identifier:
+      - content: TC15
+      type: technical-committee
+    - name:
+      - content: Subcommittee 2
+      identifier:
+      - content: SC2
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '1999-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1999'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 127:1999
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

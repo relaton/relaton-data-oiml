@@ -1,0 +1,69 @@
+---
+id: D35-2020-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Petroleum measurement tables
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_d/d035-e20.pdf
+docidentifier:
+- content: OIML D 35:2020 (E)
+  type: OIML
+  primary: true
+docnumber: '35'
+date:
+- type: published
+  from: '2020-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 8
+      identifier:
+      - content: TC8
+      type: technical-committee
+    abbreviation:
+      content: OIML
+version:
+- content: '2020-01-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2020'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML D 35:2020
+      type: OIML
+ext:
+  doctype:
+    content: document
+  flavor: oiml

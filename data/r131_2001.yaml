@@ -1,0 +1,82 @@
+---
+id: R131-2001
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Polymethylmethacrylate (PMMA) dosimetry systems for ionizing radiation
+    processing of materials and products
+  type: main
+- language: fra
+  content: Systèmes dosimétriques au polyméthylméthacrylate (PMMA) pour le traitement
+    par rayonnements ionisants des matériaux et produits
+  type: main
+docidentifier:
+- content: OIML R 131:2001
+  type: OIML
+  primary: true
+docnumber: '131'
+date:
+- type: published
+  from: '2001-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 15
+      identifier:
+      - content: TC15
+      type: technical-committee
+    - name:
+      - content: Subcommittee 2
+      identifier:
+      - content: SC2
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '2001-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '2001'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 131:2001 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 131:2001 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

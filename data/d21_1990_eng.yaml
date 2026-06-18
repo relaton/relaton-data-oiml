@@ -1,0 +1,75 @@
+---
+id: D21-1990-E
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Secondary standard dosimetry laboratories for the calibration of dosimeters
+    used in radiotherapy
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_d/d021-e90.pdf
+docidentifier:
+- content: OIML D 21:1990 (E)
+  type: OIML
+  primary: true
+docnumber: '21'
+date:
+- type: published
+  from: '1990-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 15
+      identifier:
+      - content: TC15
+      type: technical-committee
+    - name:
+      - content: Subcommittee 1
+      identifier:
+      - content: SC1
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '1990-01-01'
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1990'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML D 21:1990
+      type: OIML
+ext:
+  doctype:
+    content: document
+  flavor: oiml

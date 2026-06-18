@@ -1,0 +1,75 @@
+---
+id: R76-1-1988-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: 'Instruments de pesage à fonctionnement non automatique. Partie 1: Exigences
+    métrologiques et techniques - Essais'
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_r/r076-1-f88.pdf
+docidentifier:
+- content: OIML R 76-1:1988 (F)
+  type: OIML
+  primary: true
+docnumber: '76'
+date:
+- type: published
+  from: '1988-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 9
+      identifier:
+      - content: TC9
+      type: technical-committee
+    - name:
+      - content: Subcommittee 1
+      identifier:
+      - content: SC1
+      type: subcommittee
+    abbreviation:
+      content: OIML
+version:
+- content: '1988-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: joint
+copyright:
+- from: '1988'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 76-1:1988
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

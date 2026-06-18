@@ -1,0 +1,75 @@
+---
+id: R87-2004
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Quantity of product in prepackages
+  type: main
+- language: fra
+  content: Quantité de produit dans les préemballages
+  type: main
+docidentifier:
+- content: OIML R 87:2004
+  type: OIML
+  primary: true
+docnumber: '87'
+date:
+- type: published
+  from: '2004-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 6
+      identifier:
+      - content: TC6
+      type: technical-committee
+    abbreviation:
+      content: OIML
+version:
+- content: '2004-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '2004'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 87:2004 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 87:2004 (F)
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

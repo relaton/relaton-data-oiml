@@ -1,0 +1,55 @@
+---
+id: D15-1986-F
+schema_version: v1.5.6
+type: standard
+title:
+- language: fra
+  content: Principes du choix des caractéristiques pour l'examen des instruments de
+    mesure usuels
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_d/d015-f86.pdf
+docidentifier:
+- content: OIML D 15:1986 (F)
+  type: OIML
+  primary: true
+docnumber: '15'
+date:
+- type: published
+  from: '1986-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+version:
+- content: '1986-01-01'
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: withdrawn
+copyright:
+- from: '1986'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML D 15:1986
+      type: OIML
+ext:
+  doctype:
+    content: document
+  flavor: oiml

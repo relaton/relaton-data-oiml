@@ -1,0 +1,75 @@
+---
+id: B2-2000
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Guide for CIML Members (Superseded - Refer to G 17 Edition 2007)
+  type: main
+- language: fra
+  content: Guide pour les Membres du CIML (Superseded - Refer to G 17 Edition 2007)
+  type: main
+docidentifier:
+- content: OIML B 2:2000
+  type: OIML
+  primary: true
+docnumber: '2'
+date:
+- type: published
+  from: '2000-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: BIML
+      identifier:
+      - content: BIML
+      type: technical-committee
+    abbreviation:
+      content: OIML
+version:
+- content: '2000-01-01'
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML B 2:2000 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML B 2:2000 (F)
+      type: OIML
+ext:
+  doctype:
+    content: basic-publication
+  flavor: oiml

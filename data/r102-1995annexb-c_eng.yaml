@@ -1,0 +1,40 @@
+---
+id: R102-1995AnnexB-C-eng
+schema_version: v1.5.6
+type: standard
+source:
+- type: website
+  content: pdfs/r102_1992/parts_eng/R102-Ann-B-C-e95.pdf
+docidentifier:
+- content: OIML R 102:1995 Annex B-C (E)
+  type: OIML
+  primary: true
+docnumber: '102'
+date:
+- type: published
+  from: '1995-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 102:1995 Annex B-C
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

@@ -1,0 +1,51 @@
+---
+id: R85-1998-ara
+schema_version: v1.5.6
+type: standard
+title:
+- language: ara
+  content: Automatic level gauges for measuring the level of liquid in fixed storage
+    tanks
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/arabic/r085-98_sns2747-03.pdf
+docidentifier:
+- content: OIML R 85:1998 (A)
+  type: OIML
+  primary: true
+docnumber: '85'
+date:
+- type: published
+  from: '1998-01-01'
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: SNS 2747-2003
+language:
+- ara
+script:
+- Arab
+status:
+  stage:
+    content: in-force
+copyright:
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML R 85:1998 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml

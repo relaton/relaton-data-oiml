@@ -1,0 +1,40 @@
+---
+id: R126-2015Errata-fra
+schema_version: v1.5.6
+type: standard
+source:
+- type: website
+  content: pdfs/r126_2012/parts_fra/R126-f12-errata-f15.pdf
+docidentifier:
+- content: OIML R 126:2015 Errata (F)
+  type: OIML
+  primary: true
+docnumber: '126'
+date:
+- type: published
+  from: '2015-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 126:2015 Errata
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
