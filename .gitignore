@@ -6,3 +6,5 @@ Gemfile.lock
 tmp/
 pdfs/
 *.zip
+spec/examples.txt
+spec/examples.txt
