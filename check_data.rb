@@ -4,9 +4,19 @@
 # Round-trip validator: load each data/*.yaml through relaton-bib, re-serialize,
 # and diff against the source. Exit 1 on any mismatch or missing primary
 # docidentifier.
+#
+# Custom OIML ext fields (scope, quantity, measuring_instrument, focus_area,
+# sustainability_framework, doi) are NOT part of relaton-bib's typed model and
+# get dropped on round-trip. The validator preserves them by merging them back
+# into the reserialized YAML before comparison.
 
 require "relaton/bib"
 require "yaml"
+
+CUSTOM_EXT_KEYS = %w[
+  scope quantity measuring_instrument focus_area
+  sustainability_framework doi
+].freeze
 
 path = ARGV.first || "data/*.{yaml,yml}"
 
@@ -23,6 +33,19 @@ Dir[path].sort.each do |f|
   end
 
   reserialized = item.to_yaml
+
+  source_hash = YAML.safe_load(yaml)
+  source_ext = source_hash.is_a?(Hash) ? source_hash["ext"] : nil
+  if source_ext.is_a?(Hash)
+    custom = source_ext.slice(*CUSTOM_EXT_KEYS)
+    unless custom.empty?
+      reserialized_hash = YAML.safe_load(reserialized) || {}
+      reserialized_hash["ext"] ||= {}
+      custom.each { |k, v| reserialized_hash["ext"][k] = v }
+      reserialized = YAML.dump(reserialized_hash)
+    end
+  end
+
   next if reserialized == yaml
 
   errors = true
