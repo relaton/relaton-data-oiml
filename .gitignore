@@ -1,0 +1,8 @@
+Gemfile.lock
+.vscode/
+.claude/
+.bundle/
+.omo/
+tmp/
+pdfs/
+*.zip
