@@ -13,12 +13,15 @@ module OimlFetcher
   # `translatedFrom` relation points at the English instance of the base ref
   # (R 35:2007 (eng)) — or the work, if no English instance exists.
   class TranslationFetcher
-    def initialize(data_dir:)
+    def initialize(data_dir:, yaml_store:, http_backend: OimlFetcher::Http.backend, langs: OimlFetcher::TRANSLATION_LANGS)
       @data_dir = File.expand_path(data_dir)
+      @yaml_store = yaml_store
+      @http_backend = http_backend
+      @langs = langs
     end
 
     def run
-      OimlFetcher::TRANSLATION_LANGS.each do |lang|
+      @langs.each do |lang|
         fetch_language(lang)
       end
     end
@@ -27,7 +30,8 @@ module OimlFetcher
 
     def fetch_language(lang)
       url = "#{OimlFetcher::BASE_URL}/en/publications/other-language-translations/#{lang}/#{lang}"
-      doc = Nokogiri::HTML(fetch_body(url))
+      body = @http_backend.get(url)
+      doc = Nokogiri::HTML(body)
 
       rows = doc.css("table.colour tr").drop(1)
       warn "  #{lang}: #{rows.length} translation rows"
@@ -46,24 +50,25 @@ module OimlFetcher
       end
     end
 
-    def write_translation(translated_ref, pdf_url, title, origin, lang)
+    def write_translation(raw_ref, pdf_url, title, origin, lang)
       lang_code = OimlFetcher::LANG_CODE.fetch(lang)
       docid_suffix = OimlFetcher::DOCID_LANG_CODE.fetch(lang_code)
-      base_docid = "OIML #{strip_locale_suffix(translated_ref)}"
-      translation_docid = "OIML #{translated_ref} (#{docid_suffix})"
+      ref = clean_ref(raw_ref)
+      base_docid = "OIML #{ref}"
+      translation_docid = "#{base_docid} (#{docid_suffix})"
       source_ref_docid = "#{base_docid} (E)"
 
       hash = {
-        "id" => id_for(translated_ref, lang_code),
+        "id" => "#{slugify(ref)}-#{lang_code}",
         "type" => "standard",
         "title" => [{ "language" => lang_code, "content" => title, "type" => "main" }],
-        "source" => [{ "type" => "website", "content" => full_url(pdf_url) }],
+        "source" => [OimlFetcher::Source.oiml(pdf_url)],
         "docidentifier" => [{
           "content" => translation_docid,
           "type" => "OIML",
           "primary" => true,
         }],
-        "docnumber" => translated_ref[/\d+/],
+        "docnumber" => ref[/\d+/],
         "contributor" => [{
           "role" => [{ "type" => "translator" }],
           "organization" => { "name" => [{ "content" => origin }] },
@@ -78,37 +83,41 @@ module OimlFetcher
         "ext" => { "doctype" => { "content" => "translation" }, "flavor" => "oiml" },
       }
 
-      if (year = translated_ref[/:(\d{4})/, 1])
+      if (year = ref[/:(\d{4})/, 1])
         hash["date"] = [{ "type" => "published", "from" => "#{year}-01-01" }]
         hash["copyright"] = [{
           "from" => year,
-          "owner" => [{ "organization" => {
-            "name" => [{ "content" => OimlFetcher::OIML_NAME }],
-            "abbreviation" => { "content" => OimlFetcher::OIML_ABBR },
-          } }],
+          "owner" => [{ "organization" => OimlFetcher.oiml_org_hash }],
         }]
       end
 
-      path = File.join(@data_dir, filename_for(translated_ref, lang_code))
-      item = Relaton::Bib::Item.from_hash(hash)
-      File.write(path, item.to_yaml, encoding: "UTF-8")
+      filename = "#{slugify(ref).downcase}_#{lang_code}"
+      @yaml_store.write(filename, hash)
     rescue StandardError => e
-      warn "  ERROR building #{translated_ref} (#{lang}): #{e.message}"
-      warn "  #{e.backtrace.first(3).join("\n  ")}"
+      warn "  ERROR building #{raw_ref} (#{lang}): #{e.message}"
     end
 
-    def strip_locale_suffix(ref)
-      ref.sub(/-en\z/, "").sub(/-fr\z/, "").sub(/-de\z/, "").sub(/-\w{2,3}\z/, "")
+    def clean_ref(raw_cell_text)
+      text = raw_cell_text.gsub(/\s+/, " ").strip
+      if (m = /(?:OIML\s+)?([A-Z])\s+(\d+(?:-\d+)*)\s*(?::(\d{4}))?/.match(text))
+        prefix = m[1]
+        number = m[2]
+        year = m[3]
+        ref = year ? "#{prefix} #{number}:#{year}" : "#{prefix} #{number}"
+        return ref + " Brochure" if text =~ /\bBrochure\b/i
+        return ref + " Amendment" if text =~ /\bAmendment\b/i
+        return ref + " Errata" if text =~ /\bErrata\b/i
+        return ref
+      end
+      text
     end
 
-    def id_for(translated_ref, lang)
-      base = translated_ref.gsub(/\s+/, "").tr(":", "-")
-      "#{base}-#{lang}"
-    end
-
-    def filename_for(translated_ref, lang)
-      stem = translated_ref.downcase.gsub(/\s+/, "").tr(":/", "-").gsub(/[^a-z0-9-]+/, "-").gsub(/^-+|-+$/, "")
-      "#{stem}_#{lang}.yaml"
+    def slugify(ref)
+      ref
+        .sub(/\AOIML\s+/i, "")
+        .gsub(/\s+/, "")
+        .tr(":", "-")
+        .gsub(/[^A-Za-z0-9-]/, "")
     end
 
     def script_for(lang)
@@ -117,32 +126,6 @@ module OimlFetcher
       when "chinese" then "Hans"
       when "russian", "serbian", "ukrainian" then "Cyrl"
       else "Latn"
-      end
-    end
-
-    def full_url(path)
-      path.start_with?("http") ? path : "#{OimlFetcher::BASE_URL}/#{path}"
-    end
-
-    def fetch_body(url)
-      uri = URI(url)
-      Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == "https") do |http|
-        fetch_with_redirects(http, uri, 0)
-      end
-    end
-
-    def fetch_with_redirects(http, uri, depth, limit = 5)
-      raise "Too many redirects from #{uri}" if depth >= limit
-
-      res = http.get(uri.request_uri)
-      case res
-      when Net::HTTPSuccess then res.body
-      when Net::HTTPRedirection
-        loc = res["location"]
-        next_uri = loc.start_with?("http") ? URI(loc) : uri.merge(loc)
-        fetch_with_redirects(http, next_uri, depth + 1, limit)
-      else
-        raise "HTTP #{res.code} for #{uri}"
       end
     end
   end

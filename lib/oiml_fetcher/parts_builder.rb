@@ -25,9 +25,10 @@ module OimlFetcher
 
     attr_reader :parts, :amendments, :annexes, :errata
 
-    def initialize(data_dir:, pdfs_dir:)
+    def initialize(data_dir:, pdfs_dir:, yaml_store:)
       @data_dir = File.expand_path(data_dir)
       @pdfs_dir = File.expand_path(pdfs_dir)
+      @yaml_store = yaml_store
       @parts = []
       @amendments = []
       @annexes = []
@@ -207,7 +208,7 @@ module OimlFetcher
         "type" => "standard",
         "docidentifier" => [{ "content" => inst_docid, "type" => "OIML", "primary" => true }],
         "docnumber" => entry.number.to_s,
-        "source" => [{ "type" => "website", "content" => "pdfs/#{rel_path}" }],
+        "source" => [OimlFetcher::Source.local("pdfs/#{rel_path}")],
         "language" => [entry.lang],
         "script" => ["Latn"],
         "date" => [{ "type" => "published", "from" => "#{entry.year}-01-01" }],
@@ -227,30 +228,29 @@ module OimlFetcher
       all_annexes_by_series = @annexes.group_by { |e| e.series_dir }
 
       (all_parts_by_series.keys | all_annexes_by_series.keys).each do |series_dir|
-        path = File.join(@data_dir, "#{series_dir}.yaml")
-        next unless File.exist?(path)
+        next unless @yaml_store.exist?(series_dir)
 
         parts = all_parts_by_series[series_dir] || []
         annexes = all_annexes_by_series[series_dir] || []
-        patch_one_series(path, parts, annexes)
+        patch_one_series(series_dir, parts, annexes)
       end
     end
 
-    def patch_one_series(path, parts, annexes)
-      data = YAML.safe_load(File.read(path, encoding: "UTF-8"))
-      data["relation"] ||= []
+    def patch_one_series(name, parts, annexes)
+      @yaml_store.patch(name) do |data|
+        data["relation"] ||= []
 
-      (parts + annexes).each do |e|
-        target = work_docid(e)
-        next if data["relation"].any? { |r| r.dig("bibitem", "docidentifier", 0, "content") == target }
+        (parts + annexes).each do |e|
+          target = work_docid(e)
+          next if data["relation"].any? { |r| r.dig("bibitem", "docidentifier", 0, "content") == target }
 
-        data["relation"] << {
-          "type" => "hasPart",
-          "bibitem" => bare_bibitem(target),
-        }
+          data["relation"] << {
+            "type" => "hasPart",
+            "bibitem" => bare_bibitem(target),
+          }
+        end
+        data
       end
-
-      File.write(path, YAML.dump(data), encoding: "UTF-8")
     end
 
     # ---- Helpers ----
@@ -349,11 +349,7 @@ module OimlFetcher
     end
 
     def write_yaml(hash, name)
-      path = File.join(@data_dir, name)
-      return if File.exist?(path)
-
-      item = Relaton::Bib::Item.from_hash(hash)
-      File.write(path, item.to_yaml, encoding: "UTF-8")
+      @yaml_store.write(name, hash, overwrite: false)
     rescue StandardError => e
       warn "  emit fail for #{name}: #{e.message}"
     end

@@ -2,43 +2,34 @@
 
 module OimlFetcher
   # Fetches publication metadata from the oiml.org JSON API and emits Relaton
-  # YAML files following a work + instance model:
+  # YAML files following a work + instance model.
   #
-  #   r35_2007.yaml        — the work (OIML R 35:2007), no source, links to
-  #                          its instances via hasInstance
-  #   r35_2007_en.yaml     — English instance, source = English PDF
-  #   r35_2007_fr.yaml     — French instance, source = French PDF
+  #   r35_2007.yaml        — work (no source, hasInstance → instances)
+  #   r35_2007_eng.yaml    — English instance (source = English PDF)
+  #   r35_2007_fra.yaml    — French instance
   #
   # Genuinely bilingual publications (single combined PDF, e.g. V 1) stay as
-  # one YAML with language: [en, fr].
+  # one YAML with language: [eng, fra].
   class PublicationFetcher
-    def initialize(data_dir:, types:, statuses:)
-      @data_dir = File.expand_path(data_dir)
+    def initialize(data_dir:, types:, statuses:, yaml_store:, http_backend: OimlFetcher::Http.backend)
+      @data_dir = data_dir
       @types = types
       @statuses = statuses
+      @yaml_store = yaml_store
+      @http_backend = http_backend
     end
 
     def run
       FileUtils.mkdir_p(@data_dir)
-      @types.each do |segment|
-        fetch_type(segment)
-      end
+      @types.each { |segment| fetch_type(segment) }
     end
 
     private
 
     def fetch_type(segment)
       p_type, prefix, fr_segment, doctype = OimlFetcher::TYPES.fetch(segment)
-      merged = collect_publications(segment, fr_segment, p_type)
-
-      merged.each_value do |pair|
-        pub_en = pair[:en]
-        pub_fr = pair[:fr]
-        if pub_en && pub_fr && separate_pdfs?(pub_en, pub_fr)
-          write_work_and_instances(pub_en, pub_fr, prefix, doctype)
-        else
-          write_single(pub_en || pub_fr, pub_en, pub_fr, prefix, doctype)
-        end
+      collect_publications(segment, fr_segment, p_type).each_value do |pair|
+        emit_for(pair, prefix, doctype)
       end
     end
 
@@ -60,82 +51,81 @@ module OimlFetcher
       merged
     end
 
+    def emit_for(pair, prefix, doctype)
+      pub_en = pair[:en]
+      pub_fr = pair[:fr]
+      if pub_en && pub_fr && separate_pdfs?(pub_en, pub_fr)
+        write_work_and_instances(pub_en, pub_fr, doctype)
+      else
+        write_single(pub_en || pub_fr, pub_en, pub_fr, doctype)
+      end
+    end
+
     def separate_pdfs?(pub_en, pub_fr)
       file_en = File.basename(pub_en["url_en"] || pub_en["url"] || "")
       file_fr = File.basename(pub_fr["url"] || pub_fr["url_en"] || "")
       !file_en.empty? && file_en != file_fr
     end
 
-    def write_work_and_instances(pub_en, pub_fr, prefix, doctype)
-      work_hash = build_work_hash(pub_en, pub_fr, prefix, doctype)
-      write_yaml(work_hash, filename_for(work_hash, nil))
+    def write_work_and_instances(pub_en, pub_fr, doctype)
+      work_hash = build_work_hash(pub_en, pub_fr, doctype)
+      @yaml_store.write(work_filename(work_hash), work_hash)
 
-      en_hash = build_instance_hash(pub_en, pub_fr, "eng", prefix, doctype, work_hash)
-      write_yaml(en_hash, filename_for(en_hash, "eng"))
+      en_hash = build_instance_hash(pub_en, "eng", doctype, work_hash)
+      @yaml_store.write(work_filename(en_hash, "eng"), en_hash)
 
-      fr_hash = build_instance_hash(pub_fr, pub_en, "fra", prefix, doctype, work_hash)
-      write_yaml(fr_hash, filename_for(fr_hash, "fra"))
-    rescue StandardError => e
-      ref = pub_en["ref"] || pub_fr["ref"]
-      warn "  ERROR building work/instances for #{ref}: #{e.message}"
-      warn "  #{e.backtrace.first(5).join("\n  ")}"
+      fr_hash = build_instance_hash(pub_fr, "fra", doctype, work_hash)
+      @yaml_store.write(work_filename(fr_hash, "fra"), fr_hash)
     end
 
-    def write_single(pub, pub_en, pub_fr, prefix, doctype)
-      hash = build_single_hash(pub, pub_en, pub_fr, prefix, doctype)
-      write_yaml(hash, filename_for(hash, nil))
-    rescue StandardError => e
-      warn "  ERROR building #{pub['ref'] || pub['id']}: #{e.message}"
-      warn "  #{e.backtrace.first(5).join("\n  ")}"
+    def write_single(pub, pub_en, pub_fr, doctype)
+      hash = build_single_hash(pub, pub_en, pub_fr, doctype)
+      @yaml_store.write(work_filename(hash), hash)
     end
 
     # ---- Hash builders ----
 
-    def build_work_hash(pub_en, pub_fr, prefix, doctype)
-      titles = []
-      titles << localized_title(pub_en, "eng") if pub_en && pub_en["title"]
-      titles << localized_title(pub_fr, "fra") if pub_fr && pub_fr["title"]
-      titles.uniq!
+    def build_work_hash(pub_en, pub_fr, doctype)
+      pub = pub_en || pub_fr
+      docid = OimlFetcher::Docid.from_short_title(pub["shortTitle"] || pub["ref"])
+      titles = titles_for(pub_en, pub_fr)
+      year = pub["edition_en"] || pub["edition"]
 
-      ref_en = pub_en["ref"] || pub_fr["ref"] || ""
-      year = (pub_en || pub_fr)["edition_en"] || (pub_en || pub_fr)["edition"]
-      docid = docid_from((pub_en || pub_fr)["shortTitle"] || ref_en)
-
-      hash = {
-        "id" => id_for(docid, nil),
+      {
+        "id" => docid.id,
         "type" => "standard",
         "title" => titles,
         "docidentifier" => [{
-          "content" => docid,
+          "content" => docid.to_s,
           "type" => "OIML",
           "primary" => true,
         }],
-        "docnumber" => ref_en[/\d+/],
-        "contributor" => contributors((pub_en || pub_fr)["scTitle"]),
+        "docnumber" => pub["ref"][/\d+/],
+        "contributor" => contributors(pub["scTitle"]),
         "language" => titles.map { |t| t["language"] }.uniq,
         "script" => ["Latn"],
-        "status" => { "stage" => { "content" => status_name((pub_en || pub_fr)["idStatus"]) } },
+        "status" => { "stage" => { "content" => OimlFetcher::STATUS_NAMES.fetch(pub["idStatus"]) } },
         "ext" => { "doctype" => { "content" => doctype }, "flavor" => "oiml" },
-      }
-      apply_year!(hash, year)
-      add_instance_relations!(hash, docid)
-      hash
+      }.tap do |h|
+        apply_year!(h, year)
+        add_instance_relations!(h, docid)
+      end
     end
 
-    def build_instance_hash(pub, other_pub, lang, prefix, doctype, work_hash)
+    def build_instance_hash(pub, lang, doctype, work_hash)
+      docid = OimlFetcher::Docid.from_short_title(pub["shortTitle"] || pub["ref"])
       title = pub["title"] ? [localized_title(pub, lang)] : []
       url = lang == "eng" ? (pub["url_en"] || pub["url"]) : (pub["url"] || pub["url_en"])
       year = pub["edition_en"] || pub["edition"]
       work_docid = work_hash["docidentifier"].first["content"]
-      docid_suffix = OimlFetcher::DOCID_LANG_CODE.fetch(lang)
 
-      hash = {
-        "id" => id_for(work_docid, docid_suffix),
+      {
+        "id" => "#{docid.id}-#{OimlFetcher::DOCID_LANG_CODE.fetch(lang)}",
         "type" => "standard",
         "title" => title,
-        "source" => url && !url.empty? ? [{ "type" => "website", "content" => full_url(url) }] : [],
+        "source" => url && !url.empty? ? [OimlFetcher::Source.oiml(url)] : [],
         "docidentifier" => [{
-          "content" => "#{work_docid} (#{docid_suffix})",
+          "content" => "#{work_docid} (#{OimlFetcher::DOCID_LANG_CODE.fetch(lang)})",
           "type" => "OIML",
           "primary" => true,
         }],
@@ -143,52 +133,48 @@ module OimlFetcher
         "contributor" => contributors(pub["scTitle"]),
         "language" => [lang],
         "script" => ["Latn"],
-        "status" => { "stage" => { "content" => status_name(pub["idStatus"]) } },
+        "status" => { "stage" => { "content" => OimlFetcher::STATUS_NAMES.fetch(pub["idStatus"]) } },
         "relation" => [{
           "type" => "instanceOf",
-          "bibitem" => relation_bibitem(work_docid),
+          "bibitem" => { "docidentifier" => [{ "content" => work_docid, "type" => "OIML" }] },
         }],
         "ext" => { "doctype" => { "content" => doctype }, "flavor" => "oiml" },
-      }
-      apply_year!(hash, year)
-      hash
+      }.tap { |h| apply_year!(h, year) }
     end
 
-    def build_single_hash(pub, pub_en, pub_fr, prefix, doctype)
-      ref = pub["ref"] || ""
-      year = pub["edition_en"] || pub["edition"]
-      docid = docid_from(pub["shortTitle"] || ref)
-
-      titles = []
-      titles << localized_title(pub_en, "eng") if pub_en && pub_en["title"]
-      titles << localized_title(pub_fr, "fra") if pub_fr && pub_fr["title"]
-      titles.uniq!
-
+    def build_single_hash(pub, pub_en, pub_fr, doctype)
+      docid = OimlFetcher::Docid.from_short_title(pub["shortTitle"] || pub["ref"])
+      titles = titles_for(pub_en, pub_fr)
       url = pub["url_en"] || pub["url"]
-      languages = titles.map { |t| t["language"] }.uniq
+      year = pub["edition_en"] || pub["edition"]
 
-      hash = {
-        "id" => id_for(docid, nil),
+      {
+        "id" => docid.id,
         "type" => "standard",
         "title" => titles,
-        "source" => url && !url.empty? ? [{ "type" => "website", "content" => full_url(url) }] : [],
+        "source" => url && !url.empty? ? [OimlFetcher::Source.oiml(url)] : [],
         "docidentifier" => [{
-          "content" => docid,
+          "content" => docid.to_s,
           "type" => "OIML",
           "primary" => true,
         }],
-        "docnumber" => ref[/\d+/],
+        "docnumber" => pub["ref"][/\d+/],
         "contributor" => contributors(pub["scTitle"]),
-        "language" => languages,
+        "language" => titles.map { |t| t["language"] }.uniq,
         "script" => ["Latn"],
-        "status" => { "stage" => { "content" => status_name(pub["idStatus"]) } },
+        "status" => { "stage" => { "content" => OimlFetcher::STATUS_NAMES.fetch(pub["idStatus"]) } },
         "ext" => { "doctype" => { "content" => doctype }, "flavor" => "oiml" },
-      }
-      apply_year!(hash, year)
-      hash
+      }.tap { |h| apply_year!(h, year) }
     end
 
     # ---- Helpers ----
+
+    def titles_for(pub_en, pub_fr)
+      titles = []
+      titles << localized_title(pub_en, "eng") if pub_en && pub_en["title"]
+      titles << localized_title(pub_fr, "fra") if pub_fr && pub_fr["title"]
+      titles.uniq
+    end
 
     def apply_year!(hash, year)
       return unless year
@@ -197,39 +183,24 @@ module OimlFetcher
       hash["version"] = [{ "revision_date" => "#{year}-01-01" }]
       hash["copyright"] = [{
         "from" => year.to_s,
-        "owner" => [{ "organization" => oiml_org_hash }],
+        "owner" => [{ "organization" => OimlFetcher.oiml_org_hash }],
       }]
     end
 
-    def add_instance_relations!(hash, work_docid)
+    def add_instance_relations!(hash, docid)
       hash["relation"] = hash["language"].map do |lang|
         suffix = OimlFetcher::DOCID_LANG_CODE.fetch(lang)
         {
           "type" => "hasInstance",
           "bibitem" => {
-            "docidentifier" => [{ "content" => "#{work_docid} (#{suffix})", "type" => "OIML" }],
+            "docidentifier" => [{ "content" => "#{docid.to_s} (#{suffix})", "type" => "OIML" }],
           },
         }
       end
     end
 
-    def relation_bibitem(docid)
-      { "docidentifier" => [{ "content" => docid, "type" => "OIML" }] }
-    end
-
-    def localized_title(pub, lang)
-      { "language" => lang, "content" => pub["title"], "type" => "main" }
-    end
-
-    def status_name(id_status)
-      OimlFetcher::STATUS_NAMES.fetch(id_status)
-    end
-
     def contributors(sc_title)
-      list = [{
-        "role" => [{ "type" => "publisher" }],
-        "organization" => oiml_org_hash,
-      }]
+      list = [OimlFetcher.oiml_publisher_contributor]
       return list if sc_title.nil? || sc_title.empty?
 
       list << {
@@ -269,58 +240,23 @@ module OimlFetcher
       end
     end
 
-    def docid_from(short_title)
-      core =
-        if (m = /^(.+?)\s*\((?:en|fr)\)$/.match(short_title))
-          m[1]
-        else
-          short_title
-        end
-      core = core.sub(/-en\z/, "").sub(/-fr\z/, "")
-      "OIML #{core}".strip
+    def localized_title(pub, lang)
+      { "language" => lang, "content" => pub["title"], "type" => "main" }
     end
 
-    def id_for(docid, lang)
-      base = docid.sub(/^OIML\s+/, "").gsub(/\s+/, "").tr(":", "-")
-      lang ? "#{base}-#{lang}" : base
-    end
-
-    def filename_for(hash, lang)
-      docid = hash["docidentifier"].first["content"]
-      m = /^OIML\s+(.+?):(\d{4})/.match(docid) or
-        raise "Unrecognized docid format: #{docid.inspect}"
+    def work_filename(hash, lang = nil)
+      docid_str = hash["docidentifier"].first["content"]
+      m = /^OIML\s+(.+?):(\d{4})/.match(docid_str) or
+        raise "Unrecognized docid format: #{docid_str.inspect}"
 
       ref_part = m[1].downcase.gsub(/\s+/, "").tr("/", "-")
       suffix = lang ? "_#{lang}" : ""
-      "#{ref_part}_#{m[2]}#{suffix}.yaml"
-    end
-
-    def oiml_org_hash
-      {
-        "name" => [{ "content" => OimlFetcher::OIML_NAME }],
-        "abbreviation" => { "content" => OimlFetcher::OIML_ABBR },
-      }
-    end
-
-    def full_url(path)
-      return nil if path.nil? || path.empty?
-
-      path.start_with?("http") ? path : "#{OimlFetcher::BASE_URL}/#{path}"
-    end
-
-    def write_yaml(hash, name)
-      item = Relaton::Bib::Item.from_hash(hash)
-      File.write(File.join(@data_dir, name), item.to_yaml, encoding: "UTF-8")
+      "#{ref_part}_#{m[2]}#{suffix}"
     end
 
     def fetch_json(url)
-      uri = URI(url)
-      res = Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == "https") do |http|
-        http.get(uri.request_uri, "Accept" => "application/json")
-      end
-      raise "HTTP #{res.code} for #{url}" unless res.is_a?(Net::HTTPSuccess)
-
-      JSON.parse(res.body)
+      body = @http_backend.get(url, headers: { "Accept" => "application/json" })
+      JSON.parse(body)
     end
   end
 end
