@@ -4,17 +4,18 @@ require "net/http"
 require "json"
 require "fileutils"
 require "time"
+require "uri"
+require "yaml"
 
 require "relaton/bib"
 require "nokogiri"
-require "active_support/core_ext/string/filters" # String#squish
+require "active_support/core_ext/string/filters"
 
 # OimlFetcher scrapes oiml.org publications and translation pages into
 # Relaton YAML files under data/.
 module OimlFetcher
   BASE_URL = "https://www.oiml.org".freeze
 
-  # path segment (EN) → (p_type, prefix, FR segment, doctype label)
   TYPES = {
     "recommendations" => [1, "R", "recommandations",  "recommendation"],
     "documents"       => [2, "D", "documents",        "document"],
@@ -38,7 +39,6 @@ module OimlFetcher
     7 => "joint",
   }.freeze
 
-  # idStatus values that should be fetched. 2/3/4 return empty.
   ALL_STATUSES = [1, 5, 6].freeze
 
   OIML_NAME = "International Organization of Legal Metrology".freeze
@@ -76,10 +76,30 @@ module OimlFetcher
     "fas" => "PE",
     "srp" => "SR",
   }.freeze
-end
 
-require_relative "oiml_fetcher/scrape"
-require_relative "oiml_fetcher/publication_fetcher"
-require_relative "oiml_fetcher/translation_fetcher"
-require_relative "oiml_fetcher/portfolio_fetcher"
-require_relative "oiml_fetcher/parts_builder"
+  def self.oiml_org_hash
+    {
+      "name" => [{ "content" => OIML_NAME }],
+      "abbreviation" => { "content" => OIML_ABBR },
+    }
+  end
+
+  def self.oiml_publisher_contributor
+    {
+      "role" => [{ "type" => "publisher" }],
+      "organization" => oiml_org_hash,
+    }
+  end
+
+  autoload :Docid,           "oiml_fetcher/docid"
+  autoload :Source,          "oiml_fetcher/source"
+  autoload :Http,            "oiml_fetcher/http"
+  autoload :YamlStore,       "oiml_fetcher/yaml_store"
+  autoload :FilenameParser,  "oiml_fetcher/filename_parser"
+  autoload :PublicationFetcher, "oiml_fetcher/publication_fetcher"
+  autoload :TranslationFetcher, "oiml_fetcher/translation_fetcher"
+  autoload :PortfolioFetcher,   "oiml_fetcher/portfolio_fetcher"
+  autoload :PartsBuilder,       "oiml_fetcher/parts_builder"
+  autoload :Caco3Fetcher,       "oiml_fetcher/caco3_fetcher"
+  autoload :Scrape,             "oiml_fetcher/scrape"
+end
