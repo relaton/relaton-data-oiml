@@ -27,5 +27,10 @@ gem "nokogiri"
 gem "net-http-persistent"
 gem "activesupport", require: false   # String#squish for translation parsing
 
+group :development, :test do
+  gem "rspec", "~> 3.13"
+  gem "webmock"
+end
+
 
 
