@@ -73,3 +73,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation deals with integrating-averaging sound level meters,
+    i.e. instruments for the measurement of frequency-weighted and time-averaged sound
+    pressure levels. These instruments may also measure sound exposure levels, but
+    this Recommendation does not apply to personal sound exposure meters.
+  quantity: Sound intensity level
+  measuring_instrument: Sound level meter
+  focus_area: Trade
+  sustainability_framework: People
+  doi: 10.63493/r088.1998.en

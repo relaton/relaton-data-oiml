@@ -80,3 +80,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation concerns analogue electroencephalographs, which are defined
+    as diagnostic medical instruments having at least eight channels. Such instruments
+    are intended to accurately measure and record bioelectrical potentials and their
+    time sequences as detected by electrodes attached to the surface of the human
+    scalp.
+  measuring_instrument: Electroencephalograph
+  focus_area: Health
+  sustainability_framework: People
+  doi: 10.63493/r089.1990.en

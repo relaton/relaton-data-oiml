@@ -78,3 +78,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation deals with ships' tanks used either for the transport
+    and measurement of liquid products in bulk, or for the storage and measurement
+    of the fuel oil used by the ship herself, that are subject to the control of the
+    National Service of Legal Metrology.
+  quantity: Volume
+  focus_area: Trade
+  sustainability_framework: Prosperity
+  doi: 10.63493/r095.1990.en

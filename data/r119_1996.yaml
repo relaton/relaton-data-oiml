@@ -74,3 +74,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation deals with pipe provers and with their use for testing
+    measuring systems for liquids other than water (hereinafter called "measuring
+    systems"), in order to verify that they comply with the relevant metrological
+    requirements in the International Recommendation OIML R 117 Measuring systems
+    for liquids other than water.
+  doi: 10.63493/r119.1996.en

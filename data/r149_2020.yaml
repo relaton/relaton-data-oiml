@@ -78,3 +78,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies general, performance, efficiency and mechanical
+    safety requirements for non-invasive automated sphygmomanometers and their accessories
+    which, by means of an inflatable cuff, are used for the non-invasive measurement
+    of arterial blood pressure.
+  quantity: Pressure
+  measuring_instrument: Sphygmomanometer
+  focus_area: Health
+  sustainability_framework: People
+  doi: 10.63493/r149.2020.en

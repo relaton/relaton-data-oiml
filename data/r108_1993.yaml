@@ -78,3 +78,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation applies to refractometers used to determine the mass
+    fraction of sugars (sucrose, invert-sugar, glucose, fructose) in fruit juices
+    by measuring their refractive indices.
+  quantity: Refractive Index
+  measuring_instrument: Refractometer
+  sustainability_framework: People
+  doi: 10.63493/r108.1993.en

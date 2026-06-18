@@ -80,3 +80,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation applies to general purpose thermographic instruments
+    and specifies the procedure for their calibration, and also for their initial
+    and subsequent verifications.
+  quantity: Temperature
+  measuring_instrument: Thermographic instruments
+  doi: 10.63493/r141.2008.en

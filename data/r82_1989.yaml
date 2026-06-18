@@ -60,3 +60,14 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation provides the procedures for testing and verifying the
+    performance of a gas chromatograph (GC) system when used for the measurement of
+    pesticides and other toxic substances in carrying out pollution control programs
+    and in assessing the quality of food products as mandated by national laws and
+    regulations. It does not intend to exclude any equivalent means of measurement
+    or analysis for such toxic substances.
+  quantity: Amount of substance concentration
+  measuring_instrument: Gas chromatograph
+  focus_area: Environment
+  sustainability_framework: People
+  doi: 10.63493/r082.1989.en

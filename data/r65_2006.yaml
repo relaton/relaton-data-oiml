@@ -78,3 +78,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation gives the metrological and technical performance requirements
+    and the inspection and testing procedures necessary for the metrological control
+    of the force measuring system of uniaxial material testing machines subject to
+    national laws and regulations.
+  quantity: Force
+  doi: 10.63493/r065.2006.en

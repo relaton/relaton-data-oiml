@@ -78,3 +78,7 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation deals with the calibration of conductivity cells by direct
+    or indirect reference to standard solutions covered by the International Recommendation
+    No. 56 "Standard solutions reproducing the conductivity of electrolytes".
+  doi: 10.63493/r068.1985.en

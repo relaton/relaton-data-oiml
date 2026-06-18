@@ -80,3 +80,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation provides requirements for defining, testing and verifying
+    the performance of portable and transportable X-ray fluorescence (XRF) spectrometers
+    which may be used for legal measurements of hazardous elemental pollutants found
+    in various media, especially soil and waste water.
+  quantity: Amount of substance concentration
+  measuring_instrument: X-ray fluorescence spectrometer
+  sustainability_framework: People
+  doi: 10.63493/r123.1997.en

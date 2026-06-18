@@ -80,3 +80,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation concerns single-channel and multi-channel electrocardiographs
+    with analogue circuits which linearly amplify and display cardiac potential signals
+    at the body surface, with respect to time.
+  focus_area: Health
+  sustainability_framework: People
+  doi: 10.63493/r090.1990.en

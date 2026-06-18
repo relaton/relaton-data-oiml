@@ -78,3 +78,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation deals with pure-tone audiometers designed for use in
+    determining hearing threshold levels by comparison with the standard reference
+    threshold levels by means of psychoacoustic test methods.
+  quantity: Sound intensity level
+  measuring_instrument: Pure-tone audiometer
+  focus_area: Health
+  sustainability_framework: People
+  doi: 10.63493/r104.1993.en

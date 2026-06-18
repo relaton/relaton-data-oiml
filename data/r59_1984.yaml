@@ -78,3 +78,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies the metrological and technical requirements,
+    test methods and maximum permissible errors for the type approval of grain moisture
+    meters used in commercial transactions of cereal grains and oilseeds.
+  measuring_instrument: Sound level meter
+  focus_area: Trade
+  sustainability_framework: People
+  doi: 10.63493/r059.1984.en

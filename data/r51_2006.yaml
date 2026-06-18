@@ -88,3 +88,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This International Recommendation specifies the metrological and technical
+    requirements and test procedures for automatic catchweighing instruments (catchweighers),
+    hereinafter called "instruments", that are subject to national metrological control.
+  quantity: Mass
+  measuring_instrument: Automatic catchweigher
+  focus_area: Trade
+  sustainability_framework: Prosperity
+  doi: 10.63493/r051.2006.en

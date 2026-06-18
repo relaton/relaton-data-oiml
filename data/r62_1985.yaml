@@ -73,3 +73,7 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation deals with metallic resistance strain gauges of the type
+    used for determining the mechanical properties of materials, for stress analysis
+    of structures, and as sensing elements in a variety of measuring instruments.
+  doi: 10.63493/r062.1985.en

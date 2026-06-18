@@ -78,3 +78,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation applies to alcoholometers and alcohol hydrometers used
+    for the determination of the alcoholic strength of mixtures of water and ethanol,
+    and to thermometers for use in alcoholometry. It sets out technical and metrological
+    specifications for these instruments, in accordance with International Recommendation
+    No. "22 International Alcoholometric Tables".
+  quantity: Volume
+  measuring_instrument: Alcoholmeter, alcohol hydrometer
+  doi: 10.63493/r044.1985.en

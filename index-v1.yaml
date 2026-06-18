@@ -2691,3 +2691,13 @@
   :file: data/r61-2-2004.yaml
 - :id: OIML R 61-2:2004 (E)
   :file: data/r61-2-2004_eng.yaml
+- :id: OIML B 18 (C)
+  :file: data/b18_zho.yaml
+- :id: OIML D 1 Brochure (U)
+  :file: data/d1brochure_ukr.yaml
+- :id: OIML R 126 (S)
+  :file: data/r126_spa.yaml
+- :id: OIML R 46-1 (S)
+  :file: data/r46-1_spa.yaml
+- :id: OIML R 76 (C)
+  :file: data/r76_zho.yaml

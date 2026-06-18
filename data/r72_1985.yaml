@@ -58,3 +58,7 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation applies to hot water meters metering the volume flow
+    of hot water which has flowed in a pipe past the measuring cross section. The
+    hot water meters shall have integrating mechanisms, indicating volume flow.
+  doi: 10.63493/r072.1985.en

@@ -73,3 +73,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies the requirements for analogue and digital focimeters
+    with which the vertex powers and prismatic powers of spherical and astigmatic
+    lenses (including lenses mounted in frames and contact lenses) can be measured
+    and lenses can be oriented and marked.
+  quantity: Length
+  measuring_instrument: Focimeter
+  focus_area: Health
+  sustainability_framework: People
+  doi: 10.63493/r093.1999.en

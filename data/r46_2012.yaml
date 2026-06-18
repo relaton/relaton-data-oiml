@@ -83,3 +83,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies the metrological and technical requirements
+    applicable to electricity meters subject to legal metrological controls. The requirements
+    are to be applied during type approval, verification, and re-verification. They
+    also apply to modifications that may be made to existing approved devices.
+  quantity: Energy
+  measuring_instrument: Electrical energy meter
+  sustainability_framework: People
+  doi: 10.63493/r046.2012.en

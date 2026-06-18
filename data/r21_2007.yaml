@@ -78,3 +78,13 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This International Recommendation specifies the metrological and technical
+    requirements and test procedures for taximeters that are subject to national metrological
+    control. It is intended to provide standardized requirements and testing procedures
+    to evaluate the metrological and technical characteristics in a uniform and traceable
+    way.
+  quantity: Length
+  measuring_instrument: Taximeter
+  focus_area: Trade
+  sustainability_framework: People
+  doi: 10.63493/r021.2007.en

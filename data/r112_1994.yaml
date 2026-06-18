@@ -80,3 +80,14 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation provides requirements for defining, testing, and verifying
+    the performance of high performance liquid chromatographic (HPLC) systems when
+    used for measurement of pesticides and toxic substances in carrying out pollution
+    control programs and in assessing the quality of food products as mandated by
+    national laws and regulations. It does not intend to exclude any other equivalent
+    means of measurement and analysis.
+  quantity: Amount of substance concentration
+  measuring_instrument: High performance liquid chromatograph
+  focus_area: Environment
+  sustainability_framework: People
+  doi: 10.63493/r112.1994.en

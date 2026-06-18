@@ -59,3 +59,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: 'This Recommendation applies to: (1) rotary piston gas meters in which internal
+    walls defining the measuring chambers are set in rotation and the number of revolutions
+    of these walls represents a measurement of the volume of the gas passed; (2) turbine
+    gas meters where the gas flow rotates a turbine wheel and the number of revolutions
+    of this wheel represents the volume of the gas passed.'
+  doi: 10.63493/r032.1989.en

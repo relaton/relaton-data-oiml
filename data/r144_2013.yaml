@@ -95,3 +95,15 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation applies to measuring instruments (hereafter referred
+    to as "gas analytical systems") that serve to determine the volume fraction of
+    carbon monoxide (CO), nitrogen monoxide (NO), nitrogen dioxide (NO<sub>2</sub>),
+    or sum of nitrogen oxides (NO<sub>x</sub>) and establishes the conditions and
+    requirements with which such systems shall comply in order to meet the requirements
+    for measurement results of the pollutant content in stationary source emissions
+    within OIML Member States.
+  quantity: Amount of substance concentration
+  measuring_instrument: Gas chromatograph
+  focus_area: Environment
+  sustainability_framework: People
+  doi: 10.63493/r144.2013.en

@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: Part 1
+  content: 'Partie 1 : Exigences métrologiques et techniques - Essais'
   type: main
 docidentifier:
 - content: OIML R 134-1:2006

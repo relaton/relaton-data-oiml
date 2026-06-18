@@ -73,3 +73,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation applies to volumetric containers or vessels used to measure,
+    and when applicable to store and transport, liquids for commercial transactions.
+  quantity: Volume
+  measuring_instrument: Volumetric container
+  focus_area: Trade
+  sustainability_framework: People
+  doi: 10.63493/r138.2007.en

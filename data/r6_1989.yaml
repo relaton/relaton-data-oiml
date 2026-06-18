@@ -58,3 +58,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation prescribes the general requirements which all gas volume
+    meters to which it applies shall meet. Additional requirements are prescribed
+    in the OIML Recommendations particular to the type of gas volume meter concerned.
+  quantity: Volume
+  measuring_instrument: Gas volume meter
+  focus_area: Safety
+  doi: 10.63493/r006.1989.en

@@ -73,3 +73,8 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation covers petroleum measurement tables used by Administrative
+    Services such as Customs for official determination of quantities of petroleum
+    and its products, under reference conditions, starting from measurements of volume
+    or mass, temperature, density, etc.
+  doi: 10.63493/r063.1994.en

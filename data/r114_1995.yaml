@@ -78,3 +78,13 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies the metrological and technical requirements
+    for clinical electrical thermometers for continuous measurement of human or animal
+    body temperature. Such instruments are normally used to monitor the temperature
+    at appropriate body sites of a patient undergoing certain surgical procedures
+    or during intensive care.
+  quantity: Temperature
+  measuring_instrument: Electrical thermometer
+  focus_area: Health
+  sustainability_framework: People
+  doi: 10.63493/r114.1995.en

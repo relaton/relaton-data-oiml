@@ -80,3 +80,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation prescribes the metrological and technical requirements
+    and test procedures for automatic level gauges for measuring the level of liquid
+    in stationary storage tanks, at atmospheric pressure or under pressure and with
+    or without cooling or heating.
+  quantity: Volume
+  measuring_instrument: Level gauges
+  sustainability_framework: Prosperity
+  doi: 10.63493/r085.1998.en

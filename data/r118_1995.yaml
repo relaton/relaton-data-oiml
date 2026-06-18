@@ -80,3 +80,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This International Recommendation concerns the metrological controls to which
+    fuel dispensers for motor vehicles shall be submitted in order to verify that
+    their characteristics comply with the requirements of the International Recommendation
+    OIML R 117 Measuring systems for liquids other than water. It does not apply to
+    dispensers for liquefied petroleum gases (LPG).
+  doi: 10.63493/r118.1995.en

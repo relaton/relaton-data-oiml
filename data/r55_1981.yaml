@@ -80,3 +80,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation applies to instruments designed to indicate to the driver,
+    the instantaneous speed of a vehicle.
+  quantity: Velocity
+  focus_area: Safety
+  sustainability_framework: People
+  doi: 10.63493/r055.1981.en

@@ -78,3 +78,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: The present Recommendation applies to tungsten ribbon lamps used for the
+    calibration of radiation thermometers (including visual or photoelectric tungsten
+    ribbon lamps) and specifies the requirements for tungsten ribbon lamps subject
+    to legal metrological control.
+  quantity: Temperature
+  measuring_instrument: Radiation thermometer
+  doi: 10.63493/r048.2004.en

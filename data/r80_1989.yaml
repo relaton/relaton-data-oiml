@@ -58,3 +58,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies the metrological and technical requirements
+    applicable to static measuring systems for volume of liquids subject to legal
+    metrological controls. It also provides requirements for the approval of parts
+    of the measuring systems.
+  quantity: Volume
+  measuring_instrument: Road and rail tanker with level gauging
+  focus_area: Trade
+  sustainability_framework: Prosperity
+  doi: 10.63493/r080.1989.en

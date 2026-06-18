@@ -88,3 +88,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation applies to gas meters based on any measurement technology
+    or principle that is used to measure the quantity of gas that has passed through
+    the meter at operating conditions. The quantity of gas can be expressed in units
+    of volume or mass.
+  quantity: Mass
+  measuring_instrument: Gas Meter
+  sustainability_framework: People
+  doi: 10.63493/r137.2012.en

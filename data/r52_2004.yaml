@@ -78,3 +78,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation applies to hexagonal weights made of grey cast iron with
+    the denominations specified in this recommendation.
+  quantity: Mass
+  measuring_instrument: Weights
+  sustainability_framework: Prosperity
+  doi: 10.63493/r052.2004.en
