@@ -186,19 +186,52 @@ data/                     # work + instance YAMLs, e.g.
   r35_2007_fra.yaml       #   FR instance
   r35-1-2007_deu.yaml     #   German translation of part 1
   v1_2022.yaml            #   bilingual single-PDF (no split)
-Gemfile                   # psych pin + relaton-bib + thor + nokogiri
+Gemfile                   # psych pin + relaton-bib + thor + nokogiri + rspec
 crawler.rb                # builds index-v1.yaml from data/*.yaml
 check_data.rb             # round-trip validator, exit 1 on mismatch
-exe/oiml-fetch            # binstub using require_relative
-lib/oiml_fetcher.rb       # module + constants (TYPES, STATUS_NAMES, LANG_CODE, DOCID_LANG_CODE)
+exe/oiml-fetch            # binstub ($LOAD_PATH + require "oiml_fetcher")
+bin/extract_portfolio.py  # pypdf helper for PDF Portfolio attachments
+lib/oiml_fetcher.rb       # module + constants + autoload entries (11 modules)
 lib/oiml_fetcher/
+  docid.rb                # OimlFetcher::Docid value object (3 input grammars)
+  source.rb               # OimlFetcher::Source (.url, .oiml, .local)
+  http.rb                 # OimlFetcher::Http seam (NetHttp + Fake adapters)
+  yaml_store.rb           # OimlFetcher::YamlStore (write, read, patch, exist?)
+  filename_parser.rb      # OimlFetcher::FilenameParser (PDF filename → Docid)
   scrape.rb               # Thor subclass (fetch + index tasks)
   publication_fetcher.rb  # JSON API → work + instances
   translation_fetcher.rb  # HTML table scrape → translation instances
+  portfolio_fetcher.rb    # downloads source PDFs + extracts portfolios
+  parts_builder.rb        # PDF portfolio parts → part/amendment/annex/errata YAMLs
+  caco3_fetcher.rb        # enriches Recommendations from caco3consulting.com
+spec/oiml_fetcher/        # rspec specs (63 examples, all passing)
+TODO.refactor/            # architecture review plans (6 candidates)
+pdfs/                     # gitignored PDF cache
 index-v1.yaml             # generated, committed
 README.adoc
 .github/workflows/        # reuse relaton/support workflows
 ```
+
+## Architecture
+
+All modules use Ruby `autoload` (defined in `lib/oiml_fetcher.rb`). No
+`require_relative` anywhere in `lib/`. The binstub adds `lib/` to
+`$LOAD_PATH` and calls `require "oiml_fetcher"`.
+
+Dependency injection: fetchers accept `yaml_store:` and `http_backend:`
+parameters. Tests install `OimlFetcher::Http::Fake` with fixture tables;
+production uses `OimlFetcher::Http::NetHttp` (the default).
+
+`OimlFetcher::YamlStore` owns all YAML I/O — encoding (UTF-8), location
+resolution, idempotency, and Relaton::Bib::Item serialization. No
+`File.write` exists outside `YamlStore`.
+
+`OimlFetcher::Docid` is the single value object for OIML document
+identifiers across all three input grammars (short_title, translation_ref,
+PDF filename). All fetchers use it for id/docid/filename derivation.
+
+`OimlFetcher::Source` produces correctly-typed source hashes (`.url`,
+`.oiml`, `.local`) — prevents the "local path tagged as website" bug.
 
 ## Commands
 
@@ -206,7 +239,10 @@ README.adoc
 bundle install
 bundle exec oiml-fetch                    # fetch all 7 types × {1,5,6} × {en,fr}
 bundle exec oiml-fetch --translations     # also fetch 10 translation pages
+bundle exec oiml-fetch --pdfs             # download PDFs + extract portfolios + build parts
+bundle exec oiml-fetch --caco3            # enrich Recommendations from caco3consulting.com
 bundle exec oiml-fetch --type=recommendations --status=1   # narrow scope
+bundle exec rspec spec/                   # run 63 specs
 bundle exec ruby crawler.rb               # rebuild index-v1.yaml
 bundle exec ruby check_data.rb            # round-trip validate
 ```
