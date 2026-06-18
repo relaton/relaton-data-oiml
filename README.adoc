@@ -1,0 +1,774 @@
+= OIML publications bibliographic data for Relaton
+
+Bibliographic dataset of OIML publications — Recommendations (R), Documents
+(D), Guides (G), Vocabularies (V), Basic Publications (B), Expert Reports (E),
+and Seminar Reports (S) — stored as Relaton YAML under `data/` and consumed by
+the link:https://github.com/relaton/relaton[relaton] toolkit.
+
+The dataset models the full document hierarchy OIML actually publishes:
+*series → parts → language-specific instances*, plus *amendments*,
+*annexes*, *errata*, and *translations* — all linked by typed relations.
+
+== Document model
+
+Each OIML publication is modeled at multiple levels, mirroring FRBR
+(Work → Expression → Manifestation) but flattened into relaton-bib's
+single-class shape.
+
+=== The five document kinds
+
+[cols="1,3,3", options="header"]
+|===
+|Kind |What it is |Example
+
+|**Series work**
+|Abstract publication — the "container" for a multi-part recommendation or
+a single-document publication. No PDF. `hasInstance` to its language
+instances; `hasPart` to its parts.
+|`OIML R 35:2007`
+
+|**Part work**
+|Numbered part of a series (when OIML publishes parts as separate PDFs).
+`partOf` back to the series. Can have its own instances, amendments,
+translations.
+|`OIML R 35-1:2007`
+
+|**Instance**
+|Language-specific PDF. Carries one `source` URL. `instanceOf` back to its
+work (series or part).
+|`OIML R 35-1:2007 (E)`
+
+|**Amendment / Annex / Errata**
+|Document that modifies, supplements, or corrects another document. Linked
+via `amends`, `partOf`, or `updates`.
+|`OIML R 35-1:2014 Amendment`
+
+|**Translation**
+|Other-language PDF (ar, de, fa, …). `translatedFrom` an instance or work.
+|`OIML R 35-1:2007 (D)`
+|===
+
+=== Why split series from parts?
+
+OIML publishes most multi-part Recommendations as a **PDF Portfolio** — a
+single wrapper PDF (e.g. `r035-p-e07.pdf`) containing the separate part PDFs
+as embedded files. The JSON API returns one entry for the whole portfolio
+(`R 35:2007`), but the actual documents are the parts (`R 35-1:2007`,
+`R 35-2:2011`, `R 35-3:2011`).
+
+The fetcher downloads each portfolio, extracts its embedded parts, and
+emits one YAML per discovered part. The portfolio wrapper itself is kept
+as the series instance.
+
+=== Why split works from instances?
+
+OIML publishes most documents as **separate** EN and FR PDFs
+(`r035-p-e07.pdf` vs `r035-p-f07.pdf`) — two distinct language-specific
+artifacts. Modeling them as one work + N instances captures this honestly.
+
+A few publications (e.g. `V 1`, the VIML vocabulary) ship as one bilingual
+PDF. The fetcher detects these by comparing the basename of the EN/FR PDF
+URL — same filename → one YAML with `language: [eng, fra]`, no split.
+
+== Relationship vocabulary
+
+All relations are typed using the relaton-bib vocabulary
+(see `Relaton::Bib::Relation`).
+
+[cols="2,2,4", options="header"]
+|===
+|Type |Direction |Used for
+
+|`hasInstance` / `instanceOf`
+|Work ↔ Instance
+|Series/part work links to its language-specific PDFs
+
+|`hasPart` / `partOf`
+|Series ↔ Part
+|Series links to its numbered parts; also used for annexes (structural)
+
+|`amends`
+|Amendment → Original
+|Amendment identifies what it amends (a part or series)
+
+|`updates`
+|Errata → Original
+|Errata provides corrections to the original
+
+|`translatedFrom`
+|Translation → Source
+|Translation points at the (typically English) instance it was translated from
+|===
+
+Each relation carries a minimal `bibitem` with the target's `docidentifier`
+— enough to resolve without duplicating metadata.
+
+== Identifier conventions
+
+[cols="3,2,4", options="header"]
+|===
+|Item |`id` field |`docidentifier.content`
+
+|Series work
+|`R35-2007`
+|`OIML R 35:2007`
+
+|Part work
+|`R35-1-2007`
+|`OIML R 35-1:2007`
+
+|EN instance
+|`R35-1-2007-E`
+|`OIML R 35-1:2007 (E)`
+
+|FR instance
+|`R35-1-2007-F`
+|`OIML R 35-1:2007 (F)`
+
+|Amendment
+|`R35-1-2014Amendment`
+|`OIML R 35-1:2014 Amendment`
+
+|Annexes
+|`R60-2017Annexes`
+|`OIML R 60:2017 Annexes`
+
+|Specific annex
+|`R104-1997Annex-F`
+|`OIML R 104:1997 Annex F`
+
+|Errata
+|`R126-2015Errata`
+|`OIML R 126:2015 Errata`
+
+|German translation of part 1
+|`R35-1-2007-deu`
+|`OIML R 35-1:2007 (D)`
+|===
+
+The `id` is derived from the docid: strip `OIML `, strip whitespace,
+replace `:` with `-`. Work-level ids never contain a language suffix; EN/FR
+instances append the OIML letter code (`-E`, `-F`), translations append
+the ISO 639-3 code (`-deu`).
+
+== Language code conventions (two distinct vocabularies)
+
+[cols="2,3,2", options="header"]
+|===
+|Where |Format |Examples
+
+|`docidentifier.content` suffix
+|OIML publication codes
+|`E`=English, `F`=French, `D`=German, `R`=Russian, `S`=Spanish,
+`C`=Chinese, `A`=Arabic, `U`=Ukrainian, `PO`=Polish, `PT`=Portuguese,
+`PE`=Persian, `SR`=Serbian
+
+|`language` field, `title.language`, filename `_lang` suffix
+|ISO 639-3 (3-letter)
+|`eng`, `fra`, `deu`, `rus`, `spa`, `zho`, `ara`, `ukr`, `pol`, `por`,
+`fas`, `srp`
+|===
+
+The OIML convention matches what publications print on their cover
+(`R 35:2007(E)`). ISO 639-3 is the relaton-bib standard for the `language`
+attribute.
+
+== Document types (`ext.doctype.content`)
+
+[cols="1,2", options="header"]
+|===
+|Prefix |`ext.doctype.content`
+
+|R |`recommendation`
+|D |`document`
+|G |`guide`
+|V |`vocabulary`
+|B |`basic-publication`
+|E |`expert-report`
+|S |`seminar-report`
+|(translation) |`translation`
+|===
+
+== Lifecycle (`status.stage.content`)
+
+Every publication carries one of:
+
+* `in-force` — currently published. The FR endpoint also emits an FR-only
+  in-force marker (`idStatus=2`); both map to `in-force`.
+* `superseded` (`idStatus=5`) — replaced by a newer publication
+* `withdrawn` (`idStatus=6`) — no longer in force
+* `joint` (`idStatus=7`) — joint publication hosted by another body
+  (e.g. `R 99-ISO3930`)
+
+== Repository layout
+
+[cols="2,5", options="header"]
+|===
+|Path |Purpose
+
+|`data/<ref>_<year>.yaml`
+|Series work (no source, `hasInstance` + `hasPart`)
+
+|`data/<ref>_<year>_eng.yaml`
+|Series EN instance (portfolio wrapper PDF)
+
+|`data/<ref>_<year>_fra.yaml`
+|Series FR instance
+
+|`data/<ref>-<part>-<year>.yaml`
+|Part work (e.g. `r35-1-2007.yaml`)
+
+|`data/<ref>-<part>-<year>_eng.yaml`
+|Part EN instance (extracted from portfolio)
+
+|`data/<ref>-<part>-<year>amendment.yaml`
+|Amendment work
+
+|`data/<ref>-<year>annex*.yaml`
+|Annexes (Annex B, Annex F, all annexes, etc.)
+
+|`data/<ref>-<year>errata.yaml`
+|Errata
+
+|`data/<ref>-<year>_<lang>.yaml`
+|Translation instance (e.g. `_deu`, `_ara`)
+
+|`pdfs/<ref>_<year>/`
+|Source PDFs (gitignored). Wrapper PDFs at root, parts in `parts_<lang>/`
+
+|`index-v1.yaml`
+|Flat lookup table — generated by `crawler.rb`
+
+|`lib/oiml_fetcher/`
+|The fetcher library (Thor-powered)
+
+|`exe/oiml-fetch`
+|Binstub — `bundle exec oiml-fetch` runs the default `fetch` task
+
+|`bin/extract_portfolio.py`
+|Python helper (pypdf) that extracts PDF Portfolio attachments
+
+|`crawler.rb` / `check_data.rb`
+|Rebuild index / round-trip validator
+|===
+
+== Refreshing the data
+
+[source,bash]
+----
+bundle install
+bundle exec oiml-fetch --translations --pdfs   # full pipeline
+bundle exec ruby crawler.rb                    # rebuild index-v1.yaml
+bundle exec ruby check_data.rb                 # round-trip validate (exit 1)
+----
+
+The full pipeline:
+. **Publication fetcher** — hits the JSON API for all 7 types × {1,5,6}
+  statuses × {en,fr}, emits work + EN/FR instance YAMLs
+. **Translation fetcher** — scrapes the 10 translation HTML pages, emits
+  translation instance YAMLs
+. **Portfolio fetcher** — downloads every source PDF referenced from
+  `data/*.yaml` into `pdfs/`, detects portfolios (`-p-` heuristic),
+  extracts embedded parts via `bin/extract_portfolio.py`
+. **Parts builder** — parses extracted-part filenames, emits part work +
+  instance YAMLs, amendments, annexes, errata; patches each series YAML
+  with `hasPart` relations
+
+=== Narrowing the scope
+
+[source,bash]
+----
+bundle exec oiml-fetch --type=recommendations --status=1   # in-force Recs only
+bundle exec oiml-fetch --type=basic                        # all Basic Pubs
+bundle exec oiml-fetch --pdfs --type=recommendations       # PDFs for Recs only
+----
+
+`oiml-fetch` options:
+
+[cols="1,3", options="header"]
+|===
+|Option |Effect
+
+|`--type=SEGMENT` (repeatable)
+|One of: `recommendations`, `documents`, `guides`, `vocabularies`, `basic`,
+`expert`, `seminar`
+
+|`--status=N` (repeatable)
+|One of `1`, `5`, `6`. Defaults to all three. (`7`=joint and `2`=FR-only
+marker are mapped automatically.)
+
+|`--translations`
+|Also scrape the 10 translation HTML pages
+
+|`--pdfs`
+|Download source PDFs and extract PDF Portfolio parts
+
+|`--data_dir=PATH` / `--pdfs_dir=PATH`
+|Output directories (default `data/` and `pdfs/`)
+|===
+
+== How the fetcher works
+
+The seven publication landing pages on oiml.org look like normal Plone HTML
+but are in fact React-rendered shells: a Nokogiri scrape of the HTML returns
+zero entries. The real data lives at the JSON endpoint the React app calls:
+
+[source]
+----
+GET https://www.oiml.org/en/publications/<type>/@@API/publications?id_type=<N>&id_status=<S>
+GET https://www.oiml.org/fr/publications/<type-fr>/@@API/publications?id_type=<N>&id_status=<S>
+----
+
+The publication fetcher hits both `/en/` and `/fr/` endpoints per type and
+pairs results by `id`. For each pair:
+
+* If `File.basename(url_en) != File.basename(url_fr)` → emit a series work
+  YAML + EN instance YAML + FR instance YAML (the common case).
+* If the filenames are identical → emit one YAML with
+  `language: [eng, fra]` and the shared source (the V 1 bilingual case).
+
+Translation pages are server-rendered HTML (`<table class="colour">`).
+They are scraped with Nokogiri; each row becomes its own translation
+instance YAML linked back to the EN canonical item via `translatedFrom`.
+
+PDF Portfolios are Adobe-format wrappers around embedded files. Standard
+PDF tools don't see inside. The fetcher shells out to a small Python
+helper (`bin/extract_portfolio.py`, using `pypdf`) to list and extract
+the embedded PDFs. Ruby's `origami` is incompatible with Ruby 3.4;
+`pdf-reader` doesn't support portfolios.
+
+== PDF archive layout
+
+`pdfs/` is gitignored — these are cache artifacts. Run
+`bundle exec oiml-fetch --pdfs` to (re)populate.
+
+```
+pdfs/
+  r35_2007/                   ← series directory (matches data/r35_2007.yaml)
+    r035-p-e07.pdf            ← EN portfolio wrapper (original filename)
+    r035-p-f07.pdf            ← FR portfolio wrapper
+    parts_eng/                ← extracted EN parts
+      r035-1-e07.pdf          ← Part 1
+      r035-1_amend-e14.pdf    ← Part 1 Amendment
+      r035-2-e11.pdf          ← Part 2
+      r035-3-e11.pdf          ← Part 3
+    parts_fra/                ← extracted FR parts
+      ...
+  r7_1979/                    ← non-portfolio work (single PDFs only)
+    r007-e79.pdf              ← EN
+    r007-f78.pdf              ← FR
+  v1_2022/                    ← bilingual single-PDF work
+    v001-ef22.pdf
+  r35-1-2007_deu/             ← translation directory
+    r035-1-de-07.pdf
+```
+
+See `pdfs/README.md` for the full layout spec.
+
+== Examples
+
+=== Series + parts + amendment (full R 35 cluster)
+
+`OIML R 35:2007` is published as a PDF Portfolio containing parts 1, 2, 3
+and a 2014 amendment to part 1. Eight YAMLs are emitted:
+
+[cols="2,3", options="header"]
+|===
+|File |Represents
+
+|`data/r35_2007.yaml`
+|Series work — `hasInstance` to EN/FR portfolios, `hasPart` to parts
+
+|`data/r35_2007_eng.yaml`
+|EN portfolio wrapper (PDF source)
+
+|`data/r35_2007_fra.yaml`
+|FR portfolio wrapper
+
+|`data/r35-1-2007.yaml`
+|Part 1 work — `partOf` series
+
+|`data/r35-1-2007_eng.yaml`
+|Part 1 EN instance (extracted PDF)
+
+|`data/r35-1-2007_fra.yaml`
+|Part 1 FR instance
+
+|`data/r35-1-2014amendment.yaml`
+|Amendment — `amends` `OIML R 35-1:2007`
+
+|`data/r35-1-2014amendment_eng.yaml`
+|Amendment PDF
+
+|`data/r35-2-2011*.yaml`, `data/r35-3-2011*.yaml`
+|Parts 2, 3 (same shape)
+|===
+
+.Series work — link:data/r35_2007.yaml[`data/r35_2007.yaml`]
+[source,yaml]
+----
+---
+id: R35-2007
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Material measures of length for general use
+  type: main
+- language: fra
+  content: Mesures matérialisées de longueur pour usages généraux
+  type: main
+docidentifier:
+- content: OIML R 35:2007
+  type: OIML
+  primary: true
+docnumber: '35'
+date:
+- type: published
+  from: '2007-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 7
+      identifier:
+      - content: TC7
+      type: technical-committee
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 35:2007 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 35:2007 (F)
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 35-1:2007
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 35-2:2011
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 35-3:2011
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+----
+
+.Part work — link:data/r35-1-2007.yaml[`data/r35-1-2007.yaml`]
+[source,yaml]
+----
+---
+id: R35-1-2007
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Part 1
+  type: main
+docidentifier:
+- content: OIML R 35-1:2007
+  type: OIML
+  primary: true
+docnumber: '35'
+date:
+- type: published
+  from: '2007-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 35:2007
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+----
+
+.Part instance — link:data/r35-1-2007_eng.yaml[`data/r35-1-2007_eng.yaml`]
+[source,yaml]
+----
+---
+id: R35-1-2007-eng
+schema_version: v1.5.6
+type: standard
+source:
+- type: website
+  content: pdfs/r35_2007/parts_eng/r035-1-e07.pdf
+docidentifier:
+- content: OIML R 35-1:2007 (E)
+  type: OIML
+  primary: true
+docnumber: '35'
+date:
+- type: published
+  from: '2007-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 35-1:2007
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+----
+
+.Amendment — link:data/r35-1-2014amendment.yaml[`data/r35-1-2014amendment.yaml`]
+[source,yaml]
+----
+---
+id: R35-1-2014Amendment
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Amendment 2014
+  type: main
+docidentifier:
+- content: OIML R 35-1:2014 Amendment
+  type: OIML
+  primary: true
+docnumber: '35'
+date:
+- type: published
+  from: '2014-01-01'
+relation:
+- type: amends
+  bibitem:
+    docidentifier:
+    - content: OIML R 35-1:2007
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+----
+
+=== Translation (with part reference)
+
+link:data/r35-1-2007_deu.yaml[`data/r35-1-2007_deu.yaml`] — German
+translation of Part 1, produced by PTB. `translatedFrom` points at the
+English instance.
+
+[source,yaml]
+----
+---
+id: R35-1-2007-deu
+schema_version: v1.5.6
+type: standard
+title:
+- language: deu
+  content: 'Material measures of length for general use. Part 1: Metrological
+    and technical requirements'
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/other-language-translations/german/r035-1-de-07.pdf
+docidentifier:
+- content: OIML R 35-1:2007 (D)
+  type: OIML
+  primary: true
+contributor:
+- role:
+  - type: translator
+  organization:
+    name:
+    - content: PTB
+language:
+- deu
+script:
+- Latn
+relation:
+- type: translatedFrom
+  bibitem:
+    docidentifier:
+    - content: OIML R 35-1:2007 (E)
+      type: OIML
+ext:
+  doctype:
+    content: translation
+  flavor: oiml
+----
+
+=== Bilingual single-PDF (V 1 — no instance split)
+
+link:data/v1_2022.yaml[`data/v1_2022.yaml`] — VIML vocabulary published as
+one EN/FR bilingual PDF (`v001-ef22.pdf`). One YAML, `language: [eng, fra]`,
+one source. The fetcher detects this case by comparing PDF filenames across
+EN/FR endpoints — same basename means one bilingual file, not two
+instances.
+
+[source,yaml]
+----
+---
+id: V1-2022
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: 'International vocabulary of terms in legal metrology (VIML) ...'
+  type: main
+- language: fra
+  content: 'Vocabulaire international des termes de métrologie légale (VIML) ...'
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/files/pdf_v/v001-ef22.pdf
+docidentifier:
+- content: OIML V 1:2022
+  type: OIML
+  primary: true
+language:
+- eng
+- fra
+script:
+- Latn
+ext:
+  doctype:
+    content: vocabulary
+  flavor: oiml
+----
+
+=== Annex and Errata examples
+
+link:data/r60-2017annexes.yaml[`data/r60-2017annexes.yaml`] — Annexes
+published as a separate PDF inside the R 60:2017 portfolio. Uses `partOf`
+to link back to the series (structural relationship).
+
+link:data/r126-2015errata.yaml[`data/r126-2015errata.yaml`] — Errata to
+R 126:2012 published in 2015. Uses `updates` to indicate it provides
+corrections to the original.
+
+== Editorial groups (TC > Subcommittee hierarchy)
+
+The authoring sub-committee (`scTitle` from the JSON API) is encoded as a
+contributor with role `author` and description `committee`, on the
+subdivision of the OIML organization.
+
+A composite code like `TC18/SC2` is split into two subdivisions, preserving
+the Technical Committee > Subcommittee hierarchy:
+
+[source,yaml]
+----
+contributor:
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 18
+      identifier:
+      - content: TC18
+      type: technical-committee
+    - name:
+      - content: Subcommittee 2
+      identifier:
+      - content: SC2
+      type: subcommittee
+    abbreviation:
+      content: OIML
+----
+
+Codes that don't match `TC\d+` or `SC\d+` (e.g. `BIML`, `CEEMS`,
+`OIML-CS`, `RLMO-RT`) fall back to `type: technical-committee` with their
+literal text as both `name` and `identifier`.
+
+== Other-language translations
+
+10 languages: Arabic (ara), Chinese (zho), German (deu), Persian (fas),
+Polish (pol), Portuguese (por), Russian (rus), Serbian (srp), Spanish
+(spa), Ukrainian (ukr).
+
+A translation may target either:
+
+* a **specific part** of a multi-part series — `translatedFrom` points at
+  the part's English instance (e.g. `OIML R 35-1:2007 (E)`)
+* a **whole document** (single-part publication) — `translatedFrom` points
+  at the document's English instance (e.g. `OIML R 7:1979 (E)`)
+
+Each translation is its own YAML (not a relation on the original). The
+`Origin` column from the translation page (PTB, DIN, ISIRI, ...) names the
+body that produced the translation and goes into a
+`contributor.role.type: translator` block on the translation instance.
+
+== GitHub Actions
+
+Two reusable workflows from
+link:https://github.com/relaton/support[relaton/support] under
+`.github/workflows/`:
+
+* `crawler.yml` — runs daily at 14:00 UTC, re-scrapes, commits any diff
+* `check_data.yml` — runs on every push/PR, fails the build if any YAML
+  fails to round-trip
