@@ -73,3 +73,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: 'This Recommendation specifies: legal metrology requirements for prepackaged
+    products (also called prepackaged commodities or prepackaged goods) labeled in
+    predetermined constant nominal quantities of mass, volume, linear measure, area,
+    or count, and sampling plans and procedures for use by legal metrology officials
+    in verifying the quantity of product in prepackages.'
+  focus_area: Trade
+  doi: 10.63493/r087.2004.en

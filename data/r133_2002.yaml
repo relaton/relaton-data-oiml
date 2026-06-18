@@ -78,3 +78,13 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies the metrological and technical requirements
+    for general-purpose, liquidin- glass thermometers intended for laboratory use
+    as reference or working temperature standards. The thermometers are graduated
+    in degrees Celsius and divided into six accuracy classes that apply to thermometers
+    operating within the temperature range of –200 °C to +500 °C.
+  quantity: Temperature
+  measuring_instrument: Thermometer
+  focus_area: Health
+  sustainability_framework: People
+  doi: 10.63493/r133.2002.en

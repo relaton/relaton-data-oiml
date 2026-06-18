@@ -78,3 +78,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: 'This Recommendation applies to measuring systems for gaseous fuel: - with
+    a designed maximum flowrate Q<sub>max</sub> equal to or greater than 100 m<sup>3</sup>/h
+    at base conditions and for operating pressures equal to or greater than 200 kPa
+    (2 bar) absolute; - not fitted with diaphragm gas meters.'
+  quantity: Mass
+  doi: 10.63493/r140.2007.en

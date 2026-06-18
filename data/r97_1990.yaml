@@ -78,3 +78,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies the metrological and technical requirements
+    applicable to instruments for the measurement of ambient atmospheric pressure,
+    and to their calibration, pattern evaluation and initial and subsequent verification.
+  quantity: Pressure
+  measuring_instrument: Barometer
+  doi: 10.63493/r097.1990.en

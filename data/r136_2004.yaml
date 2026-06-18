@@ -88,3 +88,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies the requirements and test methods for instruments
+    that are used for determining the area of leathers, hereafter called "leather-measuring
+    instruments".
+  quantity: Area
+  focus_area: Health
+  doi: 10.63493/r136.2004.en

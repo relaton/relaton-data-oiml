@@ -78,3 +78,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This recommendation specifies the metrological and technical requirements
+    for refractometers, which have either just been manufactured, are in service,
+    or which have just been repaired.
+  quantity: Refractive Index
+  measuring_instrument: Refractometer
+  focus_area: Trade
+  doi: 10.63493/r142.2025.en

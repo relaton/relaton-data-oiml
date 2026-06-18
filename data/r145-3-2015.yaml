@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: Part 3
+  content: 'Part 3: Test report format'
   type: main
 docidentifier:
 - content: OIML R 145-3:2015

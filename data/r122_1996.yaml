@@ -78,3 +78,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation deals with audiometers designed to provide a means of
+    presenting speech sounds to a subject in a standardized manner, e.g. for the measurement
+    of speech recognition.
+  quantity: Sound intensity level
+  measuring_instrument: Speech audiometer
+  focus_area: Health
+  sustainability_framework: People
+  doi: 10.63493/r122.1996.en

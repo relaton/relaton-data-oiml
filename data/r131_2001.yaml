@@ -80,3 +80,13 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation may be applied for PMMA dosimetry systems used to control
+    and supervise any application of ionizing radiation for industrial processing
+    of materials and products. It does not cover, nor does it exclude, the use of
+    other equivalent means of measurement or determination of absorbed dose for such
+    applications.
+  quantity: Energy
+  measuring_instrument: Dosimeter
+  focus_area: Safety
+  sustainability_framework: People
+  doi: 10.63493/r131.2001.en

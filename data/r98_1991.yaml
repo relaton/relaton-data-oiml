@@ -78,3 +78,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation applies to rigid line measures of length of high precision,
+    either single valued or multiple-valued, on bars of metal or glass. These measures
+    are hereinafter referred to as "line measures" or "measures".
+  quantity: Length
+  sustainability_framework: Prosperity
+  doi: 10.63493/r098.1991.en

@@ -78,3 +78,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: The refractometers which are the subject of this Recommendation are instruments
+    which measure the refractive index of grape must before fermentation, using the
+    phenomenon of light refraction or of total internal reflection of light. The result
+    of measurement is given in one of the forms indicated in section III of the Recommendation.
+    These instruments may also be used to measure the refractive index of sugar solutions
+    and, possibly, of concentrated must.
+  doi: 10.63493/r124.1997.en

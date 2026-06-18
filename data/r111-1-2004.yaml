@@ -4,7 +4,9 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: Part 1
+  content: 'Partie 1 : Poids des classes E<sub>1</sub>, E<sub>2</sub>, F<sub>1</sub>,
+    F<sub>2</sub>, M<sub>1</sub>, M<sub>1-2</sub>, M<sub>2</sub>, M<sub>2-3</sub>
+    and <sub>M3</sub>'
   type: main
 docidentifier:
 - content: OIML R 111-1:2004

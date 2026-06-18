@@ -73,3 +73,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation deals with sets of octaveband and one-third-octave-band
+    filters (filter sets), i.e. devices capable of providing, or designed for operation
+    with devices capable of providing, time-average levels of frequency-band-filtered
+    spectral information for a wide variety of signals, for example, time-varying,
+    intermittent, and steady; broadband and discrete frequency; and long and short
+    durations.
+  sustainability_framework: People
+  doi: 10.63493/r130.2001.en

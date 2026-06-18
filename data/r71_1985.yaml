@@ -58,3 +58,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: Fixed storage tanks at atmospheric pressure or under pressure (hereinafter
+    called "tanks") are built for bulk liquid storage and may be used for the measurement
+    of quantities (volume or mass) of liquid contained. When used for that measurement,
+    they shall comply with the requirements of this Recommendation.
+  quantity: Volume
+  focus_area: Trade
+  sustainability_framework: Prosperity
+  doi: 10.63493/r071.1985.en

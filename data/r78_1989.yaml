@@ -78,3 +78,7 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This International Recommendation applies to Westergren tubes used to determine
+    the sedimentation rate of erythrocytes in human blood containing an anti-coagulant.
+  measuring_instrument: Westergren tube
+  doi: 10.63493/r078.1989.en

@@ -90,3 +90,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This International Recommendation specifies the requirements and test methods
+    for discontinuous totalizing automatic weighing instruments (totalizing hopper
+    weighers), hereafter referred to as "instruments".
+  quantity: Mass
+  measuring_instrument: Disconinuous totalizer
+  focus_area: Trade
+  sustainability_framework: Prosperity
+  doi: 10.63493/r107.2007.en

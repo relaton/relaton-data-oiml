@@ -95,3 +95,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This International Recommendation specifies the metrological and technical
+    requirements for continuous totalizing automatic weighing instruments of the belt
+    conveyor type, hereinafter referred to as "belt weighers", that are subject to
+    national metrological control.
+  quantity: Mass
+  measuring_instrument: Continuous totalizer
+  focus_area: Trade
+  sustainability_framework: Prosperity
+  doi: 10.63493/r050.2014.en

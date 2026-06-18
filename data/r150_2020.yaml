@@ -79,3 +79,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This International Recommendation specifies the metrological and technical
+    requirements for arched chute weighers, that are subject to national metrological
+    control.
+  quantity: Mass
+  measuring_instrument: Automatic weighing instrument
+  focus_area: Trade
+  sustainability_framework: Prosperity
+  doi: 10.63493/r150.2020.en

@@ -58,3 +58,7 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation applies to drum meters for the continuous measurement
+    of volumes of alcohol, with supplementary devices for the determination of the
+    ethanol content (automatically or by taking samples).
+  doi: 10.63493/r086.1989.en

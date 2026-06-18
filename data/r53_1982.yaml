@@ -80,3 +80,8 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation concerns the main metrological characteristics of elastic
+    sensing elements (diaphragms, capsules, bellows, tubes, etc.) and their determination
+    methods.
+  quantity: Pressure
+  doi: 10.63493/r053.1982.en

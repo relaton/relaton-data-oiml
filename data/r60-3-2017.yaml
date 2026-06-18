@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: Part 3
+  content: 'Partie 3 : Format du rapport d’essai'
   type: main
 docidentifier:
 - content: OIML R 60-3:2017

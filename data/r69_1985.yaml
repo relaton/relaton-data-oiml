@@ -80,3 +80,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation sets out the method and means for initial and subsequent
+    verifications of glass capillary viscometers (ordinary instruments), free liquid
+    flow, intended for the measurement of kinematic viscosity of liquids.
+  quantity: Kinematic Viscosity
+  measuring_instrument: Viscometer
+  doi: 10.63493/r069.1985.en

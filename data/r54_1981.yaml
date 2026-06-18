@@ -78,3 +78,8 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation concerns the pH scale for aqueous solutions, and sets
+    pH values for buffer solutions reproducing this scale in the temperature interval
+    between 0 °C and 95 °C.
+  sustainability_framework: Planet
+  doi: 10.63493/r054.1981.en

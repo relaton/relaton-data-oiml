@@ -80,3 +80,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation provides requirements for defining, testing and verifying
+    the performance of a radiochromic film dosimetry system used for the legal measurements
+    of absorbed dose from ionizing radiation for industrial processing of materials
+    and products.
+  measuring_instrument: Radiochromic film dosimetry
+  sustainability_framework: People
+  doi: 10.63493/r127.1999.en

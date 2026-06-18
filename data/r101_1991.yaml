@@ -80,3 +80,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation applies to pressure gauges, vacuum gauges and pressurevacuum
+    gauges (ordinary instruments) with elastic sensing elements, intended for the
+    measurement of the pressure (i.e. gauge pressure, or vacuum, or both) of liquids,
+    vapours and gases by direct indication using a dial and a pointer (indicating
+    instruments) or by continuous recording as a function of time (recording instruments).
+  quantity: Pressure
+  measuring_instrument: Pressure gauge
+  doi: 10.63493/r101.1991.en

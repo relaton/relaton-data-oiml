@@ -88,3 +88,14 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies requirements for the design compliance and
+    construction of impression and applanation tonometers, which are used for the
+    determination of the intraocular pressure (IOP) in clinical applications. When
+    referring to applanation tonometers, which measure the force necessary to applanate
+    the cornea over a given diameter using the flat contact side of a pressure body,
+    this Recommendation covers the method developed by Hans Goldmann.
+  quantity: Pressure
+  measuring_instrument: Tonometer
+  focus_area: Health
+  sustainability_framework: People
+  doi: 10.63493/r145.2015.en

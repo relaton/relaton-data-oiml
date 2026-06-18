@@ -78,3 +78,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation deals with sound calibrators, i.e. devices designed to
+    produce a known effective sound pressure level or levels at a specified frequency
+    or frequencies when coupled to specified types of microphone in specified configurations
+    (e.g. with or without protective grid).
+  quantity: Sound intensity level
+  measuring_instrument: Sound calibrator
+  sustainability_framework: People
+  doi: 10.63493/r102.1992.en

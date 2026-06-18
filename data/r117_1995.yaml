@@ -58,3 +58,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies the metrological and technical requirements
+    applicable to dynamic measuring systems for quantities (volume or mass) of liquids
+    other than water subject to legal metrology controls.
+  quantity: Volume
+  measuring_instrument: Liquid flow meter
+  focus_area: Trade
+  sustainability_framework: People
+  doi: 10.63493/r117.1995.en

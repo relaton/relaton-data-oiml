@@ -58,3 +58,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation applies to material measures of lenght for general use,
+    hereinafter called "measures". Further, this Recommendation specifies the technical,
+    meterological and administrative conditions which are mandatory for these measures.
+  quantity: Length
+  measuring_instrument: Material measure of length
+  focus_area: Trade
+  sustainability_framework: Prosperity
+  doi: 10.63493/r035.1985.en

@@ -78,3 +78,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies the metrological and technical requirements,
+    metrological controls and tests for automatic gravimetric filling instruments
+    (known as "AGFIs") which produce a predetermined mass of individual fills of products
+    from one or more loads by automatic weighing.
+  quantity: Mass
+  measuring_instrument: Automatic gravimetric filling instrument
+  focus_area: Trade
+  sustainability_framework: Prosperity
+  doi: 10.63493/r061.2017.en

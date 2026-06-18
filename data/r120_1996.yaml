@@ -60,3 +60,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies the characteristics of standard capacity measures
+    and describes the methods by which measuring systems for liquids other than water
+    (hereinafter called "measuring systems") are tested in order to verify that they
+    comply with the relevant metrological requirements in the International Recommendation
+    OIML R 117 Measuring systems for liquids other than water.
+  quantity: Volume
+  focus_area: Trade
+  sustainability_framework: Prosperity
+  doi: 10.63493/r120.1996.en

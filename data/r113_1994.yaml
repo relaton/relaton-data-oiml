@@ -80,3 +80,13 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This International Recommendation provides procedures for testing and verifying
+    the performance of a portable gas chromatograph (GC) for use in measuring potentially
+    hazardous chemical pollutants associated with hazardous waste sites as mandated
+    by national laws and regulations. This Recommendation does not intend to exclude
+    any other equivalent means of measurement or analysis of such pollutants.
+  quantity: Amount of substance concentration
+  measuring_instrument: Gas Chromatograph
+  focus_area: Environment
+  sustainability_framework: People
+  doi: 10.63493/r113.1994.en

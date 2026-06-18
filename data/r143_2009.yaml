@@ -80,3 +80,14 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation applies to measuring instruments (hereafter referred
+    to as "gas analytical systems") that serve to determine the volume fraction of
+    SO<sub>2</sub> and establishes the conditions and requirements with which such
+    systems shall comply in order to meet the requirements for measurement results
+    of the pollutant content in stationary source emissions within the OIML Member
+    States.
+  quantity: Amount of substance concentration
+  measuring_instrument: Gas chromatograph
+  focus_area: Environment
+  sustainability_framework: People
+  doi: 10.63493/r143.2009.en

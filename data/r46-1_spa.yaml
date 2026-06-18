@@ -1,29 +1,29 @@
 ---
-id: OIMLR76-zho
+id: R46-1-spa
 schema_version: v1.5.6
 type: standard
 title:
-- language: zho
-  content: Non-automatic weighing instruments
+- language: spa
+  content: Active electrical energy meters. Parts 1 & 2
   type: main
 source:
 - type: website
-  content: https://www.oiml.org/en/publications/other-language-translations/chinese/r076-cn06.pdf
+  content: https://www.oiml.org/en/publications/other-language-translations/spanish/r046-1-2-es12.pdf
 docidentifier:
-- content: OIML OIML R 76 (C)
+- content: OIML R 46-1 (S)
   type: OIML
   primary: true
-docnumber: '76'
+docnumber: '46'
 contributor:
 - role:
   - type: translator
   organization:
     name:
-    - content: National Institute of Metrology, China (NIM)
+    - content: SIC (Colombia)
 language:
-- zho
+- spa
 script:
-- Hans
+- Latn
 status:
   stage:
     content: in-force
@@ -31,7 +31,7 @@ relation:
 - type: translatedFrom
   bibitem:
     docidentifier:
-    - content: OIML OIML R 76 (E)
+    - content: OIML R 46-1 (E)
       type: OIML
 ext:
   doctype:

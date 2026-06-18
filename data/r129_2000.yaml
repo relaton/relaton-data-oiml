@@ -79,3 +79,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies the metrological and technical requirements
+    for the type evaluation of multi-dimensional measuring instruments used to determine
+    the dimensions and/or dimensional volume of an object for the purpose of calculating
+    charges for postage, freight or storage.
+  quantity: Volume
+  sustainability_framework: People
+  doi: 10.63493/r129.2000.en

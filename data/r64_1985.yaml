@@ -58,3 +58,7 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation deals with the machines and their essential accessories
+    which are used for legal metrology purposes to determine the mechanical properties
+    of materials.
+  doi: 10.63493/r064.1985.en

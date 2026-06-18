@@ -73,3 +73,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation applies to heat meters, that is to instruments intended
+    for measuring the heat which, in a heat-exchange circuit, is given up by a liquid
+    called the heat-conveying liquid.
+  quantity: Heat
+  measuring_instrument: Heat meter
+  sustainability_framework: People
+  doi: 10.63493/r075.2002.en

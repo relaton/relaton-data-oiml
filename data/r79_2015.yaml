@@ -73,3 +73,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: 'This Recommendation covers requirements for the labeling of prepackages
+    with respect to: a) the identity of the product, b) the declaration of responsibility
+    for a prepackage, and c) the quantity of product in the prepackage.'
+  focus_area: Trade
+  sustainability_framework: People
+  doi: 10.63493/r079.2015.en

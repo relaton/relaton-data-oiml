@@ -73,3 +73,13 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This OIML Recommendation applies to ergometers for foot crank work (foot
+    crank ergometers) used in the medical field for the defined and reproducible physical
+    stressing of subjects (patients). It is intended to define minimum requirements
+    for the performance and efficiency of these devices and to achieve accurate and
+    comparable medical results.
+  quantity: Work
+  measuring_instrument: Ergometer
+  focus_area: Health
+  sustainability_framework: People
+  doi: 10.63493/r128.2000.en

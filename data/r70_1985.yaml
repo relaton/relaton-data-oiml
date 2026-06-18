@@ -58,3 +58,7 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies a method and the means for the determination
+    of intrinsic and hysteresis errors of gas analysers intended for the measurement
+    of concentrations of component gases in gas samples, during their verification.
+  doi: 10.63493/r070.1985.en

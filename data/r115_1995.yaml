@@ -78,3 +78,8 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies the metrological and technical requirements
+    for clinical electrical thermometers with a maximum device. Such instruments are
+    designed to measure human or animal body temperature.
+  quantity: Temperature
+  doi: 10.63493/r115.1995.en

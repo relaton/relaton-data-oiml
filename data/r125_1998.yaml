@@ -78,3 +78,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies the metrological and technical requirements
+    for the pattern approval and verification of instruments used to determine the
+    mass of liquid contained in a tank using methods which measure mass-related properties
+    of the liquid while it is in a static state, e.g. the hydrostatic pressure of
+    the liquid and gases in the tank.
+  quantity: Mass
+  focus_area: Trade
+  sustainability_framework: Prosperity
+  doi: 10.63493/r125.1998.en

@@ -85,3 +85,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies the metrological and technical requirements
+    for direct mass flow measuring systems (hereafter referred to as "systems") that
+    are designed to measure the mass of flowing liquids in closed conduits. It also
+    specifies the relevant examination and tests that are to be conducted during pattern
+    evaluation and verification.
+  doi: 10.63493/r105.1993.en

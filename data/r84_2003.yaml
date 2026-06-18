@@ -80,3 +80,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies the metrological characteristics required for
+    resistance thermometers having one or more sensing elements made of platinum,
+    copper or nickel, designed for use in measuring temperatures in the range from
+    – 200 °C to + 850 °C, or in a part of this range.
+  quantity: Temperature
+  measuring_instrument: Resistance thermometer
+  sustainability_framework: Prosperity
+  doi: 10.63493/r084.2003.en

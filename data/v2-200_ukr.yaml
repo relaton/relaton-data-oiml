@@ -32,7 +32,7 @@ relation:
 - type: translatedFrom
   bibitem:
     docidentifier:
-    - content: OIML V 2 (E)
+    - content: OIML V 2-200 (E)
       type: OIML
 ext:
   doctype:

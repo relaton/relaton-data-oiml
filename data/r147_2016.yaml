@@ -79,3 +79,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: The present Recommendation applies to BBR intended for the calibration, verification
+    and engineering work in the production, maintenance and adjustment of reference
+    and working radiation thermometers, thermal imaging instruments and radiometers
+    in the temperature range from –50 °C to +2500 °C; it describes methods and procedures
+    for their calibration and verification.
+  quantity: Temperature
+  measuring_instrument: Standard blackbody radiator
+  doi: 10.63493/r147.2016.en

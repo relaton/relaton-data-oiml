@@ -58,3 +58,16 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: 'This Recommendation applies to containers, commonly called bottles, made
+    of glass, or of any other material that is rigid and stable enough to give metrological
+    results that are as good as those obtained with glass, when they: being stoppered
+    or designed to be stoppered, are intended for the storage, transport or delivery
+    of liquids; have a nominal capacity of between 0.05 litre and 5 litres inclusive;
+    have metrological characteristics (design characteristics and uniformity of manufacture)
+    such that they can be used as measuring containers, i.e., they may be filled with
+    sufficient accuracy without the need to measure independently the quantity of
+    liquid that is put in them. These containers are called measuring container bottles.'
+  quantity: Volume
+  focus_area: Trade
+  sustainability_framework: Prosperity
+  doi: 10.63493/r096.1990.en

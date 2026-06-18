@@ -58,3 +58,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This International Recommendation, prepared in close connection with the
+    OIML International Document D 11 "General requirements for electronic measuring
+    instruments", specifies the general metrological and technical characteristics
+    that shall be exhibited by electronic weighing instruments, together with the
+    relevant examinations and tests which shall be applied.
+  doi: 10.63493/r074.1993.en

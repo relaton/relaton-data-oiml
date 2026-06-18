@@ -60,3 +60,8 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies a set of selected saturated salt solutions
+    whose RH values at a specific temperature correspond to fixed points (or scale
+    marks) of the scale of relative humidity. Moreover, it indicates the conditions
+    under which saturated solutions can be used as hygrostatic solutions.
+  doi: 10.63493/r121.1996.en

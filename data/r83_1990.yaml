@@ -61,3 +61,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation provides performance requirements and testing procedures
+    for a gas chromatograph/mass spectrometer/data (GC/MS) system when used for measurements
+    in determining water pollutants in pollution control programs and in assessing
+    the quality of water as may be mandated by national laws and regulations.
+  quantity: Amount of substance concentration
+  measuring_instrument: Gas chromatograph
+  focus_area: Environment
+  sustainability_framework: People
+  doi: 10.63493/r083.1990.en

@@ -60,3 +60,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation sets out the requirements for pure gases (CO, CO<sub>2</sub>,
+    CH<sub>4</sub>, H<sub>2</sub>, O<sub>2</sub>, N<sub>2</sub> and Ar) used as components
+    for the preparation of reference gas mixtures, in the 0.01 - 0.99 mole ratio range.
+    The purpose of this Recommendation is to establish a harmonized method for the
+    elaboration of specifications for those pure gases, which are intended for metro-logical
+    purposes.
+  doi: 10.63493/r073.1985.en
