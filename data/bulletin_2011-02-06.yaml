@@ -1,0 +1,61 @@
+---
+id: Bulletin-2011-02-06
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: Accreditation and legal metrology in France
+  type: main
+docidentifier:
+- content: OIML Bulletin 2011-02-06
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2011'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Gérard Lagauterie and Gilles Pecchioli
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Accreditation and legal metrology in France - Gérard Lagauterie and Gilles
+    Pecchioli'
+  type: source
+language:
+- eng
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2011-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LII
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

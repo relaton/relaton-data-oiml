@@ -1,0 +1,66 @@
+---
+id: Bulletin-2002-04-08
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: CONFERENCE he First Middle East Metrology Conference and Exhibition Bahrain
+    6–8 May 2002
+  type: main
+docidentifier:
+- content: OIML Bulletin 2002-04-08
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2002'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: MAJEED AL GASSAB
+    affiliation:
+    - organization:
+        name:
+        - content: Technical Committee Chairman
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: CONFERENCE he First Middle East Metrology Conference and Exhibition Bahrain
+    6–8 May 2002 - MAJEED AL GASSAB, Technical Committee Chairman'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2002-04
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XLIII
+  - type: issue
+    reference_from: '4'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

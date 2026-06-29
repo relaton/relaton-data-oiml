@@ -1,0 +1,62 @@
+---
+id: Bulletin-2004-03-03
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Dissemination of the mass unit from 1 kg reference standards to weights
+    of Class Ej between (1...10) kg
+  type: main
+docidentifier:
+- content: OIML Bulletin 2004-03-03
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2004'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Adriana Valcu and Constantin Militaru
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Dissemination of the mass unit from 1 kg reference standards to weights of
+    Class Ej between (1...10) kg - Adriana Valcu and Constantin Militaru'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2004-03
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XLV
+  - type: issue
+    reference_from: '3'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

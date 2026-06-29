@@ -1,0 +1,64 @@
+---
+id: Bulletin-1971-03-03
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Examination of domestic gas meters in the United Kingdom by a sampling
+    system
+  type: main
+docidentifier:
+- content: OIML Bulletin 1971-03-03
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1971'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: G.R. BOREHAM
+    affiliation:
+    - organization:
+        name:
+        - content: Deputy Controller of Gas Standards Grande-Bretagne
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Examination of domestic gas meters in the United Kingdom by a sampling system,
+    par G.R. BOREHAM, Deputy Controller of Gas Standards Grande-Bretagne'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1971-03
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '3'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

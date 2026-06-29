@@ -1,0 +1,58 @@
+---
+id: Bulletin-2009-01-07
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: Thirteenth International Conference on Legal Metrology Forty-third Meeting
+    of the International Committee of Legal Metrology Working Group on Conformity
+    to Type
+  type: main
+docidentifier:
+- content: OIML Bulletin 2009-01-07
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2009'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Thirteenth International Conference on Legal Metrology Forty-third Meeting
+    of the International Committee of Legal Metrology Working Group on Conformity
+    to Type'
+  type: source
+language:
+- eng
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2009-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: L
+  - type: issue
+    reference_from: '1'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

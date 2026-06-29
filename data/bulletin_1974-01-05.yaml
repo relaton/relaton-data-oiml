@@ -1,0 +1,64 @@
+---
+id: Bulletin-1974-01-05
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: State Standards and Laboratories
+  type: main
+docidentifier:
+- content: OIML Bulletin 1974-01-05
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1974'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: T.M. STABLER, Laboratory Metroiogist
+    affiliation:
+    - organization:
+        name:
+        - content: Office of Weights and Measures — National Bureau of Standards 1966
+            — USA
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: State Standards and Laboratories, par T.M. STABLER, Laboratory Metroiogist,
+    Office of Weights and Measures — National Bureau of Standards 1966 — USA'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1974-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '1'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

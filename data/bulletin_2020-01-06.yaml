@@ -1,0 +1,64 @@
+---
+id: Bulletin-2020-01-06
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: 54th CIML Meeting
+  type: main
+docidentifier:
+- content: OIML Bulletin 2020-01-06
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2020'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Opening Addresses, Summary Report
+    affiliation:
+    - organization:
+        name:
+        - content: Awards
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: 54th CIML Meeting - Opening Addresses, Summary Report, Awards'
+  type: source
+language:
+- eng
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2020-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXI
+  - type: issue
+    reference_from: '1'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

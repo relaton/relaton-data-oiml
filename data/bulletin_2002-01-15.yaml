@@ -1,0 +1,54 @@
+---
+id: Bulletin-2002-01-15
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: What will Legal Metrology be in the Year 2020?
+  type: main
+docidentifier:
+- content: OIML Bulletin 2002-01-15
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2002'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: What will Legal Metrology be in the Year 2020?'
+  type: source
+language:
+- eng
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2002-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XLIII
+  - type: issue
+    reference_from: '1'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

@@ -1,0 +1,61 @@
+---
+id: Bulletin-2000-04-05
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: European Directive for Measuring Instruments
+  type: main
+docidentifier:
+- content: OIML Bulletin 2000-04-05
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2000'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: A new challenge to industry and to the state - Hartmut Apel
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: European Directive for Measuring Instruments - A new challenge to industry
+    and to the state - Hartmut Apel'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2000-04
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XLI
+  - type: issue
+    reference_from: '4'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

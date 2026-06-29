@@ -1,0 +1,65 @@
+---
+id: Bulletin-1999-01-05
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Metrology education in a Quality Engineering Undergraduate Study Program
+  type: main
+docidentifier:
+- content: OIML Bulletin 1999-01-05
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1999'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: J. Drnovsek, P.H. Osanna, J. McGhee
+    affiliation:
+    - organization:
+        name:
+        - content: A. Weckenmann - J. Bojkovski and I. Pusnik
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Metrology education in a Quality Engineering Undergraduate Study Program
+    - J. Drnovsek, P.H. Osanna, J. McGhee, A. Weckenmann - J. Bojkovski and I. Pusnik'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1999-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XL
+  - type: issue
+    reference_from: '1'
+ext:
+  doctype:
+    content: article
+  flavor: oiml
