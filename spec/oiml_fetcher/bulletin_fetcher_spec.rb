@@ -81,7 +81,29 @@ RSpec.describe OimlFetcher::BulletinFetcher do
   def fetcher = described_class.new(yaml_store: store, http_backend: fake_http)
 
   it "auto-enumerates only HTML issue slugs from the listing (no PDFs)" do
-    expect(fetcher.enumerate_html_issues).to eq(%w[2026-01 2026-02])
+    expect(fetcher.enumerate_html_issues).to eq(
+      [{ "slug" => "2026-01", "prefix" => "" },
+       { "slug" => "2026-02", "prefix" => "" }]
+    )
+  end
+
+  it "auto-enumerates issues under the /online-bulletin-1/ subpath too" do
+    listing = <<~HTML
+      <html><body>
+        <a href="https://www.oiml.org/en/publications/oiml-bulletin/2025-02/20250201">Article</a>
+        <a href="https://www.oiml.org/en/publications/oiml-bulletin/online-bulletin-1/2024-07/20240701">Article</a>
+        <a href="https://www.oiml.org/en/publications/oiml-bulletin/online-bulletin-1/2024-10/20241001">Article</a>
+      </body></html>
+    HTML
+    http = OimlFetcher::Http::Fake.new(
+      "https://www.oiml.org/en/publications/oiml-bulletin/online-bulletin" => listing,
+    )
+    f = described_class.new(yaml_store: store, http_backend: http)
+    expect(f.enumerate_html_issues).to contain_exactly(
+      { "slug" => "2024-07", "prefix" => "online-bulletin-1/" },
+      { "slug" => "2024-10", "prefix" => "online-bulletin-1/" },
+      { "slug" => "2025-02", "prefix" => "" }
+    )
   end
 
   it "emits bulletin, volume, issue, and article records for a processed issue" do
