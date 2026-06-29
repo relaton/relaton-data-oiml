@@ -1,0 +1,73 @@
+---
+id: Bulletin-2026-02-05
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: The importance of national legal metrological control in EU Emissions Trading
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2026-02/20260205
+docidentifier:
+- content: OIML Bulletin 2026-02-05
+  type: OIML
+  primary: true
+- content: '20260205'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2026-04-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: The EU Emissions Trading System (EU ETS), launched in 2005, remains a central
+    pillar of EU climate policy. Over the past two decades it has required major emitters
+    in energy and industry to report and pay for their greenhouse gas (GHG) emissions,
+    delivering a 51% reduction across covered sectors since 2005 [1]. The system has
+    expanded to include aviation and maritime transport and now operates across all
+    EU Member States plus Iceland, Liechtenstein, and Norway. 
+  format: text/plain
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2026-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVII
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

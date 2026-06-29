@@ -2701,3 +2701,107 @@
   :file: data/r46-1_spa.yaml
 - :id: OIML R 76 (C)
   :file: data/r76_zho.yaml
+- :id: OIML Bulletin
+  :file: data/bulletin.yaml
+- :id: OIML Bulletin 2025-02-00
+  :file: data/bulletin_2025-02-00.yaml
+- :id: OIML Bulletin 2025-02-01
+  :file: data/bulletin_2025-02-01.yaml
+- :id: OIML Bulletin 2025-02-02
+  :file: data/bulletin_2025-02-02.yaml
+- :id: OIML Bulletin 2025-02-03
+  :file: data/bulletin_2025-02-03.yaml
+- :id: OIML Bulletin 2025-02-04
+  :file: data/bulletin_2025-02-04.yaml
+- :id: OIML Bulletin 2025-02-05
+  :file: data/bulletin_2025-02-05.yaml
+- :id: OIML Bulletin 2025-02
+  :file: data/bulletin_2025-02.yaml
+- :id: OIML Bulletin 2025-03-00
+  :file: data/bulletin_2025-03-00.yaml
+- :id: OIML Bulletin 2025-03-01
+  :file: data/bulletin_2025-03-01.yaml
+- :id: OIML Bulletin 2025-03-02
+  :file: data/bulletin_2025-03-02.yaml
+- :id: OIML Bulletin 2025-03-03
+  :file: data/bulletin_2025-03-03.yaml
+- :id: OIML Bulletin 2025-03-04
+  :file: data/bulletin_2025-03-04.yaml
+- :id: OIML Bulletin 2025-03-05
+  :file: data/bulletin_2025-03-05.yaml
+- :id: OIML Bulletin 2025-03-06
+  :file: data/bulletin_2025-03-06.yaml
+- :id: OIML Bulletin 2025-03-07
+  :file: data/bulletin_2025-03-07.yaml
+- :id: OIML Bulletin 2025-03
+  :file: data/bulletin_2025-03.yaml
+- :id: OIML Bulletin 2025-04-01
+  :file: data/bulletin_2025-04-01.yaml
+- :id: OIML Bulletin 2025-04-02
+  :file: data/bulletin_2025-04-02.yaml
+- :id: OIML Bulletin 2025-04-03
+  :file: data/bulletin_2025-04-03.yaml
+- :id: OIML Bulletin 2025-04-04
+  :file: data/bulletin_2025-04-04.yaml
+- :id: OIML Bulletin 2025-04-05
+  :file: data/bulletin_2025-04-05.yaml
+- :id: OIML Bulletin 2025-04
+  :file: data/bulletin_2025-04.yaml
+- :id: OIML Bulletin 2025
+  :file: data/bulletin_2025.yaml
+- :id: OIML Bulletin 2026-01-00
+  :file: data/bulletin_2026-01-00.yaml
+- :id: OIML Bulletin 2026-01-01
+  :file: data/bulletin_2026-01-01.yaml
+- :id: OIML Bulletin 2026-01-02
+  :file: data/bulletin_2026-01-02.yaml
+- :id: OIML Bulletin 2026-01-03
+  :file: data/bulletin_2026-01-03.yaml
+- :id: OIML Bulletin 2026-01-04
+  :file: data/bulletin_2026-01-04.yaml
+- :id: OIML Bulletin 2026-01-05
+  :file: data/bulletin_2026-01-05.yaml
+- :id: OIML Bulletin 2026-01-06
+  :file: data/bulletin_2026-01-06.yaml
+- :id: OIML Bulletin 2026-01-07
+  :file: data/bulletin_2026-01-07.yaml
+- :id: OIML Bulletin 2026-01-08
+  :file: data/bulletin_2026-01-08.yaml
+- :id: OIML Bulletin 2026-01-09
+  :file: data/bulletin_2026-01-09.yaml
+- :id: OIML Bulletin 2026-01-10
+  :file: data/bulletin_2026-01-10.yaml
+- :id: OIML Bulletin 2026-01-11
+  :file: data/bulletin_2026-01-11.yaml
+- :id: OIML Bulletin 2026-01-12
+  :file: data/bulletin_2026-01-12.yaml
+- :id: OIML Bulletin 2026-01
+  :file: data/bulletin_2026-01.yaml
+- :id: OIML Bulletin 2026-02-00
+  :file: data/bulletin_2026-02-00.yaml
+- :id: OIML Bulletin 2026-02-01
+  :file: data/bulletin_2026-02-01.yaml
+- :id: OIML Bulletin 2026-02-02
+  :file: data/bulletin_2026-02-02.yaml
+- :id: OIML Bulletin 2026-02-03
+  :file: data/bulletin_2026-02-03.yaml
+- :id: OIML Bulletin 2026-02-04
+  :file: data/bulletin_2026-02-04.yaml
+- :id: OIML Bulletin 2026-02-05
+  :file: data/bulletin_2026-02-05.yaml
+- :id: OIML Bulletin 2026-02-06
+  :file: data/bulletin_2026-02-06.yaml
+- :id: OIML Bulletin 2026-02-07
+  :file: data/bulletin_2026-02-07.yaml
+- :id: OIML Bulletin 2026-02-08
+  :file: data/bulletin_2026-02-08.yaml
+- :id: OIML Bulletin 2026-02-09
+  :file: data/bulletin_2026-02-09.yaml
+- :id: OIML Bulletin 2026-02-10
+  :file: data/bulletin_2026-02-10.yaml
+- :id: OIML Bulletin 2026-02-11
+  :file: data/bulletin_2026-02-11.yaml
+- :id: OIML Bulletin 2026-02
+  :file: data/bulletin_2026-02.yaml
+- :id: OIML Bulletin 2026
+  :file: data/bulletin_2026.yaml

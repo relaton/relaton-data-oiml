@@ -250,7 +250,49 @@ Every publication carries one of:
 
 |`crawler.rb` / `check_data.rb`
 |Rebuild index / round-trip validator
+
+|`data/bulletin*.yaml`
+|OIML Bulletin records — periodical (bulletin → volume → issue → article)
 |===
+
+== OIML Bulletin articles
+
+Bulletin articles are modeled as a four-tier periodical hierarchy
+(`type: journal` containers + `type: article` leaves), alongside the
+standards dataset. Records follow BIPM's *Metrologia* convention —
+each article self-describes via `series` (OIML Bulletin) and
+`extent.locality` (volume/issue/page) — plus explicit container records
+for navigability, with bidirectional `hasPart` / `partOf` / `includedIn`
+relations.
+
+[cols="2,5", options="header"]
+|===
+|Record |Example
+
+|`data/bulletin.yaml`
+|The periodical itself.
+
+|`data/bulletin_2026.yaml`
+|Volume / year (carries the roman numeral, e.g. Volume LXVII).
+
+|`data/bulletin_2026-02.yaml`
+|Issue (quarterly: 1→Jan, 2→Apr, 3→Jul, 4→Oct).
+
+|`data/bulletin_2026-02-11.yaml`
+|Article. `OIML Bulletin 2026-02-11`; carries the 8-digit oiml.org id
+(`20260211`) as a secondary `OIML-bulletin-article-id` docid.
+|===
+
+[source,bash]
+----
+bundle exec oiml-fetch bulletin                              # all HTML editions
+bundle exec oiml-fetch bulletin --issue 2026-02 --issue 2026-01
+----
+
+The maintained HTML fetcher covers the editions published as HTML
+(2025-02 → present). Historical backfill (1960 → mid-2024) uses the
+one-off scripts under `backfill/` — see `backfill/README.md` for the
+GLM-OCR + docx-spine + reconciler workflow.
 
 == Refreshing the data
 

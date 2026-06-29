@@ -1,0 +1,74 @@
+---
+id: Bulletin-2026-02-02
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: Thoughts on measurement and metrology for global sustainablility
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2026-02/20260202
+docidentifier:
+- content: OIML Bulletin 2026-02-02
+  type: OIML
+  primary: true
+- content: '20260202'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2026-04-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: This aim statement comes from the 1987 Brundtland Report,[1] one of the
+    foundational documents in global sustainability policy. Going beyond this rather
+    diffusely expressed aspiration, the report highlights the various social, technological
+    and administrative systems that need to work together in order that the world’s
+    development can be sustainable now and into the future. Harmonious outcomes depend
+    on fostering sustainable patterns of trade and finance, effective decision-making
+    and innovat...
+  format: text/plain
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2026-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVII
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml
