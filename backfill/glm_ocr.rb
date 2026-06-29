@@ -27,16 +27,27 @@ module BulletinBackfill
     PAGES_PER_CHUNK = 30
     CACHE_DIR = File.expand_path("cache", __dir__)
 
-    def initialize(api_key: ENV.fetch("Z_AI_API_KEY") { File.read(File.expand_path("~/.zai-api-key")).strip })
-      @api_key = api_key
+    def initialize(api_key: nil)
+      @api_key = api_key || self.class.read_api_key
       FileUtils.mkdir_p(CACHE_DIR)
+    end
+
+    def self.read_api_key
+      env = ENV["Z_AI_API_KEY"]
+      return env if env && !env.include?("=") && !env.start_with?("export ")
+
+      path = File.expand_path("~/.zai-api-key")
+      raw = File.read(path).strip
+      # File may be in `export Z_AI_API_KEY="..."` shell format or just the raw key.
+      m = raw.match(/\A(?:export\s+)?(?:Z_AI_API_KEY|ZAI_API_KEY)\s*=\s*["']?([^"'\s]+)["']?\z/)
+      m ? m[1] : raw
     end
 
     # OCR an entire PDF by chunking into 30-page windows. Returns combined
     # markdown. Caches each chunk by (url, window) so re-runs are free.
     def ocr_pdf(file_input, num_pages:)
       (1..num_pages).each_slice(PAGES_PER_CHUNK).map do |window|
-        chunk(file_input, window.first, window.min(window.last))
+        chunk(file_input, window.first, window.last)
       end.join("\n\n")
     end
 
@@ -57,8 +68,10 @@ module BulletinBackfill
     def request(file_input, start_page, end_page)
       body = { "model" => "glm-ocr", "file" => as_file_field(file_input),
                "start_page_id" => start_page, "end_page_id" => end_page }
-      http = Net::HTTP.new(ENDPOINT.host, ENDPOINT.port, use_ssl: true)
-      http.read_timeout = 180
+      http = Net::HTTP.new(ENDPOINT.host, ENDPOINT.port)
+      http.use_ssl = ENDPOINT.scheme == "https"
+      http.read_timeout = 600
+      http.write_timeout = 120
       req = Net::HTTP::Post.new(ENDPOINT.request_uri,
                                 "Authorization" => "Bearer #{@api_key}",
                                 "Content-Type" => "application/json")
