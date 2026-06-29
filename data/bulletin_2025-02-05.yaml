@@ -1,0 +1,84 @@
+---
+id: Bulletin-2025-02-05
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: The rise of DC energy and the need for legal metrology in DC metering
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2025-02/20250205
+docidentifier:
+- content: OIML Bulletin 2025-02-05
+  type: OIML
+  primary: true
+- content: '20250205'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2025-04-01'
+contributor:
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Henri Schouten
+    affiliation:
+    - organization:
+        name:
+        - content: " "
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: The increasing adoption of direct current (DC) energy across various applications
+    – such as energy storage systems, DC microgrids, and electric vehicle (EV) charging
+    infrastructure – demonstrates a clear shift toward DC-based solutions. Unlike
+    alternating current (AC) systems, DC microgrids offer significant advantages,
+    including reduced power conversion losses, lower costs, and more compact system
+    designs. As a result, accurately measuring DC energy has become essential, particularly
+    for bil...
+  format: text/plain
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2025-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVI
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

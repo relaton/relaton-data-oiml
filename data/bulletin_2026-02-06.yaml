@@ -1,0 +1,86 @@
+---
+id: Bulletin-2026-02-06
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: Technical regulation for controlling air quality measurements in the United
+    Arab Emirates
+  type: main
+- language: eng
+  script: Latn
+  content: Preparation and implementation of Cabinet Resolution No. 86 of 2023
+  type: subtitle
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2026-02/20260206
+docidentifier:
+- content: OIML Bulletin 2026-02-06
+  type: OIML
+  primary: true
+- content: '20260206'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2026-04-01'
+contributor:
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Amina Hassan Mohammad AlBastaki
+    affiliation:
+    - organization:
+        name:
+        - content: " "
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: 'The adoption of Cabinet Resolution No. 86 of 2023 in the United Arab Emirates
+    marks a significant milestone in the development of the national environmental
+    measurement system. The Resolution approved the Technical Regulation for Controlling
+    Air Quality Measurements, aiming to ensure the accuracy and reliability of results
+    produced by environmental monitoring stations and relevant laboratories. The implementation
+    of the Regulation was carried out through three main phases:'
+  format: text/plain
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2026-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml
