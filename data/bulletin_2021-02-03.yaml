@@ -1,0 +1,67 @@
+---
+id: Bulletin-2021-02-03
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Thermal energy measurements in liquids
+  type: main
+docidentifier:
+- content: OIML Bulletin 2021-02-03
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2021'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Heat and cooling meters in legal metrology - Sebastian Baack, Jürgen
+          Rose, Martin Straka
+    affiliation:
+    - organization:
+        name:
+        - content: Arne Kaehler and Humphrey Spoor
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Thermal energy measurements in liquids - Heat and cooling meters in legal
+    metrology - Sebastian Baack, Jürgen Rose, Martin Straka, Arne Kaehler and Humphrey
+    Spoor'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2021-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXII
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

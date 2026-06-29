@@ -1,0 +1,304 @@
+---
+id: Bulletin-1998-04
+schema_version: v1.5.6
+type: journal
+title:
+- language: eng
+  script: Latn
+  content: OIML Bulletin, Volume XXXIX, Number 4 (1998)
+  type: main
+docidentifier:
+- content: OIML Bulletin 1998-04
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1998-10-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+copyright:
+- from: '1998'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-01
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-02
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-03
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-04
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-05
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-06
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-07
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-08
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-09
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-10
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-11
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-12
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-13
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-14
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-15
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-16
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-17
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-18
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-19
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-20
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-21
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-22
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-23
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-24
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-25
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-26
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-27
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-28
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-29
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-30
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-31
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-32
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-33
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-34
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-35
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-36
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-37
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-38
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-39
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-40
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-41
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-42
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-43
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-44
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-45
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-46
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-47
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-48
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-04-49
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XXXIX
+  - type: issue
+    reference_from: '4'
+ext:
+  doctype:
+    content: issue
+  flavor: oiml

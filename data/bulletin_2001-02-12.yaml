@@ -1,0 +1,68 @@
+---
+id: Bulletin-2001-02-12
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: WTO MEETING First informal meeting on developing country participation
+    in standard-setting activities and their TBT-related technical assistance needs,
+    WTO, Geneva, 2001.01.23
+  type: main
+docidentifier:
+- content: OIML Bulletin 2001-02-12
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2001'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: IAN DUNMILL
+    affiliation:
+    - organization:
+        name:
+        - content: BIML
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: WTO MEETING First informal meeting on developing country participation in
+    standard-setting activities and their TBT-related technical assistance needs,
+    WTO, Geneva, 2001.01.23 - IA'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2001-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XLII
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

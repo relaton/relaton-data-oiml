@@ -1,0 +1,65 @@
+---
+id: Bulletin-2016-02-02
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Conformance assessment of electrical energy meters investigated
+  type: main
+docidentifier:
+- content: OIML Bulletin 2016-02-02
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2016'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: risk analysis - a case study - Helge Karlsson
+    affiliation:
+    - organization:
+        name:
+        - content: Age Andreas Falnes Olsen and Leslie Pendrill
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Conformance assessment of electrical energy meters investigated by risk analysis
+    - a case study - Helge Karlsson, Age Andreas Falnes Olsen and Leslie Pendrill'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2016-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LVII
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

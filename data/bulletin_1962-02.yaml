@@ -1,0 +1,187 @@
+---
+id: Bulletin-1962-02
+schema_version: v1.5.6
+type: journal
+title:
+- language: eng
+  script: Latn
+  content: OIML Bulletin, Number 2 (1962)
+  type: main
+docidentifier:
+- content: OIML Bulletin 1962-02
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1962-04-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+copyright:
+- from: '1962'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-01
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-02
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-03
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-04
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-05
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-06
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-07
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-08
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-09
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-10
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-11
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-12
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-13
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-14
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-15
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-16
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-17
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-18
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-19
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-20
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-21
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-22
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-23
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-24
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-25
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02-26
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: issue
+  flavor: oiml

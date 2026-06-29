@@ -1,0 +1,139 @@
+---
+id: Bulletin-2000-04
+schema_version: v1.5.6
+type: journal
+title:
+- language: eng
+  script: Latn
+  content: OIML Bulletin, Volume XLI, Number 4 (2000)
+  type: main
+docidentifier:
+- content: OIML Bulletin 2000-04
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2000-10-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+copyright:
+- from: '2000'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2000
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2000-04-01
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2000-04-02
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2000-04-03
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2000-04-04
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2000-04-05
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2000-04-06
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2000-04-07
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2000-04-08
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2000-04-09
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2000-04-10
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2000-04-11
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2000-04-12
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2000-04-13
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2000-04-14
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2000-04-15
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2000-04-16
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XLI
+  - type: issue
+    reference_from: '4'
+ext:
+  doctype:
+    content: issue
+  flavor: oiml

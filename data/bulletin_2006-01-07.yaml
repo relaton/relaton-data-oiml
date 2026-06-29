@@ -1,0 +1,62 @@
+---
+id: Bulletin-2006-01-07
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Current thoughts from the National Conference on Weights and Measures (NCWM)
+    and the National Type Evaluation Program (NTEP)
+  type: main
+docidentifier:
+- content: OIML Bulletin 2006-01-07
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2006'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Stephen Patoray
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Current thoughts from the National Conference on Weights and Measures (NCWM)
+    and the National Type Evaluation Program (NTEP) - Stephen Patoray'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2006-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XLVII
+  - type: issue
+    reference_from: '1'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

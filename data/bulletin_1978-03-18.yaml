@@ -1,0 +1,65 @@
+---
+id: Bulletin-1978-03-18
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: IRAN — « The activities of the Metrology Centre of the Institute of Standards
+    and Industrial Research of Iran (ISIRI) »
+  type: main
+docidentifier:
+- content: OIML Bulletin 1978-03-18
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1978'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: S.Â. THULIN, Assistant Director
+    affiliation:
+    - organization:
+        name:
+        - content: B.I.M.L
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: IRAN — « The activities of the Metrology Centre of the Institute of Standards
+    and Industrial Research of Iran (ISIRI) », by S.Â. THULIN, Assistant Director,
+    B.I.M.L.'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1978-03
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '3'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

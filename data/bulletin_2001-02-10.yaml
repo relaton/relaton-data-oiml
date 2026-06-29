@@ -1,0 +1,66 @@
+---
+id: Bulletin-2001-02-10
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Second Regional Seminar on Legal Metrology for ASEAN and APLMF economies,
+    5–6 October 2000, Grand Hotel Taipei, Chinese Taipei
+  type: main
+docidentifier:
+- content: OIML Bulletin 2001-02-10
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2001'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: MRS. LOON KHOO
+    affiliation:
+    - organization:
+        name:
+        - content: APLMF Secretariat
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Second Regional Seminar on Legal Metrology for ASEAN and APLMF economies,
+    5–6 October 2000, Grand Hotel Taipei, Chinese Taipei - MRS. LOON KHOO, APLMF Secretariat'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2001-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XLII
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

@@ -1,0 +1,54 @@
+---
+id: Bulletin-2007-02-12
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: OIML Meeting
+  type: main
+docidentifier:
+- content: OIML Bulletin 2007-02-12
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2007'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: OIML Meeting'
+  type: source
+language:
+- eng
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2007-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XLVIII
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml
