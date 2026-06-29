@@ -39,64 +39,86 @@ module OimlFetcher
 
     # issues: explicit ["2026-02", ...] or nil to auto-enumerate HTML editions.
     def run(issues: nil)
-      slugs = issues || enumerate_html_issues
+      issue_list =
+        if issues
+          issues.map { |slug| { "slug" => slug, "prefix" => "" } }
+        else
+          enumerate_html_issues
+        end
       volumes = Hash.new { |h, y| h[y] = { roman: nil, issues: [] } }
 
-      slugs.each do |slug|
-        data = process_issue(slug)
+      issue_list.each do |info|
+        data = process_issue(info["slug"], info["prefix"])
         next unless data
 
         volumes[data[:year]][:roman] ||= data[:roman]
         volumes[data[:year]][:issues] << data
       rescue OimlFetcher::Http::Error => e
-        warn "  Skipping bulletin issue #{slug}: #{e.message}"
+        warn "  Skipping bulletin issue #{info['slug']}: #{e.message}"
       end
 
       volume_docids = volumes.keys.sort.map { |year| write_volume(year, volumes[year]) }
       write_bulletin(volume_docids)
-      slugs
+      issue_list
     end
 
     # ---- Enumeration ----------------------------------------------------
 
-    # HTML issues live at /en/publications/oiml-bulletin/YYYY-NN (no .pdf).
+    # HTML issues live at /en/publications/oiml-bulletin/YYYY-NN (canonical)
+    # or /en/publications/oiml-bulletin/online-bulletin-1/YYYY-NN (a 2024
+    # transitional subpath used for the 2024-07 and 2024-10 editions).
+    # Returns an array of {slug, prefix} hashes.
     def enumerate_html_issues
       html = get("#{@base}/en/publications/oiml-bulletin/online-bulletin")
-      html.scan(%r{/en/publications/oiml-bulletin/(\d{4}-\d{2})(?=["'/])})
-          .flatten.uniq.sort
+      html.scan(%r{/en/publications/oiml-bulletin/(online-bulletin-1/)?(\d{4}-\d{2})(?=["'/])})
+          .map { |prefix, slug| { "slug" => slug, "prefix" => prefix.to_s } }
+          .uniq.sort_by { |h| h["slug"] }
     end
 
     private
 
     # ---- Issue ----------------------------------------------------------
 
-    def process_issue(slug)
-      url = "#{@base}/en/publications/oiml-bulletin/#{slug}"
+    def process_issue(slug, prefix = "")
+      sub = prefix.empty? ? "" : "#{prefix}"
+      url = "#{@base}/en/publications/oiml-bulletin/#{sub}#{slug}"
       doc = nokogiri(get(url))
-      articles = article_links(doc, slug)
+      articles = article_links(doc, slug, prefix)
       return nil if articles.empty?
 
       year, nn = slug.split("-").map(&:to_i)
       roman = header_roman(doc)
+      # Canonical-era slugs use quarterly numbering (1-4); 2024 transitional
+      # slugs use literal months (1, 4, 7, 10). Compute the actual month.
+      month = prefix.empty? ? QUARTER_MONTH.fetch(nn, "01") : format("%02d", nn)
 
-      article_records = articles.map { |a| process_article(slug, a, year) }.compact
+      article_records = articles.each_with_index.map do |a, idx|
+        process_article(slug, prefix, a, year, idx)
+      end.compact
       roman ||= article_records.map { |r| r[:roman] }.compact.first
 
-      write_issue(slug, year, nn, roman, article_records)
+      write_issue(slug, year, nn, roman, article_records, month)
       { slug: slug, year: year, nn: nn, roman: roman,
         issue_docid: issue_docid(slug),
         article_docids: article_records.map { |r| r[:docid] } }
     end
 
-    def article_links(doc, slug)
+    def article_links(doc, slug, prefix = "")
       seen = {}
+      # Article URLs may be /oiml-bulletin/<slug>/<id> (canonical) or
+      # /oiml-bulletin/online-bulletin-1/<slug>/<id> (transitional).
+      # The <id> may be a 6-8 digit number (canonical era) or a kebab-case
+      # slug (2024 transitional era).
+      pattern = %r{/oiml-bulletin/#{Regexp.escape(prefix)}#{Regexp.escape(slug)}/([^/"?#]+)\z}
       doc.css("a[href]").each do |a|
-        m = a["href"].match(%r{/oiml-bulletin/#{Regexp.escape(slug)}/(\d{6,8})\z})
+        m = a["href"].match(pattern)
         next unless m
 
         id = m[1]
+        # Skip pseudo-routes that aren't articles.
+        next if id == "editorial" || id == "focus-paper"
+
         title = a.text.strip
-        # Keep the longest title seen for a given id (contents list has the full one).
         seen[id] = title if !seen.key?(id) || title.length > seen[id].length
       end
       seen.map { |id, title| { id: id, title: title } }.sort_by { |a| a[:id] }
@@ -104,27 +126,34 @@ module OimlFetcher
 
     # ---- Article --------------------------------------------------------
 
-    def process_article(slug, link, year)
-      url = "#{@base}/en/publications/oiml-bulletin/#{slug}/#{link[:id]}"
+    def process_article(slug, prefix, link, year, idx)
+      sub = prefix.empty? ? "" : prefix
+      url = "#{@base}/en/publications/oiml-bulletin/#{sub}#{slug}/#{link[:id]}"
       doc = nokogiri(get(url))
       header = doc.at_css(".bulletin-header-left") || doc.at_css("#content-core")
       return nil unless header
 
       citation = parse_citation(header)
-      seq = link[:id][-2..]
+      # Canonical-era article IDs embed the sequence in their last 2 digits
+      # (e.g. 20260211 -> 11). Slug-based IDs (2024 transitional era) don't,
+      # so use the enumeration index for those.
+      seq = link[:id].match?(/\A\d{6,8}\z/) ? link[:id][-2..] : format("%02d", idx + 1)
       art_docid = "#{SERIES_TITLE} #{slug}-#{seq}"
       roman = citation[:roman] || header_roman(doc)
       nn = slug.split("-").last.to_i
+      # Canonical-era slugs use quarterly numbering (1-4); 2024 transitional
+      # slugs use literal months (1, 4, 7, 10).
+      month = prefix.empty? ? QUARTER_MONTH.fetch(nn, format("%02d", nn)) : format("%02d", nn)
 
       hash = build_article_hash(
-        slug: slug, seq: seq, id: link[:id], url: url, year: year, nn: nn,
+        slug: slug, seq: seq, id: link[:id], url: url, year: year, month: month,
         roman: roman, header: header, contents_title: link[:title],
       )
       @store.write(article_filename(slug, seq), hash)
       { docid: art_docid, roman: roman }
     end
 
-    def build_article_hash(slug:, seq:, id:, url:, year:, nn:, roman:, header:, contents_title:)
+    def build_article_hash(slug:, seq:, id:, url:, year:, month:, roman:, header:, contents_title:)
       title = header_title(header) || contents_title
       subtitle = header_subtitle(header)
       titles = [localized(title, "main")]
@@ -143,7 +172,7 @@ module OimlFetcher
         "language" => ["eng"],
         "script" => ["Latn"],
         "series" => [series_hash],
-        "extent" => [extent_hash(roman, nn)],
+        "extent" => [extent_hash(roman, month_to_issue(month))],
         "relation" => [{
           "type" => "includedIn",
           "bibitem" => { "docidentifier" => [{ "content" => issue_docid(slug), "type" => "OIML" }] },
@@ -153,13 +182,13 @@ module OimlFetcher
         abstract = header_abstract(header)
         h["abstract"] = [{ "language" => "eng", "script" => "Latn",
                            "format" => "text/plain", "content" => abstract }] if abstract
-        apply_published!(h, year, nn)
+        apply_published!(h, year, month)
       end
     end
 
     # ---- Issue / Volume / Bulletin records ------------------------------
 
-    def write_issue(slug, year, nn, roman, article_records)
+    def write_issue(slug, year, nn, roman, article_records, month)
       hash = {
         "id" => "Bulletin-#{slug}",
         "type" => "journal",
@@ -168,12 +197,12 @@ module OimlFetcher
         "docidentifier" => [{ "content" => issue_docid(slug), "type" => "OIML", "primary" => true }],
         "language" => ["eng"], "script" => ["Latn"],
         "series" => [series_hash],
-        "extent" => [extent_hash(roman, nn)],
+        "extent" => [extent_hash(roman, month_to_issue(month))],
         "relation" => [parent_relation(volume_docid(year))] +
           article_records.map { |r| child_relation(r[:docid]) },
         "ext" => { "doctype" => { "content" => "issue" }, "flavor" => "oiml" },
       }
-      apply_published!(hash, year, nn)
+      apply_published!(hash, year, month)
       @store.write("bulletin_#{slug}", hash)
     end
 
@@ -187,11 +216,11 @@ module OimlFetcher
         "docidentifier" => [{ "content" => docid, "type" => "OIML", "primary" => true }],
         "language" => ["eng"], "script" => ["Latn"],
         "series" => [series_hash],
-        "extent" => [{ "locality" => [volume_locality(roman)].compact }],
         "relation" => [parent_relation(SERIES_TITLE)] +
           info[:issues].sort_by { |i| i[:nn] }.map { |i| child_relation(i[:issue_docid]) },
         "ext" => { "doctype" => { "content" => "volume" }, "flavor" => "oiml" },
       }
+      hash["extent"] = [{ "locality" => [volume_locality(roman)] }] if roman
       apply_published!(hash, year, nil)
       @store.write("bulletin_#{year}", hash)
       docid
@@ -216,18 +245,27 @@ module OimlFetcher
     # ---- HTML extraction helpers ---------------------------------------
 
     def header_title(header)
-      t = header.at_css("h1")&.text&.strip
-      t unless t.nil? || t.empty?
+      # Canonical era uses h1; 2024 transitional era uses h2.
+      %w[h1 h2].each do |tag|
+        t = header.at_css(tag)&.text&.strip
+        return t unless t.nil? || t.empty?
+      end
+      nil
     end
 
     def header_subtitle(header)
-      t = header.at_css("h1 ~ h2, h2")&.text&.strip
-      t unless t.nil? || t.empty?
+      # Only return an h2 as subtitle if an h1 is present (canonical era).
+      # The 2024 transitional era uses h2 for the title itself.
+      return nil unless header.at_css("h1")
+
+      t = header.css("h2").map { |h| h.text.strip }.find { |x| !x.empty? }
+      t
     end
 
     def header_roman(doc)
+      # Try the link-text form first (canonical era), then plain h5 text (2024 era).
       link = doc.at_css(".bulletin-header-left a, #content-core h5 a")
-      txt = link && (link["text"] || link.text)
+      txt = link && (link["text"] || link.text) || doc.at_css(".bulletin-header-left h5, #content-core h5")&.text
       m = txt && HEADER_RE.match(txt)
       m && m[2].upcase
     end
@@ -282,6 +320,11 @@ module OimlFetcher
                        { "type" => "issue", "reference_from" => nn.to_s }].compact }
     end
 
+    # Map a month string ("01".."12") to a quarterly issue number (1..4).
+    def month_to_issue(month)
+      { "01" => 1, "04" => 2, "07" => 3, "10" => 4 }.fetch(month, month.to_i)
+    end
+
     def volume_locality(roman)
       return nil unless roman
 
@@ -300,9 +343,10 @@ module OimlFetcher
       { "type" => "hasPart", "bibitem" => { "docidentifier" => [{ "content" => docid, "type" => "OIML" }] } }
     end
 
-    def apply_published!(hash, year, nn)
-      month = nn ? QUARTER_MONTH.fetch(nn, "01") : "01"
-      hash["date"] = [{ "type" => "published", "from" => "#{year}-#{month}-01" }]
+    def apply_published!(hash, year, month)
+      # month is a 2-digit string ("01".."12") or nil for volume-level records.
+      m = month || "01"
+      hash["date"] = [{ "type" => "published", "from" => "#{year}-#{m}-01" }]
       hash["copyright"] = [{
         "from" => year.to_s,
         "owner" => [{ "organization" => OimlFetcher.oiml_org_hash }],

@@ -154,6 +154,16 @@ instances use ISO 639-3 (`r35_2007_eng.yaml`); translations same
 
 ## OIML Bulletin articles — periodical hierarchy
 
+### Docx vs printed TOC authority
+
+**Policy: the editor-provided contents.docx is authoritative.** The docx
+may list articles not present in a Bulletin's printed SOMMAIRE (verified
+case: 1980 no.80 has 18 entries in the docx vs 7 in the printed TOC; the
+other 11 are genuine articles — country reports, presidential addresses,
+etc. — that the printed TOC omitted, likely for space). The dataset
+intentionally includes these. Do not prune records just because they
+don't appear in a printed TOC. See `TODO.full-bulletin/06-docx-vs-toc-policy.md`.
+
 Bulletin articles (a new record class, distinct from OIML publications)
 follow a four-tier containment hierarchy, mirroring how BIPM models
 *Metrologia* (`series` + `extent.locality`) but with explicit container

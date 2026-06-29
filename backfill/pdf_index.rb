@@ -41,13 +41,43 @@ module BulletinBackfill
 
     private
 
-    # "2024-01" -> {year: 2024, issue: "01"}; PDFs without a clean slug get nil.
-    # Issue numbering is quarterly: 01/04/07/10 in PDF filenames map to 1/2/3/4.
+    # Map a PDF URL/label to (year, issue). Three patterns:
+    #   - born-digital 2000+: label "YYYY-MM" or filename "oiml_bulletin_<month>_YYYY.pdf"
+    #   - scanned era: filename "YYYY-bulletin-N.pdf" — N is cumulative; needs
+    #     the cumulative→within-year mapping from docx_articles.yaml.
     def parse_slug(label, href)
+      basename = File.basename(href || "")
+      if (m = basename.match(/\A(\d{4})-bulletin-(\d+)\.pdf\z/i))
+        year = m[1].to_i
+        cumulative = m[2].to_i
+        issue = within_year_issue_for(year, cumulative)
+        return { "year" => year, "issue" => issue, "bulletin_no" => cumulative }
+      end
       m = (label || href).match(/(20\d\d|19\d\d)[-_]?(0[1-4]|jan|apr|jul|oct|april|july|october)/i)
       return {} unless m
 
       { "year" => m[1].to_i, "issue" => MONTH_MAP.fetch(m[2].downcase) }
+    end
+
+    # Look up which within-year issue number corresponds to a cumulative
+    # bulletin_no in a given year. Loads docx_articles.yaml once.
+    CUMULATIVE_MAPPING = nil # set lazily on first call
+
+    def within_year_issue_for(year, cumulative)
+      @@cumulative_mapping ||= begin
+        path = File.expand_path("cache/docx_articles.yaml", __dir__)
+        if File.exist?(path)
+          entries = YAML.load_file(path)
+          per_year = entries.group_by { |e| e["year"] }
+          per_year.transform_values do |es|
+            nos = es.map { |e| e["bulletin_no"] }.compact.uniq.sort
+            nos.each_with_index.to_h { |n, i| [n, i + 1] }
+          end
+        else
+          {}
+        end
+      end
+      @@cumulative_mapping.dig(year, cumulative) || 1
     end
 
     # PDF labels use MONTH numbers (01/04/07/10) — convert to the quarterly
