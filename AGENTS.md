@@ -187,7 +187,7 @@ data/                     # work + instance YAMLs, e.g.
   r35-1-2007_deu.yaml     #   German translation of part 1
   v1_2022.yaml            #   bilingual single-PDF (no split)
 Gemfile                   # psych pin + relaton-bib + thor + nokogiri + rspec
-crawler.rb                # builds index-v1.yaml from data/*.yaml
+crawler.rb                # thin entry point → OimlFetcher::Indexer.build
 check_data.rb             # round-trip validator, exit 1 on mismatch
 exe/oiml-fetch            # binstub ($LOAD_PATH + require "oiml_fetcher")
 bin/extract_portfolio.py  # pypdf helper for PDF Portfolio attachments
@@ -204,7 +204,8 @@ lib/oiml_fetcher/
   portfolio_fetcher.rb    # downloads source PDFs + extracts portfolios
   parts_builder.rb        # PDF portfolio parts → part/amendment/annex/errata YAMLs
   caco3_fetcher.rb        # enriches Recommendations from caco3consulting.com
-spec/oiml_fetcher/        # rspec specs (63 examples, all passing)
+  indexer.rb              # OimlFetcher::Indexer.build (clean-rebuild index)
+spec/oiml_fetcher/        # rspec specs (67 examples, all passing)
 TODO.refactor/            # architecture review plans (6 candidates)
 pdfs/                     # gitignored PDF cache
 index-v1.yaml             # generated, committed
@@ -249,9 +250,14 @@ bundle exec ruby check_data.rb            # round-trip validate
 
 ## Crawler + check_data contracts
 
-`crawler.rb` indexes every `data/*.yaml` by its primary docid into
-`index-v1.yaml` via `Relaton::Index`. No type-specific logic — works for
-works, instances, and translations uniformly.
+`crawler.rb` delegates to `OimlFetcher::Indexer.build`, which indexes every
+`data/*.yaml` by its primary docid into `index-v1.yaml` via `Relaton::Index`.
+No type-specific logic — works for works, instances, and translations
+uniformly. It calls `idx.remove_all` first so the index is **rebuilt from
+scratch** each run: `Relaton::Index.find_or_create` loads the existing index
+and `add_or_update` never prunes, so without the reset, entries for
+renamed/deleted data files would linger as orphans. Output is sorted by
+filename (`Dir[...].sort`), giving a stable, diff-friendly order.
 
 `check_data.rb` round-trips every YAML through `Relaton::Bib::Item.from_yaml`
 → `to_yaml` and diffs against the source. Exit 1 on any byte mismatch.
