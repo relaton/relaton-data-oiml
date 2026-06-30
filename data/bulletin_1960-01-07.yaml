@@ -22,6 +22,12 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: M. JACOB (Belgique)
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: Travaux de l''Organisation Internationale de Métrologie Légale'
@@ -46,6 +52,8 @@ extent:
 - locality:
   - type: issue
     reference_from: '1'
+  - type: page
+    reference_from: '7'
 ext:
   doctype:
     content: article
