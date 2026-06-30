@@ -23,18 +23,6 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
-- role:
-  - type: author
-  person:
-    name:
-      completename:
-        content: Rodrigues Filho B.A.
-- role:
-  - type: author
-  person:
-    name:
-      completename:
-        content: Soratto A.N
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: An overview of legal metrology activities in Brazil - Rodrigues Filho B.A.
@@ -62,8 +50,6 @@ extent:
     reference_from: LVIII
   - type: issue
     reference_from: '1'
-  - type: page
-    reference_from: '11'
 ext:
   doctype:
     content: article

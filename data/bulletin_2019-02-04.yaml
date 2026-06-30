@@ -23,18 +23,6 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
-- role:
-  - type: author
-  person:
-    name:
-      completename:
-        content: B. Schultz
-- role:
-  - type: author
-  person:
-    name:
-      completename:
-        content: R. Fiksdal
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: Challenges regarding weighing in the Norwegian fishing industry – experience
@@ -62,8 +50,6 @@ extent:
     reference_from: LX
   - type: issue
     reference_from: '2'
-  - type: page
-    reference_from: '9'
 ext:
   doctype:
     content: article
