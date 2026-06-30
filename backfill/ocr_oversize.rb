@@ -53,11 +53,22 @@ module BulletinBackfill
         chunks = split_into_chunks(pdf_path, pages, tmp)
         return if chunks.empty?
 
-        markdown = chunks.map do |chunk|
-          chunk_md = @ocr.ocr_pdf(chunk[:path], num_pages: chunk[:pages])
+        markdown_parts = []
+        failed_pages = []
+        chunks.each do |chunk|
+          begin
+            chunk_md = @ocr.ocr_pdf(chunk[:path], num_pages: chunk[:pages])
+            markdown_parts << chunk_md
+          rescue StandardError => e
+            warn "    chunk failed (content filter?): #{e.message[0, 80]}"
+            failed_pages << "#{chunk[:start]}-#{chunk[:start] + chunk[:pages] - 1}"
+          end
           FileUtils.rm_f(chunk[:path])
-          chunk_md
-        end.join("\n\n")
+        end
+        markdown = markdown_parts.join("\n\n")
+        unless failed_pages.empty?
+          markdown += "\n\n<!-- SKIPPED PAGES (GLM content filter): #{failed_pages.join(', ')} -->\n"
+        end
 
         # Determine target directory based on the issue this PDF belongs to.
         target_dir = target_issue_dir(basename)
@@ -87,7 +98,7 @@ module BulletinBackfill
         chunk_path = File.join(tmp_dir, "chunk_#{start_page}_#{end_page}.pdf")
         _, chunk_status = Open3.capture2("pdfunite", *chunk_pages, chunk_path)
         if chunk_status.success? && File.size(chunk_path) < SIZE_LIMIT_BYTES
-          chunks << { path: chunk_path, pages: chunk_pages.size }
+          chunks << { path: chunk_path, pages: chunk_pages.size, start: start_page }
         elsif chunk_status.success?
           # Chunk too big — further split in half.
           mid = (chunk_pages.size / 2.0).ceil
@@ -96,7 +107,7 @@ module BulletinBackfill
 
             half_path = File.join(tmp_dir, "half_#{start_page}_#{idx}.pdf")
             _, half_status = Open3.capture2("pdfunite", *half, half_path)
-            chunks << { path: half_path, pages: half.size } if half_status.success?
+            chunks << { path: half_path, pages: half.size, start: start_page + (idx == 0 ? 0 : mid) } if half_status.success?
           end
           FileUtils.rm_f(chunk_path)
         end
