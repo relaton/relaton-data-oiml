@@ -5,6 +5,4 @@ Gemfile.lock
 .omo/
 tmp/
 pdfs/
-*.zip
-spec/examples.txt
 spec/examples.txt
