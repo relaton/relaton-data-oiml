@@ -210,6 +210,8 @@ TODO.refactor/            # architecture review plans (6 candidates)
 pdfs/                     # gitignored PDF cache
 index-v1.yaml             # generated, committed (flat string docid index)
 index-v2.yaml             # generated, committed (structured pubid index)
+index-v1.zip              # committed zip of index-v1.yaml (maintained by CI)
+index-v2.zip              # committed zip of index-v2.yaml (maintained by CI)
 README.adoc
 .github/workflows/        # reuse relaton/support workflows
 ```
@@ -263,6 +265,14 @@ never prunes, so without the reset, entries for renamed/deleted data files
 would linger as orphans. v1 output is sorted by filename (`Dir[...].sort`); v2
 is sorted by pubid id number (relaton-index). A docid pubid can't parse is
 warned and skipped from v2 only — it never drops out of v1.
+
+`crawler.rb` writes only the YAML; the `relaton/support` crawler workflow zips
+each `index*.yaml` into `index*.zip` and commits both (its `commit-indexes`
+input defaults to `true`). The zips are committed and consumed by relaton-db at
+runtime; the workflow re-zips only when a YAML changes and otherwise restores
+the committed zip, so `index-v1.zip` / `index-v2.zip` must stay in the repo.
+Each zip holds exactly its `index-vN.yaml` by basename — to regenerate by hand:
+`zip index-v1.zip index-v1.yaml` (or rubyzip, since `zip` may be absent).
 
 `check_data.rb` round-trips every YAML through `Relaton::Bib::Item.from_yaml`
 → `to_yaml` and diffs against the source. Exit 1 on any byte mismatch.
