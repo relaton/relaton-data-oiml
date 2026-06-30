@@ -23,12 +23,6 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
-- role:
-  - type: author
-  person:
-    name:
-      completename:
-        content: Ph. BERTRAN
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: FRANCE — La nouvelle organisation de la métrologie légale en France, par
@@ -54,8 +48,6 @@ extent:
 - locality:
   - type: issue
     reference_from: '3'
-  - type: page
-    reference_from: '24'
 ext:
   doctype:
     content: article

@@ -23,12 +23,6 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
-- role:
-  - type: author
-  person:
-    name:
-      completename:
-        content: W. WÜNSCHE
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: REPUBLIQUE FEDERALE d’ALLEMAGNE — Verification of in-motion rail-weighbridges,
@@ -54,8 +48,6 @@ extent:
 - locality:
   - type: issue
     reference_from: '2'
-  - type: page
-    reference_from: '30'
 ext:
   doctype:
     content: article
