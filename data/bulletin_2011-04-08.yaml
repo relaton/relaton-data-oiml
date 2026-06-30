@@ -5,7 +5,7 @@ type: article
 title:
 - language: eng
   script: Latn
-  content: "■ update"
+  content: update
   type: main
 docidentifier:
 - content: OIML Bulletin 2011-04-08
