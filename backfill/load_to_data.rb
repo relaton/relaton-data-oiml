@@ -135,7 +135,12 @@ module BulletinBackfill
           slug = "#{year}-#{fmt(issue_no)}"
           roman = info[:roman]
           entries.sort_by { |e| e["sequence"] }.each do |e|
-            @store.write("bulletin_#{slug}-#{e['sequence']}", article_hash(slug, roman, issue_no, e))
+            filename = "bulletin_#{slug}-#{e['sequence']}"
+            hash = article_hash(slug, roman, issue_no, e)
+            # Preserve enrichment from earlier passes (page numbers, authors,
+            # provenance) so re-running this loader is idempotent.
+            hash = merge_enrichment!(hash, filename)
+            @store.write(filename, hash)
             @counts[:articles] += 1
           end
         end
@@ -189,6 +194,58 @@ module BulletinBackfill
       other = (hash["relation"] || []).reject { |r| r["type"] == "hasPart" }
       hash["relation"] = other + targets.map { |d| child_relation(d) }
       @store.write("bulletin", hash)
+    end
+
+    # Preserve previously-enriched fields (page numbers, authors, provenance)
+    # so re-running this loader is idempotent and doesn't clobber later work.
+    def merge_enrichment!(hash, filename)
+      existing_path = File.join(@data_dir, "#{filename}.yaml")
+      return hash unless File.exist?(existing_path)
+
+      existing = YAML.safe_load(File.read(existing_path, encoding: "UTF-8"))
+      return hash unless existing.is_a?(Hash)
+
+      # Preserve page locality.
+      existing_page = existing.dig("extent", 0, "locality")&.find { |l| l["type"] == "page" }
+      if existing_page
+        localities = (hash["extent"] || []).first&.dig("locality") || []
+        unless localities.any? { |l| l["type"] == "page" }
+          localities << existing_page
+          hash["extent"] = [{ "locality" => localities }]
+        end
+      end
+
+      # Preserve author contributors from PDF enrichment (skip the obvious
+      # bad "Summary report / English and French" mis-parses).
+      existing_authors = (existing["contributor"] || []).select do |c|
+        c["role"]&.any? { |r| r["type"] == "author" }
+      end
+      pdf_authors = existing_authors.reject do |c|
+        n = c.dig("person", "name", "completename", "content")
+        a = c.dig("person", "affiliation", 0, "organization", "name", 0, "content")
+        n == "Summary report" || a == "English and French"
+      end
+      if pdf_authors.any?
+        docx_has_authors = (hash["contributor"] || []).any? do |c|
+          c["role"]&.any? { |r| r["type"] == "author" }
+        end
+        if !docx_has_authors
+          hash["contributor"] ||= []
+          hash["contributor"] = (hash["contributor"] + pdf_authors).uniq do |c|
+            c.dig("person", "name", "completename", "content")
+          end
+        end
+      end
+
+      # Preserve provenance list.
+      existing_prov = existing.dig("ext", "provenance") || []
+      if existing_prov.any?
+        hash["ext"] ||= {}
+        current_prov = hash["ext"]["provenance"] || []
+        hash["ext"]["provenance"] = (current_prov + existing_prov).uniq
+      end
+
+      hash
     end
 
     # ---- Helpers ----
