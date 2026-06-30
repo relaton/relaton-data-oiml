@@ -23,6 +23,12 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: H.M. HUMPERT
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: REPUBLIQUE DEMOCRATIQUE ALLEMANDE — Testing of conveyor-belt scales, par
@@ -48,6 +54,8 @@ extent:
 - locality:
   - type: issue
     reference_from: '1'
+  - type: page
+    reference_from: '10'
 ext:
   doctype:
     content: article
