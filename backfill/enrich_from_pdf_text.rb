@@ -179,6 +179,14 @@ module BulletinBackfill
               i = lookahead_idx + 1
               next
             end
+            # 1960s alt: "par NAME, Country. <page>"  (e.g. "par F. VIAUD, France. 7")
+            if (am = la.match(/\Apar\s+(.+?),\s*([^.,]+?)\.\s*(\d+)?\z/i))
+              author = "#{am[1].strip} (#{am[2].strip})"
+              page = am[3] && am[3].to_i
+              entries << { title: line.gsub(/,\s*\z/, ""), authors: [author], page: page, section: current_section }
+              i = lookahead_idx + 1
+              next
+            end
           end
         end
       end
@@ -190,8 +198,11 @@ module BulletinBackfill
     end
 
     # True if the cleaned line is exactly "Contents"/"Sommaire" or one of
-    # those followed by a single short running-header word like "OIML".
+    # those followed by a single short running-header word like "OIML", or
+    # preceded by a single OCR-artifact letter like "K".
     def contents_heading?(cleaned)
+      # Strip a single leading letter that's an OCR artifact (e.g. "K Contents").
+      cleaned = cleaned.sub(/\A[A-Z]\s+(?=[A-Z][a-z])/, "")
       return true if cleaned.match?(/\A(Contents|Sommaire|SOMMAIRE)\z/i)
       return true if cleaned.match?(/\A(Contents|Sommaire|SOMMAIRE)\s+(OIML|BULLETIN)\z/i)
       return true if cleaned.match?(/\A(Contents|Sommaire|SOMMAIRE)\s+( Volume|Numéro|Numéro)?\s*\d+/i)
