@@ -23,6 +23,12 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Marcos J. H. Senna
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: Legal metrology in the Inter-American Metrology System (SIM) - Marcos J.
@@ -50,6 +56,8 @@ extent:
     reference_from: LII
   - type: issue
     reference_from: '2'
+  - type: page
+    reference_from: '16'
 ext:
   doctype:
     content: article
