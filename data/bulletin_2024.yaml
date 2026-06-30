@@ -48,6 +48,10 @@ series:
     script: Latn
     content: OIML Bulletin
     format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXV
 ext:
   doctype:
     content: volume

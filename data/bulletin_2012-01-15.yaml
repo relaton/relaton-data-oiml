@@ -48,8 +48,6 @@ extent:
     reference_from: LIII
   - type: issue
     reference_from: '1'
-  - type: page
-    reference_from: '47'
 ext:
   doctype:
     content: article

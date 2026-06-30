@@ -48,8 +48,6 @@ extent:
     reference_from: LI
   - type: issue
     reference_from: '2'
-  - type: page
-    reference_from: '45'
 ext:
   doctype:
     content: article

@@ -56,8 +56,6 @@ extent:
     reference_from: LIX
   - type: issue
     reference_from: '1'
-  - type: page
-    reference_from: '25'
 ext:
   doctype:
     content: article
