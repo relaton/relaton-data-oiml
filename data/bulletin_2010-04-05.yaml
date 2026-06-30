@@ -23,6 +23,18 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Oleh Velychko
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Tetyana Gordiyenko
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: Metrological activities between the TCs of the OIML and other International
@@ -50,6 +62,8 @@ extent:
     reference_from: LI
   - type: issue
     reference_from: '4'
+  - type: page
+    reference_from: '14'
 ext:
   doctype:
     content: article
