@@ -23,12 +23,6 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
-- role:
-  - type: author
-  person:
-    name:
-      completename:
-        content: E. BEFAHY et Ph. DEGAVRE
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: BELGIQUE — Equipement du Service de la Métrologie belge destiné à la vérification
@@ -54,8 +48,6 @@ extent:
 - locality:
   - type: issue
     reference_from: '2'
-  - type: page
-    reference_from: '3'
 ext:
   doctype:
     content: article
