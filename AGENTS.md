@@ -186,7 +186,7 @@ data/                     # work + instance YAMLs, e.g.
   r35_2007_fra.yaml       #   FR instance
   r35-1-2007_deu.yaml     #   German translation of part 1
   v1_2022.yaml            #   bilingual single-PDF (no split)
-Gemfile                   # psych pin + relaton-bib + thor + nokogiri + rspec
+Gemfile                   # psych pin + relaton-bib + pubid + thor + nokogiri + rspec
 crawler.rb                # thin entry point → OimlFetcher::Indexer.build
 check_data.rb             # round-trip validator, exit 1 on mismatch
 exe/oiml-fetch            # binstub ($LOAD_PATH + require "oiml_fetcher")
@@ -204,11 +204,12 @@ lib/oiml_fetcher/
   portfolio_fetcher.rb    # downloads source PDFs + extracts portfolios
   parts_builder.rb        # PDF portfolio parts → part/amendment/annex/errata YAMLs
   caco3_fetcher.rb        # enriches Recommendations from caco3consulting.com
-  indexer.rb              # OimlFetcher::Indexer.build (clean-rebuild index)
-spec/oiml_fetcher/        # rspec specs (67 examples, all passing)
+  indexer.rb              # OimlFetcher::Indexer.build (clean-rebuild v1 + v2)
+spec/oiml_fetcher/        # rspec specs (71 examples, all passing)
 TODO.refactor/            # architecture review plans (6 candidates)
 pdfs/                     # gitignored PDF cache
-index-v1.yaml             # generated, committed
+index-v1.yaml             # generated, committed (flat string docid index)
+index-v2.yaml             # generated, committed (structured pubid index)
 README.adoc
 .github/workflows/        # reuse relaton/support workflows
 ```
@@ -243,21 +244,25 @@ bundle exec oiml-fetch --translations     # also fetch 10 translation pages
 bundle exec oiml-fetch --pdfs             # download PDFs + extract portfolios + build parts
 bundle exec oiml-fetch --caco3            # enrich Recommendations from caco3consulting.com
 bundle exec oiml-fetch --type=recommendations --status=1   # narrow scope
-bundle exec rspec spec/                   # run 63 specs
-bundle exec ruby crawler.rb               # rebuild index-v1.yaml
+bundle exec rspec spec/                   # run 71 specs
+bundle exec ruby crawler.rb               # rebuild index-v1.yaml + index-v2.yaml
 bundle exec ruby check_data.rb            # round-trip validate
 ```
 
 ## Crawler + check_data contracts
 
 `crawler.rb` delegates to `OimlFetcher::Indexer.build`, which indexes every
-`data/*.yaml` by its primary docid into `index-v1.yaml` via `Relaton::Index`.
-No type-specific logic — works for works, instances, and translations
-uniformly. It calls `idx.remove_all` first so the index is **rebuilt from
-scratch** each run: `Relaton::Index.find_or_create` loads the existing index
-and `add_or_update` never prunes, so without the reset, entries for
-renamed/deleted data files would linger as orphans. Output is sorted by
-filename (`Dir[...].sort`), giving a stable, diff-friendly order.
+`data/*.yaml` by its primary docid into two indexes via `Relaton::Index`:
+`index-v1.yaml` (flat string docid → file) and `index-v2.yaml` (structured
+pubid identifier → file, with `pubid_class: Pubid::Oiml::Identifier`; each
+primary docid is parsed by pubid v2's OIML support). No type-specific logic —
+works for works, instances, and translations uniformly. It calls
+`idx.remove_all` first so both indexes are **rebuilt from scratch** each run:
+`Relaton::Index.find_or_create` loads the existing index and `add_or_update`
+never prunes, so without the reset, entries for renamed/deleted data files
+would linger as orphans. v1 output is sorted by filename (`Dir[...].sort`); v2
+is sorted by pubid id number (relaton-index). A docid pubid can't parse is
+warned and skipped from v2 only — it never drops out of v1.
 
 `check_data.rb` round-trips every YAML through `Relaton::Bib::Item.from_yaml`
 → `to_yaml` and diffs against the source. Exit 1 on any byte mismatch.

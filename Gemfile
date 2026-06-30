@@ -22,6 +22,15 @@ end
 #   gem "relaton-oiml", git: "https://github.com/relaton/relaton.git",
 #                       branch: "main", glob: "gems/relaton-oiml/*.gemspec"
 
+# pubid v2 (with OIML support) parses primary docids into structured
+# identifiers for the pubid_class-based index-v2.yaml. Tracks the
+# rt-new-lutaml-model branch until pubid v2 is released; lutaml-model follows
+# main to match pubid's serialization (relaton-bib allows ~> 0.8.0).
+gem "pubid", git: "https://github.com/metanorma/pubid.git",
+             branch: "rt-new-lutaml-model"
+gem "lutaml-model", git: "https://github.com/lutaml/lutaml-model.git",
+                    branch: "main"
+
 gem "thor",              "~> 1.3"
 gem "nokogiri"
 gem "net-http-persistent"
