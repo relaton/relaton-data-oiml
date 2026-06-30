@@ -60,8 +60,6 @@ extent:
     reference_from: XLVI
   - type: issue
     reference_from: '1'
-  - type: page
-    reference_from: '12'
 ext:
   doctype:
     content: article
