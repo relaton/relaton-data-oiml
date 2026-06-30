@@ -22,6 +22,12 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: M. G. (D. BOURDOUN, U.R.S.S. 40)
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: « Les Unités des grandeurs physiques », parM. G.-D. BOURDOUN, U.R.S.S.'

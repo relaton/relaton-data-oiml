@@ -22,6 +22,12 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: L. SILVERT
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: par jauge à piston'
@@ -45,6 +51,8 @@ series:
 extent:
 - locality:
   - type: issue
+    reference_from: '3'
+  - type: page
     reference_from: '3'
 ext:
   doctype:
