@@ -68,19 +68,35 @@ module BulletinBackfill
     def request(file_input, start_page, end_page)
       body = { "model" => "glm-ocr", "file" => as_file_field(file_input),
                "start_page_id" => start_page, "end_page_id" => end_page }
-      http = Net::HTTP.new(ENDPOINT.host, ENDPOINT.port)
-      http.use_ssl = ENDPOINT.scheme == "https"
-      http.read_timeout = 600
-      http.write_timeout = 120
-      req = Net::HTTP::Post.new(ENDPOINT.request_uri,
-                                "Authorization" => "Bearer #{@api_key}",
-                                "Content-Type" => "application/json")
-      req.body = JSON.generate(body)
-      res = http.request(req)
-      raise "GLM-OCR HTTP #{res.code}: #{res.body[0, 300]}" unless res.is_a?(Net::HTTPSuccess)
+      attempt_with_retry(body)
+    end
 
-      JSON.parse(res.body).tap do |j|
-        raise "GLM-OCR error: #{j.inspect}" if j["error"] || j["code"]
+    # GLM-OCR returns HTTP 429 on rate limits; back off and retry up to 5 times.
+    def attempt_with_retry(body, attempts: 5)
+      delay = 30
+      attempts.times do |n|
+        http = Net::HTTP.new(ENDPOINT.host, ENDPOINT.port)
+        http.use_ssl = ENDPOINT.scheme == "https"
+        http.read_timeout = 600
+        http.write_timeout = 120
+        req = Net::HTTP::Post.new(ENDPOINT.request_uri,
+                                  "Authorization" => "Bearer #{@api_key}",
+                                  "Content-Type" => "application/json")
+        req.body = JSON.generate(body)
+        res = http.request(req)
+        if res.is_a?(Net::HTTPSuccess)
+          j = JSON.parse(res.body)
+          raise "GLM-OCR error: #{j.inspect}" if j["error"] || j["code"]
+
+          return j
+        end
+        if res.code == "429" && n < attempts - 1
+          warn "  GLM-OCR 429 rate limit; retry in #{delay}s (attempt #{n + 1}/#{attempts})"
+          sleep delay
+          delay = [delay * 1.5, 300].min
+          next
+        end
+        raise "GLM-OCR HTTP #{res.code}: #{res.body[0, 300]}"
       end
     end
 
