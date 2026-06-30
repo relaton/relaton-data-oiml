@@ -60,6 +60,8 @@ extent:
     reference_from: XXXVIII
   - type: issue
     reference_from: '3'
+  - type: page
+    reference_from: '24'
 ext:
   doctype:
     content: article
