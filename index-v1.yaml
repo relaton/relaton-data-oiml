@@ -133,6 +133,8 @@
   :file: data/b18_2025_eng.yaml
 - :id: OIML B 18:2025 (F)
   :file: data/b18_2025_fra.yaml
+- :id: OIML B 18 (C)
+  :file: data/b18_zho.yaml
 - :id: OIML B 19:2017
   :file: data/b19_2017.yaml
 - :id: OIML B 19:2017 (E)
@@ -317,8 +319,6 @@
   :file: data/b8_2022_eng.yaml
 - :id: OIML B 8:2022 (F)
   :file: data/b8_2022_fra.yaml
-- :id: OIML BIPM/OIML Brochure on D 1 (U)
-  :file: data/bipm-oimlbrochureond1_ukr.yaml
 - :id: OIML D 1:2020 (S)
   :file: data/d1-2020_spa.yaml
 - :id: OIML D 10:2022 (S)
@@ -433,6 +433,8 @@
   :file: data/d1_2020_fra.yaml
 - :id: OIML D 1 (U)
   :file: data/d1_ukr.yaml
+- :id: OIML D 1 Brochure (U)
+  :file: data/d1brochure_ukr.yaml
 - :id: OIML D 2-Amend:2004
   :file: data/d2-amend_2004.yaml
 - :id: OIML D 2-Amend:2004 (E)
@@ -883,12 +885,26 @@
   :file: data/g8_1991_fra.yaml
 - :id: OIML G 9:1987
   :file: data/g9_1987.yaml
-- :id: OIML OIML B 18, Operational Documents and Procedural Documents (C)
-  :file: data/oimlb18-operationaldocumentsandproceduraldocuments_zho.yaml
-- :id: OIML OIML R 76 (C)
-  :file: data/oimlr76_zho.yaml
+- :id: OIML R 100-1:2013
+  :file: data/r100-1-2013.yaml
+- :id: OIML R 100-1:2013 (E)
+  :file: data/r100-1-2013_eng.yaml
+- :id: OIML R 100-1:2013 (F)
+  :file: data/r100-1-2013_fra.yaml
 - :id: OIML R 100:1991 (PE)
   :file: data/r100-1991_fas.yaml
+- :id: OIML R 100-2:2013
+  :file: data/r100-2-2013.yaml
+- :id: OIML R 100-2:2013 (E)
+  :file: data/r100-2-2013_eng.yaml
+- :id: OIML R 100-2:2013 (F)
+  :file: data/r100-2-2013_fra.yaml
+- :id: OIML R 100-3:2013
+  :file: data/r100-3-2013.yaml
+- :id: OIML R 100-3:2013 (E)
+  :file: data/r100-3-2013_eng.yaml
+- :id: OIML R 100-3:2013 (F)
+  :file: data/r100-3-2013_fra.yaml
 - :id: OIML R 100:1991
   :file: data/r100_1991.yaml
 - :id: OIML R 100:1991 (E)
@@ -909,6 +925,12 @@
   :file: data/r101_1991_eng.yaml
 - :id: OIML R 101:1991 (F)
   :file: data/r101_1991_fra.yaml
+- :id: OIML R 102:1995 Annex B-C
+  :file: data/r102-1995annexb-c.yaml
+- :id: OIML R 102:1995 Annex B-C (E)
+  :file: data/r102-1995annexb-c_eng.yaml
+- :id: OIML R 102:1995 Annex B-C (F)
+  :file: data/r102-1995annexb-c_fra.yaml
 - :id: OIML R 102:1992
   :file: data/r102_1992.yaml
 - :id: OIML R 102:1992 (E)
@@ -923,6 +945,12 @@
   :file: data/r103_1992_eng.yaml
 - :id: OIML R 103:1992 (F)
   :file: data/r103_1992_fra.yaml
+- :id: OIML R 104:1997 Annex F
+  :file: data/r104-1997annexf.yaml
+- :id: OIML R 104:1997 Annex F (E)
+  :file: data/r104-1997annexf_eng.yaml
+- :id: OIML R 104:1997 Annex F (F)
+  :file: data/r104-1997annexf_fra.yaml
 - :id: OIML R 104:1993
   :file: data/r104_1993.yaml
 - :id: OIML R 104:1993 (E)
@@ -931,20 +959,38 @@
   :file: data/r104_1993_fra.yaml
 - :id: OIML R 105:1993 (A)
   :file: data/r105-1993_ara.yaml
+- :id: OIML R 105:1995 Annex C
+  :file: data/r105-1995annexc.yaml
+- :id: OIML R 105:1995 Annex C (E)
+  :file: data/r105-1995annexc_eng.yaml
+- :id: OIML R 105:1995 Annex C (F)
+  :file: data/r105-1995annexc_fra.yaml
 - :id: OIML R 105:1993
   :file: data/r105_1993.yaml
 - :id: OIML R 105:1993 (E)
   :file: data/r105_1993_eng.yaml
 - :id: OIML R 105:1993 (F)
   :file: data/r105_1993_fra.yaml
+- :id: OIML R 106-1:2011
+  :file: data/r106-1-2011.yaml
 - :id: OIML R 106-1:2011 (D)
   :file: data/r106-1-2011_deu.yaml
+- :id: OIML R 106-1:2011 (E)
+  :file: data/r106-1-2011_eng.yaml
+- :id: OIML R 106-1:2011 (F)
+  :file: data/r106-1-2011_fra.yaml
 - :id: OIML R 106-1:1997
   :file: data/r106-1_1997.yaml
 - :id: OIML R 106-1:1997 (E)
   :file: data/r106-1_1997_eng.yaml
 - :id: OIML R 106-1:1997 (F)
   :file: data/r106-1_1997_fra.yaml
+- :id: OIML R 106-2:2012
+  :file: data/r106-2-2012.yaml
+- :id: OIML R 106-2:2012 (E)
+  :file: data/r106-2-2012_eng.yaml
+- :id: OIML R 106-2:2012 (F)
+  :file: data/r106-2-2012_fra.yaml
 - :id: OIML R 106-2:1997
   :file: data/r106-2_1997.yaml
 - :id: OIML R 106-2:1997 (E)
@@ -957,12 +1003,20 @@
   :file: data/r106_2011_eng.yaml
 - :id: OIML R 106:2011 (F)
   :file: data/r106_2011_fra.yaml
+- :id: OIML R 107-1:2007
+  :file: data/r107-1-2007.yaml
+- :id: OIML R 107-1:2007 (E)
+  :file: data/r107-1-2007_eng.yaml
 - :id: OIML R 107-1:1997
   :file: data/r107-1_1997.yaml
 - :id: OIML R 107-1:1997 (E)
   :file: data/r107-1_1997_eng.yaml
 - :id: OIML R 107-1:1997 (F)
   :file: data/r107-1_1997_fra.yaml
+- :id: OIML R 107-2:2007
+  :file: data/r107-2-2007.yaml
+- :id: OIML R 107-2:2007 (E)
+  :file: data/r107-2-2007_eng.yaml
 - :id: OIML R 107-2:1997
   :file: data/r107-2_1997.yaml
 - :id: OIML R 107-2:1997 (E)
@@ -1007,8 +1061,16 @@
   :file: data/r110_1994_eng.yaml
 - :id: OIML R 110:1994 (F)
   :file: data/r110_1994_fra.yaml
+- :id: OIML R 111-1:2004
+  :file: data/r111-1-2004.yaml
 - :id: OIML R 111-1:2004 (PE)
   :file: data/r111-1-2004_fas.yaml
+- :id: OIML R 111-1:2004 (F)
+  :file: data/r111-1-2004_fra.yaml
+- :id: OIML R 111-2:2004
+  :file: data/r111-2-2004.yaml
+- :id: OIML R 111-2:2004 (F)
+  :file: data/r111-2-2004_fra.yaml
 - :id: OIML R 111:1994
   :file: data/r111_1994.yaml
 - :id: OIML R 111:1994 (E)
@@ -1065,10 +1127,28 @@
   :file: data/r116_2006_eng.yaml
 - :id: OIML R 116:2006 (F)
   :file: data/r116_2006_fra.yaml
+- :id: OIML R 117-1:2007
+  :file: data/r117-1-2007.yaml
+- :id: OIML R 117-1:2007 (E)
+  :file: data/r117-1-2007_eng.yaml
 - :id: OIML R 117-1:2007 (PE)
   :file: data/r117-1-2007_fas.yaml
+- :id: OIML R 117-1:2007 (F)
+  :file: data/r117-1-2007_fra.yaml
 - :id: OIML R 117-1:2007 (S)
   :file: data/r117-1-2007_spa.yaml
+- :id: OIML R 117-2:2014
+  :file: data/r117-2-2014.yaml
+- :id: OIML R 117-2:2014 (E)
+  :file: data/r117-2-2014_eng.yaml
+- :id: OIML R 117-2:2014 (F)
+  :file: data/r117-2-2014_fra.yaml
+- :id: OIML R 117-3:2014
+  :file: data/r117-3-2014.yaml
+- :id: OIML R 117-3:2014 (E)
+  :file: data/r117-3-2014_eng.yaml
+- :id: OIML R 117-3:2014 (F)
+  :file: data/r117-3-2014_fra.yaml
 - :id: OIML R 117:1995
   :file: data/r117_1995.yaml
 - :id: OIML R 117:1995 (E)
@@ -1127,6 +1207,12 @@
   :file: data/r121_1996_eng.yaml
 - :id: OIML R 121:1996 (F)
   :file: data/r121_1996_fra.yaml
+- :id: OIML R 122:1999 Annex C
+  :file: data/r122-1999annexc.yaml
+- :id: OIML R 122:1999 Annex C (E)
+  :file: data/r122-1999annexc_eng.yaml
+- :id: OIML R 122:1999 Annex C (F)
+  :file: data/r122-1999annexc_fra.yaml
 - :id: OIML R 122:1996
   :file: data/r122_1996.yaml
 - :id: OIML R 122:1996 (E)
@@ -1159,6 +1245,12 @@
   :file: data/r125_1998_fra.yaml
 - :id: OIML R 126:2012 (S)
   :file: data/r126-2012_spa.yaml
+- :id: OIML R 126:2015 Errata
+  :file: data/r126-2015errata.yaml
+- :id: OIML R 126:2015 Errata (E)
+  :file: data/r126-2015errata_eng.yaml
+- :id: OIML R 126:2015 Errata (F)
+  :file: data/r126-2015errata_fra.yaml
 - :id: OIML R 126-erratum:2012 (S)
   :file: data/r126-erratum-2012_spa.yaml
 - :id: OIML R 126:1998
@@ -1179,6 +1271,8 @@
   :file: data/r126_2021_eng.yaml
 - :id: OIML R 126:2021 (F)
   :file: data/r126_2021_fra.yaml
+- :id: OIML R 126 (S)
+  :file: data/r126_spa.yaml
 - :id: OIML R 127:1999
   :file: data/r127_1999.yaml
 - :id: OIML R 127:1999 (E)
@@ -1241,16 +1335,28 @@
   :file: data/r133_2002_eng.yaml
 - :id: OIML R 133:2002 (F)
   :file: data/r133_2002_fra.yaml
+- :id: OIML R 134-1:2006
+  :file: data/r134-1-2006.yaml
+- :id: OIML R 134-1:2006 (E)
+  :file: data/r134-1-2006_eng.yaml
 - :id: OIML R 134-1:2006 (PE)
   :file: data/r134-1-2006_fas.yaml
+- :id: OIML R 134-1:2006 (F)
+  :file: data/r134-1-2006_fra.yaml
 - :id: OIML R 134-1:2003
   :file: data/r134-1_2003.yaml
 - :id: OIML R 134-1:2003 (E)
   :file: data/r134-1_2003_eng.yaml
 - :id: OIML R 134-1:2003 (F)
   :file: data/r134-1_2003_fra.yaml
+- :id: OIML R 134-2:2009
+  :file: data/r134-2-2009.yaml
+- :id: OIML R 134-2:2009 (E)
+  :file: data/r134-2-2009_eng.yaml
 - :id: OIML R 134-2:2009 (PE)
   :file: data/r134-2-2009_fas.yaml
+- :id: OIML R 134-2:2009 (F)
+  :file: data/r134-2-2009_fra.yaml
 - :id: OIML R 134-2:2004
   :file: data/r134-2_2004.yaml
 - :id: OIML R 134-2:2004 (E)
@@ -1271,22 +1377,48 @@
   :file: data/r135_2004_eng.yaml
 - :id: OIML R 135:2004 (F)
   :file: data/r135_2004_fra.yaml
+- :id: OIML R 136-1:2004
+  :file: data/r136-1-2004.yaml
 - :id: OIML R 136-1:2004 (D)
   :file: data/r136-1-2004_deu.yaml
+- :id: OIML R 136-1:2004 (E)
+  :file: data/r136-1-2004_eng.yaml
 - :id: OIML R 136-2:2002 (PE)
   :file: data/r136-2-2002_fas.yaml
+- :id: OIML R 136-2:2006
+  :file: data/r136-2-2006.yaml
+- :id: OIML R 136-2:2006 (E)
+  :file: data/r136-2-2006_eng.yaml
 - :id: OIML R 136:2004
   :file: data/r136_2004.yaml
 - :id: OIML R 136:2004 (E)
   :file: data/r136_2004_eng.yaml
 - :id: OIML R 136:2004 (F)
   :file: data/r136_2004_fra.yaml
+- :id: OIML R 137-1-2:2012
+  :file: data/r137-1-2-2012.yaml
+- :id: OIML R 137-1-2:2012 (E)
+  :file: data/r137-1-2-2012_eng.yaml
+- :id: OIML R 137-1-2:2012 (F)
+  :file: data/r137-1-2-2012_fra.yaml
+- :id: OIML R 137-1-2:2014 Amendment
+  :file: data/r137-1-2-2014amendment.yaml
+- :id: OIML R 137-1-2:2014 Amendment (E)
+  :file: data/r137-1-2-2014amendment_eng.yaml
+- :id: OIML R 137-1-2:2014 Amendment (F)
+  :file: data/r137-1-2-2014amendment_fra.yaml
 - :id: OIML R 137-1:2006
   :file: data/r137-1_2006.yaml
 - :id: OIML R 137-1:2006 (E)
   :file: data/r137-1_2006_eng.yaml
 - :id: OIML R 137-1:2006 (F)
   :file: data/r137-1_2006_fra.yaml
+- :id: OIML R 137-3:2014
+  :file: data/r137-3-2014.yaml
+- :id: OIML R 137-3:2014 (E)
+  :file: data/r137-3-2014_eng.yaml
+- :id: OIML R 137-3:2014 (F)
+  :file: data/r137-3-2014_fra.yaml
 - :id: OIML R 137:2012
   :file: data/r137_2012.yaml
 - :id: OIML R 137:2012 (E)
@@ -1295,6 +1427,12 @@
   :file: data/r137_2012_fra.yaml
 - :id: OIML R 138:2007 (D)
   :file: data/r138-2007_deu.yaml
+- :id: OIML R 138:2009 Amendment
+  :file: data/r138-2009amendment.yaml
+- :id: OIML R 138:2009 Amendment (E)
+  :file: data/r138-2009amendment_eng.yaml
+- :id: OIML R 138:2009 Amendment (F)
+  :file: data/r138-2009amendment_fra.yaml
 - :id: OIML R 138-Amend:2009
   :file: data/r138-amend_2009.yaml
 - :id: OIML R 138:2007
@@ -1303,8 +1441,32 @@
   :file: data/r138_2007_eng.yaml
 - :id: OIML R 138:2007 (F)
   :file: data/r138_2007_fra.yaml
+- :id: OIML R 139-1:2014
+  :file: data/r139-1-2014.yaml
+- :id: OIML R 139-1:2014 (E)
+  :file: data/r139-1-2014_eng.yaml
+- :id: OIML R 139-1:2018
+  :file: data/r139-1-2018.yaml
+- :id: OIML R 139-1:2018 (E)
+  :file: data/r139-1-2018_eng.yaml
+- :id: OIML R 139-2:2014
+  :file: data/r139-2-2014.yaml
+- :id: OIML R 139-2:2014 (E)
+  :file: data/r139-2-2014_eng.yaml
+- :id: OIML R 139-2:2018
+  :file: data/r139-2-2018.yaml
+- :id: OIML R 139-2:2018 (E)
+  :file: data/r139-2-2018_eng.yaml
 - :id: OIML R 139:2007 (PE)
   :file: data/r139-2007_fas.yaml
+- :id: OIML R 139-3:2015
+  :file: data/r139-3-2015.yaml
+- :id: OIML R 139-3:2015 (E)
+  :file: data/r139-3-2015_eng.yaml
+- :id: OIML R 139-3:2018
+  :file: data/r139-3-2018.yaml
+- :id: OIML R 139-3:2018 (E)
+  :file: data/r139-3-2018_eng.yaml
 - :id: OIML R 139:2007
   :file: data/r139_2007.yaml
 - :id: OIML R 139:2007 (E)
@@ -1357,24 +1519,66 @@
   :file: data/r143_2009_eng.yaml
 - :id: OIML R 143:2009 (F)
   :file: data/r143_2009_fra.yaml
+- :id: OIML R 144-1:2013
+  :file: data/r144-1-2013.yaml
+- :id: OIML R 144-1:2013 (E)
+  :file: data/r144-1-2013_eng.yaml
 - :id: OIML R 144-1:2013 (PE)
   :file: data/r144-1-2013_fas.yaml
+- :id: OIML R 144-1:2013 (F)
+  :file: data/r144-1-2013_fra.yaml
+- :id: OIML R 144-2:2013
+  :file: data/r144-2-2013.yaml
+- :id: OIML R 144-2:2013 (E)
+  :file: data/r144-2-2013_eng.yaml
 - :id: OIML R 144-2:2013 (PE)
   :file: data/r144-2-2013_fas.yaml
+- :id: OIML R 144-2:2013 (F)
+  :file: data/r144-2-2013_fra.yaml
+- :id: OIML R 144-3:2013
+  :file: data/r144-3-2013.yaml
+- :id: OIML R 144-3:2013 (E)
+  :file: data/r144-3-2013_eng.yaml
 - :id: OIML R 144-3:2013 (PE)
   :file: data/r144-3-2013_fas.yaml
+- :id: OIML R 144-3:2013 (F)
+  :file: data/r144-3-2013_fra.yaml
 - :id: OIML R 144:2013
   :file: data/r144_2013.yaml
 - :id: OIML R 144:2013 (E)
   :file: data/r144_2013_eng.yaml
 - :id: OIML R 144:2013 (F)
   :file: data/r144_2013_fra.yaml
+- :id: OIML R 145-1:2015
+  :file: data/r145-1-2015.yaml
+- :id: OIML R 145-1:2015 (E)
+  :file: data/r145-1-2015_eng.yaml
+- :id: OIML R 145-2:2015
+  :file: data/r145-2-2015.yaml
+- :id: OIML R 145-2:2015 (E)
+  :file: data/r145-2-2015_eng.yaml
+- :id: OIML R 145-3:2015
+  :file: data/r145-3-2015.yaml
+- :id: OIML R 145-3:2015 (E)
+  :file: data/r145-3-2015_eng.yaml
 - :id: OIML R 145:2015
   :file: data/r145_2015.yaml
 - :id: OIML R 145:2015 (E)
   :file: data/r145_2015_eng.yaml
 - :id: OIML R 145:2015 (F)
   :file: data/r145_2015_fra.yaml
+- :id: OIML R 146-1:2016
+  :file: data/r146-1-2016.yaml
+- :id: OIML R 146-1:2016 (E)
+  :file: data/r146-1-2016_eng.yaml
+- :id: OIML R 146-2:2016
+  :file: data/r146-2-2016.yaml
+- :id: OIML R 146-2:2016 (E)
+  :file: data/r146-2-2016_eng.yaml
+- :id: OIML R 146-3:2016
+  :file: data/r146-3-2016.yaml
+- :id: OIML R 146-3:2016 (E)
+  :file: data/r146-3-2016_eng.yaml
 - :id: OIML R 146:2016
   :file: data/r146_2016.yaml
 - :id: OIML R 146:2016 (E)
@@ -1417,6 +1621,18 @@
   :file: data/r15_1974_eng.yaml
 - :id: OIML R 15:1974 (F)
   :file: data/r15_1974_fra.yaml
+- :id: OIML R 16-1:2002
+  :file: data/r16-1-2002.yaml
+- :id: OIML R 16-1:2002 (E)
+  :file: data/r16-1-2002_eng.yaml
+- :id: OIML R 16-1:2002 (F)
+  :file: data/r16-1-2002_fra.yaml
+- :id: OIML R 16-2:2002
+  :file: data/r16-2-2002.yaml
+- :id: OIML R 16-2:2002 (E)
+  :file: data/r16-2-2002_eng.yaml
+- :id: OIML R 16-2:2002 (F)
+  :file: data/r16-2-2002_fra.yaml
 - :id: OIML R 16:2002
   :file: data/r16_2002.yaml
 - :id: OIML R 16:2002 (E)
@@ -1519,12 +1735,34 @@
   :file: data/r34_1979_eng.yaml
 - :id: OIML R 34:1979 (F)
   :file: data/r34_1979_fra.yaml
+- :id: OIML R 35-1:2007
+  :file: data/r35-1-2007.yaml
 - :id: OIML R 35-1:2007 (D)
   :file: data/r35-1-2007_deu.yaml
+- :id: OIML R 35-1:2007 (E)
+  :file: data/r35-1-2007_eng.yaml
+- :id: OIML R 35-1:2007 (F)
+  :file: data/r35-1-2007_fra.yaml
+- :id: OIML R 35-1:2014 Amendment
+  :file: data/r35-1-2014amendment.yaml
+- :id: OIML R 35-1:2014 Amendment (E)
+  :file: data/r35-1-2014amendment_eng.yaml
 - :id: OIML R 35:1985 (A)
   :file: data/r35-1985_ara.yaml
+- :id: OIML R 35-2:2011
+  :file: data/r35-2-2011.yaml
 - :id: OIML R 35-2:2011 (D)
   :file: data/r35-2-2011_deu.yaml
+- :id: OIML R 35-2:2011 (E)
+  :file: data/r35-2-2011_eng.yaml
+- :id: OIML R 35-2:2011 (F)
+  :file: data/r35-2-2011_fra.yaml
+- :id: OIML R 35-3:2011
+  :file: data/r35-3-2011.yaml
+- :id: OIML R 35-3:2011 (E)
+  :file: data/r35-3-2011_eng.yaml
+- :id: OIML R 35-3:2011 (F)
+  :file: data/r35-3-2011_fra.yaml
 - :id: OIML R 35:1985
   :file: data/r35_1985.yaml
 - :id: OIML R 35:1985 (E)
@@ -1621,6 +1859,20 @@
   :file: data/r45_1980_fra.yaml
 - :id: OIML R 46-1/-2:2012 (S)
   :file: data/r46-1--2-2012_spa.yaml
+- :id: OIML R 46-1-2:2012
+  :file: data/r46-1-2-2012.yaml
+- :id: OIML R 46-1-2:2012 (E)
+  :file: data/r46-1-2-2012_eng.yaml
+- :id: OIML R 46-1-2:2012 (F)
+  :file: data/r46-1-2-2012_fra.yaml
+- :id: OIML R 46-1 (S)
+  :file: data/r46-1_spa.yaml
+- :id: OIML R 46-3:2013
+  :file: data/r46-3-2013.yaml
+- :id: OIML R 46-3:2013 (E)
+  :file: data/r46-3-2013_eng.yaml
+- :id: OIML R 46-3:2013 (F)
+  :file: data/r46-3-2013_fra.yaml
 - :id: OIML R 46-3:2013 (S)
   :file: data/r46-3-2013_spa.yaml
 - :id: OIML R 46:1976
@@ -1651,8 +1903,14 @@
   :file: data/r48_2004_eng.yaml
 - :id: OIML R 48:2004 (F)
   :file: data/r48_2004_fra.yaml
+- :id: OIML R 49-1:2013
+  :file: data/r49-1-2013.yaml
+- :id: OIML R 49-1:2013 (E)
+  :file: data/r49-1-2013_eng.yaml
 - :id: OIML R 49-1:2013 (PE)
   :file: data/r49-1-2013_fas.yaml
+- :id: OIML R 49-1:2013 (F)
+  :file: data/r49-1-2013_fra.yaml
 - :id: OIML R 49-1:2013 (S)
   :file: data/r49-1-2013_spa.yaml
 - :id: OIML R 49-1:2003
@@ -1667,6 +1925,10 @@
   :file: data/r49-1_2006_eng.yaml
 - :id: OIML R 49-1:2006 (F)
   :file: data/r49-1_2006_fra.yaml
+- :id: OIML R 49-2:2013
+  :file: data/r49-2-2013.yaml
+- :id: OIML R 49-2:2013 (E)
+  :file: data/r49-2-2013_eng.yaml
 - :id: OIML R 49-2:2013 (PE)
   :file: data/r49-2-2013_fas.yaml
 - :id: OIML R 49-2:2013 (S)
@@ -1683,6 +1945,10 @@
   :file: data/r49-2_2006_eng.yaml
 - :id: OIML R 49-2:2006 (F)
   :file: data/r49-2_2006_fra.yaml
+- :id: OIML R 49-3:2013
+  :file: data/r49-3-2013.yaml
+- :id: OIML R 49-3:2013 (E)
+  :file: data/r49-3-2013_eng.yaml
 - :id: OIML R 49-3:2013 (PE)
   :file: data/r49-3-2013_fas.yaml
 - :id: OIML R 49-3:2013 (S)
@@ -1717,6 +1983,10 @@
   :file: data/r4_1972_eng.yaml
 - :id: OIML R 4:1972 (F)
   :file: data/r4_1972_fra.yaml
+- :id: OIML R 50-1:2014
+  :file: data/r50-1-2014.yaml
+- :id: OIML R 50-1:2014 (E)
+  :file: data/r50-1-2014_eng.yaml
 - :id: OIML R 50-1:2014 (PE)
   :file: data/r50-1-2014_fas.yaml
 - :id: OIML R 50-1:1997
@@ -1725,12 +1995,20 @@
   :file: data/r50-1_1997_eng.yaml
 - :id: OIML R 50-1:1997 (F)
   :file: data/r50-1_1997_fra.yaml
+- :id: OIML R 50-2:2014
+  :file: data/r50-2-2014.yaml
+- :id: OIML R 50-2:2014 (E)
+  :file: data/r50-2-2014_eng.yaml
 - :id: OIML R 50-2:1997
   :file: data/r50-2_1997.yaml
 - :id: OIML R 50-2:1997 (E)
   :file: data/r50-2_1997_eng.yaml
 - :id: OIML R 50-2:1997 (F)
   :file: data/r50-2_1997_fra.yaml
+- :id: OIML R 50-3:2014
+  :file: data/r50-3-2014.yaml
+- :id: OIML R 50-3:2014 (E)
+  :file: data/r50-3-2014_eng.yaml
 - :id: OIML R 50-3:2014 (PE)
   :file: data/r50-3-2014_fas.yaml
 - :id: OIML R 50:2014
@@ -1739,14 +2017,26 @@
   :file: data/r50_2014_eng.yaml
 - :id: OIML R 50:2014 (F)
   :file: data/r50_2014_fra.yaml
+- :id: OIML R 51-1:2006
+  :file: data/r51-1-2006.yaml
+- :id: OIML R 51-1:2006 (E)
+  :file: data/r51-1-2006_eng.yaml
 - :id: OIML R 51-1:2006 (PE)
   :file: data/r51-1-2006_fas.yaml
+- :id: OIML R 51-1:2010 Errata
+  :file: data/r51-1-2010errata.yaml
+- :id: OIML R 51-1:2010 Errata (E)
+  :file: data/r51-1-2010errata_eng.yaml
 - :id: OIML R 51-1:1996
   :file: data/r51-1_1996.yaml
 - :id: OIML R 51-1:1996 (E)
   :file: data/r51-1_1996_eng.yaml
 - :id: OIML R 51-1:1996 (F)
   :file: data/r51-1_1996_fra.yaml
+- :id: OIML R 51-2:2006
+  :file: data/r51-2-2006.yaml
+- :id: OIML R 51-2:2006 (E)
+  :file: data/r51-2-2006_eng.yaml
 - :id: OIML R 51-2:2006 (PE)
   :file: data/r51-2-2006_fas.yaml
 - :id: OIML R 51-2:1996
@@ -1805,6 +2095,24 @@
   :file: data/r58_1998_eng.yaml
 - :id: OIML R 58:1998 (F)
   :file: data/r58_1998_fra.yaml
+- :id: OIML R 59-1:2016
+  :file: data/r59-1-2016.yaml
+- :id: OIML R 59-1:2016 (E)
+  :file: data/r59-1-2016_eng.yaml
+- :id: OIML R 59-1:2016 (F)
+  :file: data/r59-1-2016_fra.yaml
+- :id: OIML R 59-2:2016
+  :file: data/r59-2-2016.yaml
+- :id: OIML R 59-2:2016 (E)
+  :file: data/r59-2-2016_eng.yaml
+- :id: OIML R 59-2:2016 (F)
+  :file: data/r59-2-2016_fra.yaml
+- :id: OIML R 59-3:2016
+  :file: data/r59-3-2016.yaml
+- :id: OIML R 59-3:2016 (E)
+  :file: data/r59-3-2016_eng.yaml
+- :id: OIML R 59-3:2016 (F)
+  :file: data/r59-3-2016_fra.yaml
 - :id: OIML R 59:1984
   :file: data/r59_1984.yaml
 - :id: OIML R 59:1984 (E)
@@ -1817,8 +2125,36 @@
   :file: data/r59_2016_eng.yaml
 - :id: OIML R 59:2016 (F)
   :file: data/r59_2016_fra.yaml
+- :id: OIML R 60-1:2017
+  :file: data/r60-1-2017.yaml
+- :id: OIML R 60-1:2017 (E)
+  :file: data/r60-1-2017_eng.yaml
+- :id: OIML R 60-1:2017 (F)
+  :file: data/r60-1-2017_fra.yaml
+- :id: OIML R 60-2:2017
+  :file: data/r60-2-2017.yaml
+- :id: OIML R 60-2:2017 (E)
+  :file: data/r60-2-2017_eng.yaml
+- :id: OIML R 60-2:2017 (F)
+  :file: data/r60-2-2017_fra.yaml
 - :id: OIML R 60:2000 (PE)
   :file: data/r60-2000_fas.yaml
+- :id: OIML R 60:2017 Annexes
+  :file: data/r60-2017annexes.yaml
+- :id: OIML R 60:2017 Annexes (E)
+  :file: data/r60-2017annexes_eng.yaml
+- :id: OIML R 60:2017 Annexes (F)
+  :file: data/r60-2017annexes_fra.yaml
+- :id: OIML R 60:2019 Amendment
+  :file: data/r60-2019amendment.yaml
+- :id: OIML R 60:2019 Amendment (E)
+  :file: data/r60-2019amendment_eng.yaml
+- :id: OIML R 60-3:2017
+  :file: data/r60-3-2017.yaml
+- :id: OIML R 60-3:2017 (E)
+  :file: data/r60-3-2017_eng.yaml
+- :id: OIML R 60-3:2017 (F)
+  :file: data/r60-3-2017_fra.yaml
 - :id: OIML R 60-A:1993
   :file: data/r60-a_1993.yaml
 - :id: OIML R 60-A:1993 (E)
@@ -1855,6 +2191,10 @@
   :file: data/r60_2021_eng.yaml
 - :id: OIML R 60:2021 (F)
   :file: data/r60_2021_fra.yaml
+- :id: OIML R 61-1:2004
+  :file: data/r61-1-2004.yaml
+- :id: OIML R 61-1:2004 (E)
+  :file: data/r61-1-2004_eng.yaml
 - :id: OIML R 61-1:2017 (D)
   :file: data/r61-1-2017_deu.yaml
 - :id: OIML R 61-1:1996
@@ -1863,6 +2203,10 @@
   :file: data/r61-1_1996_eng.yaml
 - :id: OIML R 61-1:1996 (F)
   :file: data/r61-1_1996_fra.yaml
+- :id: OIML R 61-2:2004
+  :file: data/r61-2-2004.yaml
+- :id: OIML R 61-2:2004 (E)
+  :file: data/r61-2-2004_eng.yaml
 - :id: OIML R 61-2:1996
   :file: data/r61-2_1996.yaml
 - :id: OIML R 61-2:1996 (E)
@@ -2045,6 +2389,8 @@
   :file: data/r76_2006_eng.yaml
 - :id: OIML R 76:2006 (F)
   :file: data/r76_2006_fra.yaml
+- :id: OIML R 76 (C)
+  :file: data/r76_zho.yaml
 - :id: OIML R 78:1989
   :file: data/r78_1989.yaml
 - :id: OIML R 78:1989 (E)
@@ -2349,355 +2695,3 @@
   :file: data/v3_1991_eng.yaml
 - :id: OIML V 3:1991 (F)
   :file: data/v3_1991_fra.yaml
-- :id: OIML R 100-1:2013
-  :file: data/r100-1-2013.yaml
-- :id: OIML R 100-1:2013 (E)
-  :file: data/r100-1-2013_eng.yaml
-- :id: OIML R 100-1:2013 (F)
-  :file: data/r100-1-2013_fra.yaml
-- :id: OIML R 100-2:2013
-  :file: data/r100-2-2013.yaml
-- :id: OIML R 100-2:2013 (E)
-  :file: data/r100-2-2013_eng.yaml
-- :id: OIML R 100-2:2013 (F)
-  :file: data/r100-2-2013_fra.yaml
-- :id: OIML R 100-3:2013
-  :file: data/r100-3-2013.yaml
-- :id: OIML R 100-3:2013 (E)
-  :file: data/r100-3-2013_eng.yaml
-- :id: OIML R 100-3:2013 (F)
-  :file: data/r100-3-2013_fra.yaml
-- :id: OIML R 102:1995 Annex B-C
-  :file: data/r102-1995annexb-c.yaml
-- :id: OIML R 102:1995 Annex B-C (E)
-  :file: data/r102-1995annexb-c_eng.yaml
-- :id: OIML R 102:1995 Annex B-C (F)
-  :file: data/r102-1995annexb-c_fra.yaml
-- :id: OIML R 104:1997 Annex F
-  :file: data/r104-1997annexf.yaml
-- :id: OIML R 104:1997 Annex F (E)
-  :file: data/r104-1997annexf_eng.yaml
-- :id: OIML R 104:1997 Annex F (F)
-  :file: data/r104-1997annexf_fra.yaml
-- :id: OIML R 105:1995 Annex C
-  :file: data/r105-1995annexc.yaml
-- :id: OIML R 105:1995 Annex C (E)
-  :file: data/r105-1995annexc_eng.yaml
-- :id: OIML R 105:1995 Annex C (F)
-  :file: data/r105-1995annexc_fra.yaml
-- :id: OIML R 106-1:2011
-  :file: data/r106-1-2011.yaml
-- :id: OIML R 106-1:2011 (E)
-  :file: data/r106-1-2011_eng.yaml
-- :id: OIML R 106-1:2011 (F)
-  :file: data/r106-1-2011_fra.yaml
-- :id: OIML R 106-2:2012
-  :file: data/r106-2-2012.yaml
-- :id: OIML R 106-2:2012 (E)
-  :file: data/r106-2-2012_eng.yaml
-- :id: OIML R 106-2:2012 (F)
-  :file: data/r106-2-2012_fra.yaml
-- :id: OIML R 107-1:2007
-  :file: data/r107-1-2007.yaml
-- :id: OIML R 107-1:2007 (E)
-  :file: data/r107-1-2007_eng.yaml
-- :id: OIML R 107-2:2007
-  :file: data/r107-2-2007.yaml
-- :id: OIML R 107-2:2007 (E)
-  :file: data/r107-2-2007_eng.yaml
-- :id: OIML R 111-1:2004
-  :file: data/r111-1-2004.yaml
-- :id: OIML R 111-1:2004 (F)
-  :file: data/r111-1-2004_fra.yaml
-- :id: OIML R 111-2:2004
-  :file: data/r111-2-2004.yaml
-- :id: OIML R 111-2:2004 (F)
-  :file: data/r111-2-2004_fra.yaml
-- :id: OIML R 117-1:2007
-  :file: data/r117-1-2007.yaml
-- :id: OIML R 117-1:2007 (E)
-  :file: data/r117-1-2007_eng.yaml
-- :id: OIML R 117-1:2007 (F)
-  :file: data/r117-1-2007_fra.yaml
-- :id: OIML R 117-2:2014
-  :file: data/r117-2-2014.yaml
-- :id: OIML R 117-2:2014 (E)
-  :file: data/r117-2-2014_eng.yaml
-- :id: OIML R 117-2:2014 (F)
-  :file: data/r117-2-2014_fra.yaml
-- :id: OIML R 117-3:2014
-  :file: data/r117-3-2014.yaml
-- :id: OIML R 117-3:2014 (E)
-  :file: data/r117-3-2014_eng.yaml
-- :id: OIML R 117-3:2014 (F)
-  :file: data/r117-3-2014_fra.yaml
-- :id: OIML R 122:1999 Annex C
-  :file: data/r122-1999annexc.yaml
-- :id: OIML R 122:1999 Annex C (E)
-  :file: data/r122-1999annexc_eng.yaml
-- :id: OIML R 122:1999 Annex C (F)
-  :file: data/r122-1999annexc_fra.yaml
-- :id: OIML R 126:2015 Errata
-  :file: data/r126-2015errata.yaml
-- :id: OIML R 126:2015 Errata (E)
-  :file: data/r126-2015errata_eng.yaml
-- :id: OIML R 126:2015 Errata (F)
-  :file: data/r126-2015errata_fra.yaml
-- :id: OIML R 134-1:2006
-  :file: data/r134-1-2006.yaml
-- :id: OIML R 134-1:2006 (E)
-  :file: data/r134-1-2006_eng.yaml
-- :id: OIML R 134-1:2006 (F)
-  :file: data/r134-1-2006_fra.yaml
-- :id: OIML R 134-2:2009
-  :file: data/r134-2-2009.yaml
-- :id: OIML R 134-2:2009 (E)
-  :file: data/r134-2-2009_eng.yaml
-- :id: OIML R 134-2:2009 (F)
-  :file: data/r134-2-2009_fra.yaml
-- :id: OIML R 136-1:2004
-  :file: data/r136-1-2004.yaml
-- :id: OIML R 136-1:2004 (E)
-  :file: data/r136-1-2004_eng.yaml
-- :id: OIML R 136-2:2006
-  :file: data/r136-2-2006.yaml
-- :id: OIML R 136-2:2006 (E)
-  :file: data/r136-2-2006_eng.yaml
-- :id: OIML R 137-1-2:2012
-  :file: data/r137-1-2-2012.yaml
-- :id: OIML R 137-1-2:2012 (E)
-  :file: data/r137-1-2-2012_eng.yaml
-- :id: OIML R 137-1-2:2012 (F)
-  :file: data/r137-1-2-2012_fra.yaml
-- :id: OIML R 137-1-2:2014 Amendment
-  :file: data/r137-1-2-2014amendment.yaml
-- :id: OIML R 137-1-2:2014 Amendment (E)
-  :file: data/r137-1-2-2014amendment_eng.yaml
-- :id: OIML R 137-1-2:2014 Amendment (F)
-  :file: data/r137-1-2-2014amendment_fra.yaml
-- :id: OIML R 137-3:2014
-  :file: data/r137-3-2014.yaml
-- :id: OIML R 137-3:2014 (E)
-  :file: data/r137-3-2014_eng.yaml
-- :id: OIML R 137-3:2014 (F)
-  :file: data/r137-3-2014_fra.yaml
-- :id: OIML R 138:2009 Amendment
-  :file: data/r138-2009amendment.yaml
-- :id: OIML R 138:2009 Amendment (E)
-  :file: data/r138-2009amendment_eng.yaml
-- :id: OIML R 138:2009 Amendment (F)
-  :file: data/r138-2009amendment_fra.yaml
-- :id: OIML R 139-1:2014
-  :file: data/r139-1-2014.yaml
-- :id: OIML R 139-1:2014 (E)
-  :file: data/r139-1-2014_eng.yaml
-- :id: OIML R 139-1:2018
-  :file: data/r139-1-2018.yaml
-- :id: OIML R 139-1:2018 (E)
-  :file: data/r139-1-2018_eng.yaml
-- :id: OIML R 139-2:2014
-  :file: data/r139-2-2014.yaml
-- :id: OIML R 139-2:2014 (E)
-  :file: data/r139-2-2014_eng.yaml
-- :id: OIML R 139-2:2018
-  :file: data/r139-2-2018.yaml
-- :id: OIML R 139-2:2018 (E)
-  :file: data/r139-2-2018_eng.yaml
-- :id: OIML R 139-3:2015
-  :file: data/r139-3-2015.yaml
-- :id: OIML R 139-3:2015 (E)
-  :file: data/r139-3-2015_eng.yaml
-- :id: OIML R 139-3:2018
-  :file: data/r139-3-2018.yaml
-- :id: OIML R 139-3:2018 (E)
-  :file: data/r139-3-2018_eng.yaml
-- :id: OIML R 144-1:2013
-  :file: data/r144-1-2013.yaml
-- :id: OIML R 144-1:2013 (E)
-  :file: data/r144-1-2013_eng.yaml
-- :id: OIML R 144-1:2013 (F)
-  :file: data/r144-1-2013_fra.yaml
-- :id: OIML R 144-2:2013
-  :file: data/r144-2-2013.yaml
-- :id: OIML R 144-2:2013 (E)
-  :file: data/r144-2-2013_eng.yaml
-- :id: OIML R 144-2:2013 (F)
-  :file: data/r144-2-2013_fra.yaml
-- :id: OIML R 144-3:2013
-  :file: data/r144-3-2013.yaml
-- :id: OIML R 144-3:2013 (E)
-  :file: data/r144-3-2013_eng.yaml
-- :id: OIML R 144-3:2013 (F)
-  :file: data/r144-3-2013_fra.yaml
-- :id: OIML R 145-1:2015
-  :file: data/r145-1-2015.yaml
-- :id: OIML R 145-1:2015 (E)
-  :file: data/r145-1-2015_eng.yaml
-- :id: OIML R 145-2:2015
-  :file: data/r145-2-2015.yaml
-- :id: OIML R 145-2:2015 (E)
-  :file: data/r145-2-2015_eng.yaml
-- :id: OIML R 145-3:2015
-  :file: data/r145-3-2015.yaml
-- :id: OIML R 145-3:2015 (E)
-  :file: data/r145-3-2015_eng.yaml
-- :id: OIML R 146-1:2016
-  :file: data/r146-1-2016.yaml
-- :id: OIML R 146-1:2016 (E)
-  :file: data/r146-1-2016_eng.yaml
-- :id: OIML R 146-2:2016
-  :file: data/r146-2-2016.yaml
-- :id: OIML R 146-2:2016 (E)
-  :file: data/r146-2-2016_eng.yaml
-- :id: OIML R 146-3:2016
-  :file: data/r146-3-2016.yaml
-- :id: OIML R 146-3:2016 (E)
-  :file: data/r146-3-2016_eng.yaml
-- :id: OIML R 16-1:2002
-  :file: data/r16-1-2002.yaml
-- :id: OIML R 16-1:2002 (E)
-  :file: data/r16-1-2002_eng.yaml
-- :id: OIML R 16-1:2002 (F)
-  :file: data/r16-1-2002_fra.yaml
-- :id: OIML R 16-2:2002
-  :file: data/r16-2-2002.yaml
-- :id: OIML R 16-2:2002 (E)
-  :file: data/r16-2-2002_eng.yaml
-- :id: OIML R 16-2:2002 (F)
-  :file: data/r16-2-2002_fra.yaml
-- :id: OIML R 35-1:2007
-  :file: data/r35-1-2007.yaml
-- :id: OIML R 35-1:2007 (E)
-  :file: data/r35-1-2007_eng.yaml
-- :id: OIML R 35-1:2007 (F)
-  :file: data/r35-1-2007_fra.yaml
-- :id: OIML R 35-1:2014 Amendment
-  :file: data/r35-1-2014amendment.yaml
-- :id: OIML R 35-1:2014 Amendment (E)
-  :file: data/r35-1-2014amendment_eng.yaml
-- :id: OIML R 35-2:2011
-  :file: data/r35-2-2011.yaml
-- :id: OIML R 35-2:2011 (E)
-  :file: data/r35-2-2011_eng.yaml
-- :id: OIML R 35-2:2011 (F)
-  :file: data/r35-2-2011_fra.yaml
-- :id: OIML R 35-3:2011
-  :file: data/r35-3-2011.yaml
-- :id: OIML R 35-3:2011 (E)
-  :file: data/r35-3-2011_eng.yaml
-- :id: OIML R 35-3:2011 (F)
-  :file: data/r35-3-2011_fra.yaml
-- :id: OIML R 46-1-2:2012
-  :file: data/r46-1-2-2012.yaml
-- :id: OIML R 46-1-2:2012 (E)
-  :file: data/r46-1-2-2012_eng.yaml
-- :id: OIML R 46-1-2:2012 (F)
-  :file: data/r46-1-2-2012_fra.yaml
-- :id: OIML R 46-3:2013
-  :file: data/r46-3-2013.yaml
-- :id: OIML R 46-3:2013 (E)
-  :file: data/r46-3-2013_eng.yaml
-- :id: OIML R 46-3:2013 (F)
-  :file: data/r46-3-2013_fra.yaml
-- :id: OIML R 49-1:2013
-  :file: data/r49-1-2013.yaml
-- :id: OIML R 49-1:2013 (E)
-  :file: data/r49-1-2013_eng.yaml
-- :id: OIML R 49-1:2013 (F)
-  :file: data/r49-1-2013_fra.yaml
-- :id: OIML R 49-2:2013
-  :file: data/r49-2-2013.yaml
-- :id: OIML R 49-2:2013 (E)
-  :file: data/r49-2-2013_eng.yaml
-- :id: OIML R 49-3:2013
-  :file: data/r49-3-2013.yaml
-- :id: OIML R 49-3:2013 (E)
-  :file: data/r49-3-2013_eng.yaml
-- :id: OIML R 50-1:2014
-  :file: data/r50-1-2014.yaml
-- :id: OIML R 50-1:2014 (E)
-  :file: data/r50-1-2014_eng.yaml
-- :id: OIML R 50-2:2014
-  :file: data/r50-2-2014.yaml
-- :id: OIML R 50-2:2014 (E)
-  :file: data/r50-2-2014_eng.yaml
-- :id: OIML R 50-3:2014
-  :file: data/r50-3-2014.yaml
-- :id: OIML R 50-3:2014 (E)
-  :file: data/r50-3-2014_eng.yaml
-- :id: OIML R 51-1:2006
-  :file: data/r51-1-2006.yaml
-- :id: OIML R 51-1:2006 (E)
-  :file: data/r51-1-2006_eng.yaml
-- :id: OIML R 51-1:2010 Errata
-  :file: data/r51-1-2010errata.yaml
-- :id: OIML R 51-1:2010 Errata (E)
-  :file: data/r51-1-2010errata_eng.yaml
-- :id: OIML R 51-2:2006
-  :file: data/r51-2-2006.yaml
-- :id: OIML R 51-2:2006 (E)
-  :file: data/r51-2-2006_eng.yaml
-- :id: OIML R 59-1:2016
-  :file: data/r59-1-2016.yaml
-- :id: OIML R 59-1:2016 (E)
-  :file: data/r59-1-2016_eng.yaml
-- :id: OIML R 59-1:2016 (F)
-  :file: data/r59-1-2016_fra.yaml
-- :id: OIML R 59-2:2016
-  :file: data/r59-2-2016.yaml
-- :id: OIML R 59-2:2016 (E)
-  :file: data/r59-2-2016_eng.yaml
-- :id: OIML R 59-2:2016 (F)
-  :file: data/r59-2-2016_fra.yaml
-- :id: OIML R 59-3:2016
-  :file: data/r59-3-2016.yaml
-- :id: OIML R 59-3:2016 (E)
-  :file: data/r59-3-2016_eng.yaml
-- :id: OIML R 59-3:2016 (F)
-  :file: data/r59-3-2016_fra.yaml
-- :id: OIML R 60-1:2017
-  :file: data/r60-1-2017.yaml
-- :id: OIML R 60-1:2017 (E)
-  :file: data/r60-1-2017_eng.yaml
-- :id: OIML R 60-1:2017 (F)
-  :file: data/r60-1-2017_fra.yaml
-- :id: OIML R 60-2:2017
-  :file: data/r60-2-2017.yaml
-- :id: OIML R 60-2:2017 (E)
-  :file: data/r60-2-2017_eng.yaml
-- :id: OIML R 60-2:2017 (F)
-  :file: data/r60-2-2017_fra.yaml
-- :id: OIML R 60:2017 Annexes
-  :file: data/r60-2017annexes.yaml
-- :id: OIML R 60:2017 Annexes (E)
-  :file: data/r60-2017annexes_eng.yaml
-- :id: OIML R 60:2017 Annexes (F)
-  :file: data/r60-2017annexes_fra.yaml
-- :id: OIML R 60:2019 Amendment
-  :file: data/r60-2019amendment.yaml
-- :id: OIML R 60:2019 Amendment (E)
-  :file: data/r60-2019amendment_eng.yaml
-- :id: OIML R 60-3:2017
-  :file: data/r60-3-2017.yaml
-- :id: OIML R 60-3:2017 (E)
-  :file: data/r60-3-2017_eng.yaml
-- :id: OIML R 60-3:2017 (F)
-  :file: data/r60-3-2017_fra.yaml
-- :id: OIML R 61-1:2004
-  :file: data/r61-1-2004.yaml
-- :id: OIML R 61-1:2004 (E)
-  :file: data/r61-1-2004_eng.yaml
-- :id: OIML R 61-2:2004
-  :file: data/r61-2-2004.yaml
-- :id: OIML R 61-2:2004 (E)
-  :file: data/r61-2-2004_eng.yaml
-- :id: OIML B 18 (C)
-  :file: data/b18_zho.yaml
-- :id: OIML D 1 Brochure (U)
-  :file: data/d1brochure_ukr.yaml
-- :id: OIML R 126 (S)
-  :file: data/r126_spa.yaml
-- :id: OIML R 46-1 (S)
-  :file: data/r46-1_spa.yaml
-- :id: OIML R 76 (C)
-  :file: data/r76_zho.yaml
