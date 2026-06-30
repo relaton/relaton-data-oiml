@@ -104,7 +104,7 @@ if $PROGRAM_NAME == __FILE__
   root = File.expand_path("~/src/oimlsmart/bulletin-data")
   workers = (ARGV[0] || 3).to_i
   # Stop any existing OCR processes first to avoid API contention.
-  existing = `pgrep -f "ruby backfill/ocr_".split
+  existing = `pgrep -f "ruby backfill/ocr_"`.split
   unless existing.empty?
     warn "Stopping existing OCR processes: #{existing.inspect}"
     existing.each { |pid| Process.kill("TERM", pid.to_i) rescue nil }
