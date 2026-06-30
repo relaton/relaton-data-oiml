@@ -22,6 +22,12 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: AL
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: TC 9/SC 2 (7–9 June 2000) Automatic weighing instruments'
@@ -48,6 +54,8 @@ extent:
     reference_from: XLI
   - type: issue
     reference_from: '4'
+  - type: page
+    reference_from: '1'
 ext:
   doctype:
     content: article

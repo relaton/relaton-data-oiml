@@ -48,6 +48,8 @@ extent:
     reference_from: XLI
   - type: issue
     reference_from: '4'
+  - type: page
+    reference_from: '40'
 ext:
   doctype:
     content: article

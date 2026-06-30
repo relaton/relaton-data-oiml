@@ -118,9 +118,11 @@ module BulletinBackfill
     def parse_contents(text)
       lines = text.lines.map { |l| l.rstrip }
       # pdftotext sometimes emits control chars (form feed, start-of-heading)
-      # and OCR can prefix with non-ASCII markers before the Contents heading
-      # — strip non-letters before matching.
-      start_idx = lines.index { |l| stripped_heading(l).match?(/\A(Contents|Sommaire|SOMMAIRE)\z/i) }
+      # and OCR can prefix with non-ASCII markers before the Contents heading.
+      # The running header often sits on the same line: "K Contents OIML".
+      # Match a line where the cleaned form starts with Contents/Sommaire
+      # and has at most one extra trailing token (the running header).
+      start_idx = lines.index { |l| contents_heading?(stripped_heading(l)) }
       return [] unless start_idx
 
       # Section ends at the first # header (article body start) or DOCUMENTATION.
@@ -143,12 +145,12 @@ module BulletinBackfill
         # Stop on the next major section / page break indicator. Avoid
         # bare "BULLETIN" — that appears in the cover header fragment inside
         # the Contents page layout.
-        break if stripped_heading(line).match?(/\A(EDITORIAL|PRESIDENT|MEMBER STATES|OIML BULLETIN)\z/i)
+        break if stripped_heading(line).match?(/\A(EDITORIAL|PRESIDENT|MEMBER STATES|OIML BULLETIN|BUREAU INTERNATIONAL|Membres du Comité)\z/i)
 
         # TOC entry patterns:
         #   Born-digital: "<page> <title...>" on one line
-        #   Scanned French: title on one line, "par NAME (Country) ... <page>" on next
-        #   Born-digital 2008+: "<specialchar> Contents"
+        #   Scanned French (1970s+): title, then "par NAME (Country) ... <page>"
+        #   Scanned French (1960s): title ending with comma, then "par NAME — AFFILIATION"
         if (m = line.match(/\A(\d+)\s+(.+)\z/))
           page = m[1].to_i
           title = m[2].strip
@@ -158,15 +160,22 @@ module BulletinBackfill
           entries << { title: title, authors: authors, page: page, section: current_section }
         elsif line.match?(/\A[^\d]/) && i < lines.size
           # Possible French scanned-era entry: title alone, byline on next non-blank line.
-          # Look ahead for a "par ... (Country) ... N" pattern.
           lookahead_idx = find_next_nonblank(lines, i)
           if lookahead_idx
             la = lines[lookahead_idx].strip
+            # 1970s+: "par NAME (Country) ... N"  OR  "by NAME (Country) ... N"
             if (am = la.match(/\Apar\s+(.+?)\s*\(([^)]+)\)[\s.]+\d+\z/i)) || (am = la.match(/\Aby\s+(.+?)\s*\(([^)]+)\)[\s.]+\d+\z/i))
               author = "#{am[1]} (#{am[2]})"
               page_m = la.match(/(\d+)\s*\z/)
               page = page_m && page_m[1].to_i
               entries << { title: line, authors: [author], page: page, section: current_section }
+              i = lookahead_idx + 1
+              next
+            end
+            # 1960s: "par NAME — AFFILIATION" (no page number)
+            if (am = la.match(/\Apar\s+(.+?)\s*[—-]\s*(.+?)\s*\.*\z/i))
+              author_with_affil = "#{am[1]} (#{am[2]})"
+              entries << { title: line.gsub(/,\s*\z/, ""), authors: [author_with_affil], page: nil, section: current_section }
               i = lookahead_idx + 1
               next
             end
@@ -178,6 +187,16 @@ module BulletinBackfill
 
     def stripped_heading(line)
       line.gsub(/[^A-Za-zÀ-ÿ\s]/, "").strip
+    end
+
+    # True if the cleaned line is exactly "Contents"/"Sommaire" or one of
+    # those followed by a single short running-header word like "OIML".
+    def contents_heading?(cleaned)
+      return true if cleaned.match?(/\A(Contents|Sommaire|SOMMAIRE)\z/i)
+      return true if cleaned.match?(/\A(Contents|Sommaire|SOMMAIRE)\s+(OIML|BULLETIN)\z/i)
+      return true if cleaned.match?(/\A(Contents|Sommaire|SOMMAIRE)\s+( Volume|Numéro|Numéro)?\s*\d+/i)
+
+      false
     end
 
     def find_next_nonblank(lines, from)
