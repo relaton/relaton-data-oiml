@@ -123,6 +123,14 @@ module BulletinBackfill
       # Match a line where the cleaned form starts with Contents/Sommaire
       # and has at most one extra trailing token (the running header).
       start_idx = lines.index { |l| contents_heading?(stripped_heading(l)) }
+      # Fallback: some issues (2020+) have no "Contents" heading — the TOC
+      # starts directly with a section label like "## technique".
+      unless start_idx
+        start_idx = lines.index do |l|
+          sh = stripped_heading(l)
+          SECTION_LABELS.any? { |s| sh.downcase == s.gsub('"', '') }
+        end
+      end
       return [] unless start_idx
 
       # Section ends at the first # header (article body start) or DOCUMENTATION.
