@@ -23,12 +23,6 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
-- role:
-  - type: author
-  person:
-    name:
-      completename:
-        content: S.P. BOLCHOVER et F. HARRIS
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: ROYAUME-UNI - Use of measuring container bottles in the prepackaging industry,
@@ -54,8 +48,6 @@ extent:
 - locality:
   - type: issue
     reference_from: '3'
-  - type: page
-    reference_from: '10'
 ext:
   doctype:
     content: article
