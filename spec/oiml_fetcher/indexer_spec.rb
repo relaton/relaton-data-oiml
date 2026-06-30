@@ -3,6 +3,7 @@
 require "spec_helper"
 require "tmpdir"
 require "yaml"
+require "pubid" # the structured-index examples reference Pubid in their setup
 
 RSpec.describe OimlFetcher::Indexer do
   let(:root) { Dir.mktmpdir("oiml-indexer") }
@@ -87,5 +88,67 @@ RSpec.describe OimlFetcher::Indexer do
       .to output(/broken\.yaml/).to_stderr
 
     expect(index_ids).to contain_exactly("OIML R 35:2007")
+  end
+
+  describe "structured index-v2.yaml (pubid)" do
+    let(:index_v2_file) { File.join(root, "index-v2.yaml") }
+
+    def v2_entries
+      # Drop the pooled Type so this reads + deserializes from disk (exercising
+      # pubid from_hash) rather than returning build's in-memory objects.
+      Relaton::Index.close(:OIML)
+      Relaton::Index.find_or_create(
+        :OIML, file: index_v2_file, pubid_class: Pubid::Oiml::Identifier
+      ).index
+    end
+
+    it "writes structured pubid ids that deserialize back to Pubid::Oiml" do
+      write_data("r35_2007", "OIML R 35:2007")
+      write_data("b18_c", "OIML B 18 (C)") # custom language code
+
+      described_class.build(
+        data_dir: data_dir, index_file: index_file, index_v2_file: index_v2_file,
+      )
+
+      ids = v2_entries.map { |e| e[:id] }
+      expect(ids).to all(be_a(Pubid::Oiml::Identifier))
+      expect(ids.map(&:to_s)).to contain_exactly("OIML R 35:2007", "OIML B 18 (C)")
+    end
+
+    it "keeps the v1 string index in step with the v2 structured index" do
+      write_data("r35_2007", "OIML R 35:2007")
+
+      described_class.build(
+        data_dir: data_dir, index_file: index_file, index_v2_file: index_v2_file,
+      )
+
+      expect(index_ids).to contain_exactly("OIML R 35:2007")
+      expect(v2_entries.size).to eq(1)
+    end
+
+    it "prunes orphans from the structured index too" do
+      # Seed a v2 index already holding a (valid-but-stale) entry whose file is gone.
+      stale = Pubid::Oiml.parse("OIML R 99:1999")
+      File.write(
+        index_v2_file,
+        [{ id: stale.to_hash, file: "data/r99_1999.yaml" }].to_yaml,
+        encoding: "UTF-8",
+      )
+      write_data("r35_2007", "OIML R 35:2007") # only this file exists now
+
+      described_class.build(
+        data_dir: data_dir, index_file: index_file, index_v2_file: index_v2_file,
+      )
+
+      expect(v2_entries.map { |e| e[:id].to_s }).to contain_exactly("OIML R 35:2007")
+    end
+
+    it "leaves the v1 index untouched when no v2 file is requested" do
+      write_data("r35_2007", "OIML R 35:2007")
+
+      described_class.build(data_dir: data_dir, index_file: index_file)
+
+      expect(File.exist?(index_v2_file)).to be(false)
+    end
   end
 end
