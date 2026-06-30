@@ -118,10 +118,12 @@ module BulletinBackfill
     def parse_contents(text)
       lines = text.lines.map { |l| l.rstrip }
       # pdftotext sometimes emits control chars (form feed, start-of-heading)
-      # before the Contents heading — strip them before matching.
-      start_idx = lines.index { |l| l.gsub(/[\x00-\x1f]/, "").strip.match?(/\A(Contents|SOMMAIRE)\z/i) }
+      # and OCR can prefix with non-ASCII markers before the Contents heading
+      # — strip non-letters before matching.
+      start_idx = lines.index { |l| stripped_heading(l).match?(/\A(Contents|Sommaire|SOMMAIRE)\z/i) }
       return [] unless start_idx
 
+      # Section ends at the first # header (article body start) or DOCUMENTATION.
       entries = []
       current_section = nil
       i = start_idx + 1
@@ -129,41 +131,96 @@ module BulletinBackfill
         line = lines[i].strip
         i += 1
         next if line.empty?
+        next if line.start_with?("![](") # OCR image marker
+        break if line.start_with?("# ") && !line.start_with?("# BULLETIN")
 
         # Section label
-        if SECTION_LABELS.any? { |l| line.downcase == l.gsub('"', '') }
+        if SECTION_LABELS.any? { |l| stripped_heading(line).downcase == l.gsub('"', '') }
           current_section = line.downcase
           next
         end
 
-        # Stop on the next major section / page break indicator.
-        break if line.match?(/\A(EDITORIAL|PRESIDENT|MEMBER STATES|OIML BULLETIN)\z/i)
+        # Stop on the next major section / page break indicator. Avoid
+        # bare "BULLETIN" — that appears in the cover header fragment inside
+        # the Contents page layout.
+        break if stripped_heading(line).match?(/\A(EDITORIAL|PRESIDENT|MEMBER STATES|OIML BULLETIN)\z/i)
 
-        # TOC entry: "<page> <title...>"
-        m = line.match(/\A(\d+)\s+(.+)\z/)
-        next unless m
-
-        page = m[1].to_i
-        title = m[2].strip
-        authors = []
-        # Continuation lines until next TOC entry, section label, or blank.
-        while i < lines.size
-          nxt = lines[i].strip
-          break if nxt.empty?
-          break if nxt.match?(/\A\d+\s+/)
-          break if SECTION_LABELS.any? { |l| nxt.downcase == l.gsub('"', '') }
-          break if nxt.match?(/\A(EDITORIAL|PRESIDENT|MEMBER STATES|OIML BULLETIN)\z/i)
-
-          if author_line?(nxt)
-            authors.concat(split_authors(nxt))
-          else
-            title = "#{title} #{nxt}".squeeze(" ")
+        # TOC entry patterns:
+        #   Born-digital: "<page> <title...>" on one line
+        #   Scanned French: title on one line, "par NAME (Country) ... <page>" on next
+        #   Born-digital 2008+: "<specialchar> Contents"
+        if (m = line.match(/\A(\d+)\s+(.+)\z/))
+          page = m[1].to_i
+          title = m[2].strip
+          authors, page_from_continuation = parse_continuation(lines, i)
+          i += continuation_count(lines, i)
+          page = page_from_continuation || page
+          entries << { title: title, authors: authors, page: page, section: current_section }
+        elsif line.match?(/\A[^\d]/) && i < lines.size
+          # Possible French scanned-era entry: title alone, byline on next non-blank line.
+          # Look ahead for a "par ... (Country) ... N" pattern.
+          lookahead_idx = find_next_nonblank(lines, i)
+          if lookahead_idx
+            la = lines[lookahead_idx].strip
+            if (am = la.match(/\Apar\s+(.+?)\s*\(([^)]+)\)[\s.]+\d+\z/i)) || (am = la.match(/\Aby\s+(.+?)\s*\(([^)]+)\)[\s.]+\d+\z/i))
+              author = "#{am[1]} (#{am[2]})"
+              page_m = la.match(/(\d+)\s*\z/)
+              page = page_m && page_m[1].to_i
+              entries << { title: line, authors: [author], page: page, section: current_section }
+              i = lookahead_idx + 1
+              next
+            end
           end
-          i += 1
         end
-        entries << { title: title.strip, authors: authors, page: page, section: current_section }
       end
       entries
+    end
+
+    def stripped_heading(line)
+      line.gsub(/[^A-Za-zÀ-ÿ\s]/, "").strip
+    end
+
+    def find_next_nonblank(lines, from)
+      (from...lines.size).each { |i| return i unless lines[i].strip.empty? }
+      nil
+    end
+
+    def parse_continuation(lines, i)
+      authors = []
+      page = nil
+      while i < lines.size
+        nxt = lines[i].strip
+        break if nxt.empty?
+        break if nxt.match?(/\A\d+\s+/)
+        break if SECTION_LABELS.any? { |l| stripped_heading(nxt).downcase == l.gsub('"', '') }
+        break if stripped_heading(nxt).match?(/\A(EDITORIAL|PRESIDENT|MEMBER STATES|OIML BULLETIN)\z/i)
+        break if nxt.start_with?("# ", "## ")
+
+        if author_line?(nxt)
+          authors.concat(split_authors(nxt))
+        elsif (pm = nxt.match(/\.\.\.\s*(\d+)\s*\z/))
+          page = pm[1].to_i
+        end
+        i += 1
+      end
+      [authors, page]
+    end
+
+    # Count how many continuation lines parse_continuation would consume.
+    def continuation_count(lines, i)
+      count = 0
+      while i < lines.size
+        nxt = lines[i].strip
+        break if nxt.empty?
+        break if nxt.match?(/\A\d+\s+/)
+        break if SECTION_LABELS.any? { |l| stripped_heading(nxt).downcase == l.gsub('"', '') }
+        break if stripped_heading(nxt).match?(/\A(EDITORIAL|PRESIDENT|MEMBER STATES|OIML BULLETIN)\z/i)
+        break if nxt.start_with?("# ", "## ")
+
+        count += 1
+        i += 1
+      end
+      count
     end
 
     def author_line?(line)

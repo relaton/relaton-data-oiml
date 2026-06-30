@@ -41,19 +41,36 @@ module BulletinBackfill
 
     private
 
-    # Map a PDF URL/label to (year, issue). Three patterns:
-    #   - born-digital 2000+: label "YYYY-MM" or filename "oiml_bulletin_<month>_YYYY.pdf"
-    #   - scanned era: filename "YYYY-bulletin-N.pdf" — N is cumulative; needs
-    #     the cumulative→within-year mapping from docx_articles.yaml.
+    # Map a PDF URL/label to (year, issue). Patterns:
+    #   - born-digital: "oiml_bulletin_<month>_YYYY.pdf" (month name in any order)
+    #   - scanned era single: "YYYY-bulletin-N.pdf" (N is cumulative)
+    #   - scanned era range: "YYYY-bulletin-N-M.pdf" (two consecutive issues in one PDF)
     def parse_slug(label, href)
       basename = File.basename(href || "")
+      # Scanned-era range: "1993-bulletin-132-133.pdf"
+      if (m = basename.match(/\A(\d{4})-bulletin-(\d+)-(\d+)\.pdf\z/i))
+        year = m[1].to_i
+        first, last = m[2].to_i, m[3].to_i
+        issue_first = within_year_issue_for(year, first)
+        issue_last = within_year_issue_for(year, last)
+        return { "year" => year, "issue" => "#{issue_first}-#{issue_last}",
+                 "bulletin_no" => "#{first}-#{last}" }
+      end
+      # Scanned-era single: "1961-bulletin-6.pdf"
       if (m = basename.match(/\A(\d{4})-bulletin-(\d+)\.pdf\z/i))
         year = m[1].to_i
         cumulative = m[2].to_i
         issue = within_year_issue_for(year, cumulative)
         return { "year" => year, "issue" => issue, "bulletin_no" => cumulative }
       end
-      m = (label || href).match(/(20\d\d|19\d\d)[-_]?(0[1-4]|jan|apr|jul|oct|april|july|october)/i)
+      # Born-digital: "<month>_YYYY" or "YYYY-MM"
+      m = basename.match(/(january|february|march|april|may|june|july|august|september|october|november|december|jan|apr|jul|oct|april)[_-](\d{4})/i)
+      if m
+        month_name = m[1].downcase
+        year = m[2].to_i
+        return { "year" => year, "issue" => MONTH_MAP.fetch(month_name) }
+      end
+      m = (label || href).match(/(20\d\d|19\d\d)[-_]?(0[1-4]|01|04|07|10|jan|apr|jul|oct|april|july|october)/i)
       return {} unless m
 
       { "year" => m[1].to_i, "issue" => MONTH_MAP.fetch(m[2].downcase) }

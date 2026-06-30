@@ -22,6 +22,24 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Young-Kag Ban
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Young-Mun Kweon
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Young Dae Kim
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: Portable test equipment for residential utility meters.'
@@ -48,6 +66,8 @@ extent:
     reference_from: LVII
   - type: issue
     reference_from: '3'
+  - type: page
+    reference_from: '5'
 ext:
   doctype:
     content: article
