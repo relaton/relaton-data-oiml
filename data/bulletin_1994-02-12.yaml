@@ -46,6 +46,8 @@ extent:
 - locality:
   - type: issue
     reference_from: '2'
+  - type: page
+    reference_from: '54'
 ext:
   doctype:
     content: article
