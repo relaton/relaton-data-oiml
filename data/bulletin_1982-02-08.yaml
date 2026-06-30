@@ -23,6 +23,12 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: A.G. EVSTAVIEV
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: ONUDI — UNIDO activities in the field of metrology in the developing countries,
@@ -48,6 +54,8 @@ extent:
 - locality:
   - type: issue
     reference_from: '2'
+  - type: page
+    reference_from: '24'
 ext:
   doctype:
     content: article

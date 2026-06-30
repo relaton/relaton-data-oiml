@@ -50,6 +50,8 @@ extent:
 - locality:
   - type: issue
     reference_from: '3'
+  - type: page
+    reference_from: '1970'
 ext:
   doctype:
     content: article

@@ -24,6 +24,12 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: G. BARBATO et F. PETIK
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: HONGRIE - ITALIE — Comparison between the HRC, HRB and HV 30 Hardness scales
@@ -50,6 +56,8 @@ extent:
 - locality:
   - type: issue
     reference_from: '1'
+  - type: page
+    reference_from: '12'
 ext:
   doctype:
     content: article

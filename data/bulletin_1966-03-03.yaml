@@ -22,6 +22,12 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: E. MENNA (Italie ... 25)
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: La productivité d''un Service des Poids et Mesures, par E. MENNA — Italie'
