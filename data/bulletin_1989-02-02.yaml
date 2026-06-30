@@ -22,6 +22,12 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: B. ATHANÉ
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: La métrologie légale sous la Révolution française, par B. ATHANÉ'
@@ -46,6 +52,8 @@ extent:
 - locality:
   - type: issue
     reference_from: '2'
+  - type: page
+    reference_from: '9'
 ext:
   doctype:
     content: article
