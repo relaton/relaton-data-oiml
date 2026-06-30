@@ -188,13 +188,16 @@ module BulletinBackfill
               next
             end
             # 1960s org: "par ORG_NAME . . . ." (no comma, no page)
-            if (am = la.match(/\Apar\s+(.+?)\s*\.{2,}\s*\z/i))
+            # Dotted leaders may be space-separated: ". . . ." or compact: "..."
+            if (am = la.match(/\Apar\s+(.+?)\s+(?:\.\s+){2,}\.?\s*\z/i)) ||
+               (am = la.match(/\Apar\s+(.+?)\s+\.{2,}\s*\z/i))
               entries << { title: line.gsub(/,\s*\z/, ""), authors: ["#{am[1].strip}"], page: nil, section: current_section }
               i = lookahead_idx + 1
               next
             end
             # 1960s org + page: "par ORG_NAME . . . . <page>"
-            if (am = la.match(/\Apar\s+(.+?)\s*\.{2,}\s*(\d+)\s*\z/i))
+            if (am = la.match(/\Apar\s+(.+?)\s+(?:\.\s+){2,}\.?\s*(\d+)\s*\z/i)) ||
+               (am = la.match(/\Apar\s+(.+?)\s+\.{2,}\s*(\d+)\s*\z/i))
               entries << { title: line.gsub(/,\s*\z/, ""), authors: ["#{am[1].strip}"], page: am[2].to_i, section: current_section }
               i = lookahead_idx + 1
               next
