@@ -1,0 +1,82 @@
+---
+id: Bulletin-2026-01-07
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: Update from the OIML Digitalization Task Group (DTG)
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260107
+docidentifier:
+- content: OIML Bulletin 2026-01-07
+  type: OIML
+  primary: true
+- content: '20260107'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2026-01-01'
+contributor:
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Sascha Eichstädt
+    affiliation:
+    - organization:
+        name:
+        - content: " "
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: The OIML Digitalization Task Group (DTG) was founded in May 2022 and confirmed
+    by the 57th CIML (2022). It has 57 Members from 21 different countries and economies,
+    and two organizations in liaison. Sascha Eichstädt (Germany) serves as Chairperson
+    and Yang Ping (China) as Deputy Chairperson; both were reelected by the CIML in
+    2025.
+  format: text/plain
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2026-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVII
+  - type: issue
+    reference_from: '1'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

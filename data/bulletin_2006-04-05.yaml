@@ -1,0 +1,67 @@
+---
+id: Bulletin-2006-04-05
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Preoccupation at national level, in Romania, concerning standardization
+    in the field of electrical energy
+  type: main
+docidentifier:
+- content: OIML Bulletin 2006-04-05
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2006'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Fanel Iacobescu, Elvira Buzac
+    affiliation:
+    - organization:
+        name:
+        - content: Florica Ionescu and Cepisca Costin
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Preoccupation at national level, in Romania, concerning standardization in
+    the field of electrical energy - Fanel Iacobescu, Elvira Buzac, Florica Ionescu
+    and Cepisca Costin'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2006-04
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XLVII
+  - type: issue
+    reference_from: '4'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

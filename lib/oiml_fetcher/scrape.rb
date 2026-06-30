@@ -58,6 +58,18 @@ module OimlFetcher
       ).run
     end
 
+    desc "bulletin", "Fetch OIML Bulletin HTML editions into bulletin/volume/issue/article YAMLs"
+    method_option :data_dir, type: :string, default: "data"
+    method_option :issue, type: :string, repeatable: true,
+                          desc: "Restrict to specific issues, e.g. 2026-02. Defaults to all HTML editions."
+    def bulletin
+      store = OimlFetcher::YamlStore.new(options[:data_dir])
+      issues = options[:issue]
+      say "Fetching OIML Bulletin HTML editions#{issues ? " (#{issues.join(', ')})" : ''}...", :cyan
+      slugs = OimlFetcher::BulletinFetcher.new(yaml_store: store).run(issues: issues)
+      say "Processed #{slugs.size} issue(s).", :green
+    end
+
     desc "index", "Rebuild index-v1.yaml from data/*.yaml"
     def index
       load File.expand_path("../../crawler.rb", __dir__)

@@ -1,0 +1,67 @@
+---
+id: Bulletin-2002-01-12
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: OIML TC 9/SC 2 Meeting, Automatic instruments for weighing road vehicles
+    in motion
+  type: main
+docidentifier:
+- content: OIML Bulletin 2002-01-12
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2002'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Part B, Teddington, 7–9 November 2001 - PAUL DIXON, NWML
+    affiliation:
+    - organization:
+        name:
+        - content: TC 9/SC 2 Secretariat
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: OIML TC 9/SC 2 Meeting, Automatic instruments for weighing road vehicles
+    in motion - Part B, Teddington, 7–9 November 2001 - PAUL DIXON, NWML (TC 9/SC
+    2 Secretariat)'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2002-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XLIII
+  - type: issue
+    reference_from: '1'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

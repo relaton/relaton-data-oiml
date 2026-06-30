@@ -1,0 +1,63 @@
+---
+id: Bulletin-2025
+schema_version: v1.5.6
+type: journal
+title:
+- language: eng
+  script: Latn
+  content: OIML Bulletin, Volume LXVI (2025)
+  type: main
+docidentifier:
+- content: OIML Bulletin 2025
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2025-01-01'
+language:
+- eng
+script:
+- Latn
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2025-02
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2025-03
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2025-04
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVI
+ext:
+  doctype:
+    content: volume
+  flavor: oiml

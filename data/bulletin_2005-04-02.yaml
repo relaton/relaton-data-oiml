@@ -1,0 +1,68 @@
+---
+id: Bulletin-2005-04-02
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: An indirect gravimetric calibration technique for the verification of fuel
+    dispenser narrow neck test measures
+  type: main
+docidentifier:
+- content: OIML Bulletin 2005-04-02
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2005'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Giuseppe Ardimento, Rosario Gaudiosi, Silvana Iovieno, Liliana Smeraldo,
+          Marco Dell’Isola
+    affiliation:
+    - organization:
+        name:
+        - content: Giorgio Ficco and Andrea Frattolillo
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: An indirect gravimetric calibration technique for the verification of fuel
+    dispenser narrow neck test measures - Giuseppe Ardimento, Rosario Gaudiosi, Silvana
+    Iovieno, Liliana Smer'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2005-04
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XLVI
+  - type: issue
+    reference_from: '4'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

@@ -1,0 +1,84 @@
+---
+id: Bulletin-2025-04-03
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: Measuring Legal Metrology Competency Across Countries
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2025-04/20250403
+docidentifier:
+- content: OIML Bulletin 2025-04-03
+  type: OIML
+  primary: true
+- content: '20250403'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2025-10-01'
+contributor:
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Ann-Sara Ramkissoon 
+    affiliation:
+    - organization:
+        name:
+        - content: " "
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: Over a two-week period, from 12–23 May 2025, I visited the International
+    Bureau of Legal Metrology (BIML) in Paris with the objective to examine the availability
+    of and collect data for measuring legal metrology capability at the country level.
+    The challenge was to identify indicators that demonstrate the presence and level
+    of legal metrology development across as many countries as possible, while also
+    providing a reasonable level of granularity within the constraints of data availability,
+    pa...
+  format: text/plain
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2025-04
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVI
+  - type: issue
+    reference_from: '4'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

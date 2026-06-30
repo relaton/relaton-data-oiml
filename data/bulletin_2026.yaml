@@ -1,0 +1,58 @@
+---
+id: Bulletin-2026
+schema_version: v1.5.6
+type: journal
+title:
+- language: eng
+  script: Latn
+  content: OIML Bulletin, Volume LXVII (2026)
+  type: main
+docidentifier:
+- content: OIML Bulletin 2026
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2026-01-01'
+language:
+- eng
+script:
+- Latn
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2026-01
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2026-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVII
+ext:
+  doctype:
+    content: volume
+  flavor: oiml

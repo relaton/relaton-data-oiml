@@ -1,0 +1,54 @@
+---
+id: Bulletin-1962-02-04
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Circulaire du 29 décembre 1961 relative à l'application du décret n° 61-501
+    du 3 mai 1961 sur les Unités de mesure et le contrôle des instruments de mesure,
+  type: main
+docidentifier:
+- content: OIML Bulletin 1962-02-04
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1962'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Circulaire du 29 décembre 1961 relative à l''application du décret n° 61-501
+    du 3 mai 1961 sur les Unités de mesure et le contrôle des instruments de mesure,'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1962-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

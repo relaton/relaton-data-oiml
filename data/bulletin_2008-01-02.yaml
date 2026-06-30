@@ -1,0 +1,62 @@
+---
+id: Bulletin-2008-01-02
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: The importance of accurate measurement of electrical energy, and the performance
+    of modern electricity meters
+  type: main
+docidentifier:
+- content: OIML Bulletin 2008-01-02
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2008'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Elvira Buzac and Costin Cepisca
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: The importance of accurate measurement of electrical energy, and the performance
+    of modern electricity meters - Elvira Buzac and Costin Cepisca'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2008-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XLIX
+  - type: issue
+    reference_from: '1'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

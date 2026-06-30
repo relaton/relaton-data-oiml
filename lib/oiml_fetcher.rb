@@ -97,6 +97,7 @@ module OimlFetcher
   autoload :YamlStore,       "oiml_fetcher/yaml_store"
   autoload :FilenameParser,  "oiml_fetcher/filename_parser"
   autoload :PublicationFetcher, "oiml_fetcher/publication_fetcher"
+  autoload :BulletinFetcher,    "oiml_fetcher/bulletin_fetcher"
   autoload :TranslationFetcher, "oiml_fetcher/translation_fetcher"
   autoload :PortfolioFetcher,   "oiml_fetcher/portfolio_fetcher"
   autoload :PartsBuilder,       "oiml_fetcher/parts_builder"

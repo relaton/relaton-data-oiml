@@ -1,0 +1,69 @@
+---
+id: Bulletin-2026-01-11
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: High-priority publications and projects
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260111
+docidentifier:
+- content: OIML Bulletin 2026-01-11
+  type: OIML
+  primary: true
+- content: '20260111'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2026-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: The following criteria have been established for the prioritization of
+    OIML publications and projects.
+  format: text/plain
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2026-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVII
+  - type: issue
+    reference_from: '1'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

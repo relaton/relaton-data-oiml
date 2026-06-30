@@ -1,0 +1,61 @@
+---
+id: Bulletin-1983-02-01
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: ITALIE — Investigations on the uncertainty of hardness measurement, par
+    G.BARBATO
+  type: main
+docidentifier:
+- content: OIML Bulletin 1983-02-01
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1983'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: G. BARBATO
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: ITALIE — Investigations on the uncertainty of hardness measurement, par G.BARBATO'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1983-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '2'
+  - type: page
+    reference_from: '3'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

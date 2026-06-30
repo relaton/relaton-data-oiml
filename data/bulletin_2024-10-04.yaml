@@ -1,0 +1,77 @@
+---
+id: Bulletin-2024-10-04
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: Linking the readings of an automatic level gauge to the calibration table
+    of a tank before it is put into operation
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/online-bulletin-1/2024-10/linking-the-readings-of-an-alg-to-the-calibration-table-of-a-tank
+docidentifier:
+- content: OIML Bulletin 2024-10-04
+  type: OIML
+  primary: true
+- content: linking-the-readings-of-an-alg-to-the-calibration-table-of-a-tank
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2024-10-01'
+contributor:
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Samoilenko Oleksandr, Zaiets Volodymyr, Akolzin Ivan
+    affiliation:
+    - organization:
+        name:
+        - content: " "
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: " "
+  format: text/plain
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2024-10
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '4'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

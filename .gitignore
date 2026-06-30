@@ -8,3 +8,5 @@ pdfs/
 *.zip
 spec/examples.txt
 spec/examples.txt
+backfill/cache/
+backfill/candidates/

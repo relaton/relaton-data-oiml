@@ -1,0 +1,60 @@
+---
+id: Bulletin-2015-02-02
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Monte Carlo simulations of the susceptometer method
+  type: main
+docidentifier:
+- content: OIML Bulletin 2015-02-02
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2015'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Frank Scholz
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Monte Carlo simulations of the susceptometer method - Frank Scholz'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2015-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LVI
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

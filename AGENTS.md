@@ -152,6 +152,64 @@ Filename: lowercase id-ish — `<ref_lower>_<year>[_<lang>].yaml`. EN/FR
 instances use ISO 639-3 (`r35_2007_eng.yaml`); translations same
 (`r35-1-2007_deu.yaml`).
 
+## OIML Bulletin articles — periodical hierarchy
+
+### Docx vs printed TOC authority
+
+**Policy: the editor-provided contents.docx is authoritative.** The docx
+may list articles not present in a Bulletin's printed SOMMAIRE (verified
+case: 1980 no.80 has 18 entries in the docx vs 7 in the printed TOC; the
+other 11 are genuine articles — country reports, presidential addresses,
+etc. — that the printed TOC omitted, likely for space). The dataset
+intentionally includes these. Do not prune records just because they
+don't appear in a printed TOC. See `TODO.full-bulletin/06-docx-vs-toc-policy.md`.
+
+Bulletin articles (a new record class, distinct from OIML publications)
+follow a four-tier containment hierarchy, mirroring how BIPM models
+*Metrologia* (`series` + `extent.locality`) but with explicit container
+records for navigability:
+
+```
+bulletin.yaml              — periodical    (type: journal, doctype: periodical)
+  hasPart →
+bulletin_2026.yaml         — volume/year   (type: journal, doctype: volume)
+  hasPart →
+bulletin_2026-02.yaml      — issue         (type: journal, doctype: issue)
+  hasPart →
+bulletin_2026-02-11.yaml   — article       (type: article, doctype: article)
+```
+
+Containment is bidirectional: `hasPart` downward, `partOf` (or
+`includedIn` for articles) upward — same pattern as work/instance.
+
+Article docid scheme: `OIML Bulletin YYYY-NN-SS` where SS is the
+sequence within the issue. The HTML-era natural key is the 8-digit
+oiml.org id (`20260211` = year 2026, issue 02, sequence 11) carried as
+a secondary `docidentifier` of type `OIML-bulletin-article-id`. Volume
+roman numerals (`LXVII` for 2026) come from the issue page's
+`VOLUME {roman} - NUMBER {n}` header link.
+
+Quarterly date mapping: issue 1 → Jan, 2 → Apr, 3 → Jul, 4 → Oct
+(`BulletinFetcher::QUARTER_MONTH`).
+
+Author extraction: the article page's `.bulletin-header-left` div
+contains `<p><strong>Name</strong></p>` + `<p>Affiliation</p>` +
+`<h6>Citation: INITIALS. Surname YEAR OIML Bulletin ROMAN(N) ARTID</h6>`.
+The citation line is the most reliable structured signal (volume roman,
+issue, year, article id).
+
+### Maintained vs one-off
+
+Only the HTML path is maintained — `lib/oiml_fetcher/bulletin_fetcher.rb`
++ the `oiml-fetch bulletin` Thor task. New Bulletin issues keep appearing
+only in HTML; this fetcher runs alongside the publication fetcher.
+
+The historical backfill (PDF text layer, GLM-OCR for scans, docx
+contents-spine, reconciler) lives under `backfill/` as **one-off**
+scripts. They are NOT in `lib/`, NOT in CI, NOT in the cron. See
+`backfill/README.md` for the workflow. Once the historical data is
+loaded, those scripts can be archived.
+
 ## Other-language translations — plain HTML, NOT the API
 
 `https://www.oiml.org/en/publications/other-language-translations/<lang>/<lang>`
@@ -200,6 +258,7 @@ lib/oiml_fetcher/
   filename_parser.rb      # OimlFetcher::FilenameParser (PDF filename → Docid)
   scrape.rb               # Thor subclass (fetch + index tasks)
   publication_fetcher.rb  # JSON API → work + instances
+  bulletin_fetcher.rb     # Bulletin HTML editions → bulletin/volume/issue/article
   translation_fetcher.rb  # HTML table scrape → translation instances
   portfolio_fetcher.rb    # downloads source PDFs + extracts portfolios
   parts_builder.rb        # PDF portfolio parts → part/amendment/annex/errata YAMLs
@@ -241,8 +300,9 @@ bundle exec oiml-fetch                    # fetch all 7 types × {1,5,6} × {en,
 bundle exec oiml-fetch --translations     # also fetch 10 translation pages
 bundle exec oiml-fetch --pdfs             # download PDFs + extract portfolios + build parts
 bundle exec oiml-fetch --caco3            # enrich Recommendations from caco3consulting.com
+bundle exec oiml-fetch bulletin           # fetch Bulletin HTML editions (2025-02 → present)
 bundle exec oiml-fetch --type=recommendations --status=1   # narrow scope
-bundle exec rspec spec/                   # run 63 specs
+bundle exec rspec spec/                   # run 71 specs
 bundle exec ruby crawler.rb               # rebuild index-v1.yaml
 bundle exec ruby check_data.rb            # round-trip validate
 ```

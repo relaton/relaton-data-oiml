@@ -1,0 +1,76 @@
+---
+id: Bulletin-2025-03-02
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: 'Digital transformation attempts in daily work of OIML-CS:'
+  type: main
+- language: eng
+  script: Latn
+  content: Remote Testing Laboratory
+  type: subtitle
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2025-03/20250302
+docidentifier:
+- content: OIML Bulletin 2025-03-02
+  type: OIML
+  primary: true
+- content: '20250302'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2025-07-01'
+contributor:
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: YANG Ping1, CAI Changqing1, WANG Jian1, LI Xiaomeng1, ZHONG Ruilin1,
+          WANG Xiaolei1, ZHUO Chengshi2
+    affiliation:
+    - organization:
+        name:
+        - content: " "
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2025-03
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '3'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

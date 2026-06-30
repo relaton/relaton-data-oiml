@@ -1,0 +1,58 @@
+---
+id: Bulletin-1978-01-10
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: 'Compte rendu succinct de ta Première réunion du Secrétariat-Pilote SP.27
+    : « Principes généraux de l’utilisation des matières de référence pour ta vérification
+    des appareils de mesure » (Vilnius — URSS, 18/21 octobre 1977) Compte rendu succinct
+    de ta réunion du Secrétariat-rapporteur SP.18 — Sr.1 : « Hurnidimètres pour grains
+    de céréales et graines oléagineuses » (Paris, 2.6/28 octobre 1977)'
+  type: main
+docidentifier:
+- content: OIML Bulletin 1978-01-10
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1978'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Compte rendu succinct de ta Première réunion du Secrétariat-Pilote SP.27
+    : « Principes généraux de l’utilisation des matières de référence pour ta vérification
+    des appareils de mes'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1978-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '1'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

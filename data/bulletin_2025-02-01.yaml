@@ -1,0 +1,76 @@
+---
+id: Bulletin-2025-02-01
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: 'Mastering EMC compliance in legal metrology:'
+  type: main
+- language: eng
+  script: Latn
+  content: A guide to conformity assessment & best practices
+  type: subtitle
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2025-02/20250201
+docidentifier:
+- content: OIML Bulletin 2025-02-01
+  type: OIML
+  primary: true
+- content: '20250201'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2025-04-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: Ensuring accurate and reliable measurements is essential to fair trade.
+    Whether weighing produce in a supermarket, dispensing fuel at a gas station, or
+    calculating electricity consumption in a home, measurement devices must maintain
+    precision despite the electromagnetic noise present in everyday environments.
+    Yet, as electronic systems become more complex and interconnected, they are increasingly
+    vulnerable to electromagnetic interference (EMI). These phenomena can disrupt
+    measurement accurac...
+  format: text/plain
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2025-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

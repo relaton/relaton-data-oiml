@@ -1,0 +1,56 @@
+---
+id: Bulletin-2002-01-03
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: A Development Council Meeting A RLMO Meeting A 36th CIML Meeting, Moscow
+    (Russian Federation), 24–27 September 2001
+  type: main
+docidentifier:
+- content: OIML Bulletin 2002-01-03
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2002'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: A Development Council Meeting A RLMO Meeting A 36th CIML Meeting, Moscow
+    (Russian Federation), 24–27 September 2001'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2002-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XLIII
+  - type: issue
+    reference_from: '1'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

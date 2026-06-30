@@ -1,0 +1,62 @@
+---
+id: Bulletin-2015-01-07
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Ideas, guidelines, and aspects on the series “The History of Weights and
+    Scales”
+  type: main
+docidentifier:
+- content: OIML Bulletin 2015-01-07
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2015'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Wolfgang Euler
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Ideas, guidelines, and aspects on the series “The History of Weights and
+    Scales” - Wolfgang Euler'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2015-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LVI
+  - type: issue
+    reference_from: '1'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

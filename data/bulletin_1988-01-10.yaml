@@ -1,0 +1,52 @@
+---
+id: Bulletin-1988-01-10
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Réunions OIML
+  type: main
+docidentifier:
+- content: OIML Bulletin 1988-01-10
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1988'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Réunions OIML'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1988-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '1'
+ext:
+  doctype:
+    content: article
+  flavor: oiml
