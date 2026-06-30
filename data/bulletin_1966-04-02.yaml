@@ -23,6 +23,12 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: W. LOTMAR (Suisse ... 17)
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: A propos de la calibration des grands réservoirs de pétrole, par W. LOTMAR
