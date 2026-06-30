@@ -56,8 +56,6 @@ extent:
     reference_from: LXIII
   - type: issue
     reference_from: '4'
-  - type: page
-    reference_from: '22'
 ext:
   doctype:
     content: article

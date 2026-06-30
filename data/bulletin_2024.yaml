@@ -5,7 +5,7 @@ type: journal
 title:
 - language: eng
   script: Latn
-  content: OIML Bulletin, Volume  (2024)
+  content: OIML Bulletin, (2024)
   type: main
 docidentifier:
 - content: OIML Bulletin 2024
@@ -26,16 +26,28 @@ copyright:
       - content: International Organization of Legal Metrology
       abbreviation:
         content: OIML
+relation:
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2024-07
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2024-10
+      type: OIML
 series:
 - title:
   - language: eng
     script: Latn
     content: OIML Bulletin
     format: text/plain
-extent:
-- locality:
-  - type: volume
-    reference_from: LXV
 ext:
   doctype:
     content: volume

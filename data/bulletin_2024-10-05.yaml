@@ -1,0 +1,76 @@
+---
+id: Bulletin-2024-10-05
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: Measurement Canada’s evaluation of hydrogen blending in natural gas
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/online-bulletin-1/2024-10/measurement-canadas-evaluation-of-hydrogen-blending-in-natural-gas
+docidentifier:
+- content: OIML Bulletin 2024-10-05
+  type: OIML
+  primary: true
+- content: measurement-canadas-evaluation-of-hydrogen-blending-in-natural-gas
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2024-10-01'
+contributor:
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Arezoo Habibagahi
+    affiliation:
+    - organization:
+        name:
+        - content: " "
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: " "
+  format: text/plain
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2024-10
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '4'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

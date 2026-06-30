@@ -61,7 +61,6 @@ module OimlFetcher
       write_bulletin(volume_docids)
       issue_list
     end
-
     # ---- Enumeration ----------------------------------------------------
 
     # HTML issues live at /en/publications/oiml-bulletin/YYYY-NN (canonical)
@@ -227,6 +226,25 @@ module OimlFetcher
     end
 
     def write_bulletin(volume_docids)
+      require "set"
+      # Preserve any hasPart relations already on the bulletin record (e.g.
+      # docx-spine volumes from load_to_data.rb) instead of overwriting.
+      existing_has_parts = []
+      if @store.exist?("bulletin")
+        begin
+          existing = @store.read("bulletin")
+          existing_has_parts = (existing["relation"] || []).select { |r| r["type"] == "hasPart" }
+        rescue StandardError
+          nil
+        end
+      end
+
+      new_targets = volume_docids.to_set
+      preserved = existing_has_parts.reject do |r|
+        docid = r.dig("bibitem", "docidentifier", 0, "content")
+        new_targets.include?(docid)
+      end
+
       hash = {
         "id" => "Bulletin",
         "type" => "journal",
@@ -236,7 +254,7 @@ module OimlFetcher
         "contributor" => [OimlFetcher.oiml_publisher_contributor],
         "language" => ["eng"], "script" => ["Latn"],
         "series" => [series_hash],
-        "relation" => volume_docids.map { |d| child_relation(d) },
+        "relation" => preserved + volume_docids.map { |d| child_relation(d) },
         "ext" => { "doctype" => { "content" => "periodical" }, "flavor" => "oiml" },
       }
       @store.write("bulletin", hash)

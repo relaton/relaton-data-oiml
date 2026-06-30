@@ -54,8 +54,6 @@ extent:
     reference_from: LI
   - type: issue
     reference_from: '1'
-  - type: page
-    reference_from: '22'
 ext:
   doctype:
     content: article

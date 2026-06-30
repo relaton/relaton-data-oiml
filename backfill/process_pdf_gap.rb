@@ -248,7 +248,7 @@ module BulletinBackfill
       hash = YAML.safe_load(File.read(path))
       existing = (hash["relation"] || []).select { |r| r["type"] == "hasPart" }
                                           .map { |r| r["bibitem"]["docidentifier"].first["content"] }
-      targets = (existing + %w[2024]).uniq.sort
+      targets = (existing + %w[OIML Bulletin 2024].each_slice(2).map { |a, b| "#{a} #{b}" }).uniq.sort
       other = (hash["relation"] || []).reject { |r| r["type"] == "hasPart" }
       hash["relation"] = other + targets.map { |d| child_relation(d) }
       @store.write("bulletin", hash)
