@@ -5,7 +5,7 @@ type: article
 title:
 - language: eng
   script: Latn
-  content: "■ technique"
+  content: technique
   type: main
 docidentifier:
 - content: OIML Bulletin 2012-01-01

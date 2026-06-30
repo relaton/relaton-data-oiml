@@ -5,7 +5,7 @@ type: article
 title:
 - language: fra
   script: Latn
-  content: "■ evolutions"
+  content: evolutions
   type: main
 docidentifier:
 - content: OIML Bulletin 1994-02-05
