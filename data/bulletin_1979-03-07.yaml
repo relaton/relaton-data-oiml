@@ -23,6 +23,12 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: G. SOUCH
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: Summary Report on the First Caribbean Metrology Project Group Meeting, held
@@ -48,6 +54,8 @@ extent:
 - locality:
   - type: issue
     reference_from: '3'
+  - type: page
+    reference_from: '38'
 ext:
   doctype:
     content: article
