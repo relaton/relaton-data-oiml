@@ -23,6 +23,12 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: P. BRESSIN
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: FRANCE — Problèmes généraux et expérience du mesurage des produits en vrac,
@@ -48,6 +54,8 @@ extent:
 - locality:
   - type: issue
     reference_from: '2'
+  - type: page
+    reference_from: '15'
 ext:
   doctype:
     content: article
