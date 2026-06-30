@@ -23,6 +23,12 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: R. OHLON
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: SUEDE — Error statistics for petrol meters and scales inspected in 1982,
@@ -48,6 +54,8 @@ extent:
 - locality:
   - type: issue
     reference_from: '4'
+  - type: page
+    reference_from: '33'
 ext:
   doctype:
     content: article
