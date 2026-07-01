@@ -103,7 +103,14 @@ module BulletinBackfill
     def as_file_field(input)
       return input if input.start_with?("http")
 
-      "data:application/pdf;base64,#{Base64.strict_encode64(File.binread(input))}"
+      ext = File.extname(input).downcase
+      mime = case ext
+             when ".pdf" then "application/pdf"
+             when ".png" then "image/png"
+             when ".jpg", ".jpeg" then "image/jpeg"
+             else "application/pdf"
+             end
+      "data:#{mime};base64,#{Base64.strict_encode64(File.binread(input))}"
     end
 
     def describe(input) = input.start_with?("http") ? input : File.basename(input)
