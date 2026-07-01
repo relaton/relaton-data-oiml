@@ -23,6 +23,12 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: DO INMETRO NOS ESTADOS
 note:
 - content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
     Raw: Interlaboratory comparisons of tank capacity calculated by laboratories’
@@ -49,6 +55,8 @@ extent:
   - type: volume
     reference_from: LIX
   - type: issue
+    reference_from: '4'
+  - type: page
     reference_from: '4'
 ext:
   doctype:
