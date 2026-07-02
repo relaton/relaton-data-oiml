@@ -22,6 +22,21 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 12
+      identifier:
+      - content: TC12
+      type: technical-committee
+    abbreviation:
+      content: OIML
 language:
 - eng
 - fra

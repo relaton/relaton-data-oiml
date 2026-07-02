@@ -20,6 +20,21 @@ contributor:
   organization:
     name:
     - content: Ministry of Economic Development and Trade (Ukraine)
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 1
+      identifier:
+      - content: TC1
+      type: technical-committee
+    abbreviation:
+      content: OIML
 language:
 - ukr
 script:

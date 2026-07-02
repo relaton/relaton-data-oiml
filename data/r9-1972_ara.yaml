@@ -23,6 +23,26 @@ contributor:
   organization:
     name:
     - content: JS 869-1992
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 10
+      identifier:
+      - content: TC10
+      type: technical-committee
+    - name:
+      - content: Subcommittee 5
+      identifier:
+      - content: SC5
+      type: subcommittee
+    abbreviation:
+      content: OIML
 language:
 - ara
 script:

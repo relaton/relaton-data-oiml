@@ -23,6 +23,26 @@ contributor:
   organization:
     name:
     - content: SNS 2593-2002
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 17
+      identifier:
+      - content: TC17
+      type: technical-committee
+    - name:
+      - content: Subcommittee 4
+      identifier:
+      - content: SC4
+      type: subcommittee
+    abbreviation:
+      content: OIML
 language:
 - ara
 script:

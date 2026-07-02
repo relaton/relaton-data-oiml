@@ -20,6 +20,21 @@ contributor:
   organization:
     name:
     - content: Directorate of Measures and Precious Metals (Serbia)
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 1
+      identifier:
+      - content: TC1
+      type: technical-committee
+    abbreviation:
+      content: OIML
 language:
 - srp
 script:

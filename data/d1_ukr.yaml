@@ -21,6 +21,21 @@ contributor:
   organization:
     name:
     - content: NSC "Institute of Metrology" (Ukraine)
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: CEEMS
+      identifier:
+      - content: CEEMS
+      type: technical-committee
+    abbreviation:
+      content: OIML
 language:
 - ukr
 script:

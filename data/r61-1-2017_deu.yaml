@@ -23,6 +23,26 @@ contributor:
   organization:
     name:
     - content: DIN
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 9
+      identifier:
+      - content: TC9
+      type: technical-committee
+    - name:
+      - content: Subcommittee 2
+      identifier:
+      - content: SC2
+      type: subcommittee
+    abbreviation:
+      content: OIML
 language:
 - deu
 script:

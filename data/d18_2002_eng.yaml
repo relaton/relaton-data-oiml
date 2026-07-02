@@ -26,6 +26,26 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 3
+      identifier:
+      - content: TC3
+      type: technical-committee
+    - name:
+      - content: Subcommittee 3
+      identifier:
+      - content: SC3
+      type: subcommittee
+    abbreviation:
+      content: OIML
 version:
 - content: '2002-01-01'
 language:

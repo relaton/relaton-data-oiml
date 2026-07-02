@@ -20,6 +20,26 @@ contributor:
   organization:
     name:
     - content: SIC (Colombia)
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 17
+      identifier:
+      - content: TC17
+      type: technical-committee
+    - name:
+      - content: Subcommittee 7
+      identifier:
+      - content: SC7
+      type: subcommittee
+    abbreviation:
+      content: OIML
 language:
 - spa
 script:
