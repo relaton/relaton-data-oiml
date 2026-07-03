@@ -1,12 +1,13 @@
 ---
 - :id:
-    _type: pubid:oiml:vocabulary
-    language: F
-    parsed_format: short_with_space
+    _type: pubid:oiml:basic-publication
+    parsed_format: short
     publisher: OIML
-    number: '3'
-    year: '1991'
-  :file: data/v3_1991_fra.yaml
+    number: '10'
+    part: '1'
+    suffix: Amend
+    year: '2006'
+  :file: data/b10-1-amend_2006.yaml
 - :id:
     _type: pubid:oiml:basic-publication
     language: E
@@ -12216,11 +12217,10 @@
     year: '1991'
   :file: data/v3_1991_eng.yaml
 - :id:
-    _type: pubid:oiml:basic-publication
-    parsed_format: short
+    _type: pubid:oiml:vocabulary
+    language: F
+    parsed_format: short_with_space
     publisher: OIML
-    number: '10'
-    part: '1'
-    suffix: Amend
-    year: '2006'
-  :file: data/b10-1-amend_2006.yaml
+    number: '3'
+    year: '1991'
+  :file: data/v3_1991_fra.yaml
