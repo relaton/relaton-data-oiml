@@ -74,6 +74,16 @@ relation:
     docidentifier:
     - content: OIML R 102:1995 Annex B-C
       type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 102-1:1992
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 102-2:1995
+      type: OIML
 ext:
   doctype:
     content: recommendation

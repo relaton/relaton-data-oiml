@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: 'Partie 1 : Sphygmomanomètres non invasifs mécaniques'
+  content: 'Part 1: Non-invasive mechanical sphygmomanometers'
   type: main
 docidentifier:
 - content: OIML R 16-1:2002

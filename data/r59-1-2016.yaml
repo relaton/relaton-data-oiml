@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: 'Partie 1 : Exigences métrologiques et techniques'
+  content: 'Part 1: Metrological and technical requirements'
   type: main
 docidentifier:
 - content: OIML R 59-1:2016

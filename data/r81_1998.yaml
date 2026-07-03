@@ -74,6 +74,11 @@ relation:
     docidentifier:
     - content: OIML R 81:1998 (F)
       type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 81:2006 Annex D
+      type: OIML
 ext:
   doctype:
     content: recommendation

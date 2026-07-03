@@ -82,3 +82,26 @@ ext:
   focus_area: Safety
   sustainability_framework: People
   doi: 10.63493/r091.2025.en
+  high_priority: true
+  high_priority_source: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260111
+relation:
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 91-1:2025
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 91-2:2025
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 91-3:2025
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 91-4:2025
+      type: OIML
