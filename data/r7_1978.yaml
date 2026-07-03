@@ -1,0 +1,44 @@
+---
+id: R7-1978
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 7
+  type: main
+docidentifier:
+- content: OIML R 7:1978
+  type: OIML
+  primary: true
+docnumber: '7'
+date:
+- type: published
+  from: '1978-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: The provisions of this Recommendation apply to those thermometers called
+    "clinical thermometers", of the mercury-in-glass type, with a maximum device,
+    intended for measurement of the internal human body temperature.
+  quantity: Temperature
+  measuring_instrument: Clinical thermometer
+  focus_area: Health
+  sustainability_framework: People
+  doi: 10.63493/r007.1979.en

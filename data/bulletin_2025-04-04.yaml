@@ -1,0 +1,86 @@
+---
+id: Bulletin-2025-04-04
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: Metrological validation of the procedure used for industrial filling of
+    gas cylinders
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2025-04/20250404
+docidentifier:
+- content: OIML Bulletin 2025-04-04
+  type: OIML
+  primary: true
+- content: '20250404'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2025-10-01'
+contributor:
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Alessandro Ferrero  1, Andrea Fieschi 2, Carlo Nasso 2,3, Veronica
+          Scotti  1, Monica Soana 2
+    affiliation:
+    - organization:
+        name:
+        - content: " "
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: Industrial gases, such as oxygen (O2), nitrogen (N2) and argon (Ar), are
+    generally exchanged in cylinders, of volume between 5 L and 50 L, while economic
+    transactions are based on the mass of the gas contained within the cylinders under
+    given filling conditions. The most immediate and, hence, accurate way to quantify
+    the mass of gas contained in a cylinder is the gravimetric method, which requires
+    weighing the cylinder before and after the filling process on a Non-Automatic
+    Weighing Instrumen...
+  format: text/plain
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2025-04
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVI
+  - type: issue
+    reference_from: '4'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

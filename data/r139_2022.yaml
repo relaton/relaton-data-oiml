@@ -1,0 +1,63 @@
+---
+id: R139-2022
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 139
+  type: main
+docidentifier:
+- content: OIML R 139:2022
+  type: OIML
+  primary: true
+docnumber: '139'
+date:
+- type: published
+  from: '2022-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: The measuring systems that are covered by this Recommendation are intended
+    for the fueling of road vehicles, rail engines, boats, vessels, and aircrafts
+    with compressed natural gas (CNG), compressed gaseous hydrogen, biogas, gas blends
+    or other compressed gaseous fuels.
+  quantity: Mass
+  measuring_instrument: Compressed gaseous fuel measurement system
+  focus_area: Trade
+  sustainability_framework: People
+  doi: 10.63493/r139.2022.en
+  high_priority: true
+  high_priority_source: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260111
+relation:
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 139-1:2022
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 139-2:2022
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 139-3:2022
+      type: OIML

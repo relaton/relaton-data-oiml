@@ -1,0 +1,68 @@
+---
+id: Bulletin-2022-03-07
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Research on spatiotemporal precise measurement technology of greenhouse
+    gas emissions
+  type: main
+docidentifier:
+- content: OIML Bulletin 2022-03-07
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2022'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Liang Zhang - Hong Lin, Ge Ren
+    affiliation:
+    - organization:
+        name:
+        - content: Jinliang Zang and Gege Liu
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Research on spatiotemporal precise measurement technology of greenhouse gas
+    emissions - Liang Zhang - Hong Lin, Ge Ren, Jinliang Zang and Gege Liu'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2022-03
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXIII
+  - type: issue
+    reference_from: '3'
+  - type: page
+    reference_from: '30'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

@@ -1,0 +1,63 @@
+---
+id: Bulletin-2000-03-08
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: REVISION OF OIML D 11 (1994), Status of revision, and comments on changes
+    in the numbering of IEC Publications - GEP ENGLER, OIML Contact Person, NMi (Netherlands)
+  type: main
+docidentifier:
+- content: OIML Bulletin 2000-03-08
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2000'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: OIML TC 5/SC 1 Secretary
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: REVISION OF OIML D 11 (1994), Status of revision, and comments on changes
+    in the numbering of IEC Publications - GEP ENGLER, OIML Contact Person, NMi (Netherlands)
+    - OIML TC 5/SC 1'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2000-03
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XLI
+  - type: issue
+    reference_from: '3'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

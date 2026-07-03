@@ -1,0 +1,60 @@
+---
+id: Bulletin-1982-03-04
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: ROYAUME-UNI — Measurements in the U.K. market place
+  type: main
+docidentifier:
+- content: OIML Bulletin 1982-03-04
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1982'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: F.L.N. SAMUELS
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: ROYAUME-UNI — Measurements in the U.K. market place'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1982-03
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '3'
+  - type: page
+    reference_from: '9'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

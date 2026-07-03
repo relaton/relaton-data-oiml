@@ -69,6 +69,26 @@ relation:
     docidentifier:
     - content: OIML R 60:2021 (F)
       type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 60-1:2021
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 60-2:2021
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 60-3:2021
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 60-4:2021
+      type: OIML
 ext:
   doctype:
     content: recommendation
@@ -80,3 +100,5 @@ ext:
     instruments that are subjected to metrological controls.
   sustainability_framework: Prosperity
   doi: 10.63493/r060.2021.en
+  high_priority: true
+  high_priority_source: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260111

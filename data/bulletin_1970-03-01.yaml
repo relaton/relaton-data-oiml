@@ -1,0 +1,65 @@
+---
+id: Bulletin-1970-03-01
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: 'Recommandation internationale n° 4 : Fioles jaugées (à un trait) en verre,
+    « Le développement de la législation Néerlandaise en matière de Métrologie »'
+  type: main
+docidentifier:
+- content: OIML Bulletin 1970-03-01
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1970'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: M. AJ. van MALE
+    affiliation:
+    - organization:
+        name:
+        - content: Président du Comité international de Métrologie Légale et
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Recommandation internationale n° 4 : Fioles jaugées (à un trait) en verre,
+    « Le développement de la législation Néerlandaise en matière de Métrologie »,
+    par M. AJ. van MALE, Présid'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1970-03
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '3'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

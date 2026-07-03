@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: 'Partie 2 : Sphygmomanomètres non invasifs automatiques'
+  content: 'Part 2: Non-invasive automated sphygmomanometers'
   type: main
 docidentifier:
 - content: OIML R 16-2:2002
@@ -20,6 +20,26 @@ contributor:
   organization:
     name:
     - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 18
+      identifier:
+      - content: TC18
+      type: technical-committee
+    - name:
+      - content: Subcommittee 1
+      identifier:
+      - content: SC1
+      type: subcommittee
     abbreviation:
       content: OIML
 language:

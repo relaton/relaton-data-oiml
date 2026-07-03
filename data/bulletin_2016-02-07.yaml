@@ -1,0 +1,64 @@
+---
+id: Bulletin-2016-02-07
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: 'History of scales: Part 18: Automatic checkweighers (ACWs) in accordance
+    with OIML R 51'
+  type: main
+docidentifier:
+- content: OIML Bulletin 2016-02-07
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2016'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Wolfgang Euler and Bernd Zinke
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: History of scales: Part 18: Automatic checkweighers (ACWs) in accordance
+    with OIML R 51 - Wolfgang Euler and Bernd Zinke'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2016-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LVII
+  - type: issue
+    reference_from: '2'
+  - type: page
+    reference_from: '34'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

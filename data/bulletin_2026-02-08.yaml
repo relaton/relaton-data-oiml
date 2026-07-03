@@ -1,0 +1,87 @@
+---
+id: Bulletin-2026-02-08
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: Navigating the gap
+  type: main
+- language: eng
+  script: Latn
+  content: Australia's experience in regulating electric vehicle supply equipment
+    ahead of an OIML Recommendation
+  type: subtitle
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2026-02/20260208
+docidentifier:
+- content: OIML Bulletin 2026-02-08
+  type: OIML
+  primary: true
+- content: '20260208'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2026-04-01'
+contributor:
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Chris Jarrett  and Cathy Nicoll
+    affiliation:
+    - organization:
+        name:
+        - content: National Measurement Institute, Australia 
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: As the deployment of electric vehicle supply equipment (EVSE) accelerates
+    globally, ensuring accurate and transparent measurement of electrical energy supplied
+    for charging is an emerging regulatory requirement. In Australia, electric vehicles
+    and subsequently EVSE entered widespread use before the availability of an OIML
+    Recommendation specific to these instruments.
+  format: text/plain
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2026-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVII
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

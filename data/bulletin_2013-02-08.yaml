@@ -1,0 +1,54 @@
+---
+id: Bulletin-2013-02-08
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: "■ update"
+  type: main
+docidentifier:
+- content: OIML Bulletin 2013-02-08
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2013'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: ■ update'
+  type: source
+language:
+- eng
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2013-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LIV
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: section
+  flavor: oiml

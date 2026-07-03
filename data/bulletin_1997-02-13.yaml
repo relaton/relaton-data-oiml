@@ -1,0 +1,66 @@
+---
+id: Bulletin-1997-02-13
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: 'Report on OIML technical activities 1996-1997 Reports on OIML meetings:
+    Presidential Council and TC 17/SC 7 OIML Certificate system 11th WELMEC committee
+    meeting New publications'
+  type: main
+docidentifier:
+- content: OIML Bulletin 1997-02-13
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1997'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: General information
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Report on OIML technical activities 1996-1997 Reports on OIML meetings: Presidential
+    Council and TC 17/SC 7 OIML Certificate system 11th WELMEC committee meeting New
+    publications -'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1997-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XXXVIII
+  - type: issue
+    reference_from: '2'
+  - type: page
+    reference_from: '45'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

@@ -25,6 +25,21 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 9
+      identifier:
+      - content: TC9
+      type: technical-committee
+    abbreviation:
+      content: OIML
 version:
 - content: '1991-01-01'
 language:
@@ -65,3 +80,5 @@ ext:
     instruments that are subjected to metrological controls.
   sustainability_framework: Prosperity
   doi: 10.63493/r060.1991.en
+  high_priority: true
+  high_priority_source: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260111

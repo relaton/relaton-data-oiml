@@ -1,0 +1,78 @@
+---
+id: Bulletin-2026-02-00
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: Supporting Climate Action and Sustainability
+  type: main
+- language: eng
+  script: Latn
+  content: Foreword
+  type: subtitle
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2026-02/20260200
+docidentifier:
+- content: OIML Bulletin 2026-02-00
+  type: OIML
+  primary: true
+- content: '20260200'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2026-04-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: It has been an honour to serve as Guest Editor of this special edition
+    of the OIML Bulletin (2026), focused on how legal metrology supports climate action
+    and sustainability. Too often, legal metrology is overlooked because it is the
+    invisible foundation stone of trust in measurement. Yet this foundation supports
+    society, economies, and fairness. By assuring measurements that are accurate,
+    repeatable, and traceable, we protect consumers, enable fair trade, and support
+    businesses while providi...
+  format: text/plain
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2026-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVII
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

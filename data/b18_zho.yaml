@@ -21,6 +21,21 @@ contributor:
   organization:
     name:
     - content: National Institute of Metrology, China (NIM)
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: BIML
+      identifier:
+      - content: BIML
+      type: technical-committee
+    abbreviation:
+      content: OIML
 language:
 - zho
 script:

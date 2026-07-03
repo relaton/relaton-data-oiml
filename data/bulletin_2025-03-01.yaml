@@ -1,0 +1,75 @@
+---
+id: Bulletin-2025-03-01
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: The future of the OIML in the digital era
+  type: main
+- language: eng
+  script: Latn
+  content: From machine-actionable standards and certificates to novel digital services
+  type: subtitle
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2025-03/20250301
+docidentifier:
+- content: OIML Bulletin 2025-03-01
+  type: OIML
+  primary: true
+- content: '20250301'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2025-07-01'
+contributor:
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Sascha Eichstädt  1 and Yang Ping2
+    affiliation:
+    - organization:
+        name:
+        - content: " "
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2025-03
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '3'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

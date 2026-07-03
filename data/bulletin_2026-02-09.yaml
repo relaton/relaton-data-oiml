@@ -1,0 +1,80 @@
+---
+id: Bulletin-2026-02-09
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: The importance of metrology in the fishing industry
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2026-02/20260209
+docidentifier:
+- content: OIML Bulletin 2026-02-09
+  type: OIML
+  primary: true
+- content: '20260209'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2026-04-01'
+contributor:
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Sean Daly
+    affiliation:
+    - organization:
+        name:
+        - content: Sea Fisheries Protection Authority (SFPA), Ireland
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: Metrology is essential in the fishing industry because it makes measurements
+    accurate, traceable, and consistent, which supports fair compliance checks, reliable
+    landings data, and better decisions on catch limits and stock management.
+  format: text/plain
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2026-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVII
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

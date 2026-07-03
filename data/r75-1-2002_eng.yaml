@@ -1,0 +1,40 @@
+---
+id: R75-1-2002-eng
+schema_version: v1.5.6
+type: standard
+source:
+- type: file
+  content: pdfs/r75_2002/parts_eng/R075-1-e02.pdf
+docidentifier:
+- content: OIML R 75-1:2002 (E)
+  type: OIML
+  primary: true
+docnumber: '75'
+date:
+- type: published
+  from: '2002-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 75-1:2002
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

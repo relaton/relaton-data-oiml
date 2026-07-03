@@ -1,0 +1,68 @@
+---
+id: Bulletin-2022-03-06
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Deep integration of metrology into environment monitoring for reducing
+    pollution and carbon emissions in China
+  type: main
+docidentifier:
+- content: OIML Bulletin 2022-03-06
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2022'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Zhe Bi
+    affiliation:
+    - organization:
+        name:
+        - content: Xiao Xu and Honghong Wang
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Deep integration of metrology into environment monitoring for reducing pollution
+    and carbon emissions in China - Zhe Bi, Xiao Xu and Honghong Wang'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2022-03
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXIII
+  - type: issue
+    reference_from: '3'
+  - type: page
+    reference_from: '25'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

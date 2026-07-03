@@ -1,0 +1,61 @@
+---
+id: Bulletin-2024-04-06
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: Sustainability - What does it mean to metrology
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/pdf/oiml_bulletin_april_2024.pdf
+docidentifier:
+- content: OIML Bulletin 2024-04-06
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2024-04-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Pamela Dagg
+language:
+- eng
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2024-04
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXV
+  - type: issue
+    reference_from: '2'
+  - type: page
+    reference_from: '34'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

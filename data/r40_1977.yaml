@@ -1,0 +1,43 @@
+---
+id: R40-1977
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 40
+  type: main
+docidentifier:
+- content: OIML R 40:1977
+  type: OIML
+  primary: true
+docnumber: '40'
+date:
+- type: published
+  from: '1977-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: 'This Recommendation deals with standard graduated pipettes used by verification
+    officers: (a) for testing capacity measures used by the public, for the measurement
+    of volume of liquids; (b) or as auxiliary standards of capacity.'
+  quantity: Volume
+  measuring_instrument: Pipette
+  sustainability_framework: Prosperity
+  doi: 10.63493/r040.1981.en

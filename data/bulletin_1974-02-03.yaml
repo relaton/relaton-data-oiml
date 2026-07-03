@@ -1,0 +1,60 @@
+---
+id: Bulletin-1974-02-03
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: A propos de curieuses relations entre grandeurs géométriques par Mr M,
+    JACOB, Docteur es-Sciences
+  type: main
+docidentifier:
+- content: OIML Bulletin 1974-02-03
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1974'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Mr M. JACOB, Docteur es (Sciences)
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: A propos de curieuses relations entre grandeurs géométriques par Mr M, JACOB,
+    Docteur es-Sciences'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1974-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

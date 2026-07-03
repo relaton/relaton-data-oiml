@@ -1,0 +1,87 @@
+---
+id: Bulletin-2025-04-05
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: Innovative Weighing for Global Sustainability
+  type: main
+- language: eng
+  script: Latn
+  content: International Conference of Weighing, 8-10 June 2026
+  type: subtitle
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2025-04/20250405
+docidentifier:
+- content: OIML Bulletin 2025-04-05
+  type: OIML
+  primary: true
+- content: '20250405'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2025-10-01'
+contributor:
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Daniel Kneubühl 1, Naoko Yoshikawa 2, Samuel Schmidt  3
+    affiliation:
+    - organization:
+        name:
+        - content: " "
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: Following the successful inaugural edition in Hamburg in 2023, the 2nd
+    International Conference of Weighing (ICW) will take place from 8 to 10 June 2026,
+    in Kitakyushu, Japan. Hosted by the Japan Measuring Instruments Federation (JMIF)
+    and organized by two Steering Committees from around the globe, ICW 2026 will
+    bring together the global metrology community to explore the theme Innovative
+    Weighing Solutions for a Sustainable World.
+  format: text/plain
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2025-04
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVI
+  - type: issue
+    reference_from: '4'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

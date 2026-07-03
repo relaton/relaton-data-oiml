@@ -1,0 +1,56 @@
+---
+id: Bulletin-1996-01-10
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: 'OIML seminar: Weighing towards the year 2000, 13-15 September 1995'
+  type: main
+docidentifier:
+- content: OIML Bulletin 1996-01-10
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1996'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: OIML seminar: Weighing towards the year 2000, 13-15 September 1995'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1996-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XXXVII
+  - type: issue
+    reference_from: '1'
+  - type: page
+    reference_from: '34'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

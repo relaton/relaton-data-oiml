@@ -1,0 +1,62 @@
+---
+id: Bulletin-1993-03-06
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: The US National Conference on Weights and Measures Excellence in OIML Recommendations...
+    A step forward
+  type: main
+docidentifier:
+- content: OIML Bulletin 1993-03-06
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1993'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: BERNARD ATHANÉ AND KRISTINE FRENCH
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: The US National Conference on Weights and Measures Excellence in OIML Recommendations...
+    A step forward - BERNARD ATHANÉ AND KRISTINE FRENCH'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1993-03
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '3'
+  - type: page
+    reference_from: '24'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

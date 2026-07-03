@@ -1,0 +1,87 @@
+---
+id: Bulletin-2026-02-11
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: The digital tachograph
+  type: main
+- language: eng
+  script: Latn
+  content: An alternative analysis of the uncertainty of the calibration process
+  type: subtitle
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2026-02/20260211
+docidentifier:
+- content: OIML Bulletin 2026-02-11
+  type: OIML
+  primary: true
+- content: '20260211'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2026-04-01'
+contributor:
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Giuseppe Ardimento
+    affiliation:
+    - organization:
+        name:
+        - content: Head of Market Regulation, Naples Chamber of Commerce, Italy
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: The digital tachograph is an electronic device installed in commercial
+    vehicles, such as trucks and buses, designed to automatically record driving times,
+    speed, distance covered, and rest periods of the driver. Its primary purpose is
+    to ensure road safety by preventing driver fatigue and to guarantee fair competition
+    within the transport industry by enforcing compliance with social regulations
+    [1].
+  format: text/plain
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2026-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVII
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

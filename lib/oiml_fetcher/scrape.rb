@@ -15,6 +15,8 @@ module OimlFetcher
                                  desc: "Also fetch the 10 other-language translation pages."
     method_option :pdfs, type: :boolean, default: false,
                          desc: "Download source PDFs into pdfs/ and extract PDF Portfolio parts."
+    method_option :force, type: :boolean, default: false,
+                          desc: "Force re-download and re-extraction of portfolios even if cached."
     method_option :caco3, type: :boolean, default: false,
                           desc: "Enrich Recommendations with metadata from oiml.caco3consulting.com."
     method_option :type, type: :string, repeatable: true,
@@ -38,13 +40,20 @@ module OimlFetcher
       end
 
       if options[:pdfs]
-        say "Downloading source PDFs + extracting portfolios...", :cyan
+        say "Downloading source PDFs + extracting portfolios#{options[:force] ? ' (force)' : ''}...", :cyan
         OimlFetcher::PortfolioFetcher.new(
           data_dir: options[:data_dir], pdfs_dir: options[:pdfs_dir],
+          force: options[:force],
         ).run
 
         say "Building part-level YAMLs from discovered portfolios...", :cyan
         OimlFetcher::PartsBuilder.new(
+          data_dir: options[:data_dir], pdfs_dir: options[:pdfs_dir],
+          yaml_store: store,
+        ).run
+
+        say "Building part-level YAMLs from PDF cover-page links...", :cyan
+        OimlFetcher::CoverPageBuilder.new(
           data_dir: options[:data_dir], pdfs_dir: options[:pdfs_dir],
           yaml_store: store,
         ).run
@@ -56,6 +65,18 @@ module OimlFetcher
       OimlFetcher::Caco3Fetcher.new(
         data_dir: options[:data_dir], yaml_store: store,
       ).run
+    end
+
+    desc "bulletin", "Fetch OIML Bulletin HTML editions into bulletin/volume/issue/article YAMLs"
+    method_option :data_dir, type: :string, default: "data"
+    method_option :issue, type: :string, repeatable: true,
+                          desc: "Restrict to specific issues, e.g. 2026-02. Defaults to all HTML editions."
+    def bulletin
+      store = OimlFetcher::YamlStore.new(options[:data_dir])
+      issues = options[:issue]
+      say "Fetching OIML Bulletin HTML editions#{issues ? " (#{issues.join(', ')})" : ''}...", :cyan
+      slugs = OimlFetcher::BulletinFetcher.new(yaml_store: store).run(issues: issues)
+      say "Processed #{slugs.size} issue(s).", :green
     end
 
     desc "index", "Rebuild index-v1.yaml from data/*.yaml"

@@ -1,0 +1,60 @@
+---
+id: Bulletin-1966-03-01
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Structure du nouveau Bureau fédéral des Poids et Mesures, par H. KÖNIG
+    — Suisse
+  type: main
+docidentifier:
+- content: OIML Bulletin 1966-03-01
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1966'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: H. KÖNIG (Suisse ... 7)
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Structure du nouveau Bureau fédéral des Poids et Mesures, par H. KÖNIG —
+    Suisse'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1966-03
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '3'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

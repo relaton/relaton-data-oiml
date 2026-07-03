@@ -1,0 +1,88 @@
+---
+id: Bulletin-2026-01-09
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: Update from the RLMO Round Table
+  type: main
+- language: eng
+  script: Latn
+  content: Advancing legal metrology through collaboration and innovation
+  type: subtitle
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260109
+docidentifier:
+- content: OIML Bulletin 2026-01-09
+  type: OIML
+  primary: true
+- content: '20260109'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2026-01-01'
+contributor:
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Pedro Pérez 1,2, Pamela Dagg 3
+    affiliation:
+    - organization:
+        name:
+        - content: " "
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: Throughout 2025 the Regional Legal Metrology Organizations Round Table
+    Group (RLMO-RT) has continued its tradition of fostering international collaboration,
+    knowledge sharing, and innovation in legal metrology. Following the transition
+    of leadership at the 59th CIML Meeting, Mr Pedro Pérez (Colombia) assumed the
+    role of Chair, with Pamela Dagg (Ireland) appointed as Vice Chair. Under this
+    renewed leadership, and with consistent support from the BIML throughout the year,
+    the group advanced its...
+  format: text/plain
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2026-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVII
+  - type: issue
+    reference_from: '1'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

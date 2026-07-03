@@ -1,0 +1,80 @@
+---
+id: Bulletin-2025-04-01
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: Happy birthday, OIML!
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2025-04/20250401
+docidentifier:
+- content: OIML Bulletin 2025-04-01
+  type: OIML
+  primary: true
+- content: '20250401'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2025-10-01'
+contributor:
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Bobjoseph Mathew
+    affiliation:
+    - organization:
+        name:
+        - content: " "
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: On 12 October 2025 the OIML hosted a dinner cruise along the Seine to celebrate
+    70 years to the day since the signing of the intergovernmental convention that
+    created the OIML.
+  format: text/plain
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2025-04
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVI
+  - type: issue
+    reference_from: '4'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

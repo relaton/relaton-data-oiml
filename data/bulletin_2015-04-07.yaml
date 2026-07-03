@@ -1,0 +1,63 @@
+---
+id: Bulletin-2015-04-07
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Innovation at the National Metrology Research Institute (INIMET), Cuba
+  type: main
+docidentifier:
+- content: OIML Bulletin 2015-04-07
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2015'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Ysabel Reyes Ponce
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Innovation at the National Metrology Research Institute (INIMET), Cuba -
+    Ysabel Reyes Ponce'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2015-04
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LVI
+  - type: issue
+    reference_from: '4'
+  - type: page
+    reference_from: '22'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

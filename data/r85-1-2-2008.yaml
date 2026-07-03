@@ -1,0 +1,42 @@
+---
+id: R85-1-2-2008
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: Part 1-2
+  type: main
+docidentifier:
+- content: OIML R 85-1-2:2008
+  type: OIML
+  primary: true
+docnumber: '85'
+date:
+- type: published
+  from: '2008-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 85:2008
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

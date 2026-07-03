@@ -69,6 +69,21 @@ relation:
     docidentifier:
     - content: OIML R 75:2002 (F)
       type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 75-1:2002
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 75-2:2002
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 75-3:2006
+      type: OIML
 ext:
   doctype:
     content: recommendation

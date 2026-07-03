@@ -1,0 +1,43 @@
+---
+id: R4-1970
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 4
+  type: main
+docidentifier:
+- content: OIML R 4:1970
+  type: OIML
+  primary: true
+docnumber: '4'
+date:
+- type: published
+  from: '1970-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: The Recommendation applies to glass "volumetric flasks", where the nominal
+    capacity is marked by a single gauge mark on the neck.
+  quantity: Temperature
+  measuring_instrument: Thermometer/mercury-in-glass
+  focus_area: Health
+  sustainability_framework: People
+  doi: 10.63493/r004.1972.en

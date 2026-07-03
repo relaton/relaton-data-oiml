@@ -1,0 +1,69 @@
+---
+id: Bulletin-2021-03-05
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: Evolution of the European Metrology Cloud
+  type: main
+docidentifier:
+- content: OIML Bulletin 2021-03-05
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2021'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Jan Nordholz, Maximilian Dohlus, Jasper Gräflich, Alexander Kammeyer,
+          Martin Nischwitz, Jan Wetzlich, Artem Yurchenko
+    affiliation:
+    - organization:
+        name:
+        - content: Florian Thiel
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Evolution of the European Metrology Cloud - Jan Nordholz, Maximilian Dohlus,
+    Jasper Gräflich, Alexander Kammeyer, Martin Nischwitz, Jan Wetzlich, Artem Yurchenko,
+    Florian Thiel'
+  type: source
+language:
+- eng
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2021-03
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXII
+  - type: issue
+    reference_from: '3'
+  - type: page
+    reference_from: '27'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

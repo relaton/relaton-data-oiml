@@ -1,0 +1,58 @@
+---
+id: Bulletin-2004-02-11
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: 'OIML Certificate System: Certificates registered by the BIML, 2003.11
+    - 2004.01 36OIML Technical Activities: 2003 Review / 2004 Forecasts'
+  type: main
+docidentifier:
+- content: OIML Bulletin 2004-02-11
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2004'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: OIML Certificate System: Certificates registered by the BIML, 2003.11 - 2004.01
+    36OIML Technical Activities: 2003 Review / 2004 Forecasts'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2004-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XLV
+  - type: issue
+    reference_from: '2'
+  - type: page
+    reference_from: '32'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

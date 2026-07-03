@@ -1,0 +1,57 @@
+---
+id: R134-2003
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 134
+  type: main
+docidentifier:
+- content: OIML R 134:2003
+  type: OIML
+  primary: true
+docnumber: '134'
+date:
+- type: published
+  from: '2003-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: This International Recommendation specifies the requirements and test methods
+    for automatic instruments for weighing road vehicles in motion, hereinafter referred
+    to as "WIM instruments" that are used to determine the vehicle mass, the axle
+    loads, and if applicable the axle-group loads of road vehicles when the vehicles
+    are weighed in motion.
+  quantity: Mass
+  measuring_instrument: Scale
+  focus_area: Health
+  sustainability_framework: Prosperity
+  doi: 10.63493/r134.2003.en
+relation:
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 134-1:2003
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 134-2:2004
+      type: OIML

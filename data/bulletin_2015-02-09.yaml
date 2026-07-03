@@ -1,0 +1,69 @@
+---
+id: Bulletin-2015-02-09
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Seventh OIML Award for Excellent Contributions from Developing Countries
+    to Legal Metrology New Member, Committee Draft received
+  type: main
+docidentifier:
+- content: OIML Bulletin 2015-02-09
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2015'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: the BIML
+    affiliation:
+    - organization:
+        name:
+        - content: Calendar of OIML meetings
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Seventh OIML Award for Excellent Contributions from Developing Countries
+    to Legal Metrology New Member, Committee Draft received by the BIML, Calendar
+    of OIML meetings'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2015-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LVI
+  - type: issue
+    reference_from: '2'
+  - type: page
+    reference_from: '39'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

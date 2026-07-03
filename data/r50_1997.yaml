@@ -1,0 +1,56 @@
+---
+id: R50-1997
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 50
+  type: main
+docidentifier:
+- content: OIML R 50:1997
+  type: OIML
+  primary: true
+docnumber: '50'
+date:
+- type: published
+  from: '1997-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: This International Recommendation specifies the metrological and technical
+    requirements for continuous totalizing automatic weighing instruments of the belt
+    conveyor type, hereinafter referred to as "belt weighers", that are subject to
+    national metrological control.
+  quantity: Mass
+  measuring_instrument: Continuous totalizer
+  focus_area: Trade
+  sustainability_framework: Prosperity
+  doi: 10.63493/r050.1997.en
+relation:
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 50-1:1997
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 50-2:1997
+      type: OIML
