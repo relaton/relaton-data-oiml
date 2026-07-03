@@ -1,0 +1,101 @@
+---
+id: Bulletin-2024-10
+schema_version: v1.5.6
+type: journal
+title:
+- language: eng
+  script: Latn
+  content: OIML Bulletin, Number 10 (2024)
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2024-10
+docidentifier:
+- content: OIML Bulletin 2024-10
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2024-10-01'
+language:
+- eng
+script:
+- Latn
+copyright:
+- from: '2024'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2024
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2024-10-01
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2024-10-02
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2024-10-03
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2024-10-04
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2024-10-05
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2024-10-06
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2024-10-07
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2024-10-08
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2024-10-09
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2024-10-10
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '4'
+ext:
+  doctype:
+    content: issue
+  flavor: oiml

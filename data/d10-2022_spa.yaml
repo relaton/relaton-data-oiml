@@ -24,6 +24,21 @@ contributor:
   organization:
     name:
     - content: NC (Cuba)
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 4
+      identifier:
+      - content: TC4
+      type: technical-committee
+    abbreviation:
+      content: OIML
 language:
 - spa
 script:

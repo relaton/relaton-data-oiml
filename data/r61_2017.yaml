@@ -74,6 +74,21 @@ relation:
     docidentifier:
     - content: OIML R 61:2017 (F)
       type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 61-1:2017
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 61-2:2017
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 61-3:2017
+      type: OIML
 ext:
   doctype:
     content: recommendation

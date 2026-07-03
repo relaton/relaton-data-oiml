@@ -1,0 +1,88 @@
+---
+id: Bulletin-2026-02-10
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: Use of legal metrology for sustainable mining
+  type: main
+- language: eng
+  script: Latn
+  content: Measuring compliance vs. performance
+  type: subtitle
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2026-02/20260210
+docidentifier:
+- content: OIML Bulletin 2026-02-10
+  type: OIML
+  primary: true
+- content: '20260210'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2026-04-01'
+contributor:
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Humphrey Nkobeni  
+    affiliation:
+    - organization:
+        name:
+        - content: ZMA 
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: Mining is a measurement-intensive industry in which the accuracy, reliability,
+    and traceability of measurements directly influence revenue assurance, environmental
+    protection, occupational safety, and public trust. Historically, legal metrology
+    in the mining sector was framed primarily around compliance; verifying that measuring
+    instruments meet statutory requirements at prescribed points in time. While compliance
+    remains indispensable, it is increasingly insufficient to address the complex
+    s...
+  format: text/plain
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2026-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVII
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

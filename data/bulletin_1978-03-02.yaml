@@ -1,0 +1,62 @@
+---
+id: Bulletin-1978-03-02
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: GRANDE BRETAGNE — « Uncertainties arising from air buoyancy corrections
+    in the gravimetric determination of water volume », par T.J. HAYWARD
+  type: main
+docidentifier:
+- content: OIML Bulletin 1978-03-02
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1978'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: T.J. HAYWARD
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: GRANDE BRETAGNE — « Uncertainties arising from air buoyancy corrections in
+    the gravimetric determination of water volume », par T.J. HAYWARD'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1978-03
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '3'
+  - type: page
+    reference_from: '14'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

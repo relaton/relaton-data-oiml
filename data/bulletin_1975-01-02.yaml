@@ -1,0 +1,66 @@
+---
+id: Bulletin-1975-01-02
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Les Matériaux de Référence en France et dans la Communauté Européenne
+  type: main
+docidentifier:
+- content: OIML Bulletin 1975-01-02
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1975'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Mr G. DENEGRE, Secrétaire Générai du Bureau National de Métrologie,
+          France Rohrprüfschleifen oder Eichkolben, par Mr Erich KOGLER, Oberrat Dipl.
+          Ing., Bundesamt für Eich und Vermessungswesen, e Métrologie
+    affiliation:
+    - organization:
+        name:
+        - content: France9
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Les Matériaux de Référence en France et dans la Communauté Européenne:, par
+    Mr G. DENEGRE, Secrétaire Générai du Bureau National de Métrologie, France Rohrprüfschleifen
+    oder Eichko'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1975-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '1'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

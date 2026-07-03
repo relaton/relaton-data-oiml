@@ -1,0 +1,132 @@
+---
+id: Bulletin-1979-04
+schema_version: v1.5.6
+type: journal
+title:
+- language: eng
+  script: Latn
+  content: OIML Bulletin, Number 4 (1979)
+  type: main
+docidentifier:
+- content: OIML Bulletin 1979-04
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1979-10-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+copyright:
+- from: '1979'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1979
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1979-04-01
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1979-04-02
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1979-04-03
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1979-04-04
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1979-04-05
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1979-04-06
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1979-04-07
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1979-04-08
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1979-04-09
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1979-04-10
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1979-04-11
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1979-04-12
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1979-04-13
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1979-04-14
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1979-04-15
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '4'
+ext:
+  doctype:
+    content: issue
+  flavor: oiml

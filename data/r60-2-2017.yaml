@@ -4,7 +4,7 @@ schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: 'Partie 2 : Contrôles métrologiques et essais de performance'
+  content: 'Part 2: Metrological controls and performance tests'
   type: main
 docidentifier:
 - content: OIML R 60-2:2017
@@ -20,6 +20,21 @@ contributor:
   organization:
     name:
     - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 9
+      identifier:
+      - content: TC9
+      type: technical-committee
     abbreviation:
       content: OIML
 language:

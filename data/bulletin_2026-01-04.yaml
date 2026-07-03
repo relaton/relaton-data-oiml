@@ -1,0 +1,81 @@
+---
+id: Bulletin-2026-01-04
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: Report by the CIML President
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260104
+docidentifier:
+- content: OIML Bulletin 2026-01-04
+  type: OIML
+  primary: true
+- content: '20260104'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2026-01-01'
+contributor:
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Bobjoseph Mathew 
+    affiliation:
+    - organization:
+        name:
+        - content: " "
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: Since the 59th CIML Meeting, online in October 2024, the Organization has
+    remained highly active, achieving significant progress across multiple areas.
+    The breadth of important topics on our agenda this year is a clear testament to
+    the continued relevance of legal metrology to our Members.
+  format: text/plain
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2026-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVII
+  - type: issue
+    reference_from: '1'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

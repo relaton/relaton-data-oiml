@@ -1,0 +1,68 @@
+---
+id: Bulletin-2018-04-05
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Information technology in legal metrology activities in Brazil
+  type: main
+docidentifier:
+- content: OIML Bulletin 2018-04-05
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2018'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Alexandre Soratto, D.Sc., Bruno A. Rodrigues Filho, D.Sc. and Léssio
+          L. Nunes
+    affiliation:
+    - organization:
+        name:
+        - content: M.Sc
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Information technology in legal metrology activities in Brazil - Alexandre
+    Soratto, D.Sc., Bruno A. Rodrigues Filho, D.Sc. and Léssio L. Nunes, M.Sc'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2018-04
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LIX
+  - type: issue
+    reference_from: '4'
+  - type: page
+    reference_from: '4'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

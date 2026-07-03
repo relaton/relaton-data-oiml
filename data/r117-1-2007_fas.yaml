@@ -24,6 +24,26 @@ contributor:
   organization:
     name:
     - content: ISIRI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 8
+      identifier:
+      - content: TC8
+      type: technical-committee
+    - name:
+      - content: Subcommittee 3
+      identifier:
+      - content: SC3
+      type: subcommittee
+    abbreviation:
+      content: OIML
 language:
 - fas
 script:

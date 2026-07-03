@@ -1,0 +1,57 @@
+---
+id: R51-1996
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 51
+  type: main
+docidentifier:
+- content: OIML R 51:1996
+  type: OIML
+  primary: true
+docnumber: '51'
+date:
+- type: published
+  from: '1996-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: This International Recommendation specifies the metrological and technical
+    requirements and test procedures for automatic catchweighing instruments (catchweighers),
+    hereinafter called "instruments", that are subject to national metrological control.
+  quantity: Mass
+  measuring_instrument: Automatic catchweigher
+  focus_area: Trade
+  sustainability_framework: Prosperity
+  doi: 10.63493/r051.1996.en
+  high_priority: true
+  high_priority_source: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260111
+relation:
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 51-1:1996
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 51-2:1996
+      type: OIML

@@ -1,0 +1,64 @@
+---
+id: Bulletin-1977-02-19
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: SUISSE — Le problème des distributions non-normales lors des contrôles
+    statistiques officiels
+  type: main
+docidentifier:
+- content: OIML Bulletin 1977-02-19
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1977'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: P. Koch, V-Directeur du Bureau Fédéra! des Poids et Mesures
+    affiliation:
+    - organization:
+        name:
+        - content: Wcbern/berne
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: SUISSE — Le problème des distributions non-normales lors des contrôles statistiques
+    officiels, par P. Koch, V-Directeur du Bureau Fédéra! des Poids et Mesures, Wcbern/berne.'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1977-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

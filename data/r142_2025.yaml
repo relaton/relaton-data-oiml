@@ -74,6 +74,16 @@ relation:
     docidentifier:
     - content: OIML R 142:2025 (F)
       type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 142-1:2025
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 142-2:2025
+      type: OIML
 ext:
   doctype:
     content: recommendation

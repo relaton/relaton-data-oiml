@@ -1,0 +1,63 @@
+---
+id: Bulletin-1993-01-08
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Réunion du Conseil de la Présidence de l'OIML
+  type: main
+docidentifier:
+- content: OIML Bulletin 1993-01-08
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1993'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: OIML Presidential Council Meeting
+    affiliation:
+    - organization:
+        name:
+        - content: 1993.02.15-16
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Réunion du Conseil de la Présidence de l''OIML - OIML Presidential Council
+    Meeting (1993.02.15-16)'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1993-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '1'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

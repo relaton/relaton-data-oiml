@@ -1,0 +1,40 @@
+---
+id: R87-2008Errata-fra
+schema_version: v1.5.6
+type: standard
+source:
+- type: file
+  content: pdfs/r87_2004/parts_fra/R087-erratum-e08.pdf
+docidentifier:
+- content: OIML R 87:2008 Errata (F)
+  type: OIML
+  primary: true
+docnumber: '87'
+date:
+- type: published
+  from: '2008-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 87:2008 Errata
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

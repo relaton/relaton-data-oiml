@@ -1,0 +1,88 @@
+---
+id: Bulletin-2026-02-07
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: Supporting sustainability and climate action world-wide
+  type: main
+- language: eng
+  script: Latn
+  content: The role of weighing instrument manufacturers
+  type: subtitle
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2026-02/20260207
+docidentifier:
+- content: OIML Bulletin 2026-02-07
+  type: OIML
+  primary: true
+- content: '20260207'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2026-04-01'
+contributor:
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Ian Turner
+    affiliation:
+    - organization:
+        name:
+        - content: CECIP
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: As the world moves towards understanding the consequences of climate change
+    and the seemingly inexorable rise in CO2 levels, we all have a role to play in
+    supporting both sustainability and climate action. Sustainability is a difficult-to-define
+    notion but can be seen in the definition offered by the Brundtland Report as “Meeting
+    the needs of the present without compromising the ability of future generations
+    to meet their own needs” [1]. Climate Action refers to the efforts taken to combat
+    cl...
+  format: text/plain
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2026-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVII
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

@@ -1,0 +1,64 @@
+---
+id: Bulletin-2004-02-09
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: The evolution of the metrological control of measuring instruments in France
+    (The new professions in legal metrology)
+  type: main
+docidentifier:
+- content: OIML Bulletin 2004-02-09
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2004'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Gérard Lagauterie
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: The evolution of the metrological control of measuring instruments in France
+    (The new professions in legal metrology) - Gérard Lagauterie'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2004-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XLV
+  - type: issue
+    reference_from: '2'
+  - type: page
+    reference_from: '25'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

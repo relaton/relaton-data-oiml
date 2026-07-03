@@ -1,0 +1,69 @@
+---
+id: Bulletin-2010-03-02
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Calibration of quartz control plates
+  type: main
+docidentifier:
+- content: OIML Bulletin 2010-03-02
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2010'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: high resolution polarimetry - Ana Paula D. Alvarenga, Natacha Cristina
+          E.Pereira, Luiz Vicente G. Tarelho
+    affiliation:
+    - organization:
+        name:
+        - content: Ricardo. S. Fran£a &amp; Hakima Belaidi
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Calibration of quartz control plates by high resolution polarimetry - Ana
+    Paula D. Alvarenga, Natacha Cristina E.Pereira, Luiz Vicente G. Tarelho, Ricardo.
+    S. Fran£a &amp; Hakima B'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2010-03
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LI
+  - type: issue
+    reference_from: '3'
+  - type: page
+    reference_from: '5'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

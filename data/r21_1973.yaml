@@ -1,0 +1,46 @@
+---
+id: R21-1973
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 21
+  type: main
+docidentifier:
+- content: OIML R 21:1973
+  type: OIML
+  primary: true
+docnumber: '21'
+date:
+- type: published
+  from: '1973-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: This International Recommendation specifies the metrological and technical
+    requirements and test procedures for taximeters that are subject to national metrological
+    control. It is intended to provide standardized requirements and testing procedures
+    to evaluate the metrological and technical characteristics in a uniform and traceable
+    way.
+  quantity: Length
+  measuring_instrument: Taximeter
+  focus_area: Trade
+  sustainability_framework: People
+  doi: 10.63493/r021.1975.en

@@ -1,0 +1,39 @@
+---
+id: R10-1970
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 10
+  type: main
+docidentifier:
+- content: OIML R 10:1970
+  type: OIML
+  primary: true
+docnumber: '10'
+date:
+- type: published
+  from: '1970-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: withdrawn
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: Intended for the calibration of Vickers system testing machines for the hardness
+    of materials.
+  doi: 10.63493/r010.1974.en

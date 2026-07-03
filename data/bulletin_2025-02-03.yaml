@@ -1,0 +1,85 @@
+---
+id: Bulletin-2025-02-03
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: 'Colombia''s experience as a utilizer within the OIML-CS framework:'
+  type: main
+- language: eng
+  script: Latn
+  content: A look into the legal metrology information system SIMEL
+  type: subtitle
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2025-02/20250203
+docidentifier:
+- content: OIML Bulletin 2025-02-03
+  type: OIML
+  primary: true
+- content: '20250203'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2025-04-01'
+contributor:
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Pedro Pérez 1, 2, Andrés González 2 and Beatriz Sánchez 2
+    affiliation:
+    - organization:
+        name:
+        - content: " "
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: As an OIML Member State and OIML-CS utilizer [1], Colombia is directing
+    efforts – through its surveillance authority, the Superintendency of Industry
+    and Commerce (SIC) – to promote the use of reliable, trustworthy measuring instruments,
+    thereby ensuring the quality of measurements.
+  format: text/plain
+copyright:
+- from: '2025'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2025-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVI
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

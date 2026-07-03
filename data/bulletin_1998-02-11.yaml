@@ -1,0 +1,58 @@
+---
+id: Bulletin-1998-02-11
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: 'OIML meetings: Presidential Council • TC 8/SC 5 Water meters • TC 8/SC
+    7 Gas metering Review of OIML technical activities, 1997 OIML Certificate System'
+  type: main
+docidentifier:
+- content: OIML Bulletin 1998-02-11
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1998'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: OIML meetings: Presidential Council • TC 8/SC 5 Water meters • TC 8/SC 7
+    Gas metering Review of OIML technical activities, 1997 OIML Certificate System'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1998-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XXXIX
+  - type: issue
+    reference_from: '2'
+  - type: page
+    reference_from: '38'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

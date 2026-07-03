@@ -1,0 +1,64 @@
+---
+id: Bulletin-2006-01-04
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Development of Metrological Devices for Transferring Measured Quantities
+    (DTMQ) associated to bottom loading measuring systems in France
+  type: main
+docidentifier:
+- content: OIML Bulletin 2006-01-04
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2006'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Bruno Debord
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Development of Metrological Devices for Transferring Measured Quantities
+    (DTMQ) associated to bottom loading measuring systems in France - Bruno Debord'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2006-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XLVII
+  - type: issue
+    reference_from: '1'
+  - type: page
+    reference_from: '23'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

@@ -1,0 +1,42 @@
+---
+id: R76-1-1992
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: 'Part 1: Metrological and technical requirements - Tests'
+  type: main
+docidentifier:
+- content: OIML R 76-1:1992
+  type: OIML
+  primary: true
+docnumber: '76'
+date:
+- type: published
+  from: '1992-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+relation:
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 76:1992
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

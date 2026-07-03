@@ -1,0 +1,54 @@
+---
+id: Bulletin-2002-02-05
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: OIML technical activities, A 2001 Review, A 2002 Forecasts
+  type: main
+docidentifier:
+- content: OIML Bulletin 2002-02-05
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2002'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: OIML technical activities, A 2001 Review, A 2002 Forecasts'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2002-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XLIII
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

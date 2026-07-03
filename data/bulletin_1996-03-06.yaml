@@ -1,0 +1,58 @@
+---
+id: Bulletin-1996-03-06
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: New facilities for testing load cells in the measuring range from 10 kg
+    up to 50 - J. A. Robles and J. A. Fernández
+  type: main
+docidentifier:
+- content: OIML Bulletin 1996-03-06
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1996'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: New facilities for testing load cells in the measuring range from 10 kg up
+    to 50 - J. A. Robles and J. A. Fernández'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1996-03
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XXXVII
+  - type: issue
+    reference_from: '3'
+  - type: page
+    reference_from: '24'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

@@ -1,0 +1,68 @@
+---
+id: Bulletin-2005-01-03
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Vehicle for dynamic calibration of a multiple sensor weigh-in-motion system
+  type: main
+docidentifier:
+- content: OIML Bulletin 2005-01-03
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2005'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Boudewijn Hoogvelt, Nol van Asseldonk, Ronald Henny
+    affiliation:
+    - organization:
+        name:
+        - content: Hans van Loo and Gerben Visser
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Vehicle for dynamic calibration of a multiple sensor weigh-in-motion system
+    - Boudewijn Hoogvelt, Nol van Asseldonk, Ronald Henny, Hans van Loo and Gerben
+    Visser'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2005-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: XLVI
+  - type: issue
+    reference_from: '1'
+  - type: page
+    reference_from: '12'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

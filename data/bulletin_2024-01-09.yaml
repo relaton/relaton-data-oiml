@@ -1,0 +1,55 @@
+---
+id: Bulletin-2024-01-09
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: 'Promotion of the OIML Bulletin: Become a Mentor; Future Bulletin editions'
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/pdf/oiml_bulletin_jan_2024.pdf
+docidentifier:
+- content: OIML Bulletin 2024-01-09
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2024-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2024-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXV
+  - type: issue
+    reference_from: '1'
+  - type: page
+    reference_from: '40'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

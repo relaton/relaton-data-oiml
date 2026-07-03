@@ -1,0 +1,61 @@
+---
+id: R80-2009
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 80
+  type: main
+docidentifier:
+- content: OIML R 80:2009
+  type: OIML
+  primary: true
+docnumber: '80'
+date:
+- type: published
+  from: '2009-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: This Recommendation specifies the metrological and technical requirements
+    applicable to static measuring systems for volume of liquids subject to legal
+    metrological controls. It also provides requirements for the approval of parts
+    of the measuring systems.
+  quantity: Volume
+  measuring_instrument: Road and rail tanker with level gauging
+  focus_area: Trade
+  sustainability_framework: Prosperity
+  doi: 10.63493/r080.2009.en
+relation:
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 80-1:2009
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 80-2:2017
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 80-3:2017
+      type: OIML

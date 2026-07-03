@@ -1,0 +1,45 @@
+---
+id: R26-1973
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 26
+  type: main
+docidentifier:
+- content: OIML R 26:1973
+  type: OIML
+  primary: true
+docnumber: '26'
+date:
+- type: published
+  from: '1973-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: This Recommendation applies to medical syringes with glass barrels, intended
+    for general use. The Recommendation does not concern syringes for insulin, syringes
+    for tuberculin or syringes with barrels of a substance other than glass, e.g.
+    of plastic.
+  quantity: Volume
+  measuring_instrument: Medical syringe
+  focus_area: Health
+  sustainability_framework: People
+  doi: 10.63493/r026.1978.en

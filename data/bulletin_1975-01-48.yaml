@@ -1,0 +1,65 @@
+---
+id: Bulletin-1975-01-48
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: L’Exposition « Métrologie, Année 100 » au Palais de la Découverte à Paris
+  type: main
+docidentifier:
+- content: OIML Bulletin 1975-01-48
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1975'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: J. GOUZIL
+    affiliation:
+    - organization:
+        name:
+        - content: Ingénieur en Chef Honoraire du Service français des Instruments
+            de
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: L’Exposition « Métrologie, Année 100 » au Palais de la Découverte à Paris,
+    par J. GOUZIL, Ingénieur en Chef Honoraire du Service français des Instruments
+    de'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1975-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '1'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

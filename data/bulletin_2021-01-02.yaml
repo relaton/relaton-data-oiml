@@ -1,0 +1,63 @@
+---
+id: Bulletin-2021-01-02
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Recent developments in Australian legal metrology
+  type: main
+docidentifier:
+- content: OIML Bulletin 2021-01-02
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2021'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Shane Coombe and Tian Liang
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Recent developments in Australian legal metrology - Shane Coombe and Tian
+    Liang'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2021-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXII
+  - type: issue
+    reference_from: '1'
+  - type: page
+    reference_from: '5'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

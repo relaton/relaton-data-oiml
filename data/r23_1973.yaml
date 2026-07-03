@@ -1,0 +1,44 @@
+---
+id: R23-1973
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 23
+  type: main
+docidentifier:
+- content: OIML R 23:1973
+  type: OIML
+  primary: true
+docnumber: '23'
+date:
+- type: published
+  from: '1973-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: This Recommendation lays down the principal metrological characteristics
+    to which pressure gauges intended for the measurement of the inflation pressures
+    in motor-vehicle tyres must conform.
+  quantity: Pressure
+  measuring_instrument: Pressure gauge
+  focus_area: Safety
+  sustainability_framework: People
+  doi: 10.63493/r023.1975.en

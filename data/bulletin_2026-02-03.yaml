@@ -1,0 +1,101 @@
+---
+id: Bulletin-2026-02-03
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: Reliability of Essential Climate Variables
+  type: main
+- language: eng
+  script: Latn
+  content: Uncertainty in Sea Surface Temperature and Its Impact on Derived Climate
+    Monitoring Products
+  type: subtitle
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2026-02/20260203
+docidentifier:
+- content: OIML Bulletin 2026-02-03
+  type: OIML
+  primary: true
+- content: '20260203'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2026-04-01'
+contributor:
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Momoe Yoshida  1, Blake L. Spady  
+    affiliation:
+    - organization:
+        name:
+        - content: 1. Physical Sciences, College of Science and Engineering, James
+            Cook University , Australia 
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: 2, 3, 1, Andy Harris  4, Scott F. Heron  1
+    affiliation:
+    - organization:
+        name:
+        - content: 1. Physical Sciences, College of Science and Engineering, James
+            Cook University , Australia 
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: Understanding uncertainty in observational data is important for climate
+    research and action. Robust quantification of uncertainty is essential to the
+    credibility of climate science, particularly where observational datasets underpin
+    attribution studies, model evaluation and decision-making frameworks [1]. The
+    Global Climate Observing System (GCOS) specifies 55 Essential Climate Variables
+    (ECVs; Table 1) that are important for describing the physical, chemical and biological
+    state of the atmo...
+  format: text/plain
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2026-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVII
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

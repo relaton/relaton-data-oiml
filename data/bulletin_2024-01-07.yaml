@@ -1,0 +1,62 @@
+---
+id: Bulletin-2024-01-07
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: 'Transforming Nigeria’s public service by building an efficient and effective
+    national quality infrastructure: Focus on the regulatory enforcement environment'
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/pdf/oiml_bulletin_jan_2024.pdf
+docidentifier:
+- content: OIML Bulletin 2024-01-07
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2024-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Salim Muktar Mohammed
+language:
+- eng
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2024-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXV
+  - type: issue
+    reference_from: '1'
+  - type: page
+    reference_from: '26'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

@@ -1,0 +1,39 @@
+---
+id: R38-1977
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 38
+  type: main
+docidentifier:
+- content: OIML R 38:1977
+  type: OIML
+  primary: true
+docnumber: '38'
+date:
+- type: published
+  from: '1977-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: withdrawn
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: This Recommendation deals with the verification of machines used to test
+    hardness using the Vickers system and subject to state metrological controls.
+  doi: 10.63493/r038.1981.en

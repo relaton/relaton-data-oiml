@@ -23,6 +23,26 @@ contributor:
   organization:
     name:
     - content: ISIRI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 16
+      identifier:
+      - content: TC16
+      type: technical-committee
+    - name:
+      - content: Subcommittee 2
+      identifier:
+      - content: SC2
+      type: subcommittee
+    abbreviation:
+      content: OIML
 language:
 - fas
 script:

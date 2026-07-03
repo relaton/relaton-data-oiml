@@ -23,6 +23,21 @@ contributor:
   organization:
     name:
     - content: CEM (Spain)
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: BIML
+      identifier:
+      - content: BIML
+      type: technical-committee
+    abbreviation:
+      content: OIML
 language:
 - spa
 script:

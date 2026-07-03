@@ -1,0 +1,69 @@
+---
+id: Bulletin-2009-03-11
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: 'Press Release: The Southern African Development Community Accreditation
+    Service (SADCAS) OIML Certificate System: Certificates registered'
+  type: main
+docidentifier:
+- content: OIML Bulletin 2009-03-11
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2009'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: the BIML, 2009.03-2009.05 List of OIML Issuing Authorities
+    affiliation:
+    - organization:
+        name:
+        - content: by Country
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Press Release: The Southern African Development Community Accreditation Service
+    (SADCAS) OIML Certificate System: Certificates registered by the BIML, 2009.03-2009.05
+    List of OIML '
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2009-03
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: L
+  - type: issue
+    reference_from: '3'
+  - type: page
+    reference_from: '38'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

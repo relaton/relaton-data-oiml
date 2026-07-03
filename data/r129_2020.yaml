@@ -74,6 +74,26 @@ relation:
     docidentifier:
     - content: OIML R 129:2020 (F)
       type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 129-1:2020
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 129-2:2020
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 129-3:2020
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 129-4:2020
+      type: OIML
 ext:
   doctype:
     content: recommendation

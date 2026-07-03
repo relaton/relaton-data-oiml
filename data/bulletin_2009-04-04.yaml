@@ -1,0 +1,69 @@
+---
+id: Bulletin-2009-04-04
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Evaluation of the influence of the liquid used in the verification of fuel
+    dispensers and their standard calibration
+  type: main
+docidentifier:
+- content: OIML Bulletin 2009-04-04
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2009'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Nelson Almeida, Elsa Batista
+    affiliation:
+    - organization:
+        name:
+        - content: Eduarda Filipe
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Evaluation of the influence of the liquid used in the verification of fuel
+    dispensers and their standard calibration - Nelson Almeida, Elsa Batista, Eduarda
+    Filipe'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2009-04
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: L
+  - type: issue
+    reference_from: '4'
+  - type: page
+    reference_from: '21'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

@@ -1,0 +1,67 @@
+---
+id: Bulletin-2015-01-04
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: Development of modularizing technology and its application
+  type: main
+docidentifier:
+- content: OIML Bulletin 2015-01-04
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2015'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Naoya Shinozaki, Kohei Okamoto, Masaru Ikeshima
+    affiliation:
+    - organization:
+        name:
+        - content: Kozo Terunuma and Kazufumi Naito
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: Development of modularizing technology and its application - Naoya Shinozaki,
+    Kohei Okamoto, Masaru Ikeshima, Kozo Terunuma and Kazufumi Naito'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2015-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LVI
+  - type: issue
+    reference_from: '1'
+  - type: page
+    reference_from: '20'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

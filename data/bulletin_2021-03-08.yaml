@@ -1,0 +1,67 @@
+---
+id: Bulletin-2021-03-08
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: 'ZKASP: ZKP-based attestation of software possession for measuring instruments'
+  type: main
+docidentifier:
+- content: OIML Bulletin 2021-03-08
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '2021'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: Luís Brandão, Carlos Galhardo
+    affiliation:
+    - organization:
+        name:
+        - content: René Peralta
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: ZKASP: ZKP-based attestation of software possession for measuring instruments
+    - Luís Brandão, Carlos Galhardo, René Peralta'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2021-03
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXII
+  - type: issue
+    reference_from: '3'
+  - type: page
+    reference_from: '47'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

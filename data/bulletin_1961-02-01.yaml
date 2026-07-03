@@ -1,0 +1,67 @@
+---
+id: Bulletin-1961-02-01
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: La structure, les problèmes et les méthodes de travail des Bureaux de vérification
+    des Poids et Mesures dans la Deutsche Demokratische Republik
+  type: main
+docidentifier:
+- content: OIML Bulletin 1961-02-01
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1961'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+- role:
+  - type: author
+  person:
+    name:
+      completename:
+        content: H. Werner LIERS, Deutsches Amt für Messwesen, Berlin
+    affiliation:
+    - organization:
+        name:
+        - content: Est
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: La structure, les problèmes et les méthodes de travail des Bureaux de vérification
+    des Poids et Mesures dans la Deutsche Demokratische Republik, par H. Werner LIERS,
+    Deutsches Amt '
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1961-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '2'
+  - type: page
+    reference_from: '7'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

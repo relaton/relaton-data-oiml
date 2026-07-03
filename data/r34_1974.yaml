@@ -1,0 +1,41 @@
+---
+id: R34-1974
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 34
+  type: main
+docidentifier:
+- content: OIML R 34:1974
+  type: OIML
+  primary: true
+docnumber: '34'
+date:
+- type: published
+  from: '1974-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: 'This Recommendation lays down the principles for the classification of measuring
+    instruments according to their accuracy. The measuring instruments to which this
+    Recommendation applies are: material measures, measuring instruments, and measuring
+    transducers.'
+  doi: 10.63493/r034.1979.en

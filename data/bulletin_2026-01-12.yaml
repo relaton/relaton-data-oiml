@@ -1,0 +1,72 @@
+---
+id: Bulletin-2026-01-12
+schema_version: v1.5.6
+type: article
+title:
+- language: eng
+  script: Latn
+  content: Accreditation of Calibration Laboratories in the field of Legal Metrology
+  type: main
+source:
+- type: website
+  content: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260112
+docidentifier:
+- content: OIML Bulletin 2026-01-12
+  type: OIML
+  primary: true
+- content: '20260112'
+  type: OIML-bulletin-article-id
+date:
+- type: published
+  from: '2026-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+abstract:
+- language: eng
+  script: Latn
+  content: Accreditation of calibration laboratories to the requirements of ISO/IEC
+    17025 [1] promotes confidence in their operation. The recognition granted allows
+    the laboratory's customers and regulatory authorities, based on an evaluation
+    by an independent third party, to have confidence that they operate competently
+    and can generate valid results.
+  format: text/plain
+copyright:
+- from: '2026'
+  owner:
+  - organization:
+      name:
+      - content: International Organization of Legal Metrology
+      abbreviation:
+        content: OIML
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 2026-01
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: volume
+    reference_from: LXVII
+  - type: issue
+    reference_from: '1'
+ext:
+  doctype:
+    content: article
+  flavor: oiml

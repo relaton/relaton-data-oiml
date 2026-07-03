@@ -23,6 +23,26 @@ contributor:
   organization:
     name:
     - content: CEM (Spain)
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 5
+      identifier:
+      - content: TC5
+      type: technical-committee
+    - name:
+      - content: Subcommittee 2
+      identifier:
+      - content: SC2
+      type: subcommittee
+    abbreviation:
+      content: OIML
 language:
 - spa
 script:

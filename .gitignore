@@ -6,3 +6,5 @@ Gemfile.lock
 tmp/
 pdfs/
 spec/examples.txt
+backfill/cache/
+backfill/candidates/

@@ -1,0 +1,54 @@
+---
+id: Bulletin-1987-02-01
+schema_version: v1.5.6
+type: article
+title:
+- language: fra
+  script: Latn
+  content: REPUBLIQUE DEMOCRATIQUE ALLEMANDE — Standards for the calibration of gas
+    flowmeters by H. PAMP and P. MAHR
+  type: main
+docidentifier:
+- content: OIML Bulletin 1987-02-01
+  type: OIML
+  primary: true
+date:
+- type: published
+  from: '1987'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+note:
+- content: 'Source: OIML Bulletin contents index (editor-provided docx, 2023-07-24).
+    Raw: REPUBLIQUE DEMOCRATIQUE ALLEMANDE — Standards for the calibration of gas
+    flowmeters by H. PAMP and P. MAHR'
+  type: source
+language:
+- fra
+script:
+- Latn
+relation:
+- type: includedIn
+  bibitem:
+    docidentifier:
+    - content: OIML Bulletin 1987-02
+      type: OIML
+series:
+- title:
+  - language: eng
+    script: Latn
+    content: OIML Bulletin
+    format: text/plain
+extent:
+- locality:
+  - type: issue
+    reference_from: '2'
+ext:
+  doctype:
+    content: article
+  flavor: oiml
