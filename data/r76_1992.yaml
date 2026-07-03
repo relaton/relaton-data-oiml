@@ -30,21 +30,6 @@ script:
 status:
   stage:
     content: superseded
-ext:
-  doctype:
-    content: recommendation
-  flavor: oiml
-  scope: This Recommendation specifies the metrological and technical requirements
-    for non-automatic weighing instruments that are subject to official metrological
-    control. It is intended to provide standardized requirements and testing procedures
-    to evaluate the metrological and technical characteristics in a uniform and traceable
-    way.
-  quantity: Mass
-  measuring_instrument: Non-automatic weighing instrument
-  sustainability_framework: Prosperity
-  doi: 10.63493/r076.1992.en
-  high_priority: true
-  high_priority_source: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260111
 relation:
 - type: hasPart
   bibitem:
@@ -61,3 +46,18 @@ relation:
     docidentifier:
     - content: OIML R 76-2:1993
       type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: This Recommendation specifies the metrological and technical requirements
+    for non-automatic weighing instruments that are subject to official metrological
+    control. It is intended to provide standardized requirements and testing procedures
+    to evaluate the metrological and technical characteristics in a uniform and traceable
+    way.
+  quantity: Mass
+  measuring_instrument: Non-automatic weighing instrument
+  sustainability_framework: Prosperity
+  doi: 10.63493/r076.1992.en
+  high_priority: true
+  high_priority_source: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260111

@@ -30,21 +30,6 @@ script:
 status:
   stage:
     content: superseded
-ext:
-  doctype:
-    content: recommendation
-  flavor: oiml
-  scope: This document specifies the metrological and technical requirements for water
-    meters for cold potable water and hot water flowing through a fully charged, closed
-    conduit. These water meters incorporate devices which indicate the accumulated
-    volume.
-  quantity: Volume
-  measuring_instrument: Water meter
-  focus_area: Trade
-  sustainability_framework: People
-  doi: 10.63493/r049.2006.en
-  high_priority: true
-  high_priority_source: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260111
 relation:
 - type: hasPart
   bibitem:
@@ -61,3 +46,18 @@ relation:
     docidentifier:
     - content: OIML R 49-3:2006
       type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: This document specifies the metrological and technical requirements for water
+    meters for cold potable water and hot water flowing through a fully charged, closed
+    conduit. These water meters incorporate devices which indicate the accumulated
+    volume.
+  quantity: Volume
+  measuring_instrument: Water meter
+  focus_area: Trade
+  sustainability_framework: People
+  doi: 10.63493/r049.2006.en
+  high_priority: true
+  high_priority_source: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260111

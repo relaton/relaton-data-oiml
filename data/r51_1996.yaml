@@ -30,6 +30,17 @@ script:
 status:
   stage:
     content: superseded
+relation:
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 51-1:1996
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 51-2:1996
+      type: OIML
 ext:
   doctype:
     content: recommendation
@@ -44,14 +55,3 @@ ext:
   doi: 10.63493/r051.1996.en
   high_priority: true
   high_priority_source: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260111
-relation:
-- type: hasPart
-  bibitem:
-    docidentifier:
-    - content: OIML R 51-1:1996
-      type: OIML
-- type: hasPart
-  bibitem:
-    docidentifier:
-    - content: OIML R 51-2:1996
-      type: OIML

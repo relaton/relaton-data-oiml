@@ -6,16 +6,16 @@
 # docidentifier.
 #
 # Custom OIML ext fields (scope, quantity, measuring_instrument, focus_area,
-# sustainability_framework, doi) are NOT part of relaton-bib's typed model and
-# get dropped on round-trip. The validator preserves them by merging them back
-# into the reserialized YAML before comparison.
+# sustainability_framework, doi, high_priority, high_priority_source) are NOT
+# part of relaton-bib's typed model and get dropped on round-trip. The validator
+# preserves them by merging them back into the reserialized YAML before comparison.
 
 require "relaton/bib"
 require "yaml"
 
 CUSTOM_EXT_KEYS = %w[
   scope quantity measuring_instrument focus_area
-  sustainability_framework doi
+  sustainability_framework doi high_priority high_priority_source
 ].freeze
 
 path = ARGV.first || "data/*.{yaml,yml}"

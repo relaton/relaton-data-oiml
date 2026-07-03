@@ -30,21 +30,6 @@ script:
 status:
   stage:
     content: in-force
-ext:
-  doctype:
-    content: recommendation
-  flavor: oiml
-  scope: The measuring systems that are covered by this Recommendation are intended
-    for the fueling of road vehicles, rail engines, boats, vessels, and aircrafts
-    with compressed natural gas (CNG), compressed gaseous hydrogen, biogas, gas blends
-    or other compressed gaseous fuels.
-  quantity: Mass
-  measuring_instrument: Compressed gaseous fuel measurement system
-  focus_area: Trade
-  sustainability_framework: People
-  doi: 10.63493/r139.2022.en
-  high_priority: true
-  high_priority_source: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260111
 relation:
 - type: hasPart
   bibitem:
@@ -61,3 +46,18 @@ relation:
     docidentifier:
     - content: OIML R 139-3:2022
       type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: The measuring systems that are covered by this Recommendation are intended
+    for the fueling of road vehicles, rail engines, boats, vessels, and aircrafts
+    with compressed natural gas (CNG), compressed gaseous hydrogen, biogas, gas blends
+    or other compressed gaseous fuels.
+  quantity: Mass
+  measuring_instrument: Compressed gaseous fuel measurement system
+  focus_area: Trade
+  sustainability_framework: People
+  doi: 10.63493/r139.2022.en
+  high_priority: true
+  high_priority_source: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260111

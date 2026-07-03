@@ -30,6 +30,12 @@ script:
 status:
   stage:
     content: superseded
+relation:
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 76-1:1988
+      type: OIML
 ext:
   doctype:
     content: recommendation
@@ -45,9 +51,3 @@ ext:
   doi: 10.63493/r076.1988.en
   high_priority: true
   high_priority_source: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260111
-relation:
-- type: hasPart
-  bibitem:
-    docidentifier:
-    - content: OIML R 76-1:1988
-      type: OIML

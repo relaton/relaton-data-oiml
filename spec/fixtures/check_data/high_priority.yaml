@@ -1,25 +1,22 @@
 ---
-id: R91-2025
+id: R76-2006
 schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: Traffic speed meters
+  content: Non-automatic weighing instruments
   type: main
 - language: fra
-  content: Cinémomètres pour la mesure de la vitesse des véhicules
+  content: Instruments de pesage à fonctionnement non automatique
   type: main
-source:
-- type: website
-  content: https://www.oiml.org/en/files/pdf_r/r091-e25.pdf
 docidentifier:
-- content: OIML R 91:2025
+- content: OIML R 76:2006
   type: OIML
   primary: true
-docnumber: '91'
+docnumber: '76'
 date:
 - type: published
-  from: '2025-01-01'
+  from: '2006-01-01'
 contributor:
 - role:
   - type: publisher
@@ -37,19 +34,19 @@ contributor:
     - content: International Organization of Legal Metrology
     subdivision:
     - name:
-      - content: Technical Committee 7
+      - content: Technical Committee 9
       identifier:
-      - content: TC7
+      - content: TC9
       type: technical-committee
     - name:
-      - content: Subcommittee 4
+      - content: Subcommittee 1
       identifier:
-      - content: SC4
+      - content: SC1
       type: subcommittee
     abbreviation:
       content: OIML
 version:
-- content: '2025-01-01'
+- content: '2006-01-01'
 language:
 - eng
 - fra
@@ -59,7 +56,7 @@ status:
   stage:
     content: in-force
 copyright:
-- from: '2025'
+- from: '2006'
   owner:
   - organization:
       name:
@@ -67,41 +64,38 @@ copyright:
       abbreviation:
         content: OIML
 relation:
-- type: hasPart
+- type: hasInstance
   bibitem:
     docidentifier:
-    - content: OIML R 91-1:2025
+    - content: OIML R 76:2006 (E)
+      type: OIML
+- type: hasInstance
+  bibitem:
+    docidentifier:
+    - content: OIML R 76:2006 (F)
       type: OIML
 - type: hasPart
   bibitem:
     docidentifier:
-    - content: OIML R 91-2:2025
+    - content: OIML R 76-1:2006
       type: OIML
 - type: hasPart
   bibitem:
     docidentifier:
-    - content: OIML R 91-3:2025
-      type: OIML
-- type: hasPart
-  bibitem:
-    docidentifier:
-    - content: OIML R 91-4:2025
+    - content: OIML R 76-2:2007
       type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
-  scope: This Recommendation specifies the metrological and technical requirements,
-    metrological controls and test procedures for speed enforcement devices for the
-    measurement of traffic speed of vehicles on the road, hereafter referred to as
-    "speed meters". The Recommendation states the conditions that the speed meter
-    shall satisfy when results of speed measurement are to be used in legal proceedings.
-    The Recommendation does not cover the policy of setting speed limits or trigger
-    limits for measurements.
-  quantity: Velocity
-  measuring_instrument: Traffic speed meter
-  focus_area: Safety
-  sustainability_framework: People
-  doi: 10.63493/r091.2025.en
+  scope: This Recommendation specifies the metrological and technical requirements
+    for non-automatic weighing instruments that are subject to official metrological
+    control. It is intended to provide standardized requirements and testing procedures
+    to evaluate the metrological and technical characteristics in a uniform and traceable
+    way.
+  quantity: Mass
+  measuring_instrument: Non-automatic weighing instrument
+  sustainability_framework: Prosperity
+  doi: 10.63493/r076.2006.en
   high_priority: true
   high_priority_source: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260111
