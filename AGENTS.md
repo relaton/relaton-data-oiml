@@ -186,7 +186,7 @@ data/                     # work + instance YAMLs, e.g.
   r35_2007_fra.yaml       #   FR instance
   r35-1-2007_deu.yaml     #   German translation of part 1
   v1_2022.yaml            #   bilingual single-PDF (no split)
-Gemfile                   # psych pin + relaton-bib + pubid + thor + nokogiri + rspec
+Gemfile                   # psych pin + relaton + pubid + thor + nokogiri + rspec
 crawler.rb                # thin entry point → OimlFetcher::Indexer.build
 check_data.rb             # round-trip validator, exit 1 on mismatch
 exe/oiml-fetch            # binstub ($LOAD_PATH + require "oiml_fetcher")
@@ -282,13 +282,11 @@ Each zip holds exactly its `index-vN.yaml` by basename — to regenerate by hand
 ```ruby
 gem "psych", "~> 5.2.6"   # 5.3.0 breaks YAML round-trip
 
-git "https://github.com/relaton/relaton.git",
-    branch: "main", glob: "gems/*/*.gemspec" do
-  gem "relaton-bib"
-  gem "relaton-core"
-  gem "relaton-index"
-  gem "relaton-logger"
-end
+# relaton is a single consolidated gem (the former relaton-bib / relaton-core /
+# relaton-index / relaton-logger sub-gems were merged into it).
+gem "relaton", git: "https://github.com/relaton/relaton.git", branch: "main"
+gem "pubid", git: "https://github.com/metanorma/pubid.git",
+             branch: "rt-new-lutaml-model"   # pubid v2 (OIML support)
 
 gem "thor", "~> 1.3"
 gem "nokogiri"
@@ -296,8 +294,7 @@ gem "net-http-persistent"
 gem "activesupport", require: false   # String#squish
 ```
 
-HTTPS git sources so the GH Action can clone anonymously. When
-`relaton-oiml` is published, swap the git block for that one gem.
+HTTPS git sources so the GH Action can clone anonymously.
 
 ## Strict fetches — no fallbacks
 
@@ -326,8 +323,8 @@ hit it.
 
 - `relaton-data-iho/crawler.rb` — canonical crawler pattern (now adapted).
 - `relaton-data-iho/check_data.rb` — round-trip validator inspiration.
-- `relaton-bib/lib/relaton/bib/model/relation.rb` — full relation type
+- `relaton/lib/relaton/bib/model/relation.rb` — full relation type
   vocabulary (`hasInstance`, `instanceOf`, `translatedFrom`,
   `hasTranslation`, etc.).
-- `relaton-bib/lib/relaton/bib/model/contributor.rb` — full contributor
+- `relaton/lib/relaton/bib/model/contributor.rb` — full contributor
   role type vocabulary (`author`, `publisher`, `translator`, etc.).

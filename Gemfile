@@ -7,29 +7,18 @@ source "https://rubygems.org"
 # relaton-data-iho Gemfile.
 gem "psych", "~> 5.2.6"
 
-# relaton-bib + transitive deps live in the relaton/relaton monorepo. Pull
-# them from main via HTTPS so the GH Action can clone anonymously (no SSH
-# key). Glob matches relaton-data-iho/Gemfile exactly.
-git "https://github.com/relaton/relaton.git",
-    branch: "main", glob: "gems/*/*.gemspec" do
-  gem "relaton-bib"
-  gem "relaton-core"
-  gem "relaton-index"
-  gem "relaton-logger"
-end
-
-# When relaton-oiml is published, swap the above block for:
-#   gem "relaton-oiml", git: "https://github.com/relaton/relaton.git",
-#                       branch: "main", glob: "gems/relaton-oiml/*.gemspec"
+# relaton is now a single unpublished gem in the relaton/relaton monorepo (the
+# former relaton-bib / relaton-core / relaton-index / relaton-logger sub-gems
+# were consolidated into it). Pull it from main over HTTPS so the GH Action can
+# clone the public repo anonymously (no SSH key). Provides relaton/bib,
+# relaton/index, etc. Matches relaton-data-iho/Gemfile.
+gem "relaton", git: "https://github.com/relaton/relaton.git", branch: "main"
 
 # pubid v2 (with OIML support) parses primary docids into structured
 # identifiers for the pubid_class-based index-v2.yaml. Tracks the
-# rt-new-lutaml-model branch until pubid v2 is released; lutaml-model follows
-# main to match pubid's serialization (relaton-bib allows ~> 0.8.0).
+# rt-new-lutaml-model branch until pubid v2 is released.
 gem "pubid", git: "https://github.com/metanorma/pubid.git",
              branch: "rt-new-lutaml-model"
-gem "lutaml-model", git: "https://github.com/lutaml/lutaml-model.git",
-                    branch: "main"
 
 gem "thor",              "~> 1.3"
 gem "nokogiri"
