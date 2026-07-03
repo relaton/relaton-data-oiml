@@ -1,0 +1,43 @@
+---
+id: R24-1973
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 24
+  type: main
+docidentifier:
+- content: OIML R 24:1973
+  type: OIML
+  primary: true
+docnumber: '24'
+date:
+- type: published
+  from: '1973-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: 'This Recommendation applies to the "metre standard" used by Verification
+    Officers for verifying: line, or end length, rigid measures, for which the maximum
+    permissible error exceeds 300 micrometres per metre (i.e. 0.03 % in relative value).'
+  quantity: Length
+  focus_area: Health
+  sustainability_framework: Prosperity
+  doi: 10.63493/r024.1975.en

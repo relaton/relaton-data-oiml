@@ -1,0 +1,41 @@
+---
+id: R42-1977
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 42
+  type: main
+docidentifier:
+- content: OIML R 42:1977
+  type: OIML
+  primary: true
+docnumber: '42'
+date:
+- type: published
+  from: '1977-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: This Recommendation applies to metal stamps used by verification officers,
+    for applying on measuring instruments, and where appropriate on auxiliary devices
+    a mark for the a variety of metrological purposes.
+  sustainability_framework: Prosperity
+  doi: 10.63493/r042.1981.en

@@ -1,0 +1,56 @@
+---
+id: R61-1996
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 61
+  type: main
+docidentifier:
+- content: OIML R 61:1996
+  type: OIML
+  primary: true
+docnumber: '61'
+date:
+- type: published
+  from: '1996-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: This Recommendation specifies the metrological and technical requirements,
+    metrological controls and tests for automatic gravimetric filling instruments
+    (known as "AGFIs") which produce a predetermined mass of individual fills of products
+    from one or more loads by automatic weighing.
+  quantity: Mass
+  measuring_instrument: Automatic gravimetric filling instrument
+  focus_area: Trade
+  sustainability_framework: Prosperity
+  doi: 10.63493/r061.1996.en
+relation:
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 61-1:1996
+      type: OIML
+- type: hasPart
+  bibitem:
+    docidentifier:
+    - content: OIML R 61-2:1996
+      type: OIML

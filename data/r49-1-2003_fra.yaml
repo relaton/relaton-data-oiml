@@ -1,0 +1,40 @@
+---
+id: R49-1-2003-fra
+schema_version: v1.5.6
+type: standard
+source:
+- type: website
+  content: https://oiml.caco3consulting.com/static/files/fr/r049-1-f03.pdf
+docidentifier:
+- content: OIML R 49-1:2003 (F)
+  type: OIML
+  primary: true
+docnumber: '49'
+date:
+- type: published
+  from: '2003-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 49-1:2003
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

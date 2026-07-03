@@ -1,0 +1,40 @@
+---
+id: R33-1973
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 33
+  type: main
+docidentifier:
+- content: OIML R 33:1973
+  type: OIML
+  primary: true
+docnumber: '33'
+date:
+- type: published
+  from: '1973-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: The aim of this Recommendation is to define the "conventional value of the
+    result of weighing in air" and to fix the values of the physical constants which
+    play a part in this definition.
+  doi: 10.63493/r033.1979.en

@@ -1,0 +1,40 @@
+---
+id: R76-1-2006-eng
+schema_version: v1.5.6
+type: standard
+source:
+- type: file
+  content: pdfs/r76_2006/parts_eng/R076-1-e06.pdf
+docidentifier:
+- content: OIML R 76-1:2006 (E)
+  type: OIML
+  primary: true
+docnumber: '76'
+date:
+- type: published
+  from: '2006-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 76-1:2006
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

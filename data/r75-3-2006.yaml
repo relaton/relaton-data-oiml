@@ -1,0 +1,42 @@
+---
+id: R75-3-2006
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: 'Part 3: Test report format'
+  type: main
+docidentifier:
+- content: OIML R 75-3:2006
+  type: OIML
+  primary: true
+docnumber: '75'
+date:
+- type: published
+  from: '2006-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 75:2002
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

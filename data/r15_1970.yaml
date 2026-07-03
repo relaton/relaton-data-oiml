@@ -1,0 +1,47 @@
+---
+id: R15-1970
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 15
+  type: main
+docidentifier:
+- content: OIML R 15:1970
+  type: OIML
+  primary: true
+docnumber: '15'
+date:
+- type: published
+  from: '1970-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: 'This Recommendation defines: 1) The property of cereals known as the "Hectolitre
+    Mass"; 2) the measuring instrument used for determining this property and adopted
+    as the standard instrument by the Member-States of the International Organization
+    of Legal Metrology; 3) The industrial and commercial instruments of the type accepted
+    by the International Organization of Legal Metrology and meant for day-to-day
+    measurement of this mass.'
+  quantity: Mass
+  measuring_instrument: Large volume scale
+  focus_area: Trade
+  sustainability_framework: Planet
+  doi: 10.63493/r015.1974.en

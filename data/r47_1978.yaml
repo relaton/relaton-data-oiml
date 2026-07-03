@@ -1,0 +1,45 @@
+---
+id: R47-1978
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 47
+  type: main
+docidentifier:
+- content: OIML R 47:1978
+  type: OIML
+  primary: true
+docnumber: '47'
+date:
+- type: published
+  from: '1978-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: 'This Recommendation applies to standard weights having a nominal value equal
+    to or greater than 50 kg, used for testing (and adjusting, where appropriate)
+    of high capacity weighing machines in  accuracy classes III (medium) and IIII
+    (ordinary), which are defined in International Recommendation n° 3: "Metrological
+    regulations for non-automatic weighing machines".'
+  quantity: Mass
+  measuring_instrument: High accuracy mass weights
+  sustainability_framework: Prosperity
+  doi: 10.63493/r047.1979.en

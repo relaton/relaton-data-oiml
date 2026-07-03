@@ -1,0 +1,40 @@
+---
+id: R117-1-2019-eng
+schema_version: v1.5.6
+type: standard
+source:
+- type: website
+  content: https://oiml.caco3consulting.com/static/files/en/r117-1-e19.pdf
+docidentifier:
+- content: OIML R 117-1:2019 (E)
+  type: OIML
+  primary: true
+docnumber: '117'
+date:
+- type: published
+  from: '2019-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+script:
+- Latn
+status:
+  stage:
+    content: in-force
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 117-1:2019
+      type: OIML
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml

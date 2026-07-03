@@ -1,0 +1,43 @@
+---
+id: R45-1977
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 45
+  type: main
+docidentifier:
+- content: OIML R 45:1977
+  type: OIML
+  primary: true
+docnumber: '45'
+date:
+- type: published
+  from: '1977-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: This Recommendation applies to casks and barrels, containers which can be
+    rolled and are used for the transport and delivery of liquids, and when completely
+    full, to measure the liquid which they contain. Containers used exclusively for
+    fixed warehouse storage of liquids are not dealt with in this Recommendation.
+    To simplify the text, casks and barrels are referred to hereafter by the name
+    "casks" only.
+  doi: 10.63493/r045.1980.en

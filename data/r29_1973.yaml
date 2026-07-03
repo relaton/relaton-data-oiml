@@ -1,0 +1,42 @@
+---
+id: R29-1973
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 29
+  type: main
+docidentifier:
+- content: OIML R 29:1973
+  type: OIML
+  primary: true
+docnumber: '29'
+date:
+- type: published
+  from: '1973-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: 'This Recommendation applies to capacity measures made of glass (or other
+    authorised materials) known as "serving measures" which are usually filled as
+    required and which are used for the retail sale of drinks, such as: milk, beer,
+    wine, mineral waters, various table waters, spirits, etc. sold in cafes, restaurants,
+    hotels, canteens, etc. for consumption on the premises.'
+  doi: 10.63493/r029.1979.en

@@ -1,0 +1,46 @@
+---
+id: R137-2006
+schema_version: v1.5.6
+type: standard
+title:
+- language: eng
+  content: OIML Recommendation 137
+  type: main
+docidentifier:
+- content: OIML R 137:2006
+  type: OIML
+  primary: true
+docnumber: '137'
+date:
+- type: published
+  from: '2006-01-01'
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    abbreviation:
+      content: OIML
+language:
+- eng
+- fra
+script:
+- Latn
+status:
+  stage:
+    content: superseded
+ext:
+  doctype:
+    content: recommendation
+  flavor: oiml
+  scope: This Recommendation applies to gas meters based on any measurement technology
+    or principle that is used to measure the quantity of gas that has passed through
+    the meter at operating conditions. The quantity of gas can be expressed in units
+    of volume or mass.
+  quantity: Mass
+  measuring_instrument: Gas Meter
+  sustainability_framework: People
+  doi: 10.63493/r137.2006.en
+  high_priority: true
+  high_priority_source: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260111
