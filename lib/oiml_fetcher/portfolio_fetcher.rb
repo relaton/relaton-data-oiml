@@ -9,11 +9,12 @@ module OimlFetcher
     PORTFOLIO_MARKER = "-p-"
     HELPER = File.expand_path("../../bin/extract_portfolio.py", __dir__)
 
-    def initialize(data_dir:, pdfs_dir:, yaml_store:, http_backend: OimlFetcher::Http.backend)
+    def initialize(data_dir:, pdfs_dir:, yaml_store:, http_backend: OimlFetcher::Http.backend, force: false)
       @data_dir = File.expand_path(data_dir)
       @pdfs_dir = File.expand_path(pdfs_dir)
       @yaml_store = yaml_store
       @http_backend = http_backend
+      @force = force
     end
 
     def run
@@ -56,7 +57,12 @@ module OimlFetcher
       parts_count = 0
       if is_portfolio && downloaded_ok?(target_path)
         parts_dir = File.join(target_dir, "parts_#{lang}")
+        if @force
+          FileUtils.rm_rf(parts_dir)
+          downloaded = true
+        end
         parts_count = extract_portfolio(target_path, parts_dir)
+        warn "  WARN portfolio #{filename} yielded 0 parts" if parts_count.zero?
       end
       { downloaded: downloaded, portfolio: is_portfolio, parts: parts_count }
     end
@@ -75,7 +81,9 @@ module OimlFetcher
     end
 
     def download(url, target_path)
-      return false if File.exist?(target_path) && File.size(target_path).positive?
+      if File.exist?(target_path) && File.size(target_path).positive?
+        return false
+      end
 
       FileUtils.mkdir_p(File.dirname(target_path))
       body = @http_backend.get(url)
@@ -103,7 +111,17 @@ module OimlFetcher
       out, status = Open3.capture2("python3", HELPER, pdf_path, parts_dir)
       raise "extract_portfolio.py failed" unless status.success?
 
-      JSON.parse(out)["count"].to_i
+      result = JSON.parse(out)
+      write_links_sidecar(parts_dir, result["links"]) if result["links"]&.any?
+      result["count"].to_i
+    end
+
+    def write_links_sidecar(parts_dir, links)
+      sidecar_path = File.join(parts_dir, "links.json")
+      existing = File.exist?(sidecar_path) ? (JSON.parse(File.read(sidecar_path)) rescue []) : []
+      all_uris = (existing.map { |l| l["uri"] } + links.map { |l| l["uri"] }).uniq
+      merged = all_uris.map { |u| { "uri" => u } }
+      File.write(sidecar_path, JSON.pretty_generate(merged))
     end
 
     def downloaded_ok?(path)

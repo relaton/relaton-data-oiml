@@ -15,6 +15,8 @@ module OimlFetcher
                                  desc: "Also fetch the 10 other-language translation pages."
     method_option :pdfs, type: :boolean, default: false,
                          desc: "Download source PDFs into pdfs/ and extract PDF Portfolio parts."
+    method_option :force, type: :boolean, default: false,
+                          desc: "Force re-download and re-extraction of portfolios even if cached."
     method_option :caco3, type: :boolean, default: false,
                           desc: "Enrich Recommendations with metadata from oiml.caco3consulting.com."
     method_option :type, type: :string, repeatable: true,
@@ -38,13 +40,20 @@ module OimlFetcher
       end
 
       if options[:pdfs]
-        say "Downloading source PDFs + extracting portfolios...", :cyan
+        say "Downloading source PDFs + extracting portfolios#{options[:force] ? ' (force)' : ''}...", :cyan
         OimlFetcher::PortfolioFetcher.new(
           data_dir: options[:data_dir], pdfs_dir: options[:pdfs_dir],
+          force: options[:force],
         ).run
 
         say "Building part-level YAMLs from discovered portfolios...", :cyan
         OimlFetcher::PartsBuilder.new(
+          data_dir: options[:data_dir], pdfs_dir: options[:pdfs_dir],
+          yaml_store: store,
+        ).run
+
+        say "Building part-level YAMLs from PDF cover-page links...", :cyan
+        OimlFetcher::CoverPageBuilder.new(
           data_dir: options[:data_dir], pdfs_dir: options[:pdfs_dir],
           yaml_store: store,
         ).run

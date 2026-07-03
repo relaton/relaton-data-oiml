@@ -101,6 +101,7 @@ module OimlFetcher
   autoload :TranslationFetcher, "oiml_fetcher/translation_fetcher"
   autoload :PortfolioFetcher,   "oiml_fetcher/portfolio_fetcher"
   autoload :PartsBuilder,       "oiml_fetcher/parts_builder"
+  autoload :CoverPageBuilder,   "oiml_fetcher/cover_page_builder"
   autoload :Caco3Fetcher,       "oiml_fetcher/caco3_fetcher"
   autoload :Indexer,            "oiml_fetcher/indexer"
   autoload :Scrape,             "oiml_fetcher/scrape"
