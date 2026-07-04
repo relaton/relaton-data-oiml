@@ -16,9 +16,9 @@ gem "relaton", git: "https://github.com/relaton/relaton.git", branch: "main"
 
 # pubid v2 (with OIML support) parses primary docids into structured
 # identifiers for the pubid_class-based index-v2.yaml. Tracks the
-# feat/oiml-joined-supplement branch until pubid v2 is released.
+# rt-new-lutaml-model branch until pubid v2 is released.
 gem "pubid", git: "https://github.com/metanorma/pubid.git",
-             branch: "feat/oiml-joined-supplement"
+             branch: "rt-new-lutaml-model"
 
 gem "thor",              "~> 1.3"
 gem "nokogiri"
