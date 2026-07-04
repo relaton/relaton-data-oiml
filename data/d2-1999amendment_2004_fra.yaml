@@ -1,24 +1,22 @@
 ---
-id: V2-200-erratum-2010-E
+id: D2-1999Amendment-2004-fra
 schema_version: v1.5.6
 type: standard
 title:
-- language: eng
-  content: International Vocabulary of Metrology – Basic andGeneral Concepts and Associated
-    Terms (VIM). Erratum to the 2007 Edition, listing the corrections incorporated
-    in the 2010 Edition
+- language: fra
+  content: 'Unités de mesure légales: Amendement'
   type: main
 source:
 - type: website
-  content: https://www.oiml.org/en/files/pdf_v/v002-200-erratum-e10.pdf
+  content: https://www.oiml.org/fr/files/pdf_d/d002-amend-f04.pdf
 docidentifier:
-- content: OIML V 2-200-erratum:2010 (E)
+- content: OIML D 2:1999+Amendment:2004 (F)
   type: OIML
   primary: true
 docnumber: '2'
 date:
 - type: published
-  from: '2010-01-01'
+  from: '2004-01-01'
 contributor:
 - role:
   - type: publisher
@@ -27,17 +25,32 @@ contributor:
     - content: International Organization of Legal Metrology
     abbreviation:
       content: OIML
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: International Organization of Legal Metrology
+    subdivision:
+    - name:
+      - content: Technical Committee 2
+      identifier:
+      - content: TC2
+      type: technical-committee
+    abbreviation:
+      content: OIML
 version:
-- content: '2010-01-01'
+- content: '2004-01-01'
 language:
-- eng
+- fra
 script:
 - Latn
 status:
   stage:
     content: superseded
 copyright:
-- from: '2010'
+- from: '2004'
   owner:
   - organization:
       name:
@@ -48,9 +61,9 @@ relation:
 - type: instanceOf
   bibitem:
     docidentifier:
-    - content: OIML V 2-200-erratum:2010
+    - content: OIML D 2:1999+Amendment:2004
       type: OIML
 ext:
   doctype:
-    content: vocabulary
+    content: document
   flavor: oiml

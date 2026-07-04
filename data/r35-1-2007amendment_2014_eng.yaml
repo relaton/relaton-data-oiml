@@ -1,19 +1,18 @@
 ---
-id: R60-2019Amendment
+id: R35-1-2007Amendment-2014-eng
 schema_version: v1.5.6
 type: standard
-title:
-- language: eng
-  content: Amendment 2019
-  type: main
+source:
+- type: website
+  content: pdfs/r35_2007/parts_eng/R035-1_amend-e14.pdf
 docidentifier:
-- content: OIML R 60:2019 Amendment
+- content: OIML R 35-1:2007+Amendment:2014 (E)
   type: OIML
   primary: true
-docnumber: '60'
+docnumber: '35'
 date:
 - type: published
-  from: '2019-01-01'
+  from: '2014-01-01'
 contributor:
 - role:
   - type: publisher
@@ -31,25 +30,24 @@ contributor:
     - content: International Organization of Legal Metrology
     subdivision:
     - name:
-      - content: Technical Committee 9
+      - content: Technical Committee 7
       identifier:
-      - content: TC9
+      - content: TC7
       type: technical-committee
     abbreviation:
       content: OIML
 language:
 - eng
-- fra
 script:
 - Latn
 status:
   stage:
     content: in-force
 relation:
-- type: amends
+- type: instanceOf
   bibitem:
     docidentifier:
-    - content: OIML R 60:2017
+    - content: OIML R 35-1:2007+Amendment:2014
       type: OIML
 ext:
   doctype:

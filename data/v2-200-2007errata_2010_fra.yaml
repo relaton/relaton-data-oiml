@@ -1,20 +1,18 @@
 ---
-id: V2-200-erratum-2010
+id: V2-200-2007Errata-2010-fra
 schema_version: v1.5.6
 type: standard
 title:
-- language: eng
-  content: International Vocabulary of Metrology – Basic andGeneral Concepts and Associated
-    Terms (VIM). Erratum to the 2007 Edition, listing the corrections incorporated
-    in the 2010 Edition
-  type: main
 - language: fra
   content: Vocabulaire international de métrologie – Concepts fondamentaux et généraux
     et termes associés (VIM).Erratum à l'Edition 2007 listant les corrections intégrées
     dans l'Edition 2010
   type: main
+source:
+- type: website
+  content: https://www.oiml.org/fr/files/pdf_v/v002-200-erratum-f10.pdf
 docidentifier:
-- content: OIML V 2-200-erratum:2010
+- content: OIML V 2-200:2007 Errata (F)
   type: OIML
   primary: true
 docnumber: '2'
@@ -32,13 +30,12 @@ contributor:
 version:
 - content: '2010-01-01'
 language:
-- eng
 - fra
 script:
 - Latn
 status:
   stage:
-    content: superseded
+    content: joint
 copyright:
 - from: '2010'
   owner:
@@ -48,15 +45,10 @@ copyright:
       abbreviation:
         content: OIML
 relation:
-- type: hasInstance
+- type: instanceOf
   bibitem:
     docidentifier:
-    - content: OIML V 2-200-erratum:2010 (E)
-      type: OIML
-- type: hasInstance
-  bibitem:
-    docidentifier:
-    - content: OIML V 2-200-erratum:2010 (F)
+    - content: OIML V 2-200:2007 Errata
       type: OIML
 ext:
   doctype:
