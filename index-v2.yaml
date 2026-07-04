@@ -1,12 +1,16 @@
 ---
 - :id:
-    _type: pubid:oiml:vocabulary
-    language: F
-    parsed_format: short_with_space
-    publisher: OIML
-    number: '3'
-    year: '1991'
-  :file: data/v3_1991_fra.yaml
+    _type: pubid:oiml:amendment
+    base_identifier:
+      _type: pubid:oiml:basic-publication
+      parsed_format: short
+      publisher: OIML
+      number: '10'
+      part: '1'
+      year: '2004'
+    year: '2006'
+    joined: true
+  :file: data/b10-1-2004amendment_2006.yaml
 - :id:
     _type: pubid:oiml:amendment
     language: E
@@ -12231,14 +12235,10 @@
     year: '1991'
   :file: data/v3_1991_eng.yaml
 - :id:
-    _type: pubid:oiml:amendment
-    base_identifier:
-      _type: pubid:oiml:basic-publication
-      parsed_format: short
-      publisher: OIML
-      number: '10'
-      part: '1'
-      year: '2004'
-    year: '2006'
-    joined: true
-  :file: data/b10-1-2004amendment_2006.yaml
+    _type: pubid:oiml:vocabulary
+    language: F
+    parsed_format: short_with_space
+    publisher: OIML
+    number: '3'
+    year: '1991'
+  :file: data/v3_1991_fra.yaml
