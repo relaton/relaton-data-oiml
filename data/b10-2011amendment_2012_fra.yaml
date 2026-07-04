@@ -1,23 +1,23 @@
 ---
-id: B10-Amended_2012-2011-E
+id: B10-2011Amendment-2012-fra
 schema_version: v1.5.6
 type: standard
 title:
-- language: eng
-  content: Framework for a Mutual Acceptance Arrangement on OIML Type Evaluations
-    (Integrating the changes in the 2012 Amendment)
+- language: fra
+  content: Amendement (2012) au B 10:2011 Cadre pour un Arrangement d'Acceptation
+    Mutuelle sur les Évaluations de Type de l'OIML
   type: main
 source:
 - type: website
-  content: https://www.oiml.org/en/files/pdf_b/b010-amended-2012-e11.pdf
+  content: https://www.oiml.org/fr/files/pdf_b/b010-amend-f12.pdf
 docidentifier:
-- content: OIML B 10-Amended_2012:2011 (E)
+- content: OIML B 10:2011+Amendment:2012 (F)
   type: OIML
   primary: true
 docnumber: '10'
 date:
 - type: published
-  from: '2011-01-01'
+  from: '2012-01-01'
 contributor:
 - role:
   - type: publisher
@@ -47,16 +47,16 @@ contributor:
     abbreviation:
       content: OIML
 version:
-- content: '2011-01-01'
+- content: '2012-01-01'
 language:
-- eng
+- fra
 script:
 - Latn
 status:
   stage:
     content: withdrawn
 copyright:
-- from: '2011'
+- from: '2012'
   owner:
   - organization:
       name:
@@ -67,7 +67,7 @@ relation:
 - type: instanceOf
   bibitem:
     docidentifier:
-    - content: OIML B 10-Amended_2012:2011
+    - content: OIML B 10:2011+Amendment:2012
       type: OIML
 ext:
   doctype:

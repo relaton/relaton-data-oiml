@@ -1,24 +1,23 @@
 ---
-id: B10-Amended_2012-2011
+id: B3-2003Amendment-2006
 schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: Framework for a Mutual Acceptance Arrangement on OIML Type Evaluations
-    (Integrating the changes in the 2012 Amendment)
+  content: OIML Certificate System for Measuring Instruments - Amendment (2006)
   type: main
 - language: fra
-  content: Cadre pour un Arrangement d'Acceptation Mutuelle sur les Évaluations de
-    Type de l'OIML  (Intégrant les changements dans l'Amendement 2012)
+  content: Système de Certificats OIML pour les Instruments de Mesure - Amendement
+    (2006)
   type: main
 docidentifier:
-- content: OIML B 10-Amended_2012:2011
+- content: OIML B 3:2003+Amendment:2006
   type: OIML
   primary: true
-docnumber: '10'
+docnumber: '3'
 date:
 - type: published
-  from: '2011-01-01'
+  from: '2006-01-01'
 contributor:
 - role:
   - type: publisher
@@ -48,7 +47,7 @@ contributor:
     abbreviation:
       content: OIML
 version:
-- content: '2011-01-01'
+- content: '2006-01-01'
 language:
 - eng
 - fra
@@ -58,7 +57,7 @@ status:
   stage:
     content: withdrawn
 copyright:
-- from: '2011'
+- from: '2006'
   owner:
   - organization:
       name:
@@ -69,12 +68,12 @@ relation:
 - type: hasInstance
   bibitem:
     docidentifier:
-    - content: OIML B 10-Amended_2012:2011 (E)
+    - content: OIML B 3:2003+Amendment:2006 (E)
       type: OIML
 - type: hasInstance
   bibitem:
     docidentifier:
-    - content: OIML B 10-Amended_2012:2011 (F)
+    - content: OIML B 3:2003+Amendment:2006 (F)
       type: OIML
 ext:
   doctype:

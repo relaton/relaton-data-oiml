@@ -1,23 +1,19 @@
 ---
-id: B10-1-Amend-2006-E
+id: R137-1-2-2012Amendment-2014
 schema_version: v1.5.6
 type: standard
 title:
 - language: eng
-  content: Framework for a Mutual Acceptance Arrangement on OIML Type Evaluations
-    (MAA) - Amendment (2006)
+  content: Amendment 2014
   type: main
-source:
-- type: website
-  content: https://www.oiml.org/en/files/pdf_b/b010-1-amend-e06.pdf
 docidentifier:
-- content: OIML B 10-1-Amend:2006 (E)
+- content: OIML R 137-1-2:2012+Amendment:2014
   type: OIML
   primary: true
-docnumber: '10'
+docnumber: '137'
 date:
 - type: published
-  from: '2006-01-01'
+  from: '2014-01-01'
 contributor:
 - role:
   - type: publisher
@@ -35,41 +31,32 @@ contributor:
     - content: International Organization of Legal Metrology
     subdivision:
     - name:
-      - content: Technical Committee 3
+      - content: Technical Committee 8
       identifier:
-      - content: TC3
+      - content: TC8
       type: technical-committee
     - name:
-      - content: Subcommittee 5
+      - content: Subcommittee 7
       identifier:
-      - content: SC5
+      - content: SC7
       type: subcommittee
     abbreviation:
       content: OIML
-version:
-- content: '2006-01-01'
 language:
 - eng
+- fra
 script:
 - Latn
 status:
   stage:
-    content: withdrawn
-copyright:
-- from: '2006'
-  owner:
-  - organization:
-      name:
-      - content: International Organization of Legal Metrology
-      abbreviation:
-        content: OIML
+    content: in-force
 relation:
-- type: instanceOf
+- type: amends
   bibitem:
     docidentifier:
-    - content: OIML B 10-1-Amend:2006
+    - content: OIML R 137-1-2:2012
       type: OIML
 ext:
   doctype:
-    content: basic-publication
+    content: recommendation
   flavor: oiml

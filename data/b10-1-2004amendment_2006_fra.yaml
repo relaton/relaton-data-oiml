@@ -1,20 +1,20 @@
 ---
-id: B3-Amend-2006-F
+id: B10-1-2004Amendment-2006-fra
 schema_version: v1.5.6
 type: standard
 title:
 - language: fra
-  content: Système de Certificats OIML pour les Instruments de Mesure - Amendement
-    (2006)
+  content: Cadre pour un Arrangement d'Acceptation Mutuelle sur les Évaluations de
+    Type de l'OIML (MAA) - Amendement (2006)
   type: main
 source:
 - type: website
-  content: https://www.oiml.org/fr/files/pdf_b/b003-amend-f06.pdf
+  content: https://www.oiml.org/fr/files/pdf_b/b010-1-amend-f06.pdf
 docidentifier:
-- content: OIML B 3-Amend:2006 (F)
+- content: OIML B 10-1:2004+Amendment:2006 (F)
   type: OIML
   primary: true
-docnumber: '3'
+docnumber: '10'
 date:
 - type: published
   from: '2006-01-01'
@@ -67,7 +67,7 @@ relation:
 - type: instanceOf
   bibitem:
     docidentifier:
-    - content: OIML B 3-Amend:2006
+    - content: OIML B 10-1:2004+Amendment:2006
       type: OIML
 ext:
   doctype:

@@ -1,23 +1,22 @@
 ---
-id: B10-Amend-2012-F
+id: D2-1999Amendment-2004-eng
 schema_version: v1.5.6
 type: standard
 title:
-- language: fra
-  content: Amendement (2012) au B 10:2011 Cadre pour un Arrangement d'Acceptation
-    Mutuelle sur les Évaluations de Type de l'OIML
+- language: eng
+  content: 'Legal units of measurement: Amendment'
   type: main
 source:
 - type: website
-  content: https://www.oiml.org/fr/files/pdf_b/b010-amend-f12.pdf
+  content: https://www.oiml.org/en/files/pdf_d/d002-amend-e04.pdf
 docidentifier:
-- content: OIML B 10-Amend:2012 (F)
+- content: OIML D 2:1999+Amendment:2004 (E)
   type: OIML
   primary: true
-docnumber: '10'
+docnumber: '2'
 date:
 - type: published
-  from: '2012-01-01'
+  from: '2004-01-01'
 contributor:
 - role:
   - type: publisher
@@ -35,28 +34,23 @@ contributor:
     - content: International Organization of Legal Metrology
     subdivision:
     - name:
-      - content: Technical Committee 3
+      - content: Technical Committee 2
       identifier:
-      - content: TC3
+      - content: TC2
       type: technical-committee
-    - name:
-      - content: Subcommittee 5
-      identifier:
-      - content: SC5
-      type: subcommittee
     abbreviation:
       content: OIML
 version:
-- content: '2012-01-01'
+- content: '2004-01-01'
 language:
-- fra
+- eng
 script:
 - Latn
 status:
   stage:
-    content: withdrawn
+    content: superseded
 copyright:
-- from: '2012'
+- from: '2004'
   owner:
   - organization:
       name:
@@ -67,9 +61,9 @@ relation:
 - type: instanceOf
   bibitem:
     docidentifier:
-    - content: OIML B 10-Amend:2012
+    - content: OIML D 2:1999+Amendment:2004
       type: OIML
 ext:
   doctype:
-    content: basic-publication
+    content: document
   flavor: oiml

@@ -1,12 +1,13 @@
 ---
-id: R60-2019Amendment-eng
+id: R60-2017Amendment-2019
 schema_version: v1.5.6
 type: standard
-source:
-- type: website
-  content: pdfs/r60_2017/parts_eng/R060-amendment-2019-12-23.pdf
+title:
+- language: eng
+  content: Amendment 2019
+  type: main
 docidentifier:
-- content: OIML R 60:2019 Amendment (E)
+- content: OIML R 60:2017+Amendment:2019
   type: OIML
   primary: true
 docnumber: '60'
@@ -38,16 +39,17 @@ contributor:
       content: OIML
 language:
 - eng
+- fra
 script:
 - Latn
 status:
   stage:
     content: in-force
 relation:
-- type: instanceOf
+- type: amends
   bibitem:
     docidentifier:
-    - content: OIML R 60:2019 Amendment
+    - content: OIML R 60:2017
       type: OIML
 ext:
   doctype:

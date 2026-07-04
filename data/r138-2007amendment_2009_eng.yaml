@@ -1,16 +1,12 @@
 ---
-id: R138-Amend-2009
+id: R138-2007Amendment-2009-eng
 schema_version: v1.5.6
 type: standard
-title:
-- language: fra
-  content: Récipients pour transactions commerciales (Amendement 2009)
-  type: main
 source:
 - type: website
-  content: https://www.oiml.org/en/files/pdf_r/r138-amend-e09.pdf
+  content: pdfs/r138_2007/parts_eng/R138-Amend-e09.pdf
 docidentifier:
-- content: OIML R 138-Amend:2009
+- content: OIML R 138:2007+Amendment:2009 (E)
   type: OIML
   primary: true
 docnumber: '138'
@@ -40,23 +36,19 @@ contributor:
       type: technical-committee
     abbreviation:
       content: OIML
-version:
-- content: '2009-01-01'
 language:
-- fra
+- eng
 script:
 - Latn
 status:
   stage:
     content: in-force
-copyright:
-- from: '2009'
-  owner:
-  - organization:
-      name:
-      - content: International Organization of Legal Metrology
-      abbreviation:
-        content: OIML
+relation:
+- type: instanceOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 138:2007+Amendment:2009
+      type: OIML
 ext:
   doctype:
     content: recommendation

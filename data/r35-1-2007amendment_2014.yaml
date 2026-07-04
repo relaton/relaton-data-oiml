@@ -1,15 +1,16 @@
 ---
-id: R137-1-2-2014Amendment-eng
+id: R35-1-2007Amendment-2014
 schema_version: v1.5.6
 type: standard
-source:
-- type: website
-  content: pdfs/r137_2012/parts_eng/R137-1-2-Amend-e14.pdf
+title:
+- language: eng
+  content: Amendment 2014
+  type: main
 docidentifier:
-- content: OIML R 137-1-2:2014 Amendment (E)
+- content: OIML R 35-1:2007+Amendment:2014
   type: OIML
   primary: true
-docnumber: '137'
+docnumber: '35'
 date:
 - type: published
   from: '2014-01-01'
@@ -30,29 +31,25 @@ contributor:
     - content: International Organization of Legal Metrology
     subdivision:
     - name:
-      - content: Technical Committee 8
+      - content: Technical Committee 7
       identifier:
-      - content: TC8
+      - content: TC7
       type: technical-committee
-    - name:
-      - content: Subcommittee 7
-      identifier:
-      - content: SC7
-      type: subcommittee
     abbreviation:
       content: OIML
 language:
 - eng
+- fra
 script:
 - Latn
 status:
   stage:
     content: in-force
 relation:
-- type: instanceOf
+- type: amends
   bibitem:
     docidentifier:
-    - content: OIML R 137-1-2:2014 Amendment
+    - content: OIML R 35-1:2007
       type: OIML
 ext:
   doctype:

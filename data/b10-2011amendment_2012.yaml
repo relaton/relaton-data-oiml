@@ -1,5 +1,5 @@
 ---
-id: B10-Amend-2012
+id: B10-2011Amendment-2012
 schema_version: v1.5.6
 type: standard
 title:
@@ -12,7 +12,7 @@ title:
     Mutuelle sur les Évaluations de Type de l'OIML
   type: main
 docidentifier:
-- content: OIML B 10-Amend:2012
+- content: OIML B 10:2011+Amendment:2012
   type: OIML
   primary: true
 docnumber: '10'
@@ -69,12 +69,12 @@ relation:
 - type: hasInstance
   bibitem:
     docidentifier:
-    - content: OIML B 10-Amend:2012 (E)
+    - content: OIML B 10:2011+Amendment:2012 (E)
       type: OIML
 - type: hasInstance
   bibitem:
     docidentifier:
-    - content: OIML B 10-Amend:2012 (F)
+    - content: OIML B 10:2011+Amendment:2012 (F)
       type: OIML
 ext:
   doctype:

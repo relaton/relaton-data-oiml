@@ -1,33 +1,38 @@
 ---
 - :id:
-    _type: pubid:oiml:basic-publication
-    parsed_format: short
-    publisher: OIML
-    number: '10'
-    part: '1'
-    suffix: Amend
-    year: '2006'
-  :file: data/b10-1-amend_2006.yaml
-- :id:
-    _type: pubid:oiml:basic-publication
-    language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    number: '10'
-    part: '1'
-    suffix: Amend
-    year: '2006'
-  :file: data/b10-1-amend_2006_eng.yaml
-- :id:
-    _type: pubid:oiml:basic-publication
+    _type: pubid:oiml:vocabulary
     language: F
     parsed_format: short_with_space
     publisher: OIML
-    number: '10'
-    part: '1'
-    suffix: Amend
+    number: '3'
+    year: '1991'
+  :file: data/v3_1991_fra.yaml
+- :id:
+    _type: pubid:oiml:amendment
+    language: E
+    base_identifier:
+      _type: pubid:oiml:basic-publication
+      parsed_format: short
+      publisher: OIML
+      number: '10'
+      part: '1'
+      year: '2004'
     year: '2006'
-  :file: data/b10-1-amend_2006_fra.yaml
+    joined: true
+  :file: data/b10-1-2004amendment_2006_eng.yaml
+- :id:
+    _type: pubid:oiml:amendment
+    language: F
+    base_identifier:
+      _type: pubid:oiml:basic-publication
+      parsed_format: short
+      publisher: OIML
+      number: '10'
+      part: '1'
+      year: '2004'
+    year: '2006'
+    joined: true
+  :file: data/b10-1-2004amendment_2006_fra.yaml
 - :id:
     _type: pubid:oiml:basic-publication
     parsed_format: short
@@ -55,6 +60,41 @@
     year: '2004'
   :file: data/b10-1_2004_fra.yaml
 - :id:
+    _type: pubid:oiml:amendment
+    base_identifier:
+      _type: pubid:oiml:basic-publication
+      parsed_format: short
+      publisher: OIML
+      number: '10'
+      year: '2011'
+    year: '2012'
+    joined: true
+  :file: data/b10-2011amendment_2012.yaml
+- :id:
+    _type: pubid:oiml:amendment
+    language: E
+    base_identifier:
+      _type: pubid:oiml:basic-publication
+      parsed_format: short
+      publisher: OIML
+      number: '10'
+      year: '2011'
+    year: '2012'
+    joined: true
+  :file: data/b10-2011amendment_2012_eng.yaml
+- :id:
+    _type: pubid:oiml:amendment
+    language: F
+    base_identifier:
+      _type: pubid:oiml:basic-publication
+      parsed_format: short
+      publisher: OIML
+      number: '10'
+      year: '2011'
+    year: '2012'
+    joined: true
+  :file: data/b10-2011amendment_2012_fra.yaml
+- :id:
     _type: pubid:oiml:basic-publication
     parsed_format: short
     publisher: OIML
@@ -80,58 +120,6 @@
     part: '2'
     year: '2004'
   :file: data/b10-2_2004_fra.yaml
-- :id:
-    _type: pubid:oiml:basic-publication
-    parsed_format: short
-    publisher: OIML
-    number: '10'
-    suffix: Amend
-    year: '2012'
-  :file: data/b10-amend_2012.yaml
-- :id:
-    _type: pubid:oiml:basic-publication
-    language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    number: '10'
-    suffix: Amend
-    year: '2012'
-  :file: data/b10-amend_2012_eng.yaml
-- :id:
-    _type: pubid:oiml:basic-publication
-    language: F
-    parsed_format: short_with_space
-    publisher: OIML
-    number: '10'
-    suffix: Amend
-    year: '2012'
-  :file: data/b10-amend_2012_fra.yaml
-- :id:
-    _type: pubid:oiml:basic-publication
-    parsed_format: short
-    publisher: OIML
-    number: '10'
-    suffix: Amended_2012
-    year: '2011'
-  :file: data/b10-amended_2012_2011.yaml
-- :id:
-    _type: pubid:oiml:basic-publication
-    language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    number: '10'
-    suffix: Amended_2012
-    year: '2011'
-  :file: data/b10-amended_2012_2011_eng.yaml
-- :id:
-    _type: pubid:oiml:basic-publication
-    language: F
-    parsed_format: short_with_space
-    publisher: OIML
-    number: '10'
-    suffix: Amended_2012
-    year: '2011'
-  :file: data/b10-amended_2012_2011_fra.yaml
 - :id:
     _type: pubid:oiml:basic-publication
     parsed_format: short
@@ -746,31 +734,40 @@
     year: '2000'
   :file: data/b2_2000_fra.yaml
 - :id:
-    _type: pubid:oiml:basic-publication
-    parsed_format: short
-    publisher: OIML
-    number: '3'
-    suffix: Amend
+    _type: pubid:oiml:amendment
+    base_identifier:
+      _type: pubid:oiml:basic-publication
+      parsed_format: short
+      publisher: OIML
+      number: '3'
+      year: '2003'
     year: '2006'
-  :file: data/b3-amend_2006.yaml
+    joined: true
+  :file: data/b3-2003amendment_2006.yaml
 - :id:
-    _type: pubid:oiml:basic-publication
+    _type: pubid:oiml:amendment
     language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    number: '3'
-    suffix: Amend
+    base_identifier:
+      _type: pubid:oiml:basic-publication
+      parsed_format: short
+      publisher: OIML
+      number: '3'
+      year: '2003'
     year: '2006'
-  :file: data/b3-amend_2006_eng.yaml
+    joined: true
+  :file: data/b3-2003amendment_2006_eng.yaml
 - :id:
-    _type: pubid:oiml:basic-publication
+    _type: pubid:oiml:amendment
     language: F
-    parsed_format: short_with_space
-    publisher: OIML
-    number: '3'
-    suffix: Amend
+    base_identifier:
+      _type: pubid:oiml:basic-publication
+      parsed_format: short
+      publisher: OIML
+      number: '3'
+      year: '2003'
     year: '2006'
-  :file: data/b3-amend_2006_fra.yaml
+    joined: true
+  :file: data/b3-2003amendment_2006_fra.yaml
 - :id:
     _type: pubid:oiml:basic-publication
     parsed_format: short
@@ -1728,31 +1725,40 @@
     space_suffix: true
   :file: data/d1brochure_ukr.yaml
 - :id:
-    _type: pubid:oiml:document
-    parsed_format: short
-    publisher: OIML
-    number: '2'
-    suffix: Amend
+    _type: pubid:oiml:amendment
+    base_identifier:
+      _type: pubid:oiml:document
+      parsed_format: short
+      publisher: OIML
+      number: '2'
+      year: '1999'
     year: '2004'
-  :file: data/d2-amend_2004.yaml
+    joined: true
+  :file: data/d2-1999amendment_2004.yaml
 - :id:
-    _type: pubid:oiml:document
+    _type: pubid:oiml:amendment
     language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    number: '2'
-    suffix: Amend
+    base_identifier:
+      _type: pubid:oiml:document
+      parsed_format: short
+      publisher: OIML
+      number: '2'
+      year: '1999'
     year: '2004'
-  :file: data/d2-amend_2004_eng.yaml
+    joined: true
+  :file: data/d2-1999amendment_2004_eng.yaml
 - :id:
-    _type: pubid:oiml:document
+    _type: pubid:oiml:amendment
     language: F
-    parsed_format: short_with_space
-    publisher: OIML
-    number: '2'
-    suffix: Amend
+    base_identifier:
+      _type: pubid:oiml:document
+      parsed_format: short
+      publisher: OIML
+      number: '2'
+      year: '1999'
     year: '2004'
-  :file: data/d2-amend_2004_fra.yaml
+    joined: true
+  :file: data/d2-1999amendment_2004_fra.yaml
 - :id:
     _type: pubid:oiml:document
     parsed_format: short
@@ -5143,6 +5149,15 @@
     year: '2012'
   :file: data/r126-2012_spa.yaml
 - :id:
+    _type: pubid:oiml:recommendation
+    language: S
+    parsed_format: short_with_space
+    publisher: OIML
+    number: '126'
+    suffix: erratum
+    year: '2012'
+  :file: data/r126-2012errata_spa.yaml
+- :id:
     _type: pubid:oiml:errata
     base_identifier:
       _type: pubid:oiml:recommendation
@@ -5191,15 +5206,6 @@
     part: '3'
     year: '2021'
   :file: data/r126-3-2021_eng.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: S
-    parsed_format: short_with_space
-    publisher: OIML
-    number: '126'
-    suffix: erratum
-    year: '2012'
-  :file: data/r126-erratum-2012_spa.yaml
 - :id:
     _type: pubid:oiml:recommendation
     parsed_format: short
@@ -5888,9 +5894,10 @@
       number: '137'
       part: '1'
       subpart: '2'
-      year: '2014'
-    trailing: true
-  :file: data/r137-1-2-2014amendment.yaml
+      year: '2012'
+    year: '2014'
+    joined: true
+  :file: data/r137-1-2-2012amendment_2014.yaml
 - :id:
     _type: pubid:oiml:amendment
     language: E
@@ -5901,9 +5908,10 @@
       number: '137'
       part: '1'
       subpart: '2'
-      year: '2014'
-    trailing: true
-  :file: data/r137-1-2-2014amendment_eng.yaml
+      year: '2012'
+    year: '2014'
+    joined: true
+  :file: data/r137-1-2-2012amendment_2014_eng.yaml
 - :id:
     _type: pubid:oiml:amendment
     language: F
@@ -5914,9 +5922,10 @@
       number: '137'
       part: '1'
       subpart: '2'
-      year: '2014'
-    trailing: true
-  :file: data/r137-1-2-2014amendment_fra.yaml
+      year: '2012'
+    year: '2014'
+    joined: true
+  :file: data/r137-1-2-2012amendment_2014_fra.yaml
 - :id:
     _type: pubid:oiml:recommendation
     parsed_format: short
@@ -6014,9 +6023,10 @@
       parsed_format: short
       publisher: OIML
       number: '138'
-      year: '2009'
-    trailing: true
-  :file: data/r138-2009amendment.yaml
+      year: '2007'
+    year: '2009'
+    joined: true
+  :file: data/r138-2007amendment_2009.yaml
 - :id:
     _type: pubid:oiml:amendment
     language: E
@@ -6025,9 +6035,10 @@
       parsed_format: short
       publisher: OIML
       number: '138'
-      year: '2009'
-    trailing: true
-  :file: data/r138-2009amendment_eng.yaml
+      year: '2007'
+    year: '2009'
+    joined: true
+  :file: data/r138-2007amendment_2009_eng.yaml
 - :id:
     _type: pubid:oiml:amendment
     language: F
@@ -6036,17 +6047,10 @@
       parsed_format: short
       publisher: OIML
       number: '138'
-      year: '2009'
-    trailing: true
-  :file: data/r138-2009amendment_fra.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    parsed_format: short
-    publisher: OIML
-    number: '138'
-    suffix: Amend
+      year: '2007'
     year: '2009'
-  :file: data/r138-amend_2009.yaml
+    joined: true
+  :file: data/r138-2007amendment_2009_fra.yaml
 - :id:
     _type: pubid:oiml:recommendation
     parsed_format: short
@@ -7584,9 +7588,10 @@
       publisher: OIML
       number: '35'
       part: '1'
-      year: '2014'
-    trailing: true
-  :file: data/r35-1-2014amendment.yaml
+      year: '2007'
+    year: '2014'
+    joined: true
+  :file: data/r35-1-2007amendment_2014.yaml
 - :id:
     _type: pubid:oiml:amendment
     language: E
@@ -7596,9 +7601,10 @@
       publisher: OIML
       number: '35'
       part: '1'
-      year: '2014'
-    trailing: true
-  :file: data/r35-1-2014amendment_eng.yaml
+      year: '2007'
+    year: '2014'
+    joined: true
+  :file: data/r35-1-2007amendment_2014_eng.yaml
 - :id:
     _type: pubid:oiml:recommendation
     language: A
@@ -9448,6 +9454,29 @@
     year: '2000'
   :file: data/r60-2000_fas.yaml
 - :id:
+    _type: pubid:oiml:amendment
+    base_identifier:
+      _type: pubid:oiml:recommendation
+      parsed_format: short
+      publisher: OIML
+      number: '60'
+      year: '2017'
+    year: '2019'
+    joined: true
+  :file: data/r60-2017amendment_2019.yaml
+- :id:
+    _type: pubid:oiml:amendment
+    language: E
+    base_identifier:
+      _type: pubid:oiml:recommendation
+      parsed_format: short
+      publisher: OIML
+      number: '60'
+      year: '2017'
+    year: '2019'
+    joined: true
+  :file: data/r60-2017amendment_2019_eng.yaml
+- :id:
     _type: pubid:oiml:annex
     base_identifier:
       _type: pubid:oiml:recommendation
@@ -9479,27 +9508,6 @@
       year: '2017'
     year_on_base: true
   :file: data/r60-2017annexes_fra.yaml
-- :id:
-    _type: pubid:oiml:amendment
-    base_identifier:
-      _type: pubid:oiml:recommendation
-      parsed_format: short
-      publisher: OIML
-      number: '60'
-      year: '2019'
-    trailing: true
-  :file: data/r60-2019amendment.yaml
-- :id:
-    _type: pubid:oiml:amendment
-    language: E
-    base_identifier:
-      _type: pubid:oiml:recommendation
-      parsed_format: short
-      publisher: OIML
-      number: '60'
-      year: '2019'
-    trailing: true
-  :file: data/r60-2019amendment_eng.yaml
 - :id:
     _type: pubid:oiml:recommendation
     parsed_format: short
@@ -12080,34 +12088,40 @@
     number: '1'
   :file: data/v1_ukr.yaml
 - :id:
-    _type: pubid:oiml:vocabulary
-    parsed_format: short
-    publisher: OIML
-    number: '2'
-    part: '200'
-    suffix: erratum
-    year: '2010'
-  :file: data/v2-200-erratum_2010.yaml
+    _type: pubid:oiml:errata
+    base_identifier:
+      _type: pubid:oiml:vocabulary
+      parsed_format: short
+      publisher: OIML
+      number: '2'
+      part: '200'
+      year: '2007'
+    trailing: true
+  :file: data/v2-200-2007errata_2010.yaml
 - :id:
-    _type: pubid:oiml:vocabulary
+    _type: pubid:oiml:errata
     language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    number: '2'
-    part: '200'
-    suffix: erratum
-    year: '2010'
-  :file: data/v2-200-erratum_2010_eng.yaml
+    base_identifier:
+      _type: pubid:oiml:vocabulary
+      parsed_format: short
+      publisher: OIML
+      number: '2'
+      part: '200'
+      year: '2007'
+    trailing: true
+  :file: data/v2-200-2007errata_2010_eng.yaml
 - :id:
-    _type: pubid:oiml:vocabulary
+    _type: pubid:oiml:errata
     language: F
-    parsed_format: short_with_space
-    publisher: OIML
-    number: '2'
-    part: '200'
-    suffix: erratum
-    year: '2010'
-  :file: data/v2-200-erratum_2010_fra.yaml
+    base_identifier:
+      _type: pubid:oiml:vocabulary
+      parsed_format: short
+      publisher: OIML
+      number: '2'
+      part: '200'
+      year: '2007'
+    trailing: true
+  :file: data/v2-200-2007errata_2010_fra.yaml
 - :id:
     _type: pubid:oiml:vocabulary
     parsed_format: short
@@ -12217,10 +12231,14 @@
     year: '1991'
   :file: data/v3_1991_eng.yaml
 - :id:
-    _type: pubid:oiml:vocabulary
-    language: F
-    parsed_format: short_with_space
-    publisher: OIML
-    number: '3'
-    year: '1991'
-  :file: data/v3_1991_fra.yaml
+    _type: pubid:oiml:amendment
+    base_identifier:
+      _type: pubid:oiml:basic-publication
+      parsed_format: short
+      publisher: OIML
+      number: '10'
+      part: '1'
+      year: '2004'
+    year: '2006'
+    joined: true
+  :file: data/b10-1-2004amendment_2006.yaml

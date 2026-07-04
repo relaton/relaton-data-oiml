@@ -1,18 +1,18 @@
 ---
-id: R138-2009Amendment-fra
+id: R60-2017Amendment-2019-eng
 schema_version: v1.5.6
 type: standard
 source:
 - type: website
-  content: pdfs/r138_2007/parts_fra/R138-Amend-f09.pdf
+  content: pdfs/r60_2017/parts_eng/R060-amendment-2019-12-23.pdf
 docidentifier:
-- content: OIML R 138:2009 Amendment (F)
+- content: OIML R 60:2017+Amendment:2019 (E)
   type: OIML
   primary: true
-docnumber: '138'
+docnumber: '60'
 date:
 - type: published
-  from: '2009-01-01'
+  from: '2019-01-01'
 contributor:
 - role:
   - type: publisher
@@ -30,14 +30,14 @@ contributor:
     - content: International Organization of Legal Metrology
     subdivision:
     - name:
-      - content: Technical Committee 8
+      - content: Technical Committee 9
       identifier:
-      - content: TC8
+      - content: TC9
       type: technical-committee
     abbreviation:
       content: OIML
 language:
-- fra
+- eng
 script:
 - Latn
 status:
@@ -47,7 +47,7 @@ relation:
 - type: instanceOf
   bibitem:
     docidentifier:
-    - content: OIML R 138:2009 Amendment
+    - content: OIML R 60:2017+Amendment:2019
       type: OIML
 ext:
   doctype:
