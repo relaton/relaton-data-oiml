@@ -15,7 +15,7 @@ docidentifier:
   type: OIML
   primary: true
 - content: measurement-canadas-evaluation-of-hydrogen-blending-in-natural-gas
-  type: OIML-bulletin-article-id
+  type: OIML-bulletin-url-slug
 date:
 - type: published
   from: '2024-10-01'

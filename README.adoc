@@ -280,7 +280,7 @@ relations.
 
 |`data/bulletin_2026-02-11.yaml`
 |Article. `OIML Bulletin 2026-02-11`; carries the 8-digit oiml.org id
-(`20260211`) as a secondary `OIML-bulletin-article-id` docid.
+(`20260211`) as a secondary `OIML-bulletin-url-slug` docid.
 |===
 
 [source,bash]

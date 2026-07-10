@@ -165,7 +165,7 @@ module OimlFetcher
         "source" => [OimlFetcher::Source.url(url)],
         "docidentifier" => [
           { "content" => "#{SERIES_TITLE} #{slug}-#{seq}", "type" => "OIML", "primary" => true },
-          { "content" => id, "type" => "OIML-bulletin-article-id" },
+          { "content" => id, "type" => "OIML-bulletin-url-slug" },
         ],
         "contributor" => article_contributors(header),
         "language" => ["eng"],

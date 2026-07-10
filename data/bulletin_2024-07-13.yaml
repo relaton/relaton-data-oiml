@@ -16,7 +16,7 @@ docidentifier:
   type: OIML
   primary: true
 - content: weights-and-measures-implementation-framework-for-verified-gross-mass-vgm-guidelines
-  type: OIML-bulletin-article-id
+  type: OIML-bulletin-url-slug
 date:
 - type: published
   from: '2024-07-01'

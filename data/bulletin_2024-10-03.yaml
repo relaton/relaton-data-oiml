@@ -16,7 +16,7 @@ docidentifier:
   type: OIML
   primary: true
 - content: fluid-flow-and-volume-measurement-recommendations-applied-in-brazil
-  type: OIML-bulletin-article-id
+  type: OIML-bulletin-url-slug
 date:
 - type: published
   from: '2024-10-01'
