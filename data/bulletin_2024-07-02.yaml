@@ -16,7 +16,7 @@ docidentifier:
   type: OIML
   primary: true
 - content: ensuring-reliable-vehicle-emission-inspection-results-with-the-use-of-certified-reference-materials
-  type: OIML-bulletin-article-id
+  type: OIML-bulletin-url-slug
 date:
 - type: published
   from: '2024-07-01'

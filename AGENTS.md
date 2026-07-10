@@ -185,7 +185,7 @@ Containment is bidirectional: `hasPart` downward, `partOf` (or
 Article docid scheme: `OIML Bulletin YYYY-NN-SS` where SS is the
 sequence within the issue. The HTML-era natural key is the 8-digit
 oiml.org id (`20260211` = year 2026, issue 02, sequence 11) carried as
-a secondary `docidentifier` of type `OIML-bulletin-article-id`. Volume
+a secondary `docidentifier` of type `OIML-bulletin-url-slug`. Volume
 roman numerals (`LXVII` for 2026) come from the issue page's
 `VOLUME {roman} - NUMBER {n}` header link.
 

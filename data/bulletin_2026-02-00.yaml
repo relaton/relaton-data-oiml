@@ -19,7 +19,7 @@ docidentifier:
   type: OIML
   primary: true
 - content: '20260200'
-  type: OIML-bulletin-article-id
+  type: OIML-bulletin-url-slug
 date:
 - type: published
   from: '2026-04-01'

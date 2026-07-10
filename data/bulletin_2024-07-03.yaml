@@ -16,7 +16,7 @@ docidentifier:
   type: OIML
   primary: true
 - content: legal-framework-of-regional-and-international-legal-metrology-systems-in-the-mutual-recognition-of-measurement-results
-  type: OIML-bulletin-article-id
+  type: OIML-bulletin-url-slug
 date:
 - type: published
   from: '2024-07-01'
