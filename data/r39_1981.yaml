@@ -76,7 +76,15 @@ relation:
     docidentifier:
     - content: OIML R 39:1981 (F)
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 39:2006
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation deals with the verification of machines used to test
+    hardness using the Rockwell B, F, T, C, A, and N systems and subject to state
+    metrological control.

@@ -63,7 +63,13 @@ relation:
     docidentifier:
     - content: OIML R 60:1991
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 60:2000 (F)
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r060.1991.en

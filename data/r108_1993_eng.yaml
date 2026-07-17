@@ -72,3 +72,8 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r108.1993.en
+  quantity:
+    content: Refractive Index
+  quantity_url: https://si-digital-framework.org/quantities/REFI
+  measuring_instrument: Refractometer

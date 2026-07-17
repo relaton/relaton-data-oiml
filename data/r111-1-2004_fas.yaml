@@ -6,6 +6,10 @@ title:
 - language: fas
   content: Weights of classes E1, E2, F1, F2, M1, M1–2, M2, M2–3 and M3
   type: main
+- language: eng
+  content: Weights of classes E<sub>1</sub>, E<sub>2</sub>, F<sub>1</sub>, F<sub>2</sub>,
+    M<sub>1</sub>, M<sub>1-2</sub>, M<sub>2</sub>, M<sub>2-3</sub> and <sub>M3</sub>
+  type: main
 source:
 - type: website
   content: https://www.oiml.org/en/publications/other-language-translations/persian/r111-1-2004-weights-of-classes-e1-e2-f1-f2-m1.pdf
@@ -68,3 +72,12 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r111.2004.en
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Weight
+  scope: 'This Recommendation contains technical (e.g. principal physical characteristics)
+    and metrological requirements for weights used: as standards for the verification
+    of weighing instruments; as standards for the verification or calibration of weights
+    of a lower accuracy class; with weighing instruments.'

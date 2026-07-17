@@ -53,3 +53,14 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r145.2015.en
+  focus_area:
+  - Health
+  quantity:
+    content: Pressure
+  quantity_url: https://si-digital-framework.org/quantities/PRES
+  measuring_instrument: Tonometer
+title:
+- language: eng
+  content: Test report format
+  type: main

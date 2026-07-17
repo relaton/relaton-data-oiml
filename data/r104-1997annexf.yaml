@@ -55,3 +55,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  focus_area:
+  - Health
+  quantity:
+    content: Sound intensity level
+  quantity_url: https://si-digital-framework.org/quantities/SOIL
+  measuring_instrument: Pure-tone audiometer
+  scope: This Recommendation deals with pure-tone audiometers designed for use in
+    determining hearing threshold levels by comparison with the standard reference
+    threshold levels by means of psychoacoustic test methods.

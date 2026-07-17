@@ -68,3 +68,10 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r052.2004.en
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Weights
+  scope: This Recommendation applies to hexagonal weights made of grey cast iron with
+    the denominations specified in this recommendation.

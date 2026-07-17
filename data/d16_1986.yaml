@@ -78,3 +78,10 @@ ext:
   doctype:
     content: document
   flavor: oiml
+  focus_area:
+  - Safety
+  scope: This Recommendation specifies general, performance, efficiency and mechanical
+    and electrical safety requirements, including test methods for type approval,
+    for non-invasive mechanical sphygmomanometers and their accessories which, by
+    means of an inflatable cuff, are used for the non-invasive measurement of arterial
+    blood pressure.

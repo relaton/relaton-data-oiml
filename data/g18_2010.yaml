@@ -73,3 +73,12 @@ ext:
   doctype:
     content: guide
   flavor: oiml
+  quantity:
+    content: Temperature
+  quantity_url: https://si-digital-framework.org/quantities/ITSC
+  measuring_instrument: Pyrometer
+  scope: This Recommendation applies to visual pyrometers and micropyrometers for
+    measuring the radiance temperature of bodies in the visible and infrared parts
+    of the spectrum, using the principle of the disappearing filament. Temperatures
+    in the infrared part of the spectrum are measured using pyrometers having an eyepiece
+    incorporating an image converter.

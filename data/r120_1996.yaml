@@ -71,6 +71,11 @@ relation:
     docidentifier:
     - content: OIML R 120:1996 (F)
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 120:2010
+      type: OIML
 ext:
   doctype:
     content: recommendation

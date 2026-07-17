@@ -7,6 +7,9 @@ title:
   content: Continuous totalizing automatic weighing instruments (belt weighers) -
     Part 3 Test report format
   type: main
+- language: eng
+  content: Test report format
+  type: main
 source:
 - type: website
   content: https://www.oiml.org/en/publications/other-language-translations/persian/r050-3-2014-continuous-totalizing-automatic.pdf
@@ -69,3 +72,14 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r050.2014.en
+  focus_area:
+  - Trade
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Continuous totalizer
+  scope: This International Recommendation specifies the metrological and technical
+    requirements for continuous totalizing automatic weighing instruments of the belt
+    conveyor type, hereinafter referred to as "belt weighers", that are subject to
+    national metrological control.

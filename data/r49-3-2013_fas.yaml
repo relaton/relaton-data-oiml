@@ -7,6 +7,9 @@ title:
   content: Water meters for cold potable water and hot water - Part 3 Test report
     format
   type: main
+- language: eng
+  content: Test report format
+  type: main
 source:
 - type: website
   content: https://www.oiml.org/en/publications/other-language-translations/persian/r049-3-2013-water-meters-for-cold-potable-water.pdf
@@ -65,7 +68,23 @@ relation:
     docidentifier:
     - content: OIML R 49-3:2013 (E)
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 49-3:2024 (PE)
+      type: OIML
 ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r049.2013.en
+  focus_area:
+  - Trade
+  quantity:
+    content: Volume
+  quantity_url: https://si-digital-framework.org/quantities/VOLU
+  measuring_instrument: Water meter
+  scope: This document specifies the metrological and technical requirements for water
+    meters for cold potable water and hot water flowing through a fully charged, closed
+    conduit. These water meters incorporate devices which indicate the accumulated
+    volume.

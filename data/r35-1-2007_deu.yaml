@@ -7,6 +7,9 @@ title:
   content: 'Material measures of length for general use. Part 1: Metrological and
     technical requirements'
   type: main
+- language: eng
+  content: Metrological and technical requirements
+  type: main
 source:
 - type: website
   content: https://www.oiml.org/en/publications/other-language-translations/german/r035-1-de-07.pdf
@@ -64,3 +67,10 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r035.2007.en
+  focus_area:
+  - Trade
+  quantity:
+    content: Length
+  quantity_url: https://si-digital-framework.org/quantities/LENG
+  measuring_instrument: Material measure of length

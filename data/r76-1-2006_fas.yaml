@@ -7,6 +7,9 @@ title:
   content: Non-automatic weighing instruments - Part 1 Metrological and technical
     requirements - Tests
   type: main
+- language: eng
+  content: Metrological and technical requirements - Tests
+  type: main
 source:
 - type: website
   content: https://www.oiml.org/en/publications/other-language-translations/persian/r076-1-2006-non-automatic-weighing-instruments.pdf
@@ -69,3 +72,13 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r076.2006.en
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Non-automatic weighing instrument
+  scope: This Recommendation specifies the metrological and technical requirements
+    for non-automatic weighing instruments that are subject to official metrological
+    control. It is intended to provide standardized requirements and testing procedures
+    to evaluate the metrological and technical characteristics in a uniform and traceable
+    way.

@@ -73,3 +73,7 @@ ext:
   doctype:
     content: guide
   flavor: oiml
+  measuring_instrument: Saccharimeter/polarimetric
+  scope: This Recommendation applies to polarimetric saccharimeters that are graduated
+    in sugar degrees (°Z) in accordance with the ICUMSA International Sugar Scale
+    and that belong to the visual or photo-electric type.

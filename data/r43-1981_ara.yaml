@@ -63,3 +63,9 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  focus_area:
+  - Trade
+  quantity:
+    content: Volume
+  quantity_url: https://si-digital-framework.org/quantities/VOLU
+  measuring_instrument: Graduated glass flasks

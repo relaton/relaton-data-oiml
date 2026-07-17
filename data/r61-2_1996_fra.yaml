@@ -7,6 +7,9 @@ title:
   content: 'Doseuses pondérales à fonctionnement automatique. Partie 2: Format du
     rapport d''essai'
   type: main
+- language: eng
+  content: Test report format
+  type: main
 source:
 - type: website
   content: https://www.oiml.org/fr/files/pdf_r/r061-2-f96.pdf
@@ -69,7 +72,19 @@ relation:
     docidentifier:
     - content: OIML R 61-2:1996
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 61-2:2004 (F)
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r061.1996.en
+  focus_area:
+  - Trade
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Automatic gravimetric filling instrument

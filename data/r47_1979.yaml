@@ -78,3 +78,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: High accuracy mass weights
+  scope: 'This Recommendation applies to standard weights having a nominal value equal
+    to or greater than 50 kg, used for testing (and adjusting, where appropriate)
+    of high capacity weighing machines in  accuracy classes III (medium) and IIII
+    (ordinary), which are defined in International Recommendation n° 3: "Metrological
+    regulations for non-automatic weighing machines".'

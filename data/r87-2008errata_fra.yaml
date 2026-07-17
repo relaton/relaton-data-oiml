@@ -38,3 +38,5 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  focus_area:
+  - Trade

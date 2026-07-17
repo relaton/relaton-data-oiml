@@ -56,7 +56,23 @@ relation:
     docidentifier:
     - content: OIML R 139:2014
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 139-2:2018
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r139.2014.en
+  focus_area:
+  - Trade
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Compressed gaseous fuel measurement system
+  scope: The measuring systems that are covered by this Recommendation are intended
+    for the fueling of road vehicles, rail engines, boats, vessels, and aircrafts
+    with compressed natural gas (CNG), compressed gaseous hydrogen, biogas, gas blends
+    or other compressed gaseous fuels.

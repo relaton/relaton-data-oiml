@@ -43,3 +43,9 @@ ext:
   focus_area: Health
   sustainability_framework: People
   doi: 10.63493/r026.1978.en
+relation:
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 26:1978
+      type: OIML

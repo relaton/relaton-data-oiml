@@ -79,3 +79,5 @@ ext:
   doctype:
     content: basic-publication
   flavor: oiml
+  scope: Intended for the calibration of Vickers system testing machines for the hardness
+    of materials.

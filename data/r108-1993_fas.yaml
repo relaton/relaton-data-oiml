@@ -68,3 +68,11 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r108.1993.en
+  quantity:
+    content: Refractive Index
+  quantity_url: https://si-digital-framework.org/quantities/REFI
+  measuring_instrument: Refractometer
+  scope: This Recommendation applies to refractometers used to determine the mass
+    fraction of sugars (sucrose, invert-sugar, glucose, fructose) in fruit juices
+    by measuring their refractive indices.

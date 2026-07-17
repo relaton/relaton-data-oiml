@@ -63,7 +63,15 @@ relation:
     docidentifier:
     - content: OIML R 87:2004
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 87:2016 (E)
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r087.2004.en
+  focus_area:
+  - Trade

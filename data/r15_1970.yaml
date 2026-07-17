@@ -45,3 +45,9 @@ ext:
   focus_area: Trade
   sustainability_framework: Planet
   doi: 10.63493/r015.1974.en
+relation:
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 15:1974
+      type: OIML

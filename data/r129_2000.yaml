@@ -75,6 +75,11 @@ relation:
     docidentifier:
     - content: OIML R 129:2000 (F)
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 129:2020
+      type: OIML
 ext:
   doctype:
     content: recommendation

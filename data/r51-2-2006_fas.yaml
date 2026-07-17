@@ -6,6 +6,9 @@ title:
 - language: fas
   content: Automatic catchweighing instruments - Part 2 Test report format
   type: main
+- language: eng
+  content: Test report format
+  type: main
 source:
 - type: website
   content: https://www.oiml.org/en/publications/other-language-translations/persian/r051-2-2006-automatic-catchweighing-instruments.pdf
@@ -68,3 +71,13 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r051.2006.en
+  focus_area:
+  - Trade
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Automatic catchweigher
+  scope: This International Recommendation specifies the metrological and technical
+    requirements and test procedures for automatic catchweighing instruments (catchweighers),
+    hereinafter called "instruments", that are subject to national metrological control.

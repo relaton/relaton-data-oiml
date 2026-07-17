@@ -38,3 +38,9 @@ ext:
     result of weighing in air" and to fix the values of the physical constants which
     play a part in this definition.
   doi: 10.63493/r033.1979.en
+relation:
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 33:1979
+      type: OIML

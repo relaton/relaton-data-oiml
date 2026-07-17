@@ -60,3 +60,13 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r146.2016.en
+  focus_area:
+  - Health
+  - Trade
+  measuring_instrument: Protein measuring instrument
+  scope: This Recommendation includes metrological and technical requirements and
+    test methods for the metrological control of digital, self-indicating measuring
+    instruments used to determine the protein content of grain and oilseeds for commercial
+    transactions. It specifies accuracy requirements including maximum permissible
+    errors (MPEs) for verification and other error limits for type evaluation tests.

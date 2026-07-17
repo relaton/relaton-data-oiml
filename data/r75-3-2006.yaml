@@ -40,3 +40,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  quantity:
+    content: Heat
+  quantity_url: https://si-digital-framework.org/quantities/HEQT
+  measuring_instrument: Heat meter
+  scope: This Recommendation applies to heat meters, that is to instruments intended
+    for measuring the heat which, in a heat-exchange circuit, is given up by a liquid
+    called the heat-conveying liquid.

@@ -7,6 +7,9 @@ title:
   content: Instruments à fonctionnement automatique pour le pesage des véhicules routiers
     en mouvement. Pesage total du véhicule
   type: main
+- language: eng
+  content: Metrological and technical requirements – Tests
+  type: main
 source:
 - type: website
   content: https://www.oiml.org/fr/files/pdf_r/r134-1-f03.pdf
@@ -69,7 +72,20 @@ relation:
     docidentifier:
     - content: OIML R 134-1:2003
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 134-1:2006 (F)
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r134.2003.en
+  focus_area:
+  - Health
+  - Trade
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Scale

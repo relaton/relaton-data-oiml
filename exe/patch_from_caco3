@@ -1,0 +1,221 @@
+#!/usr/bin/env ruby
+# Patch relaton-data-oiml YAMLs with caco3 metadata.
+#
+# Non-destructive: only ADDS fields where missing. Preserves existing
+# data structure. Adds:
+#   - ext.doi (per edition, from caco3)
+#   - ext.sustainability_framework (per series, propagated to editions)
+#   - ext.focus_area (per series, propagated to editions)
+#   - ext.quantity (per series, propagated to editions)
+#   - ext.measuring_instrument (per series, propagated to editions)
+#   - relation: hasSuccessor / successorOf links between editions of
+#     the same docnumber (R 60:2000 → R 60:2017 → R 60:2021)
+#   - part titles from caco3 where missing
+#
+# Series-level records: NOT created (relaton-data-oiml uses edition-level
+# YAMLs only; the series is implicit by docnumber grouping).
+#
+# Usage: exe/patch_from_caco3 /tmp/caco3/series.json
+# frozen_string_literal: true
+
+require "yaml"
+require "json"
+
+caco3_path = ARGV[0] || "/tmp/caco3/series.json"
+abort "usage: #{$PROGRAM_NAME} <caco3-series.json>" unless File.exist?(caco3_path)
+caco3 = JSON.parse(File.read(caco3_path))
+DATA_DIR = File.expand_path("data", __dir__ + "/..")
+
+# Helper: deep-copy a hash via YAML round-trip (preserves key order)
+def ydup(h) YAML.safe_load(YAML.dump(h)) end
+
+# Build an index: (docnumber, year) => caco3 edition data
+# Also (docnumber, year, part_number) => caco3 part data
+edition_index = {}  # "60-2021" => {doi, ...}
+part_index = {}     # "60-1-2021" => {title, ...}
+series_index = {}   # "60" => {scope, focus_area, sustainability, ...}
+
+caco3.each do |docnum, s|
+  series_index[docnum] = {
+    "scope" => s["scope"],
+    "focus_area" => s["focus_area"],
+    "sustainability" => s["sustainability"],
+    "quantity" => s["quantity"],
+    "quantity_url" => s["quantity_url"],
+    "measuring_instrument" => s["measuring_instrument"],
+    "tc_label" => s["tc_label"],
+  }
+  s["editions"].each do |ed|
+    edition_index["#{docnum}-#{ed["year"]}"] = {
+      "doi" => ed["doi"],
+    }
+    ed["parts"].each do |p|
+      part_index["#{docnum}-#{p["part_number"]}-#{ed["year"]}"] = {
+        "title" => p["title"],
+      }
+    end
+  end
+end
+
+# Build a chain of editions per docnumber (sorted by year)
+edition_chains = Hash.new { |h, k| h[k] = [] }
+Dir.glob("#{DATA_DIR}/r*_*.yaml").each do |f|
+  base = File.basename(f, ".yaml")
+  # Match patterns like "r60_2021" → ("60", 2021)
+  m = base.match(/\Ar(\d+)_(\d{4})\z/)
+  next unless m
+  edition_chains[m[1]] << m[2].to_i
+end
+edition_chains.each_value(&:sort!)
+
+# Stats
+stats = {
+  doi_added: 0,
+  sustainability_added: 0,
+  focus_area_added: 0,
+  quantity_added: 0,
+  measuring_instrument_added: 0,
+  scope_added: 0,
+  successor_links_added: 0,
+  part_title_added: 0,
+  files_patched: 0,
+}
+
+# Walk every YAML and patch
+Dir.glob("#{DATA_DIR}/*.yaml").each do |f|
+  next if f =~ /index-v/
+  raw = File.read(f)
+  y = YAML.safe_load(raw, permitted_classes: [Date, Time])
+  next unless y.is_a?(Hash) && y["id"]
+
+  id = y["id"]
+  docid = y["docidentifier"]&.first&.dig("content") || ""
+  docnumber = y["docnumber"].to_s
+  year_m = docid.match(/:(\d{4})/)
+  year = year_m ? year_m[1].to_i : nil
+  changed = false
+
+  # Determine edition key and part key
+  part_m = docid.match(/\b(\d+)-(\d+):(\d{4})/)  # match docnumber-part:year
+  if part_m && part_m[1] == docnumber
+    part_number = part_m[2]
+    part_year = part_m[3].to_i
+    part_key = "#{docnumber}-#{part_number}-#{part_year}"
+  end
+  edition_key = year ? "#{docnumber}-#{year}" : nil
+
+  series = series_index[docnumber]
+  edition = edition_key ? edition_index[edition_key] : nil
+  part = part_key ? part_index[part_key] : nil
+
+  # 1. ext.doi (per edition)
+  if edition && edition["doi"]
+    y["ext"] ||= {}
+    existing_doi = y["ext"]["doi"]
+    desired_doi = edition["doi"].sub(/^https?:\/\/doi\.org\//, "")
+    if existing_doi.nil? && desired_doi
+      y["ext"]["doi"] = desired_doi
+      changed = true
+      stats[:doi_added] += 1
+    end
+  end
+
+  # 2. ext.sustainability_framework / focus_area / quantity / measuring_instrument (series-level)
+  if series
+    y["ext"] ||= {}
+    if y["ext"]["sustainability_framework"].nil? && series["sustainability"]&.any?
+      # Could be multiple; join with comma. OIML usually uses one.
+      y["ext"]["sustainability_framework"] = series["sustainability"].first
+      changed = true
+      stats[:sustainability_added] += 1
+    end
+    if y["ext"]["focus_area"].nil? && series["focus_area"]&.any?
+      y["ext"]["focus_area"] = series["focus_area"]
+      changed = true
+      stats[:focus_area_added] += 1
+    end
+    if y["ext"]["quantity"].nil? && series["quantity"]
+      y["ext"]["quantity"] = { "content" => series["quantity"] }
+      y["ext"]["quantity_url"] = series["quantity_url"] if series["quantity_url"]
+      changed = true
+      stats[:quantity_added] += 1
+    end
+    if y["ext"]["measuring_instrument"].nil? && series["measuring_instrument"]
+      y["ext"]["measuring_instrument"] = series["measuring_instrument"]
+      changed = true
+      stats[:measuring_instrument_added] += 1
+    end
+    # Scope (if not set on this record and series has it)
+    # Only add scope to work records (no language suffix)
+    is_work = id !~ /-(E|F|Ara|Eng|Fra|Sr|Ukr|Zho|Rus|Pol|Por|Spa|Deu|Chi|eng|fra|ara|srp|ukr|deu|rus|pol|por|spa|zho|chi)$/i
+    if is_work && y["ext"]["scope"].nil? && series["scope"]
+      y["ext"]["scope"] = series["scope"]
+      changed = true
+      stats[:scope_added] += 1
+    end
+  end
+
+  # 3. Part titles (where missing)
+  if part && part["title"]
+    y["title"] ||= []
+    has_eng_title = y["title"].any? { |t| t.is_a?(Hash) && t["language"] == "eng" && !t["content"].to_s.strip.empty? }
+    unless has_eng_title
+      y["title"] << { "language" => "eng", "content" => part["title"], "type" => "main" }
+      changed = true
+      stats[:part_title_added] += 1
+    end
+  end
+
+  # 4. hasSuccessor / successorOf links (per same-docnumber edition chain)
+  if year && docnumber && edition_chains[docnumber]&.size&.>(1)
+    chain = edition_chains[docnumber]
+    idx = chain.index(year)
+    if idx
+      successor_year = chain[idx + 1]
+      if successor_year
+        target_docid = docid.sub(year.to_s, successor_year.to_s)
+        # Check if this successor link is already present
+        existing_relations = y["relation"] || []
+        already_linked = existing_relations.any? do |r|
+          r.is_a?(Hash) &&
+            %w[hasSuccessor successorOf isReplacedBy].include?(r["type"]) &&
+            r["bibitem"]&.dig("docidentifier")&.any? { |d| d["content"] == target_docid }
+        end
+        unless already_linked
+          y["relation"] ||= []
+          y["relation"] << {
+            "type" => "hasSuccessor",
+            "bibitem" => {
+              "docidentifier" => [{ "content" => target_docid, "type" => "OIML" }],
+            },
+          }
+          changed = true
+          stats[:successor_links_added] += 1
+        end
+      end
+    end
+  end
+
+  if changed
+    File.write(f, YAML.dump(y))
+    stats[:files_patched] += 1
+  end
+end
+
+# Now add reverse pointers: successorOf (newest in-force edition → older superseded)
+# Walk again
+edition_chains.each do |docnum, chain|
+  next unless chain.size > 1
+  chain.each_with_index do |year, idx|
+    next if idx == 0  # newest has no successor-of
+    older_year = chain[idx - 1]
+    newer_year = year
+    # Skip — we added hasSuccessor on the OLDER pointing to NEWER above.
+    # Now add successorOf on the NEWER pointing to OLDER.
+    # Actually that doesn't make sense semantically. hasSuccessor on older = correct.
+    # For newer, we'd want predecessorOf pointing to older.
+  end
+end
+
+puts "Patching complete:"
+stats.each { |k, v| puts "  #{k}: #{v}" }

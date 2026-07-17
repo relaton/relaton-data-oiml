@@ -34,7 +34,21 @@ relation:
     docidentifier:
     - content: OIML R 76-1:1992
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 76-1:2006 (F)
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r076.1992.en
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Non-automatic weighing instrument
+title:
+- language: eng
+  content: Metrological and technical requirements - Tests
+  type: main

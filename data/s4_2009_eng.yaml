@@ -52,3 +52,9 @@ ext:
   doctype:
     content: seminar-report
   flavor: oiml
+  focus_area:
+  - Health
+  quantity:
+    content: Temperature
+  quantity_url: https://si-digital-framework.org/quantities/ITSC
+  measuring_instrument: Thermometer/mercury-in-glass

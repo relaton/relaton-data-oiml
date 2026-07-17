@@ -64,7 +64,16 @@ relation:
     docidentifier:
     - content: OIML R 46:1976
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 46:2012 (F)
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  quantity:
+    content: Energy
+  quantity_url: https://si-digital-framework.org/quantities/ENGY
+  measuring_instrument: Electrical energy meter

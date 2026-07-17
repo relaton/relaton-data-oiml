@@ -36,6 +36,11 @@ relation:
     docidentifier:
     - content: OIML R 49-1:2000
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 49:2003
+      type: OIML
 ext:
   doctype:
     content: recommendation

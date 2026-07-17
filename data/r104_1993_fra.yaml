@@ -67,3 +67,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r104.1993.en
+  focus_area:
+  - Health
+  quantity:
+    content: Sound intensity level
+  quantity_url: https://si-digital-framework.org/quantities/SOIL
+  measuring_instrument: Pure-tone audiometer

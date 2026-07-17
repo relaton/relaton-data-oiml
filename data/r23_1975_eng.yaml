@@ -67,3 +67,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  focus_area:
+  - Safety
+  quantity:
+    content: Pressure
+  quantity_url: https://si-digital-framework.org/quantities/PRES
+  measuring_instrument: Pressure gauge

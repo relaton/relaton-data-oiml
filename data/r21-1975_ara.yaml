@@ -64,7 +64,18 @@ relation:
     docidentifier:
     - content: OIML R 21:1975 (E)
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 21:2007 (A)
+      type: OIML
 ext:
   doctype:
     content: translation
   flavor: oiml
+  focus_area:
+  - Trade
+  quantity:
+    content: Length
+  quantity_url: https://si-digital-framework.org/quantities/LENG
+  measuring_instrument: Taximeter

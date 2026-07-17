@@ -78,3 +78,13 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  focus_area:
+  - Health
+  quantity:
+    content: Volume
+  quantity_url: https://si-digital-framework.org/quantities/VOLU
+  measuring_instrument: Medical syringe
+  scope: This Recommendation applies to medical syringes with glass barrels, intended
+    for general use. The Recommendation does not concern syringes for insulin, syringes
+    for tuberculin or syringes with barrels of a substance other than glass, e.g.
+    of plastic.

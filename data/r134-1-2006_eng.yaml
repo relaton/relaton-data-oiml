@@ -58,3 +58,15 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r134.2006.en
+  focus_area:
+  - Health
+  - Trade
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Scale
+title:
+- language: eng
+  content: Metrological and technical requirements – Tests
+  type: main

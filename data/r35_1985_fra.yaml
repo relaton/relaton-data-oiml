@@ -63,7 +63,19 @@ relation:
     docidentifier:
     - content: OIML R 35:1985
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 35:2007 (F)
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r035.1985.en
+  focus_area:
+  - Trade
+  quantity:
+    content: Length
+  quantity_url: https://si-digital-framework.org/quantities/LENG
+  measuring_instrument: Material measure of length

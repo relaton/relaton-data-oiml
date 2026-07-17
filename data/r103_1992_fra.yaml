@@ -67,3 +67,7 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r103.1992.en
+  focus_area:
+  - Health
+  - Safety

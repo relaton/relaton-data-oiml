@@ -72,3 +72,7 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r059.2016.en
+  focus_area:
+  - Trade
+  measuring_instrument: Sound level meter

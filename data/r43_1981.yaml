@@ -73,3 +73,15 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  focus_area:
+  - Trade
+  quantity:
+    content: Volume
+  quantity_url: https://si-digital-framework.org/quantities/VOLU
+  measuring_instrument: Graduated glass flasks
+  scope: This Recommendation deals with standard graduated flasks made of glass, used
+    by verification officers to check volumetric or capacity measures, for which the
+    maximum permissible error is at least three times that for the standard graduated
+    flask. This Recommendation applies to new standard graduated flasks, intended
+    for the replacement of flasks actually in use, or when new flasks are to be acquired
+    as supplementary standards.

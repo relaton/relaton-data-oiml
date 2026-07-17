@@ -72,3 +72,7 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r066.1985.en
+  quantity:
+    content: Length
+  quantity_url: https://si-digital-framework.org/quantities/LENG

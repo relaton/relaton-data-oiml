@@ -45,3 +45,9 @@ ext:
   focus_area: Trade
   sustainability_framework: Prosperity
   doi: 10.63493/r043.1981.en
+relation:
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 43:1981
+      type: OIML

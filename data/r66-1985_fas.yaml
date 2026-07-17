@@ -68,3 +68,11 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r066.1985.en
+  quantity:
+    content: Length
+  quantity_url: https://si-digital-framework.org/quantities/LENG
+  scope: This Recommendation applies to length measuring instruments (hereinafter
+    called "instruments") that is to say instruments (other than length measures)
+    which determine the length of a line, wire, cable, tape, piece of cloth, strip,
+    sheet or any other developable piece.

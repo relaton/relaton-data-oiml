@@ -63,3 +63,12 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r058.1998.en
+  quantity:
+    content: Sound intensity level
+  quantity_url: https://si-digital-framework.org/quantities/SOIL
+  measuring_instrument: Sound level meter
+  scope: This Recommendation deals with sound level meters, i.e. instruments for the
+    measurement of frequency and time weighted sound pressure levels. It contains
+    an appropriate test scheme for pattern evaluation and verification and a test
+    report format for pattern evaluation.

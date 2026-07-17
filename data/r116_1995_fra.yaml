@@ -69,7 +69,21 @@ relation:
     docidentifier:
     - content: OIML R 116:1995
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 116:2006 (F)
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r116.1995.en
+  focus_area:
+  - Environment
+  - Health
+  - Safety
+  quantity:
+    content: Amount of substance concentration
+  quantity_url: https://si-digital-framework.org/quantities/AMSC
+  measuring_instrument: Inductively coupled plasma atomic emission spectrometer

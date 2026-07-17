@@ -67,3 +67,8 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r046.2012.en
+  quantity:
+    content: Energy
+  quantity_url: https://si-digital-framework.org/quantities/ENGY
+  measuring_instrument: Electrical energy meter

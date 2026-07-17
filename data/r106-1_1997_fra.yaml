@@ -7,6 +7,9 @@ title:
   content: 'Ponts-bascules ferroviaires à fonctionnement automatique. Partie 1: Exigences
     métrologiques et techniques - Essais'
   type: main
+- language: eng
+  content: Metrological and technical requirements - Tests
+  type: main
 source:
 - type: website
   content: https://www.oiml.org/fr/files/pdf_r/r106-1-f97.pdf
@@ -69,7 +72,19 @@ relation:
     docidentifier:
     - content: OIML R 106-1:1997
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 106-1:2011 (F)
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r106.1997.en
+  focus_area:
+  - Trade
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Automatic rail-weighbridge

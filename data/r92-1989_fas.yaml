@@ -68,3 +68,11 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r092.1989.en
+  focus_area:
+  - Trade
+  measuring_instrument: Wood-moisture meter
+  scope: This Recommendation is concerned with wood-moisture meters and specifies
+    the methods, the equipment and the conditions for their initial and periodic verifications.
+    The Recommendation covers all moisture meters, irrespective of their principles
+    of operation.

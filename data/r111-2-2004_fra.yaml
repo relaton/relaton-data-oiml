@@ -58,3 +58,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r111.2004.en
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Weight
+title:
+- language: eng
+  content: Test report format
+  type: main

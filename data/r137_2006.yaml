@@ -44,3 +44,9 @@ ext:
   doi: 10.63493/r137.2006.en
   high_priority: true
   high_priority_source: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260111
+relation:
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 137:2012
+      type: OIML

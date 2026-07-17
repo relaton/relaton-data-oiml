@@ -38,3 +38,8 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r060.2021.en
+title:
+- language: eng
+  content: Metrological controls and performance tests
+  type: main

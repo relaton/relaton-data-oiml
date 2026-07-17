@@ -73,3 +73,6 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation applies to metal stamps used by verification officers,
+    for applying on measuring instruments, and where appropriate on auxiliary devices
+    a mark for the a variety of metrological purposes.

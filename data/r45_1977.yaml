@@ -41,3 +41,9 @@ ext:
     To simplify the text, casks and barrels are referred to hereafter by the name
     "casks" only.
   doi: 10.63493/r045.1980.en
+relation:
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 45:1980
+      type: OIML

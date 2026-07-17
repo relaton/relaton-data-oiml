@@ -6,6 +6,9 @@ title:
 - language: fas
   content: Heat meters - Part 1 General requirements
   type: main
+- language: eng
+  content: General requirements
+  type: main
 source:
 - type: website
   content: https://www.oiml.org/en/publications/other-language-translations/persian/r075-1-2002-heat-meters-part-1-general.pdf
@@ -63,3 +66,11 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r075.2002.en
+  quantity:
+    content: Heat
+  quantity_url: https://si-digital-framework.org/quantities/HEQT
+  measuring_instrument: Heat meter
+  scope: This Recommendation applies to heat meters, that is to instruments intended
+    for measuring the heat which, in a heat-exchange circuit, is given up by a liquid
+    called the heat-conveying liquid.

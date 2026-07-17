@@ -68,3 +68,11 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  focus_area:
+  - Health
+  quantity:
+    content: Length
+  quantity_url: https://si-digital-framework.org/quantities/LENG
+  scope: 'This Recommendation applies to the "metre standard" used by Verification
+    Officers for verifying: line, or end length, rigid measures, for which the maximum
+    permissible error exceeds 300 micrometres per metre (i.e. 0.03 % in relative value).'

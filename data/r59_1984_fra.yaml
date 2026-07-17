@@ -68,7 +68,16 @@ relation:
     docidentifier:
     - content: OIML R 59:1984
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 59:2016 (F)
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r059.1984.en
+  focus_area:
+  - Trade
+  measuring_instrument: Sound level meter

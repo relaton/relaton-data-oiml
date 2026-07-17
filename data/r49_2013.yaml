@@ -89,6 +89,11 @@ relation:
     docidentifier:
     - content: OIML R 49-3:2013
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 49:2024
+      type: OIML
 ext:
   doctype:
     content: recommendation

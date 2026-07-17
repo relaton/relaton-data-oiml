@@ -69,3 +69,10 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r053.1982.en
+  quantity:
+    content: Pressure
+  quantity_url: https://si-digital-framework.org/quantities/PRES
+  scope: This Recommendation concerns the main metrological characteristics of elastic
+    sensing elements (diaphragms, capsules, bellows, tubes, etc.) and their determination
+    methods.

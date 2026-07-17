@@ -73,3 +73,8 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r084.2003.en
+  quantity:
+    content: Temperature
+  quantity_url: https://si-digital-framework.org/quantities/ITSC
+  measuring_instrument: Resistance thermometer

@@ -69,7 +69,17 @@ relation:
     docidentifier:
     - content: OIML R 100:1991
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 100:2013 (F)
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r100.1991.en
+  focus_area:
+  - Environment
+  - Health
+  measuring_instrument: Atomic absorption spectrometer

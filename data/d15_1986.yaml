@@ -60,3 +60,15 @@ ext:
   doctype:
     content: document
   flavor: oiml
+  focus_area:
+  - Trade
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Large volume scale
+  scope: 'This Recommendation defines: 1) The property of cereals known as the "Hectolitre
+    Mass"; 2) the measuring instrument used for determining this property and adopted
+    as the standard instrument by the Member-States of the International Organization
+    of Legal Metrology; 3) The industrial and commercial instruments of the type accepted
+    by the International Organization of Legal Metrology and meant for day-to-day
+    measurement of this mass.'

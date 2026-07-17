@@ -72,3 +72,6 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r016.2002.en
+  focus_area:
+  - Safety

@@ -38,3 +38,13 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r111.2004.en
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Weight
+title:
+- language: eng
+  content: Weights of classes E<sub>1</sub>, E<sub>2</sub>, F<sub>1</sub>, F<sub>2</sub>,
+    M<sub>1</sub>, M<sub>1-2</sub>, M<sub>2</sub>, M<sub>2-3</sub> and <sub>M3</sub>
+  type: main

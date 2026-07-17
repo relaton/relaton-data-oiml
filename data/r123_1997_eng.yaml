@@ -73,3 +73,8 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r123.1997.en
+  quantity:
+    content: Amount of substance concentration
+  quantity_url: https://si-digital-framework.org/quantities/AMSC
+  measuring_instrument: X-ray fluorescence spectrometer

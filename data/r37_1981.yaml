@@ -78,3 +78,5 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation deals with the verification of machines used to test
+    hardness using the Brinell system and subject to state metrological controls.

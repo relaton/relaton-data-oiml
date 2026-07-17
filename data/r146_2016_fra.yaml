@@ -72,3 +72,8 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r146.2016.en
+  focus_area:
+  - Health
+  - Trade
+  measuring_instrument: Protein measuring instrument

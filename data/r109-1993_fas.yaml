@@ -69,3 +69,15 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r109.1993.en
+  quantity:
+    content: Pressure
+  quantity_url: https://si-digital-framework.org/quantities/PRES
+  measuring_instrument: Pressure gauge
+  scope: This Recommendation applies to pressure gauges and vacuum gauges (standard
+    instruments) with elastic sensing elements. The application of this Recommendation
+    is limited to instruments in which the elastic deformation of the sensing element
+    is mechanically transmitted to the indicating device using a pointer and a dial
+    graduated in legal units of pressure, and in which the upper limit of the measuring
+    range is between 0.06 MPa and 250 MPa for pressure gauges, and between- 0.1 MPa
+    and zero for vacuum gauges.

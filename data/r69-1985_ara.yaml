@@ -69,3 +69,8 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r069.1985.en
+  quantity:
+    content: Kinematic Viscosity
+  quantity_url: https://si-digital-framework.org/quantities/KIVI
+  measuring_instrument: Viscometer

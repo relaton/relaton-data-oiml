@@ -78,3 +78,12 @@ ext:
   doctype:
     content: basic-publication
   flavor: oiml
+  focus_area:
+  - Safety
+  quantity:
+    content: Volume
+  quantity_url: https://si-digital-framework.org/quantities/VOLU
+  measuring_instrument: Gas volume meter
+  scope: This Recommendation prescribes the general requirements which all gas volume
+    meters to which it applies shall meet. Additional requirements are prescribed
+    in the OIML Recommendations particular to the type of gas volume meter concerned.

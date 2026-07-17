@@ -68,7 +68,16 @@ relation:
     docidentifier:
     - content: OIML R 65:2000
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 65:2006 (F)
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r065.2000.en
+  quantity:
+    content: Force
+  quantity_url: https://si-digital-framework.org/quantities/FORC

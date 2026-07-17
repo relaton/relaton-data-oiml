@@ -68,3 +68,11 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r110.1994.en
+  quantity:
+    content: Pressure
+  quantity_url: https://si-digital-framework.org/quantities/PRES
+  measuring_instrument: Pressure balance
+  scope: This Recommendation applies to pressure balances equipped with either a simpletype
+    or a re-entrant type piston-cylinder assembly, with direct loading, and which
+    are used for measuring gauge pressure in the range from 0.1 MPa to 500 MPa.

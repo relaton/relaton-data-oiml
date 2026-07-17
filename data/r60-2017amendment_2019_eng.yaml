@@ -49,7 +49,13 @@ relation:
     docidentifier:
     - content: OIML R 60:2017+Amendment:2019
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 60:2021+Amendment:2019 (E)
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r060.2017.en

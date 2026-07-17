@@ -94,6 +94,11 @@ relation:
     docidentifier:
     - content: OIML R 60-4:2017
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 60:2021
+      type: OIML
 ext:
   doctype:
     content: recommendation

@@ -55,3 +55,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  focus_area:
+  - Trade
+  quantity:
+    content: Length
+  quantity_url: https://si-digital-framework.org/quantities/LENG
+  measuring_instrument: Material measure of length
+  scope: This Recommendation applies to material measures of lenght for general use,
+    hereinafter called "measures". Further, this Recommendation specifies the technical,
+    meterological and administrative conditions which are mandatory for these measures.

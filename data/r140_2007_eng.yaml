@@ -72,3 +72,7 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r140.2007.en
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS

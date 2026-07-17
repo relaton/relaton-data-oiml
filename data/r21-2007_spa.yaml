@@ -69,3 +69,10 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r021.2007.en
+  focus_area:
+  - Trade
+  quantity:
+    content: Length
+  quantity_url: https://si-digital-framework.org/quantities/LENG
+  measuring_instrument: Taximeter

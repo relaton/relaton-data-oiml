@@ -68,3 +68,11 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r065.2006.en
+  quantity:
+    content: Force
+  quantity_url: https://si-digital-framework.org/quantities/FORC
+  scope: This Recommendation gives the metrological and technical performance requirements
+    and the inspection and testing procedures necessary for the metrological control
+    of the force measuring system of uniaxial material testing machines subject to
+    national laws and regulations.

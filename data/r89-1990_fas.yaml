@@ -69,3 +69,12 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r089.1990.en
+  focus_area:
+  - Health
+  measuring_instrument: Electroencephalograph
+  scope: This Recommendation concerns analogue electroencephalographs, which are defined
+    as diagnostic medical instruments having at least eight channels. Such instruments
+    are intended to accurately measure and record bioelectrical potentials and their
+    time sequences as detected by electrodes attached to the surface of the human
+    scalp.

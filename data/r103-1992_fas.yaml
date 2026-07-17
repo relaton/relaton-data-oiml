@@ -63,3 +63,11 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r103.1992.en
+  focus_area:
+  - Health
+  - Safety
+  scope: This Recommendation deals with instruments (hereafter referred to as vibration-measuring
+    instruments) designed for the measurement of time- and frequency-weighted accelerations
+    of sinusoidal and stochastic vibrations, for assessing vibrations as perceived
+    by human beings.

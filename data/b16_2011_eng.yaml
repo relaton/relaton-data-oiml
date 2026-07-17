@@ -67,3 +67,5 @@ ext:
   doctype:
     content: basic-publication
   flavor: oiml
+  focus_area:
+  - Safety

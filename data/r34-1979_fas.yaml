@@ -63,3 +63,7 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  scope: 'This Recommendation lays down the principles for the classification of measuring
+    instruments according to their accuracy. The measuring instruments to which this
+    Recommendation applies are: material measures, measuring instruments, and measuring
+    transducers.'

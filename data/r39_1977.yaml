@@ -38,3 +38,9 @@ ext:
     hardness using the Rockwell B, F, T, C, A, and N systems and subject to state
     metrological control.
   doi: 10.63493/r039.1981.en
+relation:
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 39:1981
+      type: OIML

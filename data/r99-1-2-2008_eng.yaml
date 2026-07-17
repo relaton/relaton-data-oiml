@@ -38,3 +38,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r099.2008.en
+  focus_area:
+  - Environment
+  quantity:
+    content: Amount of substance concentration
+  quantity_url: https://si-digital-framework.org/quantities/AMSC

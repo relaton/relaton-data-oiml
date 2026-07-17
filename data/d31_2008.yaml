@@ -78,3 +78,6 @@ ext:
   doctype:
     content: document
   flavor: oiml
+  scope: This Recommendation applies to diaphragm gas meters, that are gas volume
+    meters in which the gas flow is measured by means of measuring chambers with deformable
+    walls, including gas meters with a built-in temperature conversion device.

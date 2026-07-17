@@ -38,3 +38,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r075.2002.en
+  quantity:
+    content: Heat
+  quantity_url: https://si-digital-framework.org/quantities/HEQT
+  measuring_instrument: Heat meter
+title:
+- language: eng
+  content: Type approval tests
+  type: main

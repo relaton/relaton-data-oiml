@@ -59,7 +59,18 @@ relation:
     docidentifier:
     - content: OIML R 60:2000 (E)
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 60:2017 (PE)
+      type: OIML
 ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r060.2000.en
+  scope: This Recommendation prescribes the principal metrological static requirements
+    and static evaluation procedures for load cells used in the determination of conformity
+    to this Recommendation. It is intended to provide authorities with uniform means
+    for determining the metrological characteristics of load cells used in measuring
+    instruments that are subjected to metrological controls.

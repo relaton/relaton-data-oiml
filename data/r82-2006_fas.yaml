@@ -69,3 +69,18 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r082.2006.en
+  focus_area:
+  - Environment
+  - Health
+  - Safety
+  quantity:
+    content: Amount of substance concentration
+  quantity_url: https://si-digital-framework.org/quantities/AMSC
+  measuring_instrument: Gas chromatograph
+  scope: This Recommendation provides the procedures for testing and verifying the
+    performance of a gas chromatograph (GC) system when used for the measurement of
+    pesticides and other toxic substances in carrying out pollution control programs
+    and in assessing the quality of food products as mandated by national laws and
+    regulations. It does not intend to exclude any equivalent means of measurement
+    or analysis for such toxic substances.

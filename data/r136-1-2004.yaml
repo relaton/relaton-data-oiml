@@ -60,3 +60,13 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r136.2004.en
+  focus_area:
+  - Health
+  - Trade
+  quantity:
+    content: Area
+  quantity_url: https://si-digital-framework.org/quantities/AREA
+  scope: This Recommendation specifies the requirements and test methods for instruments
+    that are used for determining the area of leathers, hereafter called "leather-measuring
+    instruments".

@@ -74,7 +74,22 @@ relation:
     docidentifier:
     - content: OIML R 80-1:2009 (F)
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 80-1:2017
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  focus_area:
+  - Trade
+  quantity:
+    content: Volume
+  quantity_url: https://si-digital-framework.org/quantities/VOLU
+  measuring_instrument: Road and rail tanker with level gauging
+  scope: This Recommendation specifies the metrological and technical requirements
+    applicable to static measuring systems for volume of liquids subject to legal
+    metrological controls. It also provides requirements for the approval of parts
+    of the measuring systems.

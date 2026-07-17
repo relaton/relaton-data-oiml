@@ -73,3 +73,8 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: 'This Recommendation applies to capacity measures made of glass (or other
+    authorised materials) known as "serving measures" which are usually filled as
+    required and which are used for the retail sale of drinks, such as: milk, beer,
+    wine, mineral waters, various table waters, spirits, etc. sold in cafes, restaurants,
+    hotels, canteens, etc. for consumption on the premises.'

@@ -72,3 +72,5 @@ ext:
   doctype:
     content: document
   flavor: oiml
+  focus_area:
+  - Safety

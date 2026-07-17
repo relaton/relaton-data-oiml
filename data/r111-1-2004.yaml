@@ -62,3 +62,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r111.2004.en
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Weight
+  scope: 'This Recommendation contains technical (e.g. principal physical characteristics)
+    and metrological requirements for weights used: as standards for the verification
+    of weighing instruments; as standards for the verification or calibration of weights
+    of a lower accuracy class; with weighing instruments.'

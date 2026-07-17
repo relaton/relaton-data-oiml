@@ -68,3 +68,7 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r056.1981.en
+  scope: This Recommendation applies to solutions having an electric conductivity
+    (conductivity) of known value, adopted as the standard measure for the calibration
+    of conductance cells.

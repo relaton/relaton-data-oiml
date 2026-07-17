@@ -68,3 +68,8 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  focus_area:
+  - Health
+  quantity:
+    content: Length
+  quantity_url: https://si-digital-framework.org/quantities/LENG

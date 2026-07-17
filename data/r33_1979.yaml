@@ -78,3 +78,6 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: The aim of this Recommendation is to define the "conventional value of the
+    result of weighing in air" and to fix the values of the physical constants which
+    play a part in this definition.

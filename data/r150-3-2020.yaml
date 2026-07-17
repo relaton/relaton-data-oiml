@@ -60,3 +60,13 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r150.2020.en
+  focus_area:
+  - Trade
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Automatic weighing instrument
+  scope: This International Recommendation specifies the metrological and technical
+    requirements for arched chute weighers, that are subject to national metrological
+    control.

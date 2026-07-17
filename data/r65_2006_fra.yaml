@@ -72,3 +72,7 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r065.2006.en
+  quantity:
+    content: Force
+  quantity_url: https://si-digital-framework.org/quantities/FORC

@@ -8,6 +8,9 @@ title:
     (peseuses totalisatrices à trémie). Partie 1: Exigences métrologiques et techniques
     - Essais'
   type: main
+- language: eng
+  content: Metrological and technical requirements - Tests
+  type: main
 source:
 - type: website
   content: https://www.oiml.org/fr/files/pdf_r/r107-1-f97.pdf
@@ -70,7 +73,19 @@ relation:
     docidentifier:
     - content: OIML R 107-1:1997
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 107-1:2007 (F)
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r107.1997.en
+  focus_area:
+  - Trade
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Disconinuous totalizer

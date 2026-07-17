@@ -36,7 +36,22 @@ relation:
     docidentifier:
     - content: OIML R 106:1997
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 106-2:2011
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r106.1997.en
+  focus_area:
+  - Trade
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Automatic rail-weighbridge
+  scope: This International Recommendation specifies the requirements and test methods
+    for automatic rail-weighbridges, hereinafter referred to as "instruments", which
+    are used to determine the mass of railway vehicles when they are weighed in motion.

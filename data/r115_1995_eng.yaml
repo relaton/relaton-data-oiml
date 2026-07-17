@@ -72,3 +72,7 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r115.1995.en
+  quantity:
+    content: Temperature
+  quantity_url: https://si-digital-framework.org/quantities/ITSC

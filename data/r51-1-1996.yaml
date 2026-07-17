@@ -36,7 +36,22 @@ relation:
     docidentifier:
     - content: OIML R 51:1996
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 51-1:2006
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r051.1996.en
+  focus_area:
+  - Trade
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Automatic catchweigher
+  scope: This International Recommendation specifies the metrological and technical
+    requirements and test procedures for automatic catchweighing instruments (catchweighers),
+    hereinafter called "instruments", that are subject to national metrological control.

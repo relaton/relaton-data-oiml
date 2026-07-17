@@ -53,3 +53,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  focus_area:
+  - Health
+  quantity:
+    content: Sound intensity level
+  quantity_url: https://si-digital-framework.org/quantities/SOIL
+  measuring_instrument: Speech audiometer

@@ -60,7 +60,23 @@ relation:
     docidentifier:
     - content: OIML R 120:1996 (E)
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 120:2010 (PE)
+      type: OIML
 ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r120.1996.en
+  focus_area:
+  - Trade
+  quantity:
+    content: Volume
+  quantity_url: https://si-digital-framework.org/quantities/VOLU
+  scope: This Recommendation specifies the characteristics of standard capacity measures
+    and describes the methods by which measuring systems for liquids other than water
+    (hereinafter called "measuring systems") are tested in order to verify that they
+    comply with the relevant metrological requirements in the International Recommendation
+    OIML R 117 Measuring systems for liquids other than water.

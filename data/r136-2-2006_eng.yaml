@@ -58,3 +58,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  focus_area:
+  - Health
+  - Trade
+  quantity:
+    content: Area
+  quantity_url: https://si-digital-framework.org/quantities/AREA

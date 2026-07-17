@@ -74,3 +74,6 @@ ext:
   doctype:
     content: document
   flavor: oiml
+  scope: This Recommendation deals with indenters used in hardness testing machines,
+    subject to state  metrological controls, and used to determine hardness on the
+    Brinell, Vickers, Rockwell B, F, and T, and on the Rockwell C, A, and N scales.

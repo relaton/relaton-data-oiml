@@ -37,3 +37,9 @@ ext:
   scope: Intended for the calibration of Vickers system testing machines for the hardness
     of materials.
   doi: 10.63493/r010.1974.en
+relation:
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 10:1974
+      type: OIML

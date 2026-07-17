@@ -69,7 +69,20 @@ relation:
     docidentifier:
     - content: OIML R 83:1990
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 83:2006 (E)
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r083.1990.en
+  focus_area:
+  - Environment
+  - Health
+  quantity:
+    content: Amount of substance concentration
+  quantity_url: https://si-digital-framework.org/quantities/AMSC
+  measuring_instrument: Gas chromatograph

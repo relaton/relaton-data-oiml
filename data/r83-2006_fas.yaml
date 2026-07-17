@@ -69,3 +69,15 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r083.2006.en
+  focus_area:
+  - Environment
+  - Health
+  quantity:
+    content: Amount of substance concentration
+  quantity_url: https://si-digital-framework.org/quantities/AMSC
+  measuring_instrument: Gas chromatograph
+  scope: This Recommendation provides performance requirements and testing procedures
+    for a gas chromatograph/mass spectrometer/data (GC/MS) system when used for measurements
+    in determining water pollutants in pollution control programs and in assessing
+    the quality of water as may be mandated by national laws and regulations.

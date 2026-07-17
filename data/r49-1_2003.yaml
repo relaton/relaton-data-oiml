@@ -75,7 +75,23 @@ relation:
     docidentifier:
     - content: OIML R 49-1:2003 (F)
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 49-1:2006
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r049.2003.en
+  focus_area:
+  - Trade
+  quantity:
+    content: Volume
+  quantity_url: https://si-digital-framework.org/quantities/VOLU
+  measuring_instrument: Water meter
+  scope: This document specifies the metrological and technical requirements for water
+    meters for cold potable water and hot water flowing through a fully charged, closed
+    conduit. These water meters incorporate devices which indicate the accumulated
+    volume.

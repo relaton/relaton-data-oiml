@@ -57,3 +57,7 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Non-automatic weighing instrument

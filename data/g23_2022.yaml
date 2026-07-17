@@ -75,3 +75,12 @@ ext:
   doctype:
     content: guide
   flavor: oiml
+  focus_area:
+  - Safety
+  quantity:
+    content: Pressure
+  quantity_url: https://si-digital-framework.org/quantities/PRES
+  measuring_instrument: Pressure gauge
+  scope: This Recommendation lays down the principal metrological characteristics
+    to which pressure gauges intended for the measurement of the inflation pressures
+    in motor-vehicle tyres must conform.

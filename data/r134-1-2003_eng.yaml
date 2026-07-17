@@ -34,7 +34,24 @@ relation:
     docidentifier:
     - content: OIML R 134-1:2003
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 134-1:2006 (E)
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r134.2003.en
+  focus_area:
+  - Health
+  - Trade
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Scale
+title:
+- language: eng
+  content: Metrological and technical requirements – Tests
+  type: main

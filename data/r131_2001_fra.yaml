@@ -73,3 +73,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r131.2001.en
+  focus_area:
+  - Safety
+  quantity:
+    content: Energy
+  quantity_url: https://si-digital-framework.org/quantities/ENGY
+  measuring_instrument: Dosimeter

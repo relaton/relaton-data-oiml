@@ -38,3 +38,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r102.1992.en
+  quantity:
+    content: Sound intensity level
+  quantity_url: https://si-digital-framework.org/quantities/SOIL
+  measuring_instrument: Sound calibrator
+title:
+- language: eng
+  content: Sound calibrators (including Annex A)
+  type: main

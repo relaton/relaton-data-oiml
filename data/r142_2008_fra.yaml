@@ -68,7 +68,19 @@ relation:
     docidentifier:
     - content: OIML R 142:2008
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 142:2025 (F)
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r142.2008.en
+  focus_area:
+  - Trade
+  quantity:
+    content: Refractive Index
+  quantity_url: https://si-digital-framework.org/quantities/REFI
+  measuring_instrument: Refractometer

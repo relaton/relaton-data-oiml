@@ -57,3 +57,9 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  focus_area:
+  - Trade
+  quantity:
+    content: Amount of substance concentration
+  quantity_url: https://si-digital-framework.org/quantities/AMSC
+  measuring_instrument: Evidential breath analyser

@@ -67,3 +67,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r096.1990.en
+  focus_area:
+  - Trade
+  quantity:
+    content: Volume
+  quantity_url: https://si-digital-framework.org/quantities/VOLU

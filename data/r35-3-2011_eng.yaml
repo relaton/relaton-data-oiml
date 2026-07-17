@@ -53,3 +53,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  focus_area:
+  - Trade
+  quantity:
+    content: Length
+  quantity_url: https://si-digital-framework.org/quantities/LENG
+  measuring_instrument: Material measure of length

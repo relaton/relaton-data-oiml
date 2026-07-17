@@ -69,6 +69,11 @@ relation:
     docidentifier:
     - content: OIML R 35:1985 (F)
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 35:2007
+      type: OIML
 ext:
   doctype:
     content: recommendation

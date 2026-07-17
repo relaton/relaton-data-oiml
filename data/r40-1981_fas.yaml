@@ -63,3 +63,10 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  quantity:
+    content: Volume
+  quantity_url: https://si-digital-framework.org/quantities/VOLU
+  measuring_instrument: Pipette
+  scope: 'This Recommendation deals with standard graduated pipettes used by verification
+    officers: (a) for testing capacity measures used by the public, for the measurement
+    of volume of liquids; (b) or as auxiliary standards of capacity.'

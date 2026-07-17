@@ -42,3 +42,9 @@ ext:
   focus_area: Safety
   sustainability_framework: People
   doi: 10.63493/r023.1975.en
+relation:
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 23:1975
+      type: OIML

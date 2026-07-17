@@ -69,3 +69,17 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r143.2009.en
+  focus_area:
+  - Environment
+  - Safety
+  quantity:
+    content: Amount of substance concentration
+  quantity_url: https://si-digital-framework.org/quantities/AMSC
+  measuring_instrument: Gas chromatograph
+  scope: This Recommendation applies to measuring instruments (hereafter referred
+    to as "gas analytical systems") that serve to determine the volume fraction of
+    SO<sub>2</sub> and establishes the conditions and requirements with which such
+    systems shall comply in order to meet the requirements for measurement results
+    of the pollutant content in stationary source emissions within the OIML Member
+    States.

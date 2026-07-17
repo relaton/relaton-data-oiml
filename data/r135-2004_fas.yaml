@@ -68,3 +68,15 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r135.2004.en
+  focus_area:
+  - Health
+  quantity:
+    content: Amount of substance concentration
+  quantity_url: https://si-digital-framework.org/quantities/AMSC
+  measuring_instrument: Spectrophotometer
+  scope: This Recommendation provides requirements for defining, testing and verifying
+    the performance of spectrophotometers used in clinical chemistry laboratories
+    to determine concentrations of analytes in samples of blood, serum, plasma, liquor
+    cerebrospinalis, urine, etc. derived from the human body by measuring the characteristic
+    partial internal absorbances of prepared solutions in optical cells (cuvettes).

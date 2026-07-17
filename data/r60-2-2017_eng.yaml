@@ -49,7 +49,17 @@ relation:
     docidentifier:
     - content: OIML R 60-2:2017
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 60-2:2021 (E)
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r060.2017.en
+title:
+- language: eng
+  content: Metrological controls and performance tests
+  type: main

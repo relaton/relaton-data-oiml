@@ -55,3 +55,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  focus_area:
+  - Health
+  quantity:
+    content: Sound intensity level
+  quantity_url: https://si-digital-framework.org/quantities/SOIL
+  measuring_instrument: Speech audiometer
+  scope: This Recommendation deals with audiometers designed to provide a means of
+    presenting speech sounds to a subject in a standardized manner, e.g. for the measurement
+    of speech recognition.

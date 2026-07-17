@@ -60,3 +60,14 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  focus_area:
+  - Trade
+  quantity:
+    content: Amount of substance concentration
+  quantity_url: https://si-digital-framework.org/quantities/AMSC
+  measuring_instrument: Evidential breath analyser
+  scope: This Recommendation applies to evidential breath alcohol analysers (EBA),
+    which are quantitative instruments that render a measurement result of alcohol
+    concentration in exhaled human breath for the purpose of establishing compliance,
+    for instance, with national policy for fighting against alcohol abuse and/or for
+    the advancement of public safety.

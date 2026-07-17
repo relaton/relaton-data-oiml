@@ -78,3 +78,5 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: Intended for the calibration of Brinell system testing machines for the hardness
+    of materials.

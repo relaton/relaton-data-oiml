@@ -53,3 +53,14 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r035.2007.en
+  focus_area:
+  - Trade
+  quantity:
+    content: Length
+  quantity_url: https://si-digital-framework.org/quantities/LENG
+  measuring_instrument: Material measure of length
+title:
+- language: eng
+  content: Metrological and technical requirements
+  type: main

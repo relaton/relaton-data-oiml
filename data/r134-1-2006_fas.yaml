@@ -7,6 +7,9 @@ title:
   content: Automatic instruments for weighing road vehicles in motion and measuring
     axle loads - Part 1 Metrological and technical requierments- tests
   type: main
+- language: eng
+  content: Metrological and technical requirements – Tests
+  type: main
 source:
 - type: website
   content: https://www.oiml.org/en/publications/other-language-translations/persian/r134-1-2006-automatic-instruments-for-weighing.pdf
@@ -69,3 +72,16 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r134.2006.en
+  focus_area:
+  - Health
+  - Trade
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Scale
+  scope: This International Recommendation specifies the requirements and test methods
+    for automatic instruments for weighing road vehicles in motion, hereinafter referred
+    to as "WIM instruments" that are used to determine the vehicle mass, the axle
+    loads, and if applicable the axle-group loads of road vehicles when the vehicles
+    are weighed in motion.

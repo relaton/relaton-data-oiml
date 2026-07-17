@@ -40,3 +40,14 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r099.2008.en
+  focus_area:
+  - Environment
+  quantity:
+    content: Amount of substance concentration
+  quantity_url: https://si-digital-framework.org/quantities/AMSC
+  scope: This International Recommendation specifies the metrological and technical
+    requirements and tests for digital measuring instruments (hereafter termed "instrument(s)")
+    that serve to determine the volume fractions of certain components of the exhaust
+    gases emanating from motor vehicles. The conditions with which such instruments
+    shall comply in order to meet any OIML performance requirements are also established.

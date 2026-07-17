@@ -37,3 +37,9 @@ ext:
   scope: This Recommendation deals with the verification of machines used to test
     hardness using the Brinell system and subject to state metrological controls.
   doi: 10.63493/r037.1981.en
+relation:
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 37:1981
+      type: OIML

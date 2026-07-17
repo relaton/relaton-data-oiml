@@ -40,3 +40,17 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r091.2025.en
+  focus_area:
+  - Safety
+  quantity:
+    content: Velocity
+  quantity_url: https://si-digital-framework.org/quantities/VELO
+  measuring_instrument: Traffic speed meter
+  scope: This Recommendation specifies the metrological and technical requirements,
+    metrological controls and test procedures for speed enforcement devices for the
+    measurement of traffic speed of vehicles on the road, hereafter referred to as
+    "speed meters". The Recommendation states the conditions that the speed meter
+    shall satisfy when results of speed measurement are to be used in legal proceedings.
+    The Recommendation does not cover the policy of setting speed limits or trigger
+    limits for measurements.

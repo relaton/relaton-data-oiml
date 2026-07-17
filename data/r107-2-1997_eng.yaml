@@ -34,7 +34,23 @@ relation:
     docidentifier:
     - content: OIML R 107-2:1997
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 107-2:2007 (E)
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r107.1997.en
+  focus_area:
+  - Trade
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Disconinuous totalizer
+title:
+- language: eng
+  content: Test report format
+  type: main

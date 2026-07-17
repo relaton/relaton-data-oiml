@@ -68,7 +68,19 @@ relation:
     docidentifier:
     - content: OIML R 126:1998
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 126:2012 (E)
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r126.1998.en
+  focus_area:
+  - Trade
+  quantity:
+    content: Amount of substance concentration
+  quantity_url: https://si-digital-framework.org/quantities/AMSC
+  measuring_instrument: Evidential breath analyser

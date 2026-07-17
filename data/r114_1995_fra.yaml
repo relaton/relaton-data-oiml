@@ -72,3 +72,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r114.1995.en
+  focus_area:
+  - Health
+  quantity:
+    content: Temperature
+  quantity_url: https://si-digital-framework.org/quantities/ITSC
+  measuring_instrument: Electrical thermometer

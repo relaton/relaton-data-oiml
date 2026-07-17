@@ -36,7 +36,23 @@ relation:
     docidentifier:
     - content: OIML R 50:1997
       type: OIML
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 50-2:2014
+      type: OIML
 ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r050.1997.en
+  focus_area:
+  - Trade
+  quantity:
+    content: Mass
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  measuring_instrument: Continuous totalizer
+  scope: This International Recommendation specifies the metrological and technical
+    requirements for continuous totalizing automatic weighing instruments of the belt
+    conveyor type, hereinafter referred to as "belt weighers", that are subject to
+    national metrological control.

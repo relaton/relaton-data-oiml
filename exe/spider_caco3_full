@@ -1,0 +1,201 @@
+#!/usr/bin/env ruby
+# Comprehensive oiml.caco3consulting.com spider.
+#
+# Walks every /recommendation/<id>/ and /recommendation/<id>/<year>/ page,
+# extracts:
+#   - Series-level status (current / superseded / withdrawn)
+#   - Editions list per series
+#   - Per-edition parts (Part 1, Part 2, ...)
+#   - Per-edition languages (EN, FR) with PDF URLs
+#   - DOI per edition
+#   - Sustainability framework (People / Prosperity / Planet)
+#   - Focus Area (Trade, Health, Environment, etc.)
+#   - Quantity (SI digital framework URL)
+#   - Measuring instrument classification
+#   - TC/SC assignment
+#   - Status per edition (Current / Superseded)
+#
+# Output: /tmp/caco3-series.json — a map of <docnumber> => series metadata
+# frozen_string_literal: true
+
+require "open-uri"
+require "nokogiri"
+require "json"
+require "fileutils"
+
+BASE = "https://oiml.caco3consulting.com"
+
+def fetch(url)
+  URI.open(url, "User-Agent" => "oiml-spider", read_timeout: 30).read
+rescue => e
+  warn "  FAIL #{url}: #{e.message}"
+  nil
+end
+
+# 1. Index: list of recommendation IDs and series-level status
+puts "Fetching recommendations index..."
+index_html = fetch("#{BASE}/recommendations/")
+abort "cannot fetch index" unless index_html
+index_doc = Nokogiri::HTML(index_html)
+
+# Each card: <div class="card ... <status> all"> with <a href="/recommendation/<id>/">
+series_data = {}
+index_doc.css("div.card").each do |card|
+  cls = card["class"]
+  next unless cls =~ /\b(cur|sup|wdn)\b/
+  status_class = $1
+  link = card.at_css('a[href^="/recommendation/"]')
+  next unless link
+  m = link["href"].match(%r{/recommendation/(\d+)/?\z})
+  next unless m
+  docnumber = m[1].to_i.to_s
+  title_el = card.at_css("h5.card-title")
+  scope_el = card.at_css("p.oiml-title")
+  tc_btn = card.at_css('a[href*="scinfo_view"]')
+
+  series_data[docnumber] = {
+    "docnumber" => docnumber,
+    "title" => title_el&.text&.strip,
+    "scope" => scope_el&.text&.strip,
+    "status_class" => status_class,  # cur / sup / wdn
+    "status" => { "cur" => "in-force", "sup" => "superseded", "wdn" => "withdrawn" }[status_class],
+    "tc_url" => tc_btn ? tc_btn["href"] : nil,
+    "tc_label" => tc_btn&.text&.strip,
+    "editions" => [],
+    "_landing_html" => "#{BASE}/recommendation/#{docnumber}/",
+  }
+end
+puts "Found #{series_data.size} recommendation series"
+
+# 2. For each series, fetch the landing page to get editions + series metadata
+puts ""
+puts "Walking per-series landing pages..."
+series_data.each_with_index do |(num, s), i|
+  print "  [#{i + 1}/#{series_data.size}] R #{num}... "
+  html = fetch(s["_landing_html"])
+  unless html
+    puts "FAIL"
+    next
+  end
+  doc = Nokogiri::HTML(html)
+
+  # Title (h2)
+  h2 = doc.at_css("h2")
+  s["full_title"] = h2&.text&.strip&.gsub(/\s+/, " ")
+
+  # Scope
+  doc.css("p").each do |p|
+    if p.inner_html =~ /<b>Scope<\/b>/
+      s["scope"] = p.text.strip.sub(/\AScope:\s*/, "")
+      break
+    end
+  end
+
+  # Focus area + sustainability
+  doc.css('a.btn[href*="legal-metrology/"]').each do |a|
+    s["focus_area"] ||= []
+    s["focus_area"] << a.text.strip
+  end
+  doc.css('img[alt="People"][@src*="sdg"]') { s["sustainability"] ||= []; s["sustainability"] << "People" }
+  doc.css('img[alt="Prosperity"][@src*="sdg"]') { s["sustainability"] ||= []; s["sustainability"] << "Prosperity" }
+  doc.css('img[alt="Planet"][@src*="sdg"]') { s["sustainability"] ||= []; s["sustainability"] << "Planet" }
+
+  # Quantity + measuring instrument
+  doc.css('a[href*="si-digital-framework.org/quantities/"]').each { |a| s["quantity_url"] = a["href"]; s["quantity"] = a.text.strip }
+  doc.css("p").each do |p|
+    if p.inner_html =~ /<b>Measuring Instrument<\/b>/
+      s["measuring_instrument"] = p.text.strip.sub(/\AMeasuring Instrument:\s*/, "")
+      break
+    end
+  end
+
+  # Editions
+  doc.css('a[href^="/recommendation/"]').each do |a|
+    href = a["href"]
+    m = href.match(%r{/recommendation/\d+/(\d+)/?\z})
+    next unless m
+    year = m[1].to_i
+    label = a.text.strip
+    status_in_label = label =~ /\((Current|Superseded|Withdrawn)\)/ ? $1 : nil
+    s["editions"] << {
+      "year" => year,
+      "url" => "#{BASE}#{href}",
+      "label" => label,
+      "status" => case status_in_label
+                  when "Current" then "in-force"
+                  when "Superseded" then "superseded"
+                  when "Withdrawn" then "withdrawn"
+                  else nil
+                  end,
+    }
+  end
+  s["editions"].uniq!
+
+  puts "editions=#{s['editions'].size}"
+end
+
+# 3. For each edition, fetch the per-edition page for parts, languages, DOI, PDF URLs
+puts ""
+puts "Walking per-edition pages..."
+total_editions = series_data.values.sum { |s| s["editions"].size }
+i = 0
+series_data.each do |num, s|
+  s["editions"].each do |ed|
+    i += 1
+    print "  [#{i}/#{total_editions}] R #{num}/#{ed["year"]}... "
+    html = fetch(ed["url"])
+    unless html
+      puts "FAIL"
+      next
+    end
+    doc = Nokogiri::HTML(html)
+
+    # DOI
+    doi_btn = doc.at_css('button[data-doi]')
+    ed["doi"] = doi_btn["data-doi"] if doi_btn
+
+    # Language
+    doc.css("p").each do |p|
+      if p.inner_html =~ /<b>Language<\/b>/
+        ed["language"] = p.text.strip.sub(/\ALanguage:\s*/, "").strip
+        break
+      end
+    end
+
+    # Parts (multi-part Recommendations)
+    parts = []
+    doc.css('a[href^="/recommendation/"]').each do |a|
+      href = a["href"]
+      m = href.match(%r{/recommendation/(\d+)/(\d+)/(\d+)/?\z})
+      next unless m
+      parts << {
+        "part_number" => m[3],
+        "title" => a.text.strip.sub(/\APart \d+:\s*/, ""),
+        "url" => "#{BASE}#{href}",
+      }
+    end
+    ed["parts"] = parts.uniq { |p| p["part_number"] }
+
+    # PDF download links (EN/FR)
+    pdfs = []
+    doc.css('a.btn[href*=".pdf"]').each do |a|
+      href = a["href"]
+      next unless href =~ %r{/static/files/(en|fr)/}
+      lang = $1 == "en" ? "eng" : "fra"
+      pdfs << { "language" => lang, "url" => href.start_with?("http") ? href : "#{BASE}#{href}", "filename" => File.basename(href) }
+    end
+    ed["pdfs"] = pdfs.uniq { |p| p["url"] }
+
+    puts "doi=#{ed['doi'] ? '✓' : '-'} parts=#{ed['parts'].size} pdfs=#{ed['pdfs'].size}"
+  end
+end
+
+# 4. Save
+FileUtils.mkdir_p("/tmp/caco3")
+File.write("/tmp/caco3/series.json", JSON.pretty_generate(series_data))
+puts ""
+puts "Wrote /tmp/caco3/series.json"
+puts "Total series: #{series_data.size}"
+puts "Total editions: #{total_editions}"
+puts "With DOI: #{series_data.values.sum { |s| s['editions'].count { |e| e['doi'] } }}"
+puts "Total PDFs across editions: #{series_data.values.sum { |s| s['editions'].sum { |e| e['pdfs'].size } }}"

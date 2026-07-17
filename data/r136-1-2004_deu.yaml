@@ -6,6 +6,9 @@ title:
 - language: deu
   content: Instruments for measuring the areas of leathers
   type: main
+- language: eng
+  content: Metrological and technical requirements – Tests
+  type: main
 source:
 - type: website
   content: https://www.oiml.org/en/publications/other-language-translations/german/r136-1-de-04.pdf
@@ -68,3 +71,10 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r136.2004.en
+  focus_area:
+  - Health
+  - Trade
+  quantity:
+    content: Area
+  quantity_url: https://si-digital-framework.org/quantities/AREA

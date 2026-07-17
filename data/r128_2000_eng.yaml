@@ -67,3 +67,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r128.2000.en
+  focus_area:
+  - Health
+  - Safety
+  quantity:
+    content: Work
+  quantity_url: https://si-digital-framework.org/quantities/WORK
+  measuring_instrument: Ergometer

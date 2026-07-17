@@ -80,3 +80,10 @@ ext:
   doctype:
     content: document
   flavor: oiml
+  scope: This Recommendation applies to "gauge blocks of rectangular section", which
+    are measures of length in the form of rectangular plates or parallelepipedal rectangular
+    blocks comprising two opposing, flat, mutually parallel, faces, called measuring
+    faces, whose surface quality is such that they have the property of wringing to
+    the corresponding faces of other gauges or plane datum surfaces. It lays down
+    the principal technical specifications relating to their intended use, their manufacture,
+    their qualities, their inspection.

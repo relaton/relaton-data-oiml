@@ -37,3 +37,9 @@ ext:
   scope: Intended for the calibration of Rockwell B system testing machines for the
     hardness of materials.
   doi: 10.63493/r011.1974.en
+relation:
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 11:1974
+      type: OIML

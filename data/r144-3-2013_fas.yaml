@@ -7,6 +7,9 @@ title:
   content: Instruments for the continuous measurement of CO and NOx in stationary
     source emissions - Part 3 Test report format
   type: main
+- language: eng
+  content: Test report format
+  type: main
 source:
 - type: website
   content: https://www.oiml.org/en/publications/other-language-translations/persian/r144-3-2013-instruments-for-the-continuous.pdf
@@ -69,3 +72,19 @@ ext:
   doctype:
     content: translation
   flavor: oiml
+  doi: 10.63493/r144.2013.en
+  focus_area:
+  - Environment
+  - Health
+  - Safety
+  quantity:
+    content: Amount of substance concentration
+  quantity_url: https://si-digital-framework.org/quantities/AMSC
+  measuring_instrument: Gas chromatograph
+  scope: This Recommendation applies to measuring instruments (hereafter referred
+    to as "gas analytical systems") that serve to determine the volume fraction of
+    carbon monoxide (CO), nitrogen monoxide (NO), nitrogen dioxide (NO<sub>2</sub>),
+    or sum of nitrogen oxides (NO<sub>x</sub>) and establishes the conditions and
+    requirements with which such systems shall comply in order to meet the requirements
+    for measurement results of the pollutant content in stationary source emissions
+    within OIML Member States.

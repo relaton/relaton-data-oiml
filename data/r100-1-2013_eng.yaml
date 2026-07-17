@@ -58,3 +58,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r100.2013.en
+  focus_area:
+  - Environment
+  - Health
+  measuring_instrument: Atomic absorption spectrometer
+title:
+- language: eng
+  content: Metrological and technical requirements
+  type: main

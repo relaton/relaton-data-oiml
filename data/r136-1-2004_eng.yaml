@@ -58,3 +58,14 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  doi: 10.63493/r136.2004.en
+  focus_area:
+  - Health
+  - Trade
+  quantity:
+    content: Area
+  quantity_url: https://si-digital-framework.org/quantities/AREA
+title:
+- language: eng
+  content: Metrological and technical requirements – Tests
+  type: main
