@@ -2,15 +2,35 @@
 # See https://github.com/metanorma/cimas
 name: Crawler
 
+# Scheduled or by hand, and nothing else. A crawl is expensive — the largest
+# flavors hold tens to hundreds of thousands of documents (relaton-data-3gpp
+# 88k, relaton-data-ids 166,658) — so it should start only when there is reason
+# to believe upstream has changed.
+#
+# Dropped `pull_request`: the shared crawler.yml gates its "Push data" step on
+# `github.event_name != 'pull_request'`, so a PR crawl fetched an entire corpus
+# and then discarded it.
+#
+# Dropped `push`: a push to the default branch re-ran a crawl that the cron
+# below would run anyway, and `workflow_dispatch` covers the case where one is
+# wanted sooner (it also takes the extra args a cron run cannot pass).
+#
+# What that costs, and it is worth knowing before editing this repo's own
+# crawler.rb: the PR run was the only NON-MUTATING way to exercise a change to
+# it. A `workflow_dispatch` run is not gated by the step above, so it commits
+# and pushes the crawled corpus to whatever branch it runs on.
 on:
-  push:
-    branches: [ master, main ]
-    tags: [ v* ]
-  pull_request:
   schedule:
   - cron: '0 14 * * *'
   workflow_dispatch:
+    inputs:
+      args:
+        description: Extra args to pass to crawler.rb script
+        required: false
+        default: ''
 
 jobs:
   crawl:
     uses: relaton/support/.github/workflows/crawler.yml@main
+    with:
+      args: ${{ github.event.inputs.args }}
