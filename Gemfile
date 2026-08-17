@@ -15,10 +15,11 @@ gem "psych", "~> 5.2.6"
 gem "relaton", git: "https://github.com/relaton/relaton.git", branch: "main"
 
 # pubid v2 (with OIML support) parses primary docids into structured
-# identifiers for the pubid_class-based index-v2.yaml. Tracks the
-# rt-new-lutaml-model branch until pubid v2 is released.
+# identifiers for the pubid_class-based index-v2.yaml. OIML support lives
+# on pubid main (rt-new-lutaml-model was deleted); flip to the released
+# gem when pubid v2 ships.
 gem "pubid", git: "https://github.com/metanorma/pubid.git",
-             branch: "rt-new-lutaml-model"
+             branch: "main"
 
 gem "thor",              "~> 1.3"
 gem "nokogiri"
