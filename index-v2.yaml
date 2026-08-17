@@ -1,7 +1,7 @@
 ---
 - :id:
     _type: pubid:oiml:amendment
-    base_identifier:
+    base:
       _type: pubid:oiml:basic-publication
       publisher: OIML
       number: '10'
@@ -13,7 +13,7 @@
 - :id:
     _type: pubid:oiml:amendment
     language: E
-    base_identifier:
+    base:
       _type: pubid:oiml:basic-publication
       publisher: OIML
       number: '10'
@@ -25,7 +25,7 @@
 - :id:
     _type: pubid:oiml:amendment
     language: F
-    base_identifier:
+    base:
       _type: pubid:oiml:basic-publication
       publisher: OIML
       number: '10'
@@ -61,7 +61,7 @@
   :file: data/b10-1_2004_fra.yaml
 - :id:
     _type: pubid:oiml:amendment
-    base_identifier:
+    base:
       _type: pubid:oiml:basic-publication
       publisher: OIML
       number: '10'
@@ -72,7 +72,7 @@
 - :id:
     _type: pubid:oiml:amendment
     language: E
-    base_identifier:
+    base:
       _type: pubid:oiml:basic-publication
       publisher: OIML
       number: '10'
@@ -83,7 +83,7 @@
 - :id:
     _type: pubid:oiml:amendment
     language: F
-    base_identifier:
+    base:
       _type: pubid:oiml:basic-publication
       publisher: OIML
       number: '10'
@@ -705,7 +705,7 @@
   :file: data/b2_2000_fra.yaml
 - :id:
     _type: pubid:oiml:amendment
-    base_identifier:
+    base:
       _type: pubid:oiml:basic-publication
       publisher: OIML
       number: '3'
@@ -716,7 +716,7 @@
 - :id:
     _type: pubid:oiml:amendment
     language: E
-    base_identifier:
+    base:
       _type: pubid:oiml:basic-publication
       publisher: OIML
       number: '3'
@@ -727,7 +727,7 @@
 - :id:
     _type: pubid:oiml:amendment
     language: F
-    base_identifier:
+    base:
       _type: pubid:oiml:basic-publication
       publisher: OIML
       number: '3'
@@ -30221,7 +30221,7 @@
   :file: data/d1brochure_ukr.yaml
 - :id:
     _type: pubid:oiml:amendment
-    base_identifier:
+    base:
       _type: pubid:oiml:document
       publisher: OIML
       number: '2'
@@ -30232,7 +30232,7 @@
 - :id:
     _type: pubid:oiml:amendment
     language: E
-    base_identifier:
+    base:
       _type: pubid:oiml:document
       publisher: OIML
       number: '2'
@@ -30243,7 +30243,7 @@
 - :id:
     _type: pubid:oiml:amendment
     language: F
-    base_identifier:
+    base:
       _type: pubid:oiml:document
       publisher: OIML
       number: '2'
@@ -32083,7 +32083,7 @@
   :file: data/r102-1-1992_fra.yaml
 - :id:
     _type: pubid:oiml:annex
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '102'
@@ -32094,7 +32094,7 @@
 - :id:
     _type: pubid:oiml:annex
     language: E
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '102'
@@ -32105,7 +32105,7 @@
 - :id:
     _type: pubid:oiml:annex
     language: F
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '102'
@@ -32192,7 +32192,7 @@
   :file: data/r103_1992_fra.yaml
 - :id:
     _type: pubid:oiml:annex
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '104'
@@ -32203,7 +32203,7 @@
 - :id:
     _type: pubid:oiml:annex
     language: E
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '104'
@@ -32214,7 +32214,7 @@
 - :id:
     _type: pubid:oiml:annex
     language: F
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '104'
@@ -32254,7 +32254,7 @@
   :file: data/r105-1993_ara.yaml
 - :id:
     _type: pubid:oiml:annex
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '105'
@@ -32265,7 +32265,7 @@
 - :id:
     _type: pubid:oiml:annex
     language: E
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '105'
@@ -32276,7 +32276,7 @@
 - :id:
     _type: pubid:oiml:annex
     language: F
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '105'
@@ -33309,7 +33309,7 @@
   :file: data/r121_1996_fra.yaml
 - :id:
     _type: pubid:oiml:annex
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '122'
@@ -33320,7 +33320,7 @@
 - :id:
     _type: pubid:oiml:annex
     language: E
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '122'
@@ -33331,7 +33331,7 @@
 - :id:
     _type: pubid:oiml:annex
     language: F
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '122'
@@ -33502,7 +33502,7 @@
   :file: data/r126-2012errata_spa.yaml
 - :id:
     _type: pubid:oiml:errata
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '126'
@@ -33512,7 +33512,7 @@
 - :id:
     _type: pubid:oiml:errata
     language: E
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '126'
@@ -33522,7 +33522,7 @@
 - :id:
     _type: pubid:oiml:errata
     language: F
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '126'
@@ -34198,7 +34198,7 @@
   :file: data/r137-1-2-2012_fra.yaml
 - :id:
     _type: pubid:oiml:amendment
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '137'
@@ -34211,7 +34211,7 @@
 - :id:
     _type: pubid:oiml:amendment
     language: E
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '137'
@@ -34224,7 +34224,7 @@
 - :id:
     _type: pubid:oiml:amendment
     language: F
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '137'
@@ -34322,7 +34322,7 @@
   :file: data/r138-2007_deu.yaml
 - :id:
     _type: pubid:oiml:amendment
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '138'
@@ -34333,7 +34333,7 @@
 - :id:
     _type: pubid:oiml:amendment
     language: E
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '138'
@@ -34344,7 +34344,7 @@
 - :id:
     _type: pubid:oiml:amendment
     language: F
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '138'
@@ -35810,7 +35810,7 @@
   :file: data/r35-1-2007_fra.yaml
 - :id:
     _type: pubid:oiml:amendment
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '35'
@@ -35822,7 +35822,7 @@
 - :id:
     _type: pubid:oiml:amendment
     language: E
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '35'
@@ -37127,7 +37127,7 @@
   :file: data/r51-1-2006_fas.yaml
 - :id:
     _type: pubid:oiml:errata
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '51'
@@ -37138,7 +37138,7 @@
 - :id:
     _type: pubid:oiml:errata
     language: E
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '51'
@@ -37599,7 +37599,7 @@
   :file: data/r60-2000_fas.yaml
 - :id:
     _type: pubid:oiml:amendment
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '60'
@@ -37610,7 +37610,7 @@
 - :id:
     _type: pubid:oiml:amendment
     language: E
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '60'
@@ -37620,7 +37620,7 @@
   :file: data/r60-2017amendment_2019_eng.yaml
 - :id:
     _type: pubid:oiml:annex
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '60'
@@ -37630,7 +37630,7 @@
 - :id:
     _type: pubid:oiml:annex
     language: E
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '60'
@@ -37640,7 +37640,7 @@
 - :id:
     _type: pubid:oiml:annex
     language: F
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '60'
@@ -39076,7 +39076,7 @@
   :file: data/r80_2017_fra.yaml
 - :id:
     _type: pubid:oiml:annex
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '81'
@@ -39087,7 +39087,7 @@
 - :id:
     _type: pubid:oiml:annex
     language: E
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '81'
@@ -39098,7 +39098,7 @@
 - :id:
     _type: pubid:oiml:annex
     language: F
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '81'
@@ -39407,7 +39407,7 @@
   :file: data/r87-2004_fas.yaml
 - :id:
     _type: pubid:oiml:errata
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '87'
@@ -39417,7 +39417,7 @@
 - :id:
     _type: pubid:oiml:errata
     language: E
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '87'
@@ -39427,7 +39427,7 @@
 - :id:
     _type: pubid:oiml:errata
     language: F
-    base_identifier:
+    base:
       _type: pubid:oiml:recommendation
       publisher: OIML
       number: '87'
@@ -40116,7 +40116,7 @@
   :file: data/v1_ukr.yaml
 - :id:
     _type: pubid:oiml:errata
-    base_identifier:
+    base:
       _type: pubid:oiml:vocabulary
       publisher: OIML
       number: '2'
@@ -40127,7 +40127,7 @@
 - :id:
     _type: pubid:oiml:errata
     language: E
-    base_identifier:
+    base:
       _type: pubid:oiml:vocabulary
       publisher: OIML
       number: '2'
@@ -40138,7 +40138,7 @@
 - :id:
     _type: pubid:oiml:errata
     language: F
-    base_identifier:
+    base:
       _type: pubid:oiml:vocabulary
       publisher: OIML
       number: '2'
