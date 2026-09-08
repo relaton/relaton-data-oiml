@@ -11,6 +11,9 @@ title:
   content: 'Instruments de pesage à fonctionnement non automatique. Partie 2 : Rapport
     d''essai de modèle (intègre l''Amendement n°1 de 1995)'
   type: main
+- language: eng
+  content: 'Part 2: Pattern evaluation report (integrates Amendment No. 1 of 1995)'
+  type: main
 docidentifier:
 - content: OIML R 76-2:1993
   type: OIML
@@ -75,6 +78,11 @@ relation:
   bibitem:
     docidentifier:
     - content: OIML R 76-2:1993 (F)
+      type: OIML
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 76:1992
       type: OIML
 ext:
   doctype:

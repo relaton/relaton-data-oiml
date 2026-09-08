@@ -10,6 +10,9 @@ title:
   content: 'Instruments de pesage totalisateurs continus à fonctionnement automatique
     (peseuses sur bande). Partie 1: Exigences métrologiques et techniques - Essais'
   type: main
+- language: eng
+  content: 'Part 1: Metrological and technical requirements - Tests'
+  type: main
 docidentifier:
 - content: OIML R 50-1:1997
   type: OIML
@@ -79,6 +82,11 @@ relation:
   bibitem:
     docidentifier:
     - content: OIML R 50-1:2014
+      type: OIML
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 50:1997
       type: OIML
 ext:
   doctype:

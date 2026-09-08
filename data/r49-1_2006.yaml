@@ -10,6 +10,9 @@ title:
   content: 'Compteurs d''eau pour le mesurage de l''eau potable froide et de l''eau
     chaude. Partie 1: Exigences métrologiques et techniques'
   type: main
+- language: eng
+  content: 'Part 1: Metrological and technical requirements'
+  type: main
 docidentifier:
 - content: OIML R 49-1:2006
   type: OIML
@@ -79,6 +82,11 @@ relation:
   bibitem:
     docidentifier:
     - content: OIML R 49-1:2013
+      type: OIML
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 49:2006
       type: OIML
 ext:
   doctype:

@@ -12,6 +12,9 @@ title:
     (peseuses totalisatrices à trémie). Partie 1: Exigences métrologiques et techniques
     - Essais'
   type: main
+- language: eng
+  content: 'Part 1: Metrological and technical requirements - Tests'
+  type: main
 docidentifier:
 - content: OIML R 107-1:1997
   type: OIML
@@ -81,6 +84,11 @@ relation:
   bibitem:
     docidentifier:
     - content: OIML R 107-1:2007
+      type: OIML
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 107:1997
       type: OIML
 ext:
   doctype:

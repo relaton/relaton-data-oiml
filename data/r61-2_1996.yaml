@@ -10,6 +10,9 @@ title:
   content: 'Doseuses pondérales à fonctionnement automatique. Partie 2: Format du
     rapport d''essai'
   type: main
+- language: eng
+  content: 'Part 2: Test report format'
+  type: main
 docidentifier:
 - content: OIML R 61-2:1996
   type: OIML
@@ -79,6 +82,11 @@ relation:
   bibitem:
     docidentifier:
     - content: OIML R 61-2:2004
+      type: OIML
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 61:1996
       type: OIML
 ext:
   doctype:

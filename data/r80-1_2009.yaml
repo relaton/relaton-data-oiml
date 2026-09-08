@@ -9,6 +9,9 @@ title:
 - language: fra
   content: Camions et wagons citernes avec mesurage de niveau
   type: main
+- language: eng
+  content: 'Part 1: Metrological and technical requirements'
+  type: main
 docidentifier:
 - content: OIML R 80-1:2009
   type: OIML
@@ -78,6 +81,11 @@ relation:
   bibitem:
     docidentifier:
     - content: OIML R 80-1:2017
+      type: OIML
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 80:2017
       type: OIML
 ext:
   doctype:

@@ -10,6 +10,9 @@ title:
   content: 'Doseuses pondérales à fonctionnement automatique. Partie 1: Exigences
     métrologiques et techniques - Essais'
   type: main
+- language: eng
+  content: 'Part 1: Metrological and technical requirements - Tests'
+  type: main
 docidentifier:
 - content: OIML R 61-1:1996
   type: OIML
@@ -79,6 +82,11 @@ relation:
   bibitem:
     docidentifier:
     - content: OIML R 61-1:2004
+      type: OIML
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 61:1996
       type: OIML
 ext:
   doctype:

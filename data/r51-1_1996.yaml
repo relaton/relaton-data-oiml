@@ -10,6 +10,9 @@ title:
   content: 'Instruments de pesage trieurs-étiqueteurs à fonctionnement automatique.
     Partie 1 : Exigences métrologiques et techniques - Essais'
   type: main
+- language: eng
+  content: 'Part 1: Metrological and technical requirements - Tests'
+  type: main
 docidentifier:
 - content: OIML R 51-1:1996
   type: OIML
@@ -79,6 +82,11 @@ relation:
   bibitem:
     docidentifier:
     - content: OIML R 51-1:2006
+      type: OIML
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 51:1996
       type: OIML
 ext:
   doctype:
