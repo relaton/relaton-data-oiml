@@ -11,6 +11,9 @@ title:
   content: Instruments à fonctionnement automatique pour le pesage des véhicules routiers
     en mouvement. Pesage total du véhicule
   type: main
+- language: eng
+  content: 'Part 1: Metrological and technical requirements – Tests'
+  type: main
 docidentifier:
 - content: OIML R 134-1:2003
   type: OIML
@@ -80,6 +83,11 @@ relation:
   bibitem:
     docidentifier:
     - content: OIML R 134-1:2006
+      type: OIML
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 134:2003
       type: OIML
 ext:
   doctype:

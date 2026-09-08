@@ -11,6 +11,9 @@ title:
   content: 'Compteurs d''eau destinés au mesurage de l''eau potable froide. Partie
     2: Méthodes d''essai'
   type: main
+- language: eng
+  content: 'Part 2: Test methods'
+  type: main
 docidentifier:
 - content: OIML R 49-2:2004
   type: OIML
@@ -75,6 +78,11 @@ relation:
   bibitem:
     docidentifier:
     - content: OIML R 49-2:2004 (F)
+      type: OIML
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 49:2003
       type: OIML
 ext:
   doctype:

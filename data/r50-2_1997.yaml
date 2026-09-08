@@ -11,6 +11,9 @@ title:
   content: 'Instruments de pesage totalisateurs continus à fonctionnement automatique
     (peseuses sur bande). Partie 2: Format du rapport d''essai'
   type: main
+- language: eng
+  content: 'Part 2: Test report format'
+  type: main
 docidentifier:
 - content: OIML R 50-2:1997
   type: OIML
@@ -80,6 +83,11 @@ relation:
   bibitem:
     docidentifier:
     - content: OIML R 50-2:2014
+      type: OIML
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 50:1997
       type: OIML
 ext:
   doctype:

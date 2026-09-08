@@ -10,6 +10,9 @@ title:
   content: 'Ponts-bascules ferroviaires à fonctionnement automatique. Partie 2: Format
     du rapport d''essai'
   type: main
+- language: eng
+  content: 'Part 2: Test report format'
+  type: main
 docidentifier:
 - content: OIML R 106-2:1997
   type: OIML
@@ -79,6 +82,11 @@ relation:
   bibitem:
     docidentifier:
     - content: OIML R 106-2:2011
+      type: OIML
+- type: partOf
+  bibitem:
+    docidentifier:
+    - content: OIML R 106:1997
       type: OIML
 ext:
   doctype:
