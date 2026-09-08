@@ -73,7 +73,7 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r092.1989.en
+  measuring_instrument: Wood-moisture meter
   focus_area:
   - Trade
-  measuring_instrument: Wood-moisture meter
+  doi: 10.63493/r092.1989.en

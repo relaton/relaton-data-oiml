@@ -77,10 +77,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r091.1990.en
-  focus_area:
-  - Safety
   quantity:
     content: Velocity
-  quantity_url: https://si-digital-framework.org/quantities/VELO
   measuring_instrument: Traffic speed meter
+  focus_area:
+  - Safety
+  quantity_url: https://si-digital-framework.org/quantities/VELO
+  doi: 10.63493/r091.1990.en

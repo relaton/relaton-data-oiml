@@ -2,6 +2,10 @@
 id: R134-1-2003-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Metrological and technical requirements – Tests
+  type: main
 source:
 - type: website
   content: https://oiml.caco3consulting.com/static/files/en/r134-1-e03.pdf
@@ -43,15 +47,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r134.2003.en
+  quantity:
+    content: Mass
+  measuring_instrument: Scale
   focus_area:
   - Health
   - Trade
-  quantity:
-    content: Mass
   quantity_url: https://si-digital-framework.org/quantities/MASS
-  measuring_instrument: Scale
-title:
-- language: eng
-  content: Metrological and technical requirements – Tests
-  type: main
+  doi: 10.63493/r134.2003.en

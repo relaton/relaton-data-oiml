@@ -76,5 +76,5 @@ ext:
   flavor: oiml
   quantity:
     content: Temperature
-  quantity_url: https://si-digital-framework.org/quantities/ITSC
   measuring_instrument: Pyrometer
+  quantity_url: https://si-digital-framework.org/quantities/ITSC

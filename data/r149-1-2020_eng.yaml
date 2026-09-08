@@ -2,6 +2,10 @@
 id: R149-1-2020-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Metrological and technical requirements
+  type: main
 source:
 - type: website
   content: https://oiml.caco3consulting.com/static/files/en/r149-1-e20.pdf
@@ -38,14 +42,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r149.2020.en
-  focus_area:
-  - Health
   quantity:
     content: Pressure
-  quantity_url: https://si-digital-framework.org/quantities/PRES
   measuring_instrument: Sphygmomanometer
-title:
-- language: eng
-  content: Metrological and technical requirements
-  type: main
+  focus_area:
+  - Health
+  quantity_url: https://si-digital-framework.org/quantities/PRES
+  doi: 10.63493/r149.2020.en

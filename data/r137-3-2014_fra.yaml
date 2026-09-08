@@ -60,5 +60,5 @@ ext:
   flavor: oiml
   quantity:
     content: Mass
-  quantity_url: https://si-digital-framework.org/quantities/MASS
   measuring_instrument: Gas Meter
+  quantity_url: https://si-digital-framework.org/quantities/MASS

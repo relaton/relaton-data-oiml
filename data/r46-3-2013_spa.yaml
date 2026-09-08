@@ -65,5 +65,5 @@ ext:
   flavor: oiml
   quantity:
     content: Energy
-  quantity_url: https://si-digital-framework.org/quantities/ENGY
   measuring_instrument: Electrical energy meter
+  quantity_url: https://si-digital-framework.org/quantities/ENGY

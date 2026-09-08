@@ -30,6 +30,12 @@ script:
 status:
   stage:
     content: in-force
+relation:
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 42:1981
+      type: OIML
 ext:
   doctype:
     content: recommendation
@@ -39,9 +45,3 @@ ext:
     a mark for the a variety of metrological purposes.
   sustainability_framework: Prosperity
   doi: 10.63493/r042.1981.en
-relation:
-- type: hasSuccessor
-  bibitem:
-    docidentifier:
-    - content: OIML R 42:1981
-      type: OIML

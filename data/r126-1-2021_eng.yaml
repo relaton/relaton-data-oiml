@@ -2,6 +2,10 @@
 id: R126-1-2021-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Metrological and technical requirements
+  type: main
 source:
 - type: website
   content: https://oiml.caco3consulting.com/static/files/en/r126-1-e21.pdf
@@ -38,14 +42,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r126.2021.en
-  focus_area:
-  - Trade
   quantity:
     content: Amount of substance concentration
-  quantity_url: https://si-digital-framework.org/quantities/AMSC
   measuring_instrument: Evidential breath analyser
-title:
-- language: eng
-  content: Metrological and technical requirements
-  type: main
+  focus_area:
+  - Trade
+  quantity_url: https://si-digital-framework.org/quantities/AMSC
+  doi: 10.63493/r126.2021.en

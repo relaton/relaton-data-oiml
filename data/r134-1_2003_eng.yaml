@@ -78,11 +78,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r134.2003.en
+  quantity:
+    content: Mass
+  measuring_instrument: Scale
   focus_area:
   - Health
   - Trade
-  quantity:
-    content: Mass
   quantity_url: https://si-digital-framework.org/quantities/MASS
-  measuring_instrument: Scale
+  doi: 10.63493/r134.2003.en

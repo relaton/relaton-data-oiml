@@ -2,6 +2,10 @@
 id: R76-1-2006-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Metrological and technical requirements - Tests
+  type: main
 source:
 - type: file
   content: pdfs/r76_2006/parts_eng/R076-1-e06.pdf
@@ -38,12 +42,8 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r076.2006.en
   quantity:
     content: Mass
-  quantity_url: https://si-digital-framework.org/quantities/MASS
   measuring_instrument: Non-automatic weighing instrument
-title:
-- language: eng
-  content: Metrological and technical requirements - Tests
-  type: main
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  doi: 10.63493/r076.2006.en

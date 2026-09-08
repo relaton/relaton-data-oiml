@@ -72,8 +72,8 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  focus_area:
-  - Health
   quantity:
     content: Length
+  focus_area:
+  - Health
   quantity_url: https://si-digital-framework.org/quantities/LENG

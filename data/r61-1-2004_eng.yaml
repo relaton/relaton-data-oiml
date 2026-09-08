@@ -2,6 +2,10 @@
 id: R61-1-2004-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Metrological and technical requirements - Tests
+  type: main
 source:
 - type: website
   content: pdfs/r61_2004/parts_eng/R061-1-e04.pdf
@@ -63,14 +67,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r061.2004.en
-  focus_area:
-  - Trade
   quantity:
     content: Mass
-  quantity_url: https://si-digital-framework.org/quantities/MASS
   measuring_instrument: Automatic gravimetric filling instrument
-title:
-- language: eng
-  content: Metrological and technical requirements - Tests
-  type: main
+  focus_area:
+  - Trade
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  doi: 10.63493/r061.2004.en

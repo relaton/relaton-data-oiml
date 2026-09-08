@@ -2,6 +2,10 @@
 id: R51-1-1996-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Metrological and technical requirements - Tests
+  type: main
 source:
 - type: website
   content: https://oiml.caco3consulting.com/static/files/en/r051-1-e96.pdf
@@ -43,14 +47,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r051.1996.en
-  focus_area:
-  - Trade
   quantity:
     content: Mass
-  quantity_url: https://si-digital-framework.org/quantities/MASS
   measuring_instrument: Automatic catchweigher
-title:
-- language: eng
-  content: Metrological and technical requirements - Tests
-  type: main
+  focus_area:
+  - Trade
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  doi: 10.63493/r051.1996.en

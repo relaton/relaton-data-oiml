@@ -30,6 +30,12 @@ script:
 status:
   stage:
     content: in-force
+relation:
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 40:1981
+      type: OIML
 ext:
   doctype:
     content: recommendation
@@ -41,9 +47,3 @@ ext:
   measuring_instrument: Pipette
   sustainability_framework: Prosperity
   doi: 10.63493/r040.1981.en
-relation:
-- type: hasSuccessor
-  bibitem:
-    docidentifier:
-    - content: OIML R 40:1981
-      type: OIML

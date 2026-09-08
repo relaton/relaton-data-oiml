@@ -2,6 +2,10 @@
 id: R106-2-1997-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Test report format
+  type: main
 source:
 - type: website
   content: https://oiml.caco3consulting.com/static/files/en/r106-2-e97.pdf
@@ -43,14 +47,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r106.1997.en
-  focus_area:
-  - Trade
   quantity:
     content: Mass
-  quantity_url: https://si-digital-framework.org/quantities/MASS
   measuring_instrument: Automatic rail-weighbridge
-title:
-- language: eng
-  content: Test report format
-  type: main
+  focus_area:
+  - Trade
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  doi: 10.63493/r106.1997.en

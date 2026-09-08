@@ -58,10 +58,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  quantity:
+    content: Mass
+  measuring_instrument: Scale
   focus_area:
   - Health
   - Trade
-  quantity:
-    content: Mass
   quantity_url: https://si-digital-framework.org/quantities/MASS
-  measuring_instrument: Scale
