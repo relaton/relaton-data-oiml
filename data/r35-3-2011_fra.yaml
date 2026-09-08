@@ -2,6 +2,10 @@
 id: R35-3-2011-fra
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: 'Part 3: Test report format'
+  type: main
 source:
 - type: website
   content: pdfs/r35_2007/parts_fra/R035-3-f11.pdf

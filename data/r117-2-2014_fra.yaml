@@ -2,6 +2,10 @@
 id: R117-2-2014-fra
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: 'Part 2: Metrological controls and performance tests'
+  type: main
 source:
 - type: website
   content: pdfs/r117_2007/parts_fra/R117-2-e14.pdf

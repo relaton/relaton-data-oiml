@@ -2,6 +2,10 @@
 id: R35-2-2011-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: 'Part 2: Test methods'
+  type: main
 source:
 - type: website
   content: pdfs/r35_2007/parts_eng/R035-2-e11.pdf

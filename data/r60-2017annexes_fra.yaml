@@ -2,6 +2,10 @@
 id: R60-2017Annexes-fra
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Annexes
+  type: main
 source:
 - type: website
   content: pdfs/r60_2017/parts_fra/R060-Annexes-f17.pdf

@@ -2,6 +2,10 @@
 id: R105-1995AnnexC-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Annex C
+  type: main
 source:
 - type: website
   content: pdfs/r105_1993/parts_eng/R105-Ann-C-e95.pdf

@@ -2,6 +2,10 @@
 id: R122-1999AnnexC-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Annex C
+  type: main
 source:
 - type: website
   content: pdfs/r122_1996/parts_eng/R122-Ann-C-e99.pdf

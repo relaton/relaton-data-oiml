@@ -2,6 +2,10 @@
 id: R51-1-2010Errata-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Errata
+  type: main
 source:
 - type: website
   content: pdfs/r51_2006/parts_eng/R051-1-erratum-e10.pdf

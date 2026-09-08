@@ -2,6 +2,10 @@
 id: R136-2-2006-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: 'Part 2: Test report format'
+  type: main
 source:
 - type: website
   content: pdfs/r136_2004/parts_eng/R136-2-e06.pdf
