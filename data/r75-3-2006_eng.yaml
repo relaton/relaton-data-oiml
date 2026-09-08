@@ -2,6 +2,10 @@
 id: R75-3-2006-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: 'Part 3: Test report format'
+  type: main
 source:
 - type: file
   content: pdfs/r75_2002/parts_eng/R075-3-e06.pdf

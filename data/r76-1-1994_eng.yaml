@@ -2,6 +2,10 @@
 id: R76-1-1994-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: 'Part 1: Metrological and technical requirements - Tests'
+  type: main
 source:
 - type: website
   content: https://oiml.caco3consulting.com/static/files/en/r076-1-e92.pdf

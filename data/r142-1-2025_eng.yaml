@@ -2,6 +2,10 @@
 id: R142-1-2025-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Part 1
+  type: main
 source:
 - type: website
   content: https://www.oiml.org/en/files/pdf_r/r142-1-e25.pdf

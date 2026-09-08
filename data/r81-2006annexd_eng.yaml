@@ -2,6 +2,10 @@
 id: R81-2006AnnexD-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Annex D
+  type: main
 source:
 - type: file
   content: pdfs/r81_1998/parts_eng/R081-Ann-D-e06.pdf

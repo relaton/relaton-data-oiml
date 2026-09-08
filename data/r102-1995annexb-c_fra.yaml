@@ -2,6 +2,10 @@
 id: R102-1995AnnexB-C-fra
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Annex B-C
+  type: main
 source:
 - type: website
   content: pdfs/r102_1992/parts_fra/R102-Ann-B-C-f95.pdf
