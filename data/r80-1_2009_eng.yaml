@@ -9,6 +9,8 @@ title:
 source:
 - type: website
   content: https://www.oiml.org/en/files/pdf_r/r080-e09.pdf
+- type: file
+  content: pdfs/r80_2017/parts_eng/R080-1-e09.pdf
 docidentifier:
 - content: OIML R 80-1:2009 (E)
   type: OIML

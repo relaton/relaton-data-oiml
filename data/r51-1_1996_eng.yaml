@@ -6,9 +6,14 @@ title:
 - language: eng
   content: Automatic catchweighing instruments
   type: main
+- language: eng
+  content: Metrological and technical requirements - Tests
+  type: main
 source:
 - type: website
   content: https://www.oiml.org/en/files/pdf_r/r051-1-e96.pdf
+- type: website
+  content: https://oiml.caco3consulting.com/static/files/en/r051-1-e96.pdf
 docidentifier:
 - content: OIML R 51-1:1996 (E)
   type: OIML

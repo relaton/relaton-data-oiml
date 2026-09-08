@@ -6,9 +6,14 @@ title:
 - language: eng
   content: 'Automatic rail-weighbridges. Part 2 : Test report format'
   type: main
+- language: eng
+  content: Test report format
+  type: main
 source:
 - type: website
   content: https://www.oiml.org/en/files/pdf_r/r106-2-e97.pdf
+- type: website
+  content: https://oiml.caco3consulting.com/static/files/en/r106-2-e97.pdf
 docidentifier:
 - content: OIML R 106-2:1997 (E)
   type: OIML
