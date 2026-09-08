@@ -1031,31 +1031,6 @@
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
-    year: '1997'
-    number: '106'
-    part: '1'
-  :file: data/r106-1_1997.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '1997'
-    number: '106'
-    part: '1'
-  :file: data/r106-1_1997_eng.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: F
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '1997'
-    number: '106'
-    part: '1'
-  :file: data/r106-1_1997_fra.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    publisher: OIML
     year: '2011'
     number: '106'
     part: '1'
@@ -1092,8 +1067,8 @@
     publisher: OIML
     year: '1997'
     number: '106'
-    part: '2'
-  :file: data/r106-2_1997.yaml
+    part: '1'
+  :file: data/r106-1_1997.yaml
 - :id:
     _type: pubid:oiml:recommendation
     language: E
@@ -1101,8 +1076,8 @@
     publisher: OIML
     year: '1997'
     number: '106'
-    part: '2'
-  :file: data/r106-2_1997_eng.yaml
+    part: '1'
+  :file: data/r106-1_1997_eng.yaml
 - :id:
     _type: pubid:oiml:recommendation
     language: F
@@ -1110,8 +1085,8 @@
     publisher: OIML
     year: '1997'
     number: '106'
-    part: '2'
-  :file: data/r106-2_1997_fra.yaml
+    part: '1'
+  :file: data/r106-1_1997_fra.yaml
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -1137,6 +1112,31 @@
     number: '106'
     part: '2'
   :file: data/r106-2-2012_fra.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    publisher: OIML
+    year: '1997'
+    number: '106'
+    part: '2'
+  :file: data/r106-2_1997.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: E
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '1997'
+    number: '106'
+    part: '2'
+  :file: data/r106-2_1997_eng.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: F
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '1997'
+    number: '106'
+    part: '2'
+  :file: data/r106-2_1997_fra.yaml
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -1168,6 +1168,22 @@
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
+    year: '2007'
+    number: '107'
+    part: '1'
+  :file: data/r107-1-2007.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: E
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '2007'
+    number: '107'
+    part: '1'
+  :file: data/r107-1-2007_eng.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    publisher: OIML
     year: '1997'
     number: '107'
     part: '1'
@@ -1195,8 +1211,8 @@
     publisher: OIML
     year: '2007'
     number: '107'
-    part: '1'
-  :file: data/r107-1-2007.yaml
+    part: '2'
+  :file: data/r107-2-2007.yaml
 - :id:
     _type: pubid:oiml:recommendation
     language: E
@@ -1204,8 +1220,8 @@
     publisher: OIML
     year: '2007'
     number: '107'
-    part: '1'
-  :file: data/r107-1-2007_eng.yaml
+    part: '2'
+  :file: data/r107-2-2007_eng.yaml
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -1231,22 +1247,6 @@
     number: '107'
     part: '2'
   :file: data/r107-2_1997_fra.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    publisher: OIML
-    year: '2007'
-    number: '107'
-    part: '2'
-  :file: data/r107-2-2007.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '2007'
-    number: '107'
-    part: '2'
-  :file: data/r107-2-2007_eng.yaml
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -2871,31 +2871,6 @@
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
-    year: '2003'
-    number: '134'
-    part: '1'
-  :file: data/r134-1_2003.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '2003'
-    number: '134'
-    part: '1'
-  :file: data/r134-1_2003_eng.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: F
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '2003'
-    number: '134'
-    part: '1'
-  :file: data/r134-1_2003_fra.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    publisher: OIML
     year: '2006'
     number: '134'
     part: '1'
@@ -2930,28 +2905,28 @@
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
-    year: '2004'
+    year: '2003'
     number: '134'
-    part: '2'
-  :file: data/r134-2_2004.yaml
+    part: '1'
+  :file: data/r134-1_2003.yaml
 - :id:
     _type: pubid:oiml:recommendation
     language: E
     parsed_format: short_with_space
     publisher: OIML
-    year: '2004'
+    year: '2003'
     number: '134'
-    part: '2'
-  :file: data/r134-2_2004_eng.yaml
+    part: '1'
+  :file: data/r134-1_2003_eng.yaml
 - :id:
     _type: pubid:oiml:recommendation
     language: F
     parsed_format: short_with_space
     publisher: OIML
-    year: '2004'
+    year: '2003'
     number: '134'
-    part: '2'
-  :file: data/r134-2_2004_fra.yaml
+    part: '1'
+  :file: data/r134-1_2003_fra.yaml
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -2986,6 +2961,31 @@
     number: '134'
     part: '2'
   :file: data/r134-2-2009_fra.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    publisher: OIML
+    year: '2004'
+    number: '134'
+    part: '2'
+  :file: data/r134-2_2004.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: E
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '2004'
+    number: '134'
+    part: '2'
+  :file: data/r134-2_2004_eng.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: F
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '2004'
+    number: '134'
+    part: '2'
+  :file: data/r134-2_2004_fra.yaml
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -36044,47 +36044,6 @@
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
-    year: '2003'
-    number: '49'
-    part: '1'
-  :file: data/r49-1_2003.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '2003'
-    number: '49'
-    part: '1'
-  :file: data/r49-1_2003_eng.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: F
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '2003'
-    number: '49'
-    part: '1'
-  :file: data/r49-1_2003_fra.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    publisher: OIML
-    year: '2006'
-    number: '49'
-    part: '1'
-  :file: data/r49-1_2006.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '2006'
-    number: '49'
-    part: '1'
-  :file: data/r49-1_2006_eng.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    publisher: OIML
     year: '2013'
     number: '49'
     part: '1'
@@ -36143,6 +36102,47 @@
   :file: data/r49-1-2024_eng.yaml
 - :id:
     _type: pubid:oiml:recommendation
+    publisher: OIML
+    year: '2003'
+    number: '49'
+    part: '1'
+  :file: data/r49-1_2003.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: E
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '2003'
+    number: '49'
+    part: '1'
+  :file: data/r49-1_2003_eng.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: F
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '2003'
+    number: '49'
+    part: '1'
+  :file: data/r49-1_2003_fra.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    publisher: OIML
+    year: '2006'
+    number: '49'
+    part: '1'
+  :file: data/r49-1_2006.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: E
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '2006'
+    number: '49'
+    part: '1'
+  :file: data/r49-1_2006_eng.yaml
+- :id:
+    _type: pubid:oiml:recommendation
     language: F
     parsed_format: short_with_space
     publisher: OIML
@@ -36150,47 +36150,6 @@
     number: '49'
     part: '1'
   :file: data/r49-1_2006_fra.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    publisher: OIML
-    year: '2004'
-    number: '49'
-    part: '2'
-  :file: data/r49-2_2004.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '2004'
-    number: '49'
-    part: '2'
-  :file: data/r49-2_2004_eng.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: F
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '2004'
-    number: '49'
-    part: '2'
-  :file: data/r49-2_2004_fra.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    publisher: OIML
-    year: '2006'
-    number: '49'
-    part: '2'
-  :file: data/r49-2_2006.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '2006'
-    number: '49'
-    part: '2'
-  :file: data/r49-2_2006_eng.yaml
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -36243,6 +36202,47 @@
   :file: data/r49-2-2024_eng.yaml
 - :id:
     _type: pubid:oiml:recommendation
+    publisher: OIML
+    year: '2004'
+    number: '49'
+    part: '2'
+  :file: data/r49-2_2004.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: E
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '2004'
+    number: '49'
+    part: '2'
+  :file: data/r49-2_2004_eng.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: F
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '2004'
+    number: '49'
+    part: '2'
+  :file: data/r49-2_2004_fra.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    publisher: OIML
+    year: '2006'
+    number: '49'
+    part: '2'
+  :file: data/r49-2_2006.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: E
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '2006'
+    number: '49'
+    part: '2'
+  :file: data/r49-2_2006_eng.yaml
+- :id:
+    _type: pubid:oiml:recommendation
     language: F
     parsed_format: short_with_space
     publisher: OIML
@@ -36250,47 +36250,6 @@
     number: '49'
     part: '2'
   :file: data/r49-2_2006_fra.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    publisher: OIML
-    year: '2004'
-    number: '49'
-    part: '3'
-  :file: data/r49-3_2004.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '2004'
-    number: '49'
-    part: '3'
-  :file: data/r49-3_2004_eng.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: F
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '2004'
-    number: '49'
-    part: '3'
-  :file: data/r49-3_2004_fra.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    publisher: OIML
-    year: '2006'
-    number: '49'
-    part: '3'
-  :file: data/r49-3_2006.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '2006'
-    number: '49'
-    part: '3'
-  :file: data/r49-3_2006_eng.yaml
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -36341,6 +36300,47 @@
     number: '49'
     part: '3'
   :file: data/r49-3-2024_eng.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    publisher: OIML
+    year: '2004'
+    number: '49'
+    part: '3'
+  :file: data/r49-3_2004.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: E
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '2004'
+    number: '49'
+    part: '3'
+  :file: data/r49-3_2004_eng.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: F
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '2004'
+    number: '49'
+    part: '3'
+  :file: data/r49-3_2004_fra.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    publisher: OIML
+    year: '2006'
+    number: '49'
+    part: '3'
+  :file: data/r49-3_2006.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: E
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '2006'
+    number: '49'
+    part: '3'
+  :file: data/r49-3_2006_eng.yaml
 - :id:
     _type: pubid:oiml:recommendation
     language: F
@@ -36657,31 +36657,6 @@
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
-    year: '1997'
-    number: '50'
-    part: '1'
-  :file: data/r50-1_1997.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '1997'
-    number: '50'
-    part: '1'
-  :file: data/r50-1_1997_eng.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: F
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '1997'
-    number: '50'
-    part: '1'
-  :file: data/r50-1_1997_fra.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    publisher: OIML
     year: '2014'
     number: '50'
     part: '1'
@@ -36709,6 +36684,47 @@
     publisher: OIML
     year: '1997'
     number: '50'
+    part: '1'
+  :file: data/r50-1_1997.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: E
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '1997'
+    number: '50'
+    part: '1'
+  :file: data/r50-1_1997_eng.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: F
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '1997'
+    number: '50'
+    part: '1'
+  :file: data/r50-1_1997_fra.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    publisher: OIML
+    year: '2014'
+    number: '50'
+    part: '2'
+  :file: data/r50-2-2014.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: E
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '2014'
+    number: '50'
+    part: '2'
+  :file: data/r50-2-2014_eng.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    publisher: OIML
+    year: '1997'
+    number: '50'
     part: '2'
   :file: data/r50-2_1997.yaml
 - :id:
@@ -36729,22 +36745,6 @@
     number: '50'
     part: '2'
   :file: data/r50-2_1997_fra.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    publisher: OIML
-    year: '2014'
-    number: '50'
-    part: '2'
-  :file: data/r50-2-2014.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '2014'
-    number: '50'
-    part: '2'
-  :file: data/r50-2-2014_eng.yaml
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -36801,31 +36801,6 @@
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
-    year: '1996'
-    number: '51'
-    part: '1'
-  :file: data/r51-1_1996.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '1996'
-    number: '51'
-    part: '1'
-  :file: data/r51-1_1996_eng.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: F
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '1996'
-    number: '51'
-    part: '1'
-  :file: data/r51-1_1996_fra.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    publisher: OIML
     year: '2006'
     number: '51'
     part: '1'
@@ -36874,8 +36849,8 @@
     publisher: OIML
     year: '1996'
     number: '51'
-    part: '2'
-  :file: data/r51-2_1996.yaml
+    part: '1'
+  :file: data/r51-1_1996.yaml
 - :id:
     _type: pubid:oiml:recommendation
     language: E
@@ -36883,8 +36858,8 @@
     publisher: OIML
     year: '1996'
     number: '51'
-    part: '2'
-  :file: data/r51-2_1996_eng.yaml
+    part: '1'
+  :file: data/r51-1_1996_eng.yaml
 - :id:
     _type: pubid:oiml:recommendation
     language: F
@@ -36892,8 +36867,8 @@
     publisher: OIML
     year: '1996'
     number: '51'
-    part: '2'
-  :file: data/r51-2_1996_fra.yaml
+    part: '1'
+  :file: data/r51-1_1996_fra.yaml
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -36919,6 +36894,31 @@
     number: '51'
     part: '2'
   :file: data/r51-2-2006_fas.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    publisher: OIML
+    year: '1996'
+    number: '51'
+    part: '2'
+  :file: data/r51-2_1996.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: E
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '1996'
+    number: '51'
+    part: '2'
+  :file: data/r51-2_1996_eng.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: F
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '1996'
+    number: '51'
+    part: '2'
+  :file: data/r51-2_1996_fra.yaml
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -37981,31 +37981,6 @@
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
-    year: '1996'
-    number: '61'
-    part: '1'
-  :file: data/r61-1_1996.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '1996'
-    number: '61'
-    part: '1'
-  :file: data/r61-1_1996_eng.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: F
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '1996'
-    number: '61'
-    part: '1'
-  :file: data/r61-1_1996_fra.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    publisher: OIML
     year: '2004'
     number: '61'
     part: '1'
@@ -38049,8 +38024,8 @@
     publisher: OIML
     year: '1996'
     number: '61'
-    part: '2'
-  :file: data/r61-2_1996.yaml
+    part: '1'
+  :file: data/r61-1_1996.yaml
 - :id:
     _type: pubid:oiml:recommendation
     language: E
@@ -38058,8 +38033,8 @@
     publisher: OIML
     year: '1996'
     number: '61'
-    part: '2'
-  :file: data/r61-2_1996_eng.yaml
+    part: '1'
+  :file: data/r61-1_1996_eng.yaml
 - :id:
     _type: pubid:oiml:recommendation
     language: F
@@ -38067,8 +38042,8 @@
     publisher: OIML
     year: '1996'
     number: '61'
-    part: '2'
-  :file: data/r61-2_1996_fra.yaml
+    part: '1'
+  :file: data/r61-1_1996_fra.yaml
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -38101,6 +38076,31 @@
     number: '61'
     part: '2'
   :file: data/r61-2-2017_eng.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    publisher: OIML
+    year: '1996'
+    number: '61'
+    part: '2'
+  :file: data/r61-2_1996.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: E
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '1996'
+    number: '61'
+    part: '2'
+  :file: data/r61-2_1996_eng.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: F
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '1996'
+    number: '61'
+    part: '2'
+  :file: data/r61-2_1996_fra.yaml
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -38875,47 +38875,6 @@
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
-    year: '1988'
-    number: '76'
-    part: '1'
-  :file: data/r76-1_1988.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '1988'
-    number: '76'
-    part: '1'
-  :file: data/r76-1_1988_eng.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    publisher: OIML
-    year: '1992'
-    number: '76'
-    part: '1'
-  :file: data/r76-1_1992.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '1992'
-    number: '76'
-    part: '1'
-  :file: data/r76-1_1992_eng.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: F
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '1992'
-    number: '76'
-    part: '1'
-  :file: data/r76-1_1992_fra.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    publisher: OIML
     year: '1994'
     number: '76'
     part: '1'
@@ -38974,6 +38933,22 @@
   :file: data/r76-1-2006_fra.yaml
 - :id:
     _type: pubid:oiml:recommendation
+    publisher: OIML
+    year: '1988'
+    number: '76'
+    part: '1'
+  :file: data/r76-1_1988.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: E
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '1988'
+    number: '76'
+    part: '1'
+  :file: data/r76-1_1988_eng.yaml
+- :id:
+    _type: pubid:oiml:recommendation
     language: F
     parsed_format: short_with_space
     publisher: OIML
@@ -38984,10 +38959,28 @@
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
-    year: '1993'
+    year: '1992'
     number: '76'
-    part: '2'
-  :file: data/r76-2_1993.yaml
+    part: '1'
+  :file: data/r76-1_1992.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: E
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '1992'
+    number: '76'
+    part: '1'
+  :file: data/r76-1_1992_eng.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: F
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '1992'
+    number: '76'
+    part: '1'
+  :file: data/r76-1_1992_fra.yaml
 - :id:
     _type: pubid:oiml:recommendation
     language: A
@@ -38997,24 +38990,6 @@
     number: '76'
     part: '2'
   :file: data/r76-2-1993_ara.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: E
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '1993'
-    number: '76'
-    part: '2'
-  :file: data/r76-2_1993_eng.yaml
-- :id:
-    _type: pubid:oiml:recommendation
-    language: F
-    parsed_format: short_with_space
-    publisher: OIML
-    year: '1993'
-    number: '76'
-    part: '2'
-  :file: data/r76-2_1993_fra.yaml
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -39049,6 +39024,31 @@
     number: '76'
     part: '2'
   :file: data/r76-2-2007_fra.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    publisher: OIML
+    year: '1993'
+    number: '76'
+    part: '2'
+  :file: data/r76-2_1993.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: E
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '1993'
+    number: '76'
+    part: '2'
+  :file: data/r76-2_1993_eng.yaml
+- :id:
+    _type: pubid:oiml:recommendation
+    language: F
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '1993'
+    number: '76'
+    part: '2'
+  :file: data/r76-2_1993_fra.yaml
 - :id:
     _type: pubid:oiml:recommendation
     publisher: OIML
