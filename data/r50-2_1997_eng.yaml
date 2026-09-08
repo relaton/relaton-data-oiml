@@ -7,9 +7,14 @@ title:
   content: 'Continuous totalizing automatic weighing instruments (belt weighers).
     Part 2 : Test report format'
   type: main
+- language: eng
+  content: Test report format
+  type: main
 source:
 - type: website
   content: https://www.oiml.org/en/files/pdf_r/r050-2-e97.pdf
+- type: website
+  content: https://oiml.caco3consulting.com/static/files/en/r050-2-e97.pdf
 docidentifier:
 - content: OIML R 50-2:1997 (E)
   type: OIML

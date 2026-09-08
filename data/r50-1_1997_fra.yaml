@@ -13,6 +13,8 @@ title:
 source:
 - type: website
   content: https://www.oiml.org/fr/files/pdf_r/r050-1-f97.pdf
+- type: website
+  content: https://oiml.caco3consulting.com/static/files/fr/r050-1-f97.pdf
 docidentifier:
 - content: OIML R 50-1:1997 (F)
   type: OIML

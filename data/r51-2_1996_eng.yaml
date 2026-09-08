@@ -6,9 +6,14 @@ title:
 - language: eng
   content: 'Automatic catchweighing instruments. Part 2: Test report format'
   type: main
+- language: eng
+  content: Test report format
+  type: main
 source:
 - type: website
   content: https://www.oiml.org/en/files/pdf_r/r051-2-e96.pdf
+- type: website
+  content: https://oiml.caco3consulting.com/static/files/en/r051-2-e96.pdf
 docidentifier:
 - content: OIML R 51-2:1996 (E)
   type: OIML

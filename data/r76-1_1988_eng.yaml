@@ -7,9 +7,14 @@ title:
   content: 'Nonautomatic weighing instruments. Part 1: Metrological and technical
     requirements - Tests'
   type: main
+- language: eng
+  content: Metrological and technical requirements - Tests
+  type: main
 source:
 - type: website
   content: https://www.oiml.org/en/files/pdf_r/r076-1-e88.pdf
+- type: website
+  content: https://oiml.caco3consulting.com/static/files/en/r076-1-e88.pdf
 docidentifier:
 - content: OIML R 76-1:1988 (E)
   type: OIML

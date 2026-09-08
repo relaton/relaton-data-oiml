@@ -7,9 +7,14 @@ title:
   content: Discontinuous totalizing automatic weighing instruments (totalizing hopper
     weighers)
   type: main
+- language: eng
+  content: Metrological and technical requirements - Tests
+  type: main
 source:
 - type: website
   content: https://www.oiml.org/en/files/pdf_r/r107-1-e97.pdf
+- type: website
+  content: https://oiml.caco3consulting.com/static/files/en/r107-1-e97.pdf
 docidentifier:
 - content: OIML R 107-1:1997 (E)
   type: OIML

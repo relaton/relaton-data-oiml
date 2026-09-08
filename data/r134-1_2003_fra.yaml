@@ -13,6 +13,8 @@ title:
 source:
 - type: website
   content: https://www.oiml.org/fr/files/pdf_r/r134-1-f03.pdf
+- type: website
+  content: https://oiml.caco3consulting.com/static/files/fr/r134-1-f03.pdf
 docidentifier:
 - content: OIML R 134-1:2003 (F)
   type: OIML
