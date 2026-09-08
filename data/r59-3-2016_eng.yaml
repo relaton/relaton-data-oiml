@@ -2,6 +2,10 @@
 id: R59-3-2016-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Test report format
+  type: main
 source:
 - type: website
   content: pdfs/r59_2016/parts_eng/R059-3-e16.pdf
@@ -58,11 +62,7 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r059.2016.en
+  measuring_instrument: Sound level meter
   focus_area:
   - Trade
-  measuring_instrument: Sound level meter
-title:
-- language: eng
-  content: Test report format
-  type: main
+  doi: 10.63493/r059.2016.en

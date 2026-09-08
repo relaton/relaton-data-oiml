@@ -2,6 +2,10 @@
 id: R16-1-2002-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Non-invasive mechanical sphygmomanometers
+  type: main
 source:
 - type: website
   content: pdfs/r16_2002/parts_eng/R016-1-e02.pdf
@@ -58,10 +62,6 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r016.2002.en
   focus_area:
   - Safety
-title:
-- language: eng
-  content: Non-invasive mechanical sphygmomanometers
-  type: main
+  doi: 10.63493/r016.2002.en

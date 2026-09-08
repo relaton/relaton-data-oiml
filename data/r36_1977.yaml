@@ -30,6 +30,12 @@ script:
 status:
   stage:
     content: withdrawn
+relation:
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 36:1980
+      type: OIML
 ext:
   doctype:
     content: recommendation
@@ -38,9 +44,3 @@ ext:
     subject to state  metrological controls, and used to determine hardness on the
     Brinell, Vickers, Rockwell B, F, and T, and on the Rockwell C, A, and N scales.
   doi: 10.63493/r036.1980.en
-relation:
-- type: hasSuccessor
-  bibitem:
-    docidentifier:
-    - content: OIML R 36:1980
-      type: OIML

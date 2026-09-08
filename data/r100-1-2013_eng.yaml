@@ -2,6 +2,10 @@
 id: R100-1-2013-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Metrological and technical requirements
+  type: main
 source:
 - type: website
   content: pdfs/r100_2013/parts_eng/R100-1-e13.pdf
@@ -58,12 +62,8 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r100.2013.en
+  measuring_instrument: Atomic absorption spectrometer
   focus_area:
   - Environment
   - Health
-  measuring_instrument: Atomic absorption spectrometer
-title:
-- language: eng
-  content: Metrological and technical requirements
-  type: main
+  doi: 10.63493/r100.2013.en

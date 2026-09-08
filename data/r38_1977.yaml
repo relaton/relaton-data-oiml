@@ -30,6 +30,12 @@ script:
 status:
   stage:
     content: withdrawn
+relation:
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 38:1981
+      type: OIML
 ext:
   doctype:
     content: recommendation
@@ -37,9 +43,3 @@ ext:
   scope: This Recommendation deals with the verification of machines used to test
     hardness using the Vickers system and subject to state metrological controls.
   doi: 10.63493/r038.1981.en
-relation:
-- type: hasSuccessor
-  bibitem:
-    docidentifier:
-    - content: OIML R 38:1981
-      type: OIML

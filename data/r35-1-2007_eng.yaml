@@ -2,6 +2,10 @@
 id: R35-1-2007-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Metrological and technical requirements
+  type: main
 source:
 - type: website
   content: pdfs/r35_2007/parts_eng/R035-1-e07.pdf
@@ -53,14 +57,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r035.2007.en
-  focus_area:
-  - Trade
   quantity:
     content: Length
-  quantity_url: https://si-digital-framework.org/quantities/LENG
   measuring_instrument: Material measure of length
-title:
-- language: eng
-  content: Metrological and technical requirements
-  type: main
+  focus_area:
+  - Trade
+  quantity_url: https://si-digital-framework.org/quantities/LENG
+  doi: 10.63493/r035.2007.en

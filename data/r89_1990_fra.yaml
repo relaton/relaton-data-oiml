@@ -73,7 +73,7 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r089.1990.en
+  measuring_instrument: Electroencephalograph
   focus_area:
   - Health
-  measuring_instrument: Electroencephalograph
+  doi: 10.63493/r089.1990.en

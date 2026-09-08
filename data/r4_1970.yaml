@@ -30,6 +30,12 @@ script:
 status:
   stage:
     content: superseded
+relation:
+- type: hasSuccessor
+  bibitem:
+    docidentifier:
+    - content: OIML R 4:1972
+      type: OIML
 ext:
   doctype:
     content: recommendation
@@ -41,9 +47,3 @@ ext:
   focus_area: Health
   sustainability_framework: People
   doi: 10.63493/r004.1972.en
-relation:
-- type: hasSuccessor
-  bibitem:
-    docidentifier:
-    - content: OIML R 4:1972
-      type: OIML

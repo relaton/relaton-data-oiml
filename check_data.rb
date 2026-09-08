@@ -14,7 +14,7 @@ require "relaton/bib"
 require "yaml"
 
 CUSTOM_EXT_KEYS = %w[
-  scope quantity measuring_instrument focus_area
+  scope quantity measuring_instrument focus_area quantity_url
   sustainability_framework doi high_priority high_priority_source
 ].freeze
 

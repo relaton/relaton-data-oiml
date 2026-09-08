@@ -2,6 +2,10 @@
 id: R49-1-2013-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Metrological and technical requirements
+  type: main
 source:
 - type: website
   content: pdfs/r49_2013/parts_eng/R049-1-e13.pdf
@@ -63,14 +67,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r049.2013.en
-  focus_area:
-  - Trade
   quantity:
     content: Volume
-  quantity_url: https://si-digital-framework.org/quantities/VOLU
   measuring_instrument: Water meter
-title:
-- language: eng
-  content: Metrological and technical requirements
-  type: main
+  focus_area:
+  - Trade
+  quantity_url: https://si-digital-framework.org/quantities/VOLU
+  doi: 10.63493/r049.2013.en

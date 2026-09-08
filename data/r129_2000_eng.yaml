@@ -77,7 +77,7 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r129.2000.en
   quantity:
     content: Volume
   quantity_url: https://si-digital-framework.org/quantities/VOLU
+  doi: 10.63493/r129.2000.en

@@ -2,6 +2,10 @@
 id: R139-1-2022-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Metrological and technical requirements
+  type: main
 source:
 - type: website
   content: https://oiml.caco3consulting.com/static/files/en/r139-1-e18-reconfirmed-2022.pdf
@@ -38,14 +42,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r139.2022.en
-  focus_area:
-  - Trade
   quantity:
     content: Mass
-  quantity_url: https://si-digital-framework.org/quantities/MASS
   measuring_instrument: Compressed gaseous fuel measurement system
-title:
-- language: eng
-  content: Metrological and technical requirements
-  type: main
+  focus_area:
+  - Trade
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  doi: 10.63493/r139.2022.en

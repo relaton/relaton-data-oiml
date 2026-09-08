@@ -2,6 +2,10 @@
 id: R117-3-2019-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Test report format
+  type: main
 source:
 - type: website
   content: https://oiml.caco3consulting.com/static/files/en/r117-3-e19.pdf
@@ -38,14 +42,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r117.2019.en
-  focus_area:
-  - Trade
   quantity:
     content: Volume
-  quantity_url: https://si-digital-framework.org/quantities/VOLU
   measuring_instrument: Liquid flow meter
-title:
-- language: eng
-  content: Test report format
-  type: main
+  focus_area:
+  - Trade
+  quantity_url: https://si-digital-framework.org/quantities/VOLU
+  doi: 10.63493/r117.2019.en

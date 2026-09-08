@@ -40,5 +40,5 @@ ext:
   flavor: oiml
   quantity:
     content: Heat
-  quantity_url: https://si-digital-framework.org/quantities/HEQT
   measuring_instrument: Heat meter
+  quantity_url: https://si-digital-framework.org/quantities/HEQT

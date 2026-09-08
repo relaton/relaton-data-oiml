@@ -2,6 +2,10 @@
 id: R49-2-2006-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Test methods
+  type: main
 source:
 - type: website
   content: https://oiml.caco3consulting.com/static/files/en/r049-2-e06.pdf
@@ -43,14 +47,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r049.2006.en
-  focus_area:
-  - Trade
   quantity:
     content: Volume
-  quantity_url: https://si-digital-framework.org/quantities/VOLU
   measuring_instrument: Water meter
-title:
-- language: eng
-  content: Test methods
-  type: main
+  focus_area:
+  - Trade
+  quantity_url: https://si-digital-framework.org/quantities/VOLU
+  doi: 10.63493/r049.2006.en

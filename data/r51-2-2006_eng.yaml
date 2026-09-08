@@ -2,6 +2,10 @@
 id: R51-2-2006-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Test report format
+  type: main
 source:
 - type: website
   content: pdfs/r51_2006/parts_eng/R051-2-e06.pdf
@@ -58,14 +62,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r051.2006.en
-  focus_area:
-  - Trade
   quantity:
     content: Mass
-  quantity_url: https://si-digital-framework.org/quantities/MASS
   measuring_instrument: Automatic catchweigher
-title:
-- language: eng
-  content: Test report format
-  type: main
+  focus_area:
+  - Trade
+  quantity_url: https://si-digital-framework.org/quantities/MASS
+  doi: 10.63493/r051.2006.en

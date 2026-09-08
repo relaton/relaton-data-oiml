@@ -2,6 +2,10 @@
 id: R99-3-2008-eng
 schema_version: v1.5.6
 type: standard
+title:
+- language: eng
+  content: Report format
+  type: main
 source:
 - type: website
   content: https://oiml.caco3consulting.com/static/files/en/r099-3-e08.pdf
@@ -38,13 +42,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r099.2008.en
-  focus_area:
-  - Environment
   quantity:
     content: Amount of substance concentration
+  focus_area:
+  - Environment
   quantity_url: https://si-digital-framework.org/quantities/AMSC
-title:
-- language: eng
-  content: Report format
-  type: main
+  doi: 10.63493/r099.2008.en
