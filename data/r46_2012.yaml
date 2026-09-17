@@ -91,6 +91,7 @@ ext:
     also apply to modifications that may be made to existing approved devices.
   quantity: Energy
   measuring_instrument: Electrical energy meter
+  oimlcs: true
   sustainability_framework: People
   doi: 10.63493/r046.2012.en
   high_priority: true

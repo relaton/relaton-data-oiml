@@ -96,5 +96,6 @@ ext:
     (e.g. with or without protective grid).
   quantity: Sound intensity level
   measuring_instrument: Sound calibrator
+  oimlcs: true
   sustainability_framework: People
   doi: 10.63493/r102.1992.en

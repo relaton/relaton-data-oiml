@@ -92,5 +92,6 @@ ext:
     services.
   quantity: Volume
   measuring_instrument: Dynamic volume measuring device
+  oimlcs: true
   sustainability_framework: Prosperity
   doi: 10.63493/r081.1998.en

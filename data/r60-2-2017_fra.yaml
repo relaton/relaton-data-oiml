@@ -48,7 +48,7 @@ script:
 - Latn
 status:
   stage:
-    content: in-force
+    content: superseded
 relation:
 - type: instanceOf
   bibitem:
@@ -64,4 +64,5 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r060.2017.en
+  oimlcs: true
+  doi: 10.63493/r060-2.2017.fr

@@ -85,4 +85,5 @@ ext:
     are used for measuring gauge pressure in the range from 0.1 MPa to 500 MPa.
   quantity: Pressure
   measuring_instrument: Pressure balance
+  oimlcs: true
   doi: 10.63493/r110.1994.en

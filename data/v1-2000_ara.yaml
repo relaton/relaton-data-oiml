@@ -46,7 +46,7 @@ script:
 - Arab
 status:
   stage:
-    content: in-force
+    content: superseded
 copyright:
 - from: '2000'
   owner:

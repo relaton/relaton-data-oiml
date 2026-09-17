@@ -49,4 +49,5 @@ ext:
     content: Heat
   measuring_instrument: Heat meter
   quantity_url: https://si-digital-framework.org/quantities/HEQT
+  oimlcs: true
   doi: 10.63493/r075.2002.en

@@ -96,6 +96,7 @@ ext:
     of volume or mass.
   quantity: Mass
   measuring_instrument: Gas Meter
+  oimlcs: true
   sustainability_framework: People
   doi: 10.63493/r137.2012.en
   high_priority: true

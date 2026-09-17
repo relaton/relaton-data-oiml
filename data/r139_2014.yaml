@@ -107,6 +107,7 @@ ext:
   quantity: Mass
   measuring_instrument: Compressed gaseous fuel measurement system
   focus_area: Trade
+  oimlcs: true
   sustainability_framework: People
   doi: 10.63493/r139.2014.en
   high_priority: true

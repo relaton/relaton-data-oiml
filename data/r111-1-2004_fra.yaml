@@ -69,4 +69,5 @@ ext:
     content: Mass
   measuring_instrument: Weight
   quantity_url: https://si-digital-framework.org/quantities/MASS
-  doi: 10.63493/r111.2004.en
+  oimlcs: true
+  doi: 10.63493/r111-1.2004.fr

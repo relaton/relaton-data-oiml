@@ -74,3 +74,4 @@ ext:
     content: Mass
   measuring_instrument: Non-automatic weighing instrument
   quantity_url: https://si-digital-framework.org/quantities/MASS
+  oimlcs: true

@@ -107,5 +107,6 @@ ext:
   quantity: Amount of substance concentration
   measuring_instrument: Gas chromatograph
   focus_area: Environment
+  oimlcs: true
   sustainability_framework: People
   doi: 10.63493/r144.2013.en

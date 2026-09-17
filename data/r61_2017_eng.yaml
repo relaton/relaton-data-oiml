@@ -80,4 +80,5 @@ ext:
   focus_area:
   - Trade
   quantity_url: https://si-digital-framework.org/quantities/MASS
+  oimlcs: true
   doi: 10.63493/r061.2017.en

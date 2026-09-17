@@ -88,5 +88,6 @@ ext:
   quantity: Temperature
   measuring_instrument: Thermometer
   focus_area: Health
+  oimlcs: true
   sustainability_framework: People
   doi: 10.63493/r133.2002.en

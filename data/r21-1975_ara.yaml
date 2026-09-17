@@ -51,7 +51,7 @@ script:
 - Arab
 status:
   stage:
-    content: in-force
+    content: superseded
 copyright:
 - from: '1975'
   owner:
@@ -81,3 +81,4 @@ ext:
   focus_area:
   - Trade
   quantity_url: https://si-digital-framework.org/quantities/LENG
+  oimlcs: true

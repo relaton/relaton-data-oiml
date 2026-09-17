@@ -102,5 +102,6 @@ ext:
     errors (MPEs) for verification and other error limits for type evaluation tests.
   measuring_instrument: Protein measuring instrument
   focus_area: Health
+  oimlcs: true
   sustainability_framework: People
   doi: 10.63493/r146.2016.en

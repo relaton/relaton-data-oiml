@@ -95,5 +95,6 @@ ext:
     called the heat-conveying liquid.
   quantity: Heat
   measuring_instrument: Heat meter
+  oimlcs: true
   sustainability_framework: People
   doi: 10.63493/r075.2002.en

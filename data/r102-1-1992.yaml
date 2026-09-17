@@ -65,4 +65,5 @@ ext:
     content: Sound intensity level
   measuring_instrument: Sound calibrator
   quantity_url: https://si-digital-framework.org/quantities/SOIL
+  oimlcs: true
   doi: 10.63493/r102.1992.en

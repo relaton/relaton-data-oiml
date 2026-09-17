@@ -102,5 +102,6 @@ ext:
   quantity: Pressure
   measuring_instrument: Sphygmomanometer
   focus_area: Health
+  oimlcs: true
   sustainability_framework: People
   doi: 10.63493/r148.2020.en

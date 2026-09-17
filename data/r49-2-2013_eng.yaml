@@ -75,4 +75,5 @@ ext:
   focus_area:
   - Trade
   quantity_url: https://si-digital-framework.org/quantities/VOLU
-  doi: 10.63493/r049.2013.en
+  oimlcs: true
+  doi: 10.63493/r049-2.2013.en

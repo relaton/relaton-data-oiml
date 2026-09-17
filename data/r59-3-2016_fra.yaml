@@ -67,4 +67,5 @@ ext:
   measuring_instrument: Sound level meter
   focus_area:
   - Trade
-  doi: 10.63493/r059.2016.en
+  oimlcs: true
+  doi: 10.63493/r059-3.2016.fr

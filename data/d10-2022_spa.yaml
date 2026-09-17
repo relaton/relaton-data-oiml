@@ -47,7 +47,7 @@ script:
 - Latn
 status:
   stage:
-    content: in-force
+    content: superseded
 copyright:
 - from: '2022'
   owner:

@@ -97,6 +97,7 @@ ext:
     way.
   quantity: Mass
   measuring_instrument: Non-automatic weighing instrument
+  oimlcs: true
   sustainability_framework: Prosperity
   doi: 10.63493/r076.2006.en
   high_priority: true

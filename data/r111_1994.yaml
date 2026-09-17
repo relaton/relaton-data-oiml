@@ -91,5 +91,6 @@ ext:
     of a lower accuracy class; with weighing instruments.'
   quantity: Mass
   measuring_instrument: Weight
+  oimlcs: true
   sustainability_framework: Prosperity
   doi: 10.63493/r111.1994.en

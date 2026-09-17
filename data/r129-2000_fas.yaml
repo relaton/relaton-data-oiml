@@ -51,7 +51,7 @@ script:
 - Arab
 status:
   stage:
-    content: in-force
+    content: superseded
 copyright:
 - from: '2000'
   owner:
@@ -82,4 +82,5 @@ ext:
   quantity:
     content: Volume
   quantity_url: https://si-digital-framework.org/quantities/VOLU
+  oimlcs: true
   doi: 10.63493/r129.2000.en

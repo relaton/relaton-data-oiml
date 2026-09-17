@@ -96,5 +96,6 @@ ext:
   quantity: Length
   measuring_instrument: Material measure of length
   focus_area: Trade
+  oimlcs: true
   sustainability_framework: Prosperity
   doi: 10.63493/r035.2007.en

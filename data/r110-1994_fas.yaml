@@ -77,4 +77,5 @@ ext:
     content: Pressure
   measuring_instrument: Pressure balance
   quantity_url: https://si-digital-framework.org/quantities/PRES
+  oimlcs: true
   doi: 10.63493/r110.1994.en

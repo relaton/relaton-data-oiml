@@ -50,4 +50,5 @@ ext:
   focus_area:
   - Trade
   quantity_url: https://si-digital-framework.org/quantities/AMSC
-  doi: 10.63493/r126.2021.en
+  oimlcs: true
+  doi: 10.63493/r126-3.2021.en

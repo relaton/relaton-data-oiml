@@ -82,5 +82,6 @@ ext:
   quantity: Length
   measuring_instrument: Focimeter
   focus_area: Health
+  oimlcs: true
   sustainability_framework: People
   doi: 10.63493/r093.1999.en

@@ -51,7 +51,7 @@ script:
 - Latn
 status:
   stage:
-    content: joint
+    content: superseded
 copyright:
 - from: '2011'
   owner:

@@ -80,4 +80,5 @@ ext:
   focus_area:
   - Trade
   quantity_url: https://si-digital-framework.org/quantities/LENG
-  doi: 10.63493/r035.1985.en
+  oimlcs: true
+  doi: 10.63493/r035.1985.fr

@@ -63,3 +63,5 @@ ext:
     content: Energy
   measuring_instrument: Electrical energy meter
   quantity_url: https://si-digital-framework.org/quantities/ENGY
+  oimlcs: true
+  doi: 10.63493/r046-3.2013.en

@@ -64,5 +64,6 @@ ext:
   quantity: Volume
   measuring_instrument: Road and rail tanker with level gauging
   focus_area: Trade
+  oimlcs: true
   sustainability_framework: Prosperity
   doi: 10.63493/r080.2009.en

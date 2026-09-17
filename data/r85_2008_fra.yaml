@@ -79,4 +79,5 @@ ext:
     content: Volume
   measuring_instrument: Level gauges
   quantity_url: https://si-digital-framework.org/quantities/VOLU
-  doi: 10.63493/r085.2008.en
+  oimlcs: true
+  doi: 10.63493/r085.2008.fr

@@ -69,3 +69,4 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  oimlcs: true

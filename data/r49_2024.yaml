@@ -107,6 +107,7 @@ ext:
   quantity: Volume
   measuring_instrument: Water meter
   focus_area: Trade
+  oimlcs: true
   sustainability_framework: People
   doi: 10.63493/r049.2024.en
   high_priority: true

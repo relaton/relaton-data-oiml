@@ -66,3 +66,4 @@ ext:
   focus_area:
   - Health
   quantity_url: https://si-digital-framework.org/quantities/SOIL
+  oimlcs: true

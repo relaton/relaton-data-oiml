@@ -74,4 +74,5 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  doi: 10.63493/r060.1991.en
+  oimlcs: true
+  doi: 10.63493/r060.1991.fr

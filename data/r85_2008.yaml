@@ -98,5 +98,6 @@ ext:
     or without cooling or heating.
   quantity: Volume
   measuring_instrument: Level gauges
+  oimlcs: true
   sustainability_framework: Prosperity
   doi: 10.63493/r085.2008.en
