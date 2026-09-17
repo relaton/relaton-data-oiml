@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML R 141:2008 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:141:2008:fr
+  type: urn
 docnumber: '141'
 date:
 - type: published

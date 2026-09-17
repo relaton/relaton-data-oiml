@@ -16,6 +16,8 @@ docidentifier:
 - content: OIML G 1-102:2011
   type: OIML
   primary: true
+- content: urn:oiml:pub:g:1-102:2011
+  type: urn
 docnumber: '1'
 date:
 - type: published

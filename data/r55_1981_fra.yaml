@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML R 55:1981 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:55:1981:fr
+  type: urn
 docnumber: '55'
 date:
 - type: published

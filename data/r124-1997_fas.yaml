@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 124:1997 (PE)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:124:1997:fa
+  type: urn
 docnumber: '124'
 date:
 - type: published

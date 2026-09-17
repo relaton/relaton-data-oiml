@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 15:1974 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:15:1974:fr
+  type: urn
 docnumber: '15'
 date:
 - type: published

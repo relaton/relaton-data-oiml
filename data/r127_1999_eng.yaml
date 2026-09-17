@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML R 127:1999 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:127:1999:en
+  type: urn
 docnumber: '127'
 date:
 - type: published

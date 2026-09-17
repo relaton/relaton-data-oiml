@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML B 21:2019 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:b:21:2019:en
+  type: urn
 docnumber: '21'
 date:
 - type: published

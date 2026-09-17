@@ -10,6 +10,8 @@ docidentifier:
 - content: OIML R 60-3:2017
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:60-3:2017
+  type: urn
 docnumber: '60'
 date:
 - type: published

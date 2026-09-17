@@ -10,6 +10,8 @@ docidentifier:
 - content: OIML R 12:1970
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:12:1970
+  type: urn
 docnumber: '12'
 date:
 - type: published

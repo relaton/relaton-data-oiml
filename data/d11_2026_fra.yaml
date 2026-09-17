@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML D 11:2026 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:d:11:2026:fr
+  type: urn
 docnumber: '11'
 date:
 - type: published

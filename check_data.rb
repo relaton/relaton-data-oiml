@@ -34,12 +34,12 @@ Dir[path].sort.each do |f|
 
   reserialized = item.to_yaml
 
-  source_hash = YAML.safe_load(yaml)
+  source_hash = YAML.safe_load(yaml, permitted_classes: [Date])
   source_ext = source_hash.is_a?(Hash) ? source_hash["ext"] : nil
   if source_ext.is_a?(Hash)
     custom = source_ext.slice(*CUSTOM_EXT_KEYS)
     unless custom.empty?
-      reserialized_hash = YAML.safe_load(reserialized) || {}
+      reserialized_hash = YAML.safe_load(reserialized, permitted_classes: [Date]) || {}
       reserialized_hash["ext"] ||= {}
       custom.each { |k, v| reserialized_hash["ext"][k] = v }
       reserialized = YAML.dump(reserialized_hash)

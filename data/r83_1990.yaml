@@ -16,6 +16,8 @@ docidentifier:
 - content: OIML R 83:1990
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:83:1990
+  type: urn
 docnumber: '83'
 date:
 - type: published

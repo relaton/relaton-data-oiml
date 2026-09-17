@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML B 3:2003+Amendment:2006 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:b:3:2006:en
+  type: urn
 docnumber: '3'
 date:
 - type: published

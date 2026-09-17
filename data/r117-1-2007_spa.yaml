@@ -16,6 +16,8 @@ docidentifier:
 - content: OIML R 117-1:2007 (S)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:117-1:2007:es
+  type: urn
 docnumber: '117'
 date:
 - type: published

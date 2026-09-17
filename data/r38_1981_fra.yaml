@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 38:1981 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:38:1981:fr
+  type: urn
 docnumber: '38'
 date:
 - type: published

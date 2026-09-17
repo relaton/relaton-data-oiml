@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML D 31:2008 (S)
   type: OIML
   primary: true
+- content: urn:oiml:pub:d:31:2008:es
+  type: urn
 docnumber: '31'
 date:
 - type: published

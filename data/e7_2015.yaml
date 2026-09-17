@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML E 7:2015
   type: OIML
   primary: true
+- content: urn:oiml:pub:e:7:2015
+  type: urn
 docnumber: '7'
 date:
 - type: published

@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 23:1975 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:23:1975:fr
+  type: urn
 docnumber: '23'
 date:
 - type: published

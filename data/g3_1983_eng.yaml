@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML G 3:1983 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:g:3:1983:en
+  type: urn
 docnumber: '3'
 date:
 - type: published

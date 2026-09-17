@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 64:1985 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:64:1985:en
+  type: urn
 docnumber: '64'
 date:
 - type: published

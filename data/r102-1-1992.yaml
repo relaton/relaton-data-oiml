@@ -10,6 +10,8 @@ docidentifier:
 - content: OIML R 102-1:1992
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:102-1:1992
+  type: urn
 docnumber: '102'
 date:
 - type: published

@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 115:1995
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:115:1995
+  type: urn
 docnumber: '115'
 date:
 - type: published

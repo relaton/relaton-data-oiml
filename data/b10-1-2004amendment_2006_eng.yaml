@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML B 10-1:2004+Amendment:2006 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:b:10-1:2006:en
+  type: urn
 docnumber: '10'
 date:
 - type: published

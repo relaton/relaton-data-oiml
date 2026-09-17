@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML R 46:1976
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:46:1976
+  type: urn
 docnumber: '46'
 date:
 - type: published

@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML D 14:2004 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:d:14:2004:fr
+  type: urn
 docnumber: '14'
 date:
 - type: published

@@ -17,6 +17,8 @@ docidentifier:
 - content: OIML E 5:2012
   type: OIML
   primary: true
+- content: urn:oiml:pub:e:5:2012
+  type: urn
 docnumber: '5'
 date:
 - type: published

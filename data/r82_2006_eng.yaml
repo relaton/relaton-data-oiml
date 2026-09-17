@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML R 82:2006 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:82:2006:en
+  type: urn
 docnumber: '82'
 date:
 - type: published

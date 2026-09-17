@@ -15,6 +15,8 @@ docidentifier:
 - content: OIML R 85:1998
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:85:1998
+  type: urn
 docnumber: '85'
 date:
 - type: published

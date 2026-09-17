@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 140:2007
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:140:2007
+  type: urn
 docnumber: '140'
 date:
 - type: published

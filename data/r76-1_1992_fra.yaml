@@ -19,6 +19,8 @@ docidentifier:
 - content: OIML R 76-1:1992 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:76-1:1992:fr
+  type: urn
 docnumber: '76'
 date:
 - type: published

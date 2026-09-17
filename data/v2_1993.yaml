@@ -20,6 +20,8 @@ docidentifier:
 - content: OIML V 2:1993
   type: OIML
   primary: true
+- content: urn:oiml:pub:v:2:1993
+  type: urn
 docnumber: '2'
 date:
 - type: published

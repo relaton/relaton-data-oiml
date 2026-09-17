@@ -16,6 +16,8 @@ docidentifier:
 - content: OIML R 75-1:2002 (PE)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:75-1:2002:fa
+  type: urn
 docnumber: '75'
 date:
 - type: published

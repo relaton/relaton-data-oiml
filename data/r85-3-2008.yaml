@@ -10,6 +10,8 @@ docidentifier:
 - content: OIML R 85-3:2008
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:85-3:2008
+  type: urn
 docnumber: '85'
 date:
 - type: published

@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 46-1 (S)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:46:es
+  type: urn
 docnumber: '46'
 contributor:
 - role:

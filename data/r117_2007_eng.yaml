@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 117:2007 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:117:2007:en
+  type: urn
 docnumber: '117'
 date:
 - type: published

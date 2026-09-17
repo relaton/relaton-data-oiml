@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 41:1981
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:41:1981
+  type: urn
 docnumber: '41'
 date:
 - type: published

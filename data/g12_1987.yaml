@@ -18,6 +18,8 @@ docidentifier:
 - content: OIML G 12:1987
   type: OIML
   primary: true
+- content: urn:oiml:pub:g:12:1987
+  type: urn
 docnumber: '12'
 date:
 - type: published

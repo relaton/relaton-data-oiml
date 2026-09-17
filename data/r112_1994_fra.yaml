@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML R 112:1994 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:112:1994:fr
+  type: urn
 docnumber: '112'
 date:
 - type: published

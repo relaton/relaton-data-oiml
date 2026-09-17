@@ -18,6 +18,8 @@ docidentifier:
 - content: OIML R 99-ISO3930:2000
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:99:2000
+  type: urn
 docnumber: '99'
 date:
 - type: published

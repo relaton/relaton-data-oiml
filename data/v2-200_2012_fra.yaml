@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML V 2-200:2012 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:v:2-200:2012:fr
+  type: urn
 docnumber: '2'
 date:
 - type: published

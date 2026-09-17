@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 76 (C)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:76:zh
+  type: urn
 docnumber: '76'
 contributor:
 - role:

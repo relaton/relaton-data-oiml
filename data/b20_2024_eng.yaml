@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML B 20:2024 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:b:20:2024:en
+  type: urn
 docnumber: '20'
 date:
 - type: published

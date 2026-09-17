@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 7:1979 (S)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:7:1979:es
+  type: urn
 docnumber: '7'
 date:
 - type: published

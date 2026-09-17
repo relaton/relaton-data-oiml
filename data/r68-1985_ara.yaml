@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 68:1985 (A)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:68:1985:ar
+  type: urn
 docnumber: '68'
 date:
 - type: published

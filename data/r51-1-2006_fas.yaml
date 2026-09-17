@@ -17,6 +17,8 @@ docidentifier:
 - content: OIML R 51-1:2006 (PE)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:51-1:2006:fa
+  type: urn
 docnumber: '51'
 date:
 - type: published

@@ -11,6 +11,8 @@ docidentifier:
 - content: OIML R 102-2:1995
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:102-2:1995
+  type: urn
 docnumber: '102'
 date:
 - type: published

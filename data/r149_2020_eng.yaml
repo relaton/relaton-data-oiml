@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 149:2020 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:149:2020:en
+  type: urn
 docnumber: '149'
 date:
 - type: published

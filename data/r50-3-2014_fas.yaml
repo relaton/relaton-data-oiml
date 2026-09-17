@@ -17,6 +17,8 @@ docidentifier:
 - content: OIML R 50-3:2014 (PE)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:50-3:2014:fa
+  type: urn
 docnumber: '50'
 date:
 - type: published

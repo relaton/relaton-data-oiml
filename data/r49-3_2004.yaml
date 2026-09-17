@@ -18,6 +18,8 @@ docidentifier:
 - content: OIML R 49-3:2004
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:49-3:2004
+  type: urn
 docnumber: '49'
 date:
 - type: published

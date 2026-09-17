@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML D 18:2002 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:d:18:2002:en
+  type: urn
 docnumber: '18'
 date:
 - type: published

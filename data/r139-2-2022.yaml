@@ -10,6 +10,8 @@ docidentifier:
 - content: OIML R 139-2:2022
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:139-2:2022
+  type: urn
 docnumber: '139'
 date:
 - type: published

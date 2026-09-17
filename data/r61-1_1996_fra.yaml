@@ -19,6 +19,8 @@ docidentifier:
 - content: OIML R 61-1:1996 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:61-1:1996:fr
+  type: urn
 docnumber: '61'
 date:
 - type: published

@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 102:1995 Annex B-C (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:102:1995:fr
+  type: urn
 docnumber: '102'
 date:
 - type: published

@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML D 27:2001 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:d:27:2001:en
+  type: urn
 docnumber: '27'
 date:
 - type: published

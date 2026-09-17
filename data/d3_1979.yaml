@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML D 3:1979
   type: OIML
   primary: true
+- content: urn:oiml:pub:d:3:1979
+  type: urn
 docnumber: '3'
 date:
 - type: published

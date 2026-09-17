@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 106-2:2012 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:106-2:2012:fr
+  type: urn
 docnumber: '106'
 date:
 - type: published

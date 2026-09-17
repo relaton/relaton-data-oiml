@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 35-1:2007+Amendment:2014 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:35-1:2014:en
+  type: urn
 docnumber: '35'
 date:
 - type: published

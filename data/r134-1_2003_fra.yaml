@@ -19,6 +19,8 @@ docidentifier:
 - content: OIML R 134-1:2003 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:134-1:2003:fr
+  type: urn
 docnumber: '134'
 date:
 - type: published

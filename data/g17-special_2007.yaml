@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML G 17-special:2007
   type: OIML
   primary: true
+- content: urn:oiml:pub:g:17:2007
+  type: urn
 docnumber: '17'
 date:
 - type: published

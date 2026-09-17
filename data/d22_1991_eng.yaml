@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML D 22:1991 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:d:22:1991:en
+  type: urn
 docnumber: '22'
 date:
 - type: published

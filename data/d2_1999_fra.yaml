@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML D 2:1999 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:d:2:1999:fr
+  type: urn
 docnumber: '2'
 date:
 - type: published

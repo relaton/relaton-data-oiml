@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 78:1989 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:78:1989:en
+  type: urn
 docnumber: '78'
 date:
 - type: published

@@ -10,6 +10,8 @@ docidentifier:
 - content: OIML R 43:1977
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:43:1977
+  type: urn
 docnumber: '43'
 date:
 - type: published

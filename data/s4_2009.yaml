@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML S 4:2009
   type: OIML
   primary: true
+- content: urn:oiml:pub:s:4:2009
+  type: urn
 docnumber: '4'
 date:
 - type: published

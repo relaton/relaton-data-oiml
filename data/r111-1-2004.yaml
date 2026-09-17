@@ -12,6 +12,8 @@ docidentifier:
 - content: OIML R 111-1:2004
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:111-1:2004
+  type: urn
 docnumber: '111'
 date:
 - type: published

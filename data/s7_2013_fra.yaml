@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML S 7:2013 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:s:7:2013:fr
+  type: urn
 docnumber: '7'
 date:
 - type: published

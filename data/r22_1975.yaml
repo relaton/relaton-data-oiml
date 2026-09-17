@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 22:1975
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:22:1975
+  type: urn
 docnumber: '22'
 date:
 - type: published

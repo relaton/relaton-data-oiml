@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML D 28:2004 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:d:28:2004:fr
+  type: urn
 docnumber: '28'
 date:
 - type: published

@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML R 90:1990 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:90:1990:fr
+  type: urn
 docnumber: '90'
 date:
 - type: published

@@ -10,6 +10,8 @@ docidentifier:
 - content: OIML R 51-2:2006
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:51-2:2006
+  type: urn
 docnumber: '51'
 date:
 - type: published

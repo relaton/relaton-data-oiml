@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 130:2001 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:130:2001:en
+  type: urn
 docnumber: '130'
 date:
 - type: published

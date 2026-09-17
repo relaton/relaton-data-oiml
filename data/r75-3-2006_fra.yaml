@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 75-3:2006 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:75-3:2006:fr
+  type: urn
 docnumber: '75'
 date:
 - type: published

@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML G 14:1987 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:g:14:1987:en
+  type: urn
 docnumber: '14'
 date:
 - type: published

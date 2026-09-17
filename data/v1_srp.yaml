@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML V 1 (SR)
   type: OIML
   primary: true
+- content: urn:oiml:pub:v:1:sr
+  type: urn
 docnumber: '1'
 contributor:
 - role:
