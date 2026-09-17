@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML G 2:1981 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:g:2:1981:en
+  type: urn
 docnumber: '2'
 date:
 - type: published

@@ -16,6 +16,8 @@ docidentifier:
 - content: OIML B 6-2:1993
   type: OIML
   primary: true
+- content: urn:oiml:pub:b:6-2:1993
+  type: urn
 docnumber: '6'
 date:
 - type: published

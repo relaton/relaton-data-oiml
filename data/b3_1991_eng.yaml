@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML B 3:1991 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:b:3:1991:en
+  type: urn
 docnumber: '3'
 date:
 - type: published

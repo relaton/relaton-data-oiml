@@ -18,6 +18,8 @@ docidentifier:
 - content: OIML R 134-2:2004
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:134-2:2004
+  type: urn
 docnumber: '134'
 date:
 - type: published

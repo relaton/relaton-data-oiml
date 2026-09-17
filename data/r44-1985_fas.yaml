@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 44:1985 (PE)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:44:1985:fa
+  type: urn
 docnumber: '44'
 date:
 - type: published

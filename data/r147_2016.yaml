@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML R 147:2016
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:147:2016
+  type: urn
 docnumber: '147'
 date:
 - type: published

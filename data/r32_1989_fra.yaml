@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML R 32:1989 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:32:1989:fr
+  type: urn
 docnumber: '32'
 date:
 - type: published

@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 80-2:2017 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:80-2:2017:en
+  type: urn
 docnumber: '80'
 date:
 - type: published

@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML G 19:2017 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:g:19:2017:en
+  type: urn
 docnumber: '19'
 date:
 - type: published

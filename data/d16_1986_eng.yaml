@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML D 16:1986 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:d:16:1986:en
+  type: urn
 docnumber: '16'
 date:
 - type: published

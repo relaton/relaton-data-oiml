@@ -15,6 +15,8 @@ docidentifier:
 - content: OIML R 120:2010
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:120:2010
+  type: urn
 docnumber: '120'
 date:
 - type: published

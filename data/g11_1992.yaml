@@ -20,6 +20,8 @@ docidentifier:
 - content: OIML G 11:1992
   type: OIML
   primary: true
+- content: urn:oiml:pub:g:11:1992
+  type: urn
 docnumber: '11'
 date:
 - type: published

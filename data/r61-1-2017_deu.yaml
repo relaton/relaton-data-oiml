@@ -16,6 +16,8 @@ docidentifier:
 - content: OIML R 61-1:2017 (D)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:61-1:2017:de
+  type: urn
 docnumber: '61'
 date:
 - type: published

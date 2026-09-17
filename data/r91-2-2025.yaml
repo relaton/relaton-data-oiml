@@ -10,6 +10,8 @@ docidentifier:
 - content: OIML R 91-2:2025
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:91-2:2025
+  type: urn
 docnumber: '91'
 date:
 - type: published

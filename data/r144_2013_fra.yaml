@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML R 144:2013 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:144:2013:fr
+  type: urn
 docnumber: '144'
 date:
 - type: published

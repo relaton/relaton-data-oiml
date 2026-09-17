@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 71:2008 (D)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:71:2008:de
+  type: urn
 docnumber: '71'
 date:
 - type: published

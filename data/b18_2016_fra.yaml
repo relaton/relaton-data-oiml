@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML B 18:2016 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:b:18:2016:fr
+  type: urn
 docnumber: '18'
 date:
 - type: published

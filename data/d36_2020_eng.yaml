@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML D 36:2020 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:d:36:2020:en
+  type: urn
 docnumber: '36'
 date:
 - type: published

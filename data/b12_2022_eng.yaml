@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML B 12:2022 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:b:12:2022:en
+  type: urn
 docnumber: '12'
 date:
 - type: published

@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML R 99:2008
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:99:2008
+  type: urn
 docnumber: '99'
 date:
 - type: published

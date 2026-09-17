@@ -10,6 +10,8 @@ docidentifier:
 - content: OIML R 29:1973
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:29:1973
+  type: urn
 docnumber: '29'
 date:
 - type: published

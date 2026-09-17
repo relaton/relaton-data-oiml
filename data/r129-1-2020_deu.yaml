@@ -17,6 +17,8 @@ docidentifier:
 - content: OIML R 129-1:2020 (D)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:129-1:2020:de
+  type: urn
 docnumber: '129'
 date:
 - type: published

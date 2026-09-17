@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML B 18:2025
   type: OIML
   primary: true
+- content: urn:oiml:pub:b:18:2025
+  type: urn
 docnumber: '18'
 date:
 - type: published

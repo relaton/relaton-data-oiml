@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 52:2004 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:52:2004:en
+  type: urn
 docnumber: '52'
 date:
 - type: published

@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML G 23:2022 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:g:23:2022:en
+  type: urn
 docnumber: '23'
 date:
 - type: published

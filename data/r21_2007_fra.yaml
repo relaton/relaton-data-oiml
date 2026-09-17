@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 21:2007 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:21:2007:fr
+  type: urn
 docnumber: '21'
 date:
 - type: published

@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 80:1989 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:80:1989:fr
+  type: urn
 docnumber: '80'
 date:
 - type: published

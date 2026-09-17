@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 102:1992 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:102:1992:en
+  type: urn
 docnumber: '102'
 date:
 - type: published

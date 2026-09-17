@@ -10,6 +10,8 @@ docidentifier:
 - content: OIML R 138:2007+Amendment:2009
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:138:2009
+  type: urn
 docnumber: '138'
 date:
 - type: published

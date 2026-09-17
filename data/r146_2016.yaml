@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 146:2016
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:146:2016
+  type: urn
 docnumber: '146'
 date:
 - type: published

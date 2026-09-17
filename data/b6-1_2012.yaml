@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML B 6-1:2012
   type: OIML
   primary: true
+- content: urn:oiml:pub:b:6-1:2012
+  type: urn
 docnumber: '6'
 date:
 - type: published

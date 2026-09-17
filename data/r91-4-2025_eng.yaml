@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 91-4:2025 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:91-4:2025:en
+  type: urn
 docnumber: '91'
 date:
 - type: published

@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 36:1980 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:36:1980:en
+  type: urn
 docnumber: '36'
 date:
 - type: published

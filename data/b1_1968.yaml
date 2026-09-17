@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML B 1:1968
   type: OIML
   primary: true
+- content: urn:oiml:pub:b:1:1968
+  type: urn
 docnumber: '1'
 date:
 - type: published

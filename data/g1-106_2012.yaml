@@ -15,6 +15,8 @@ docidentifier:
 - content: OIML G 1-106:2012
   type: OIML
   primary: true
+- content: urn:oiml:pub:g:1-106:2012
+  type: urn
 docnumber: '1'
 date:
 - type: published

@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 26:1978 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:26:1978:en
+  type: urn
 docnumber: '26'
 date:
 - type: published

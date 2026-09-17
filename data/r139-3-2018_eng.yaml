@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 139-3:2018 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:139-3:2018:en
+  type: urn
 docnumber: '139'
 date:
 - type: published

@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 42:1981 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:42:1981:fr
+  type: urn
 docnumber: '42'
 date:
 - type: published

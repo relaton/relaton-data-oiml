@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML D 23:1993 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:d:23:1993:en
+  type: urn
 docnumber: '23'
 date:
 - type: published

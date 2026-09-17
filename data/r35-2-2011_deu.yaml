@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 35-2:2011 (D)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:35-2:2011:de
+  type: urn
 docnumber: '35'
 date:
 - type: published

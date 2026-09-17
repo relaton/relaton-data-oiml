@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 45:1980 (A)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:45:1980:ar
+  type: urn
 docnumber: '45'
 date:
 - type: published

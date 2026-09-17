@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML G 21:2017 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:g:21:2017:en
+  type: urn
 docnumber: '21'
 date:
 - type: published

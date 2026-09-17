@@ -10,6 +10,8 @@ docidentifier:
 - content: OIML R 148-1:2020
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:148-1:2020
+  type: urn
 docnumber: '148'
 date:
 - type: published

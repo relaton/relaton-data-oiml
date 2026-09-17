@@ -17,6 +17,8 @@ docidentifier:
 - content: OIML V 2-200:2007 Errata
   type: OIML
   primary: true
+- content: urn:oiml:pub:v:2-200:2010
+  type: urn
 docnumber: '2'
 date:
 - type: published

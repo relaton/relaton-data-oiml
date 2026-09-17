@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 96:1990 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:96:1990:en
+  type: urn
 docnumber: '96'
 date:
 - type: published

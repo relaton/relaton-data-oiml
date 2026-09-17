@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 126:2021
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:126:2021
+  type: urn
 docnumber: '126'
 date:
 - type: published

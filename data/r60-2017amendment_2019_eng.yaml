@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 60:2017+Amendment:2019 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:60:2019:en
+  type: urn
 docnumber: '60'
 date:
 - type: published

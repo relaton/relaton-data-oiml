@@ -15,6 +15,8 @@ docidentifier:
 - content: OIML V 3:1991
   type: OIML
   primary: true
+- content: urn:oiml:pub:v:3:1991
+  type: urn
 docnumber: '3'
 date:
 - type: published

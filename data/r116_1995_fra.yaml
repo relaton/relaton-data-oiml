@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML R 116:1995 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:116:1995:fr
+  type: urn
 docnumber: '116'
 date:
 - type: published

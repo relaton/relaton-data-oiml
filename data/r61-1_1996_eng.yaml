@@ -18,6 +18,8 @@ docidentifier:
 - content: OIML R 61-1:1996 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:61-1:1996:en
+  type: urn
 docnumber: '61'
 date:
 - type: published

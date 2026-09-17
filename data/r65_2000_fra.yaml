@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 65:2000 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:65:2000:fr
+  type: urn
 docnumber: '65'
 date:
 - type: published

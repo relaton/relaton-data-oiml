@@ -19,6 +19,8 @@ docidentifier:
 - content: OIML R 49-3:2006 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:49-3:2006:en
+  type: urn
 docnumber: '49'
 date:
 - type: published

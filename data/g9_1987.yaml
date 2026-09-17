@@ -20,6 +20,8 @@ docidentifier:
 - content: OIML G 9:1987
   type: OIML
   primary: true
+- content: urn:oiml:pub:g:9:1987
+  type: urn
 docnumber: '9'
 date:
 - type: published

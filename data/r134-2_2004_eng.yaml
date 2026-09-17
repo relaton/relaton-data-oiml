@@ -16,6 +16,8 @@ docidentifier:
 - content: OIML R 134-2:2004 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:134-2:2004:en
+  type: urn
 docnumber: '134'
 date:
 - type: published

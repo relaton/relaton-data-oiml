@@ -18,6 +18,8 @@ docidentifier:
 - content: OIML R 50-1:1997 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:50-1:1997:en
+  type: urn
 docnumber: '50'
 date:
 - type: published

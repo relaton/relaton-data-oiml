@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML G 1-GUM 6:2020 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:g:1:2020:en
+  type: urn
 docnumber: '1'
 date:
 - type: published

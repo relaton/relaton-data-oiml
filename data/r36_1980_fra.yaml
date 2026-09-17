@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 36:1980 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:36:1980:fr
+  type: urn
 docnumber: '36'
 date:
 - type: published

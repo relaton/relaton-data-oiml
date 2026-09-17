@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML V 2-200 (U)
   type: OIML
   primary: true
+- content: urn:oiml:pub:v:2:uk
+  type: urn
 docnumber: '2'
 contributor:
 - role:

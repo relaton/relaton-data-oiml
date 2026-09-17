@@ -10,6 +10,8 @@ docidentifier:
 - content: OIML R 144-3:2013
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:144-3:2013
+  type: urn
 docnumber: '144'
 date:
 - type: published

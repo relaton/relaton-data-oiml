@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML R 129:2000 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:129:2000:fr
+  type: urn
 docnumber: '129'
 date:
 - type: published

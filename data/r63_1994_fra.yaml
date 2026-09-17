@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 63:1994 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:63:1994:fr
+  type: urn
 docnumber: '63'
 date:
 - type: published

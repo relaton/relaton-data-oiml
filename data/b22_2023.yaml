@@ -16,6 +16,8 @@ docidentifier:
 - content: OIML B 22:2023
   type: OIML
   primary: true
+- content: urn:oiml:pub:b:22:2023
+  type: urn
 docnumber: '22'
 date:
 - type: published

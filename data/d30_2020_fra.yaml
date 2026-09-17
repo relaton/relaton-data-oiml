@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML D 30:2020 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:d:30:2020:fr
+  type: urn
 docnumber: '30'
 date:
 - type: published

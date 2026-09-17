@@ -13,6 +13,8 @@ docidentifier:
 - content: OIML R 49-4:2024 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:49-4:2024:en
+  type: urn
 docnumber: '49'
 date:
 - type: published

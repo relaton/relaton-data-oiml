@@ -16,6 +16,8 @@ docidentifier:
 - content: OIML D 18:2008
   type: OIML
   primary: true
+- content: urn:oiml:pub:d:18:2008
+  type: urn
 docnumber: '18'
 date:
 - type: published

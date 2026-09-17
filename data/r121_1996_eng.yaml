@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML R 121:1996 (E)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:121:1996:en
+  type: urn
 docnumber: '121'
 date:
 - type: published

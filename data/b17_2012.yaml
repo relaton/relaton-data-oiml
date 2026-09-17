@@ -17,6 +17,8 @@ docidentifier:
 - content: OIML B 17:2012
   type: OIML
   primary: true
+- content: urn:oiml:pub:b:17:2012
+  type: urn
 docnumber: '17'
 date:
 - type: published

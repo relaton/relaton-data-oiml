@@ -14,6 +14,8 @@ docidentifier:
 - content: OIML R 53:1982 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:53:1982:fr
+  type: urn
 docnumber: '53'
 date:
 - type: published

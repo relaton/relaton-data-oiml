@@ -19,6 +19,8 @@ docidentifier:
 - content: OIML R 107-1:1997
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:107-1:1997
+  type: urn
 docnumber: '107'
 date:
 - type: published

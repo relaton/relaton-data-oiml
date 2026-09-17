@@ -17,6 +17,8 @@ docidentifier:
 - content: OIML R 76-1:1988 (F)
   type: OIML
   primary: true
+- content: urn:oiml:pub:r:76-1:1988:fr
+  type: urn
 docnumber: '76'
 date:
 - type: published
