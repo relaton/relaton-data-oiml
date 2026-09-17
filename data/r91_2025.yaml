@@ -103,6 +103,7 @@ ext:
   quantity: Velocity
   measuring_instrument: Traffic speed meter
   focus_area: Safety
+  oimlcs: true
   sustainability_framework: People
   doi: 10.63493/r091.2025.en
   high_priority: true

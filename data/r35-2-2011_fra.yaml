@@ -65,3 +65,5 @@ ext:
   focus_area:
   - Trade
   quantity_url: https://si-digital-framework.org/quantities/LENG
+  oimlcs: true
+  doi: 10.63493/r035-2.2011.fr

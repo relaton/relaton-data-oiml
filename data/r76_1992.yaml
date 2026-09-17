@@ -64,7 +64,8 @@ ext:
     way.
   quantity: Mass
   measuring_instrument: Non-automatic weighing instrument
+  oimlcs: true
   sustainability_framework: Prosperity
-  doi: 10.63493/r076.1992.en
+  doi: 10.63493/r076.1992.fr
   high_priority: true
   high_priority_source: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260111

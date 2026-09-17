@@ -59,5 +59,6 @@ ext:
   quantity: Mass
   measuring_instrument: Automatic gravimetric filling instrument
   focus_area: Trade
+  oimlcs: true
   sustainability_framework: Prosperity
-  doi: 10.63493/r061.1996.en
+  doi: 10.63493/r061.1996.fr

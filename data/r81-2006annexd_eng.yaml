@@ -48,3 +48,4 @@ ext:
     content: Volume
   measuring_instrument: Dynamic volume measuring device
   quantity_url: https://si-digital-framework.org/quantities/VOLU
+  oimlcs: true

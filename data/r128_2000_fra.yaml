@@ -76,4 +76,5 @@ ext:
   - Health
   - Safety
   quantity_url: https://si-digital-framework.org/quantities/WORK
-  doi: 10.63493/r128.2000.en
+  oimlcs: true
+  doi: 10.63493/r128.2000.fr

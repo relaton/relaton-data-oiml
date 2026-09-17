@@ -56,7 +56,7 @@ script:
 - Latn
 status:
   stage:
-    content: joint
+    content: in-force
 copyright:
 - from: '1992'
   owner:

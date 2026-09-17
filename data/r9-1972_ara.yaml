@@ -51,7 +51,7 @@ script:
 - Arab
 status:
   stage:
-    content: in-force
+    content: withdrawn
 copyright:
 - from: '1972'
   owner:

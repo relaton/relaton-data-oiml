@@ -102,5 +102,6 @@ ext:
   quantity: Mass
   measuring_instrument: Automatic weighing instrument
   focus_area: Trade
+  oimlcs: true
   sustainability_framework: Prosperity
   doi: 10.63493/r150.2020.en

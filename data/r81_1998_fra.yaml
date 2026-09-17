@@ -78,4 +78,5 @@ ext:
     content: Volume
   measuring_instrument: Dynamic volume measuring device
   quantity_url: https://si-digital-framework.org/quantities/VOLU
-  doi: 10.63493/r081.1998.en
+  oimlcs: true
+  doi: 10.63493/r081.1998.fr

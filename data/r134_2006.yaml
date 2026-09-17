@@ -100,5 +100,6 @@ ext:
   quantity: Mass
   measuring_instrument: Scale
   focus_area: Health
+  oimlcs: true
   sustainability_framework: Prosperity
   doi: 10.63493/r134.2006.en

@@ -82,4 +82,5 @@ ext:
   - Health
   - Trade
   quantity_url: https://si-digital-framework.org/quantities/MASS
-  doi: 10.63493/r134.2006.en
+  oimlcs: true
+  doi: 10.63493/r134.2006.fr

@@ -80,4 +80,5 @@ ext:
   focus_area:
   - Health
   quantity_url: https://si-digital-framework.org/quantities/ITSC
+  oimlcs: true
   doi: 10.63493/r133.2002.en

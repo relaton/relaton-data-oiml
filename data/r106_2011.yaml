@@ -96,5 +96,6 @@ ext:
   quantity: Mass
   measuring_instrument: Automatic rail-weighbridge
   focus_area: Trade
+  oimlcs: true
   sustainability_framework: Prosperity
   doi: 10.63493/r106.2011.en

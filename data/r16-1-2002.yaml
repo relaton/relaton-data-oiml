@@ -51,7 +51,7 @@ script:
 - Latn
 status:
   stage:
-    content: in-force
+    content: withdrawn
 relation:
 - type: partOf
   bibitem:

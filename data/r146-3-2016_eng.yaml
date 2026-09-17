@@ -68,4 +68,5 @@ ext:
   focus_area:
   - Health
   - Trade
-  doi: 10.63493/r146.2016.en
+  oimlcs: true
+  doi: 10.63493/r146-3.2016.en

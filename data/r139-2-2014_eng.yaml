@@ -75,4 +75,5 @@ ext:
   focus_area:
   - Trade
   quantity_url: https://si-digital-framework.org/quantities/MASS
-  doi: 10.63493/r139.2014.en
+  oimlcs: true
+  doi: 10.63493/r139-2.2014.en

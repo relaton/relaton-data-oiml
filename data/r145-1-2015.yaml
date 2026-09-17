@@ -69,4 +69,5 @@ ext:
   focus_area:
   - Health
   quantity_url: https://si-digital-framework.org/quantities/PRES
+  oimlcs: true
   doi: 10.63493/r145.2015.en

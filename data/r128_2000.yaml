@@ -83,5 +83,6 @@ ext:
   quantity: Work
   measuring_instrument: Ergometer
   focus_area: Health
+  oimlcs: true
   sustainability_framework: People
   doi: 10.63493/r128.2000.en

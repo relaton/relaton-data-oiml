@@ -82,5 +82,6 @@ ext:
   quantity: Sound intensity level
   measuring_instrument: Sound level meter
   focus_area: Trade
+  oimlcs: true
   sustainability_framework: People
   doi: 10.63493/r088.1998.en

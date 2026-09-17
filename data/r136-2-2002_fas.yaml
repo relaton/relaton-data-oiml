@@ -79,3 +79,4 @@ ext:
   - Health
   - Trade
   quantity_url: https://si-digital-framework.org/quantities/AREA
+  oimlcs: true

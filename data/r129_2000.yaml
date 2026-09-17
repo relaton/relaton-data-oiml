@@ -91,5 +91,6 @@ ext:
     the dimensions and/or dimensional volume of an object for the purpose of calculating
     charges for postage, freight or storage.
   quantity: Volume
+  oimlcs: true
   sustainability_framework: People
   doi: 10.63493/r129.2000.en

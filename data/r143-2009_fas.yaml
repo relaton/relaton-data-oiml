@@ -84,4 +84,5 @@ ext:
   - Environment
   - Safety
   quantity_url: https://si-digital-framework.org/quantities/AMSC
+  oimlcs: true
   doi: 10.63493/r143.2009.en

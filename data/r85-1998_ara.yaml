@@ -52,7 +52,7 @@ script:
 - Arab
 status:
   stage:
-    content: in-force
+    content: superseded
 copyright:
 - from: '1998'
   owner:
@@ -80,4 +80,5 @@ ext:
     content: Volume
   measuring_instrument: Level gauges
   quantity_url: https://si-digital-framework.org/quantities/VOLU
+  oimlcs: true
   doi: 10.63493/r085.1998.en

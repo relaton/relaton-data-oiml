@@ -91,6 +91,7 @@ ext:
   quantity: Volume
   measuring_instrument: Liquid flow meter
   focus_area: Trade
+  oimlcs: true
   sustainability_framework: People
   doi: 10.63493/r117.1995.en
   high_priority: true

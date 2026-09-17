@@ -73,4 +73,5 @@ ext:
     content: Sound intensity level
   measuring_instrument: Sound level meter
   quantity_url: https://si-digital-framework.org/quantities/SOIL
-  doi: 10.63493/r058.1998.en
+  oimlcs: true
+  doi: 10.63493/r058.1998.fr

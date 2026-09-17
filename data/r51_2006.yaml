@@ -96,6 +96,7 @@ ext:
   quantity: Mass
   measuring_instrument: Automatic catchweigher
   focus_area: Trade
+  oimlcs: true
   sustainability_framework: Prosperity
   doi: 10.63493/r051.2006.en
   high_priority: true

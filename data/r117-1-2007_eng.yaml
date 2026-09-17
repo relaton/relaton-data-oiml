@@ -53,7 +53,7 @@ script:
 - Latn
 status:
   stage:
-    content: in-force
+    content: superseded
 relation:
 - type: instanceOf
   bibitem:
@@ -75,4 +75,5 @@ ext:
   focus_area:
   - Trade
   quantity_url: https://si-digital-framework.org/quantities/VOLU
-  doi: 10.63493/r117.2007.en
+  oimlcs: true
+  doi: 10.63493/r117-1.2007.en

@@ -104,4 +104,5 @@ ext:
   focus_area:
   - Trade
   quantity_url: https://si-digital-framework.org/quantities/VOLU
+  oimlcs: true
   doi: 10.63493/r049.2003.en

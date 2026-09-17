@@ -54,7 +54,7 @@ script:
 - Latn
 status:
   stage:
-    content: in-force
+    content: superseded
 copyright:
 - from: '2013'
   owner:
@@ -84,4 +84,5 @@ ext:
   focus_area:
   - Trade
   quantity_url: https://si-digital-framework.org/quantities/VOLU
+  oimlcs: true
   doi: 10.63493/r049.2013.en

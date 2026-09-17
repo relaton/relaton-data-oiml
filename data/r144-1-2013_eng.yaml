@@ -72,4 +72,5 @@ ext:
   - Health
   - Safety
   quantity_url: https://si-digital-framework.org/quantities/AMSC
-  doi: 10.63493/r144.2013.en
+  oimlcs: true
+  doi: 10.63493/r144-1.2013.en

@@ -99,5 +99,6 @@ ext:
   quantity: Pressure
   measuring_instrument: Tonometer
   focus_area: Health
+  oimlcs: true
   sustainability_framework: People
   doi: 10.63493/r145.2015.en

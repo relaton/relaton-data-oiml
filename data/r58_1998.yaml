@@ -81,5 +81,6 @@ ext:
     report format for pattern evaluation.
   quantity: Sound intensity level
   measuring_instrument: Sound level meter
+  oimlcs: true
   sustainability_framework: People
   doi: 10.63493/r058.1998.en

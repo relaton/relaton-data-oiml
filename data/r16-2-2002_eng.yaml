@@ -53,7 +53,7 @@ script:
 - Latn
 status:
   stage:
-    content: in-force
+    content: withdrawn
 relation:
 - type: instanceOf
   bibitem:
@@ -66,4 +66,4 @@ ext:
   flavor: oiml
   focus_area:
   - Safety
-  doi: 10.63493/r016.2002.en
+  doi: 10.63493/r016-2.2002.en
