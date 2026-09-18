@@ -74,4 +74,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: The Rockwell hardness test is an indentation hardness test using a verified
+    machine to force an indenter, under specified conditions, into the surface of
+    the material under test. The Rockwell hardness value is based on the permanent
+    increase in the indentation depth as the force on the indenter is varied in a
+    specified manner.
   doi: 10.63493/r039.2006.en

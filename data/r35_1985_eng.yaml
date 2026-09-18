@@ -74,6 +74,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation applies to material measures of length for general use,
+    hereinafter called "measures". The Recommendation specifies the technical, metrological
+    and administrative conditions which  are mandatory for these measures.
   quantity:
     content: Length
   measuring_instrument: Material measure of length

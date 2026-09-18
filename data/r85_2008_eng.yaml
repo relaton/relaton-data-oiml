@@ -75,6 +75,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies the metrological and technical requirements
+    and test procedures for automatic level gauges for storage tanks. Storage tanks
+    include all the shapes referenced in OIML R 71 e.g. vertical and cylindrical storage
+    tanks, and pressurized storage tanks (spheres, spheroid, bullets). The storage
+    tanks may be refrigerated or heated.
   quantity:
     content: Volume
   measuring_instrument: Level gauges

@@ -74,6 +74,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation applies to water meters used to meter the actual volume
+    of cold potable water and hot water flowing through a fully charged, closed conduit.
+    These water meters shall incorporate devices which indicate the integrated volume.
   quantity:
     content: Volume
   measuring_instrument: Water meter

@@ -79,6 +79,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation applies to working automated refractometers powered by
+    mains or battery, which have either just been manufactured, are in service, or
+    which have just been repaired.
   quantity:
     content: Refractive Index
   measuring_instrument: Refractometer

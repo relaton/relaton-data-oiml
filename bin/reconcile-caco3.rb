@@ -121,6 +121,13 @@ def find_rec(work, year:, part:, lang:)
   end || recs.find { |r| r[:kind] == :edition }
 end
 
+# Extract status codes with NO equivalent in our/site vocabulary get an
+# explicit disposition below (listed, never silently skipped).
+UNMAPPED_LABEL = {
+  "iso" => "See ISO", "iec" => "See IEC", "una" => "PDF unavailable",
+  "com" => "Combined", "tbp" => "To be published",
+}.freeze
+
 STATUS_MAP = {
   "cur" => "in-force", "sup" => "superseded", "sun" => "superseded",
   "wdn" => "withdrawn", "tbp" => "draft",
@@ -291,6 +298,70 @@ puts "edition titles differing (normalized, non-empty): #{ed_title_x}"
 puts ""
 
 # ── 4. parts ─────────────────────────────────────────────────────────
+
+puts "=== 3b. Unmapped status codes (explicit disposition)"
+UNMAPPED_ROWS = []
+editions.each do |e|
+  pub = pubs.find { |p| p["id"].to_i == e["pubfk"].to_i }
+  next unless pub
+  code = statuses[e["statusfk"].to_i]["code"]
+  next unless UNMAPPED_LABEL.key?(code)
+  key = work_key(pub, types)
+  rec = find_rec(key, year: e["year"].to_i, part: nil, lang: e["lang"])
+  UNMAPPED_ROWS << "#{key[0].upcase} #{key[1]}:#{e['year']} (#{e['lang']}): extract=#{UNMAPPED_LABEL[code]}, ours=#{rec ? rec[:status] : '(no record)'}"
+end
+parts.each do |pt|
+  pub = pubs.find { |p| p["id"].to_i == pt["pubfk"].to_i }
+  next unless pub
+  code = statuses[pt["statusfk"].to_i]["code"]
+  next unless UNMAPPED_LABEL.key?(code)
+  key = work_key(pub, types)
+  rec = find_rec(key, year: pt["year"].to_i, part: pt["part"].to_s, lang: pt["lang"])
+  UNMAPPED_ROWS << "#{key[0].upcase} #{key[1]}-#{pt['part']}:#{pt['year']}: extract=#{UNMAPPED_LABEL[code]}, ours=#{rec ? rec[:status] : '(no record)'}"
+end
+puts "rows whose extract status has no equivalent in our vocabulary (#{UNMAPPED_ROWS.size}) — reported, not applied:"
+UNMAPPED_ROWS.each { |x| puts "  #{x}" }
+puts ""
+
+puts "=== 3c. Edition-level scope (EN rows differing from the work scope)"
+scope_matches = scope_differs = 0
+scope_missing = []
+editions.each do |e|
+  pub = pubs.find { |p| p["id"].to_i == e["pubfk"].to_i }
+  next unless pub && e["lang"] == "en" && e["scope"].to_s != ""
+  next if norm(e["scope"]) == norm(pub["scope"])
+  rec = find_rec(work_key(pub, types), year: e["year"].to_i, part: nil, lang: "en")
+  next if rec.nil?
+  have = rec[:ext]["scope"].to_s
+  if have == ""
+    scope_missing << rec[:file]
+  elsif norm(have) == norm(e["scope"])
+    scope_matches += 1
+  else
+    scope_differs += 1
+  end
+end
+puts "record already matches the edition scope: #{scope_matches}; record carries different wording: #{scope_differs}; record has NO scope (applicable): #{scope_missing.uniq.size} -> #{scope_missing.uniq.sort.join(', ')}"
+puts ""
+
+puts "=== 3d. Orphan edition rows (empty pubfk) — title-matched appendix"
+our_titles = {}
+records.each { |r| r[:titles].each_value { |t| our_titles[norm(t).downcase] = true if t } }
+orph_matched = 0
+orph_unmatched = {}
+editions.reject { |e| e["pubfk"].to_s != "" }.each do |e|
+  t = norm(e["title"]).downcase
+  next if t == ""
+  if our_titles.key?(t)
+    orph_matched += 1
+  else
+    orph_unmatched[e["title"]] = true
+  end
+end
+puts "orphan rows: #{editions.count { |e| e['pubfk'].to_s == '' }} — title-matched to our records: #{orph_matched}"
+puts "distinct unmatched titles (#{orph_unmatched.keys.size}):"
+orph_unmatched.keys.sort.each { |t| puts "  #{t}" }
+puts ""
 
 puts "=== 4. PARTS"
 orphan_parts = 0

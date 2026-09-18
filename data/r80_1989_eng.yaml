@@ -79,6 +79,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation concerns tankers for the transport by rail or road of
+    liquid products and used (in addition to their functions as carriers), as measuring
+    instruments subject to national metrological controls, and tankers whose effective
+    volumes must be known in order to determine their maximum permissible filling
+    loads for reasons of transport safety.
   quantity:
     content: Volume
   measuring_instrument: Road and rail tanker with level gauging

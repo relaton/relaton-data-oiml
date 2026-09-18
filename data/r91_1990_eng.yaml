@@ -79,6 +79,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation is applicable to microwave Doppler radar equipment for
+    the measurement of traffic speed on roads, hereafter, in short, "radar". The Recommendation
+    states the conditions that the radar must satisfy when the results of measurement
+    are to be used in legal proceedings. The legal interpretation of the results of
+    measurements, the choice of radar types and the conditions under which these instruments
+    may be applied are left to national regulations.
   quantity:
     content: Velocity
   measuring_instrument: Traffic speed meter

@@ -79,6 +79,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This International Recommendation applies to evidential breath analyzers
+    (hereafter referred to as EBA’s) which are instruments that automatically measure
+    the mass concentration of alcohol in exhaled breath. However, for the purpose
+    of this Recommendation, only ethanol is considered as alcohol.
   quantity:
     content: Amount of substance concentration
   measuring_instrument: Evidential breath analyser

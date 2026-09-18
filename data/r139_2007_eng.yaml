@@ -79,6 +79,13 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This International Recommendation specifies the metrological and technical
+    requirements applicable to compressed gaseous fuel measuring systems for vehicles,
+    at type approval, initial verification and subsequent verifications. It also provides
+    requirements for the approval of constituent elements of the measuring systems
+    (meter, etc.). Measuring systems for liquid petroleum gas do not fall within the
+    scope of this Recommendation, but within that of OIML R 117 as the fluid is in
+    a liquid state.
   quantity:
     content: Mass
   measuring_instrument: Compressed gaseous fuel measurement system

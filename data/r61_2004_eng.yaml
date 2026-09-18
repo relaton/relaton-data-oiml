@@ -79,6 +79,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This International Recommendation specifies the metrological and technical
+    requirements for automatic gravimetric filling instruments which produce predetermined
+    mass of individual fills of products from one or more loads by automatic weighing.
   quantity:
     content: Mass
   measuring_instrument: Automatic gravimetric filling instrument
