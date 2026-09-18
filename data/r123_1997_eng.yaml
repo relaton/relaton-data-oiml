@@ -79,4 +79,5 @@ ext:
     content: Amount of substance concentration
   measuring_instrument: X-ray fluorescence spectrometer
   quantity_url: https://si-digital-framework.org/quantities/AMSC
+  sustainability_framework: People, Planet
   doi: 10.63493/r123.1997.en

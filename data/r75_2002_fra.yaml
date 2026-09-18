@@ -74,4 +74,5 @@ ext:
   measuring_instrument: Heat meter
   quantity_url: https://si-digital-framework.org/quantities/HEQT
   oimlcs: true
+  sustainability_framework: People, Planet, Prosperity
   doi: 10.63493/r075.2002.fr

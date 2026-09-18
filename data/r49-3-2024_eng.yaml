@@ -51,4 +51,5 @@ ext:
   - Trade
   quantity_url: https://si-digital-framework.org/quantities/VOLU
   oimlcs: true
+  sustainability_framework: People, Planet, Prosperity
   doi: 10.63493/r049-3.2024.en

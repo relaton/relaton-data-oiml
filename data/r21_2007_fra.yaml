@@ -81,4 +81,5 @@ ext:
   - Trade
   quantity_url: https://si-digital-framework.org/quantities/LENG
   oimlcs: true
+  sustainability_framework: People, Prosperity
   doi: 10.63493/r021.2007.fr

@@ -64,4 +64,5 @@ ext:
   measuring_instrument: Electrical energy meter
   quantity_url: https://si-digital-framework.org/quantities/ENGY
   oimlcs: true
+  sustainability_framework: People, Planet, Prosperity
   doi: 10.63493/r046-3.2013.en

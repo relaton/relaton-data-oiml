@@ -92,7 +92,7 @@ ext:
   quantity: Energy
   measuring_instrument: Electrical energy meter
   oimlcs: true
-  sustainability_framework: People
+  sustainability_framework: People, Planet, Prosperity
   doi: 10.63493/r046.2012.en
   high_priority: true
   high_priority_source: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260111
