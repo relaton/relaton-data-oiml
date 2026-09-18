@@ -79,6 +79,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation concerns time and distance counters known as "taximeters"
+    for fitting on public hire vehicles. "Taximeters" are measuring instruments which
+    totalize continuously and indicate at any moment of the journey the sum payable
+    by the user of a public vehicle as a function of the distance travelled and –
+    below a certain speed – of the length of time occupied, independently of supplements
+    authorized by the regulations in force.
   quantity:
     content: Length
   measuring_instrument: Taximeter

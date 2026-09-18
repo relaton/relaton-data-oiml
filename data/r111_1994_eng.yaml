@@ -79,6 +79,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: 'This Recommendation contains the principal physical characteristics and
+    metrological requirements for weights which are used: 1) for the verification
+    of weighing instruments; 2) for the verification of weights of a lower class of
+    accuracy; 3) with weighing instruments.'
   quantity:
     content: Mass
   measuring_instrument: Weight

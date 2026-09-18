@@ -79,6 +79,9 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation specifies the metrological and technical requirements
+    applicable to dynamic measuring systems for quantities of liquids other than water
+    subject to legal metrology controls.
   quantity:
     content: Volume
   measuring_instrument: Liquid flow meter

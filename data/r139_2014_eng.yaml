@@ -79,6 +79,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: In general, the measuring systems that are covered by this Recommendation
+    are intended for the refueling of motor vehicles, small boats, and aircraft with
+    compressed natural gas, hydrogen, biogas, gas blends or other compressed gaseous
+    fuels. They may also be applicable to other vehicles, for instance trains.
   quantity:
     content: Mass
   measuring_instrument: Compressed gaseous fuel measurement system

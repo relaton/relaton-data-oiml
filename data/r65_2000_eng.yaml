@@ -79,6 +79,12 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation gives the metrological and technical performance requirements
+    and the inspection and testing procedures necessary for the metrological control
+    of the force measuring system of uniaxial material testing machines subject to
+    national laws and regulations. For metrological control, requirements for initial
+    and subsequent verification only are covered since, in general, pattern evaluation
+    is not considered to be practical for these measuring systems.
   quantity:
     content: Force
   quantity_url: https://si-digital-framework.org/quantities/FORC

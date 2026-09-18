@@ -80,6 +80,11 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation provides requirements, procedures and tests for verifying
+    the performance of a gas chromatograph/mass spectrometer/data system (GC/MS/ DS)
+    when used for measurements of water pollutants in carrying out pollution control
+    programs and in assessing the quality of water as mandated by national laws and
+    regulations.
   quantity:
     content: Amount of substance concentration
   measuring_instrument: Gas chromatograph

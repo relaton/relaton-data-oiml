@@ -79,6 +79,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation applies to quantitative breath alcohol analyzers that
+    render a measurement result of alcohol concentration in exhaled human breath for
+    the purpose of establishing compliance with national policy for fighting against
+    alcohol abuse.
   quantity:
     content: Amount of substance concentration
   measuring_instrument: Evidential breath analyser

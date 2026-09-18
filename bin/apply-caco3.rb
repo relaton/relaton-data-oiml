@@ -151,6 +151,10 @@ CSV.read(File.join(CSV_DIR, "crossref_dois.csv"), headers: true).each do |r|
   doi_set[target] = r["doi"] if target
 end
 
+$scope_records = records.map do |(l, n, part, year, lang), f|
+  { letter: l, number: n, part: part, year: year, lang: lang ? [lang[0]] : nil, kind: lang ? :instance : :edition, file: f }
+end
+
 doi_replaced = doi_added = 0
 doi_set.each do |base, doi|
   path = File.join(DATA, base + ".yaml")
@@ -173,6 +177,15 @@ end
 # ── 3. ext.oimlcs ─────────────────────────────────────────────────────
 
 types = CSV.read(File.join(CSV_DIR, "types.csv"), headers: true).to_h { |r| [r["id"].to_i, r] }
+types_for_scope = types
+pubs_for_scope = CSV.read(File.join(CSV_DIR, "publications.csv"), headers: true)
+
+# record for an (edition-year, EN) row that carries no scope of its own
+def scope_target(work_key, year, _scope)
+  recs = $scope_records.select { |r| [r[:letter], r[:number]] == work_key && r[:year] == year && r[:part].nil? }
+  return nil if recs.empty?
+  recs.find { |r| r[:lang]&.include?("e") } || recs.find { |r| r[:kind] == :edition }
+end
 oimlcs_works = {}
 CSV.read(File.join(CSV_DIR, "publications.csv"), headers: true).each do |p|
   next unless p["oimlcs"] == "yes"
@@ -195,6 +208,30 @@ Dir[File.join(DATA, "*.yaml")].sort.each do |f|
   changed[base] += 1
 end
 
+# ── 4. Edition-specific scope where our records carry none ────────────
+# The extract's editions.scope holds edition-level wording that differs
+# from the work scope for some EN rows; records without any scope gain it.
+
+scope_added = []
+editions_rows = CSV.read(File.join(CSV_DIR, "editions.csv"), headers: true)
+editions_rows.each do |e|
+  pub = pubs_for_scope.find { |pp| pp["id"].to_i == e["pubfk"].to_i }
+  next unless pub && e["lang"] == "en" && e["scope"].to_s != ""
+  next if norm(e["scope"]) == norm(pub["scope"])
+  letter = pub["typefk"].to_i == 8 ? "s" : types_for_scope[pub["typefk"].to_i]["letter"].downcase
+  key = [letter, pub["number"].to_i]
+  rec = scope_target(key, e["year"].to_i, e["scope"])
+  next unless rec
+  base = rec[:file]
+  path = File.join(DATA, base + ".yaml")
+  text = File.read(path, encoding: "UTF-8")
+  next if text =~ /^  scope:/
+  next unless text.include?("\next:\n")
+  File.write(path, text.sub("\next:\n", "\next:\n  scope: #{e['scope'].inspect}\n"))
+  scope_added << base
+  changed[base] += 1
+end
+
 # ── report ────────────────────────────────────────────────────────────
 
 puts "instance-status syncs: #{synced.size}"
@@ -203,4 +240,5 @@ puts "status flips: #{flipped.size}"
 flipped.each { |x| puts "  #{x}" }
 puts "doi: replaced #{doi_replaced}, added #{doi_added}"
 puts "oimlcs stamped on #{oimlcs_files} records"
+puts "edition scopes added: #{scope_added.uniq.size} (#{scope_added.uniq.sort.join(', ')})"
 puts "files touched: #{changed.size}"

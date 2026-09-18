@@ -74,5 +74,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation prescribes the principal metrological characteristics
+    and evaluation procedures for load cells used in the static measurement of mass.
+    It is intended to provide authorities with uniform means for determining the metrological
+    characteristics of load cells used in measuring instruments which are subjected
+    to metrological controls.
   oimlcs: true
   doi: 10.63493/r060.1991.en

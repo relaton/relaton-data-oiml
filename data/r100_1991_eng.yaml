@@ -79,6 +79,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation provides requirements for defining, testing, and verifying
+    the performance of atomic absorption spectrometers (AAS systems) when used for
+    legal measurements of metal pollutants in water. It does not intend to exclude
+    any other equivalent means of analysis.
   measuring_instrument: Atomic absorption spectrometer
   focus_area:
   - Environment

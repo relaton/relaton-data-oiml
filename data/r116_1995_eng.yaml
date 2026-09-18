@@ -80,6 +80,10 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation provides requirements for defining, testing, and verifying
+    the performance of inductively coupled plasma atomic emission spectrometers (ICP
+    systems) when used for legal measurements of metallic and some non-metallic pollutants
+    in water. It does not intend to exclude any other equivalent means of analysis.
   quantity:
     content: Amount of substance concentration
   measuring_instrument: Inductively coupled plasma atomic emission spectrometer

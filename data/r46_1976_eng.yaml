@@ -74,6 +74,7 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: Not available
   quantity:
     content: Energy
   measuring_instrument: Electrical energy meter

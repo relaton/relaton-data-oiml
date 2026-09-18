@@ -69,4 +69,8 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
+  scope: This Recommendation applies to casks and barrels, containers which can be
+    rolled and are used for the transport and delivery of liquids, and when completely
+    full, to measure the liquid which they contain.  Containers used exclusively for
+    fixed warehouse storage of liquids are not dealt with in this Recommendation.
   doi: 10.63493/r045.1980.en
