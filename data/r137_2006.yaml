@@ -42,14 +42,15 @@ ext:
   doctype:
     content: recommendation
   flavor: oiml
-  scope: This Recommendation applies to gas meters based on any measurement technology
-    or principle that is used to measure the quantity of gas that has passed through
-    the meter at operating conditions. The quantity of gas can be expressed in units
-    of volume or mass.
+  scope: This Recommendation applies to gas meters based on any principle, used to
+    meter the quantity of gas in volume, mass or energy units that has passed through
+    the meter at operating conditions. It applies also to gas meters intended to measure
+    quantities of gaseous fuels or other gases, except gases in the liquefied state
+    and steam.
   quantity: Mass
   measuring_instrument: Gas Meter
   oimlcs: true
-  sustainability_framework: People
+  sustainability_framework: People, Prosperity
   doi: 10.63493/r137.2006.en
   high_priority: true
   high_priority_source: https://www.oiml.org/en/publications/oiml-bulletin/2026-01/20260111

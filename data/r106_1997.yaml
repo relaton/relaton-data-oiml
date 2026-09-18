@@ -53,8 +53,8 @@ ext:
     content: recommendation
   flavor: oiml
   scope: This International Recommendation specifies the requirements and test methods
-    for automatic rail-weighbridges, hereinafter referred to as "instruments", which
-    are used to determine the mass of railway vehicles when they are weighed in motion.
+    for automatic rail-weighbridges, hereinafter referred to as "instruments", that
+    are used to determine the mass of railway wagons when they are weighed in motion.
   quantity: Mass
   measuring_instrument: Automatic rail-weighbridge
   focus_area: Trade

@@ -54,9 +54,8 @@ ext:
   flavor: oiml
   scope: This International Recommendation specifies the requirements and test methods
     for automatic instruments for weighing road vehicles in motion, hereinafter referred
-    to as "WIM instruments" that are used to determine the vehicle mass, the axle
-    loads, and if applicable the axle-group loads of road vehicles when the vehicles
-    are weighed in motion.
+    to as "instruments", that are used to determine the total mass of road vehicles
+    when the vehicles are weighed in motion.
   quantity: Mass
   measuring_instrument: Scale
   focus_area: Health

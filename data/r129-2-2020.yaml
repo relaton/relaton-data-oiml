@@ -70,4 +70,5 @@ ext:
     content: Volume
   quantity_url: https://si-digital-framework.org/quantities/VOLU
   oimlcs: true
+  sustainability_framework: People, Prosperity
   doi: 10.63493/r129.2020.en
