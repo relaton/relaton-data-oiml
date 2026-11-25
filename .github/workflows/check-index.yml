@@ -47,4 +47,33 @@ jobs:
     # branding lives in relaton/support's `data-index/configs.yml`, which
     # data-deploy.yml reads at build time — this run resolves it too, so a broken
     # configs.yml row fails the PR rather than the publish.
+    #
+    # The SAME grant as deploy.yml, though this run never publishes. A caller
+    # must grant the union of every scope the called workflow's jobs request,
+    # and GitHub checks that union for every job when it builds the run graph —
+    # a job its `if:` will skip included. data-deploy.yml's `deploy` job asks for
+    # `pages: write` + `id-token: write`, so a grant of only `contents: read`
+    # fails the whole run as `startup_failure`, with 0 jobs and no log. It did,
+    # on the first PR of each repo this was synced into (relaton-data-eu,
+    # relaton-data-w3c#18, run 45324652034).
+    #
+    # The grant is not what stops a PR from publishing. The `if:` gate in
+    # data-deploy.yml is: `deploy` runs only when `github.ref` is the default
+    # branch, and a pull_request run's ref is `refs/pull/N/merge`. A fork PR gets
+    # a read-only token whatever this says, and a same-repo PR runs its own copy
+    # of this file, so its author could change the grant anyway.
+    #
+    # `issues: write` follows deploy.yml: build_index_page will ask for it, so
+    # `relaton index` can report unindexable documents as an issue. On a pull
+    # request that report runs too. A fork PR's token is read-only, so it cannot
+    # open the issue, and `relaton index` raises when GitHub refuses the issue
+    # (relaton branch fix/index-unindexed-gh-issue). That fork build fails red.
+    #
+    # Do not narrow this. Pinned by spec/workflow_permissions_spec.rb and
+    # spec/data_deploy_caller_template_spec.rb.
+    permissions:
+      contents: read   # the checkouts in build_index_page
+      pages: write     # requested by data-deploy.yml's deploy job (skipped here)
+      id-token: write  # likewise
+      issues: write    # relaton index reports unindexable documents as an issue
     uses: relaton/support/.github/workflows/data-deploy.yml@main
